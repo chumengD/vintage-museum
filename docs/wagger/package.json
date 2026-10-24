@@ -1,0 +1,15 @@
+{
+  "name": "vintage-museum-api-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:docs": "node scripts/build-docs.mjs",
+    "start": "npm run build:docs && http-server dist/docs -a 127.0.0.1 -p 18191 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "14.1.1",
+    "swagger-ui-dist": "5.33.0"
+  }
+}
+

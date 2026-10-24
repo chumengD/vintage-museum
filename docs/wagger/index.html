@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vintage Museum · API 文档</title>
+  <link rel="stylesheet" href="./swagger-ui.css">
+  <style>body{margin:0;background:#fafafa}.swagger-ui .scheme-container{display:none}</style>
+</head>
+<body>
+  <div id="swagger-ui"></div>
+  <noscript>请启用 JavaScript 或下载 OpenAPI YAML。</noscript>
+  <script src="./swagger-ui-bundle.js"></script>
+  <script>
+    SwaggerUIBundle({
+      url: './openapi.yaml',
+      dom_id: '#swagger-ui',
+      deepLinking: true,
+      filter: true,
+      displayOperationId: true,
+      showExtensions: true,
+      supportedSubmitMethods: [],
+      validatorUrl: null,
+      plugins: [() => ({
+        components: {
+          authorizeBtn: () => null,
+          AuthorizeBtnContainer: () => null,
+          authorizeOperationBtn: () => null,
+          authorizationPopup: () => null
+        }
+      })]
+    });
+  </script>
+</body>
+</html>
+
+
