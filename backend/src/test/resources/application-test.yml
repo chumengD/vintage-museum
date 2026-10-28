@@ -1,0 +1,19 @@
+server:
+  address: 127.0.0.1
+
+museum:
+  auth:
+    secure-cookie: false
+    jwt:
+      # 仅供隔离测试，不能用于部署。
+      secret: MDEyMzQ1Njc4OWFiY2RlZjAxMjM0NTY3ODlhYmNkZWYwMTIzNDU2Nzg5YWJjZGVmMDEyMzQ1Njc4OWFiY2RlZg==
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:museum-test;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
