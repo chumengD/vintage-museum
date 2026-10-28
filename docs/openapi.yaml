@@ -1,214 +1,100 @@
 openapi: 3.1.1
 info:
-  title: Vintage Museum API
-  version: 0.1.0-draft
+  title: 数字博物馆注册登录
+  version: 0.1.0
   description: |
-    api文档草案
-tags:
-  - name: 登录
-    description: 账号密码登录与会话管理
+    邮箱和密码注册登录；JWT单Token通过HttpOnly Cookie保存，有效期暂定2小时，无刷新Token，过期后重新登录。目前仅为接口设计。
+    浏览器自动携带Cookie，前端无需读取Token或设置Authorization请求头。前端与API同源，正式环境使用HTTPS。
+    所有POST请求校验Origin，来源缺失、为null或不匹配服务端配置的可信来源时返回403，防止跨站请求伪造。
 paths:
-  /api/auth/login:
+  /api/auth/register:
     post:
-      tags: [登录]
-      operationId: login
-      summary: 账号密码登录
-      description: |
-        校验账号密码，成功后创建新会话并通过 Set-Cookie 写入浏览器。
-        若已有会话，成功登录时替换并使旧会话失效；登录失败不改变现有会话。
-        错误信息不区分账号不存在与密码错误。密码不得写入日志或响应。
-        所有 POST 操作必须校验 Origin；拒绝跨站或缺失 Origin 的请求。
-        本草案面向同源浏览器客户端，登录前无需已有会话。
-      x-implementation-status: planned
-      security: []
+      summary: 邮箱注册
       requestBody:
         required: true
         content:
           application/json:
             schema:
               type: object
-              additionalProperties: false
-              required: [account, password]
+              required: [email, password]
               properties:
-                account:
-                  type: string
-                  minLength: 1
-                  maxLength: 128
-                  description: 登录账号，去除首尾空白后匹配；不接受空白账号
-                  example: museum_user
-                password:
-                  type: string
-                  minLength: 1
-                  maxLength: 256
-                  format: password
-                  writeOnly: true
-                  description: 原样校验，不去除空白
+                email: {type: string, format: email, description: 邮箱}
+                password: {type: string, format: password, description: 密码}
+                emailcode: {type: integer, description: 邮箱验证码（选填，可暂不实现）}
+            example: {email: museum@example.com, password: museum-passphrase-2026, emailcode: 114514}
+      responses:
+        '201':
+          description: 注册成功，返回用户信息，前往登录
+          content:
+            application/json:
+              example: {id: usr_123, email: museum@example.com}
+        '400': {description: 参数不正确或邮箱格式错误}
+        '401': {description: 验证码错误(可选)}
+        '403': {description: 请求来源无效}
+        '409': {description: 邮箱已注册}
+  /api/auth/login:
+    post:
+      summary: 邮箱登录
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: {type: string, format: email, description: 注册时的邮箱}
+                password: {type: string, format: password, description: 密码}
+            example: {email: museum@example.com, password: museum-passphrase-2026}
       responses:
         '200':
-          description: 登录成功，同时设置会话 Cookie
+          description: 登录成功，通过Set-Cookie保存JWT；正文不返回Token，expiresIn单位为秒
           headers:
             Set-Cookie:
               schema: {type: string}
-              description: 不透明随机会话凭据；登录后有效期暂定 7 天；不设置 Domain
-              example: '__Host-vintage_session=opaque-session-id; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=604800'
-            Cache-Control:
-              $ref: '#/components/headers/NoStore'
+              example: 'access_token=<JWT>; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=7200'
           content:
             application/json:
-              schema:
-                $ref: '#/components/schemas/Session'
               example:
-                user: {id: 'usr_123', username: museum_user, displayName: 藏品爱好者}
-                expiresAt: '2026-10-31T05:00:00Z'
-        '400': {$ref: '#/components/responses/BadRequest'}
-        '401':
-          description: 账号或密码错误；统一返回 INVALID_CREDENTIALS，避免泄露账号是否存在
-          headers:
-            Cache-Control: {$ref: '#/components/headers/NoStore'}
-          content:
-            application/json:
-              schema: {$ref: '#/components/schemas/Error'}
-              example:
-                error: {code: INVALID_CREDENTIALS, message: 账号或密码错误}
-        '403': {$ref: '#/components/responses/Forbidden'}
-        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
-        '429': {$ref: '#/components/responses/TooManyRequests'}
-        '500': {$ref: '#/components/responses/InternalError'}
+                expiresIn: 7200
+                user: {id: usr_123, email: museum@example.com, displayName: 藏品爱好者}
+        '400': {description: 参数不正确}
+        '401': {description: 邮箱或密码错误}
+        '403': {description: 请求来源无效}
   /api/auth/me:
     get:
-      tags: [登录]
-      operationId: getCurrentUser
-      summary: 查询当前登录用户
-      description: 校验会话与服务端过期时间，返回本人资料；不返回密码或会话凭据。
-      x-implementation-status: planned
-      security:
-        - CookieSession: []
+      summary: 获取当前用户
+      security: [{CookieAuth: []}]
       responses:
         '200':
-          description: 当前会话有效
-          headers:
-            Cache-Control: {$ref: '#/components/headers/NoStore'}
+          description: 校验Cookie中的JWT签名、有效期和失效列表，返回当前登录用户
           content:
             application/json:
-              schema: {$ref: '#/components/schemas/Session'}
               example:
-                user: {id: 'usr_123', username: museum_user, displayName: 藏品爱好者}
-                expiresAt: '2026-10-31T05:00:00Z'
-        '401': {$ref: '#/components/responses/Unauthenticated'}
-        '500': {$ref: '#/components/responses/InternalError'}
+                user: {id: usr_123, email: museum@example.com, displayName: 藏品爱好者}
+        '401': {description: Token缺失、无效、已过期或已注销}
   /api/auth/logout:
     post:
-      tags: [登录]
-      operationId: logout
       summary: 退出登录
-      description: |
-        使当前服务端会话立即失效并清除 Cookie，不影响其他设备会话。
-        没有会话或会话已过期时也返回 204，保持幂等。
-        校验 Origin，拒绝跨站或缺失 Origin 的请求；无需请求体。
-      x-implementation-status: planned
-      security: []
+      description: 无需请求体；服务端将Cookie中JWT的jti加入失效列表，保留至Token过期，并通过Set-Cookie清除Cookie。前端仅清除用户信息。
+      security: [{CookieAuth: []}]
       responses:
         '204':
-          description: 退出成功，无响应体；始终发送清除 Cookie 的响应头
+          description: 当前Token已注销并清除Cookie，不返回内容
           headers:
             Set-Cookie:
               schema: {type: string}
-              example: '__Host-vintage_session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0'
-            Cache-Control: {$ref: '#/components/headers/NoStore'}
-        '403': {$ref: '#/components/responses/Forbidden'}
-        '500': {$ref: '#/components/responses/InternalError'}
+              example: 'access_token=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0'
+        '401':
+          description: Token缺失、无效、已过期或已注销，同时清除Cookie
+          headers:
+            Set-Cookie:
+              schema: {type: string}
+              example: 'access_token=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0'
+        '403': {description: 请求来源无效，不注销Token或清除Cookie}
 components:
   securitySchemes:
-    CookieSession:
+    CookieAuth:
       type: apiKey
       in: cookie
-      name: __Host-vintage_session
-      description: 登录时由服务端设置的 HttpOnly Cookie，前端无需读取
-  headers:
-    NoStore:
-      description: 登录模块所有成功和错误响应均禁止缓存
-      schema: {type: string, const: no-store}
-  schemas:
-    User:
-      type: object
-      required: [id, username, displayName]
-      properties:
-        id: {type: string, description: 稳定用户标识}
-        username: {type: string, description: 登录账号}
-        displayName: {type: string, description: 展示名称}
-    Session:
-      type: object
-      required: [user, expiresAt]
-      properties:
-        user: {$ref: '#/components/schemas/User'}
-        expiresAt: {type: string, format: date-time, description: 会话绝对过期时间，RFC 3339 格式}
-    Error:
-      type: object
-      required: [error]
-      properties:
-        error:
-          type: object
-          required: [code, message]
-          properties:
-            code: {type: string, description: 稳定错误码，供客户端判断}
-            message: {type: string, description: 可展示的错误说明，不包含内部异常或敏感信息}
-  responses:
-    BadRequest:
-      description: JSON 格式错误、缺少字段、未知字段或参数非法；错误码 INVALID_REQUEST
-      headers:
-        Cache-Control: {$ref: '#/components/headers/NoStore'}
-      content:
-        application/json:
-          schema: {$ref: '#/components/schemas/Error'}
-          example:
-            error: {code: INVALID_REQUEST, message: 请检查请求参数}
-    Unauthenticated:
-      description: 会话缺失、无效或过期；错误码 UNAUTHENTICATED
-      headers:
-        Cache-Control: {$ref: '#/components/headers/NoStore'}
-      content:
-        application/json:
-          schema: {$ref: '#/components/schemas/Error'}
-          example:
-            error: {code: UNAUTHENTICATED, message: 请先登录}
-    Forbidden:
-      description: Origin 缺失或不匹配服务端配置的站点来源；错误码 INVALID_ORIGIN
-      headers:
-        Cache-Control: {$ref: '#/components/headers/NoStore'}
-      content:
-        application/json:
-          schema: {$ref: '#/components/schemas/Error'}
-          example:
-            error: {code: INVALID_ORIGIN, message: 请求来源无效}
-    UnsupportedMediaType:
-      description: 登录请求 Content-Type 不是 application/json；错误码 UNSUPPORTED_MEDIA_TYPE
-      headers:
-        Cache-Control: {$ref: '#/components/headers/NoStore'}
-      content:
-        application/json:
-          schema: {$ref: '#/components/schemas/Error'}
-          example:
-            error: {code: UNSUPPORTED_MEDIA_TYPE, message: 请使用 application/json}
-    TooManyRequests:
-      description: 登录尝试频率超限；错误码 TOO_MANY_REQUESTS；具体限流阈值待实现时确定
-      headers:
-        Cache-Control: {$ref: '#/components/headers/NoStore'}
-        Retry-After:
-          description: 建议等待的秒数
-          schema: {type: integer, minimum: 1}
-          example: 60
-      content:
-        application/json:
-          schema: {$ref: '#/components/schemas/Error'}
-          example:
-            error: {code: TOO_MANY_REQUESTS, message: 操作过于频繁，请稍后再试}
-    InternalError:
-      description: 服务内部错误；错误码 INTERNAL_ERROR
-      headers:
-        Cache-Control: {$ref: '#/components/headers/NoStore'}
-      content:
-        application/json:
-          schema: {$ref: '#/components/schemas/Error'}
-          example:
-            error: {code: INTERNAL_ERROR, message: 服务暂时不可用}
-
+      name: access_token
