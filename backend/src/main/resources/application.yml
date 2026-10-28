@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: museum-backend
+  profiles:
+    default: dev
+  jpa:
+    open-in-view: false
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+
+museum:
+  auth:
+    secure-cookie: true
+    requests-per-minute: 10
+    max-tracked-clients: 10000
+    jwt:
+      issuer: digital-memory-museum
+      audience: museum-api
+      time-to-live: 30m
+      secret: ${MUSEUM_JWT_SECRET:}
+  registration:
+    allowed-origins: ${MUSEUM_ALLOWED_ORIGINS:http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000,http://127.0.0.1:3000,http://localhost:8080,http://127.0.0.1:8080}
+    requests-per-minute: 10
+    max-tracked-clients: 10000
+
+server:
+  port: ${SERVER_PORT:8080}
+  error:
+    include-message: never
+    include-stacktrace: never

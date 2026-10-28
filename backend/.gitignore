@@ -1,0 +1,8 @@
+/target/
+/.maven/
+/data/
+/.idea/
+*.iml
+*.log
+.env
+

@@ -1,0 +1,22 @@
+# 仅用于本机开发，公开部署须另行提供数据库和安全配置。
+museum:
+  auth:
+    secure-cookie: false
+    jwt:
+      secret-file: ./data/jwt-secret.key
+
+server:
+  address: 127.0.0.1
+
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/museum
+    username: museum_dev
+    password: ${MUSEUM_DB_PASSWORD:local-demo-only}
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  h2:
+    console:
+      enabled: false

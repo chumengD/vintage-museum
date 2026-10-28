@@ -1,0 +1,49 @@
+@baseUrl = http://127.0.0.1:8080
+@origin = http://localhost:5173
+@username = museum_login_01
+@password = 1234
+
+### 1. 准备账号：首次 201，已有同名账号时 409；可改上方变量使用自己的账号。
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+Origin: {{origin}}
+X-App-Request: museum-web
+
+{
+  "username": "{{username}}",
+  "password": "{{password}}",
+  "email": "museum@example.com"
+}
+
+### 2. 正常登录：200。IDEA HTTP Client 默认保存响应 Cookie，不要启用 no-cookie-jar。
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+Origin: {{origin}}
+X-App-Request: museum-web
+
+{
+  "username": "{{username}}",
+  "password": "{{password}}"
+}
+
+### 3. 查询当前用户：登录后 200；Cookie 由 HTTP Client 自动携带。
+GET {{baseUrl}}/api/auth/me
+
+### 4. 退出：204，删除 Cookie；已复制的 JWT 不会因此立即撤销。
+POST {{baseUrl}}/api/auth/logout
+Origin: {{origin}}
+X-App-Request: museum-web
+
+### 5. 退出后再查询：401 / AUTH_REQUIRED。
+GET {{baseUrl}}/api/auth/me
+
+### 6. 密码错误：401 / INVALID_CREDENTIALS，不写入新的 Cookie。
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+Origin: {{origin}}
+X-App-Request: museum-web
+
+{
+  "username": "{{username}}",
+  "password": "wrong-password"
+}

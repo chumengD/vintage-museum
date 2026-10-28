@@ -1,0 +1,46 @@
+@baseUrl = http://127.0.0.1:8080
+@origin = http://localhost:5173
+
+### 首次注册返回 201；再次执行返回 409。此演示密码仅用于本机测试。
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+Origin: {{origin}}
+X-App-Request: museum-web
+
+{
+  "username": "Museum_Email_01",
+  "password": "1234",
+  "email": "museum@example.com"
+}
+
+### 用户名过短，返回 400
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+Origin: {{origin}}
+X-App-Request: museum-web
+
+{
+  "username": "a",
+  "password": "1234"
+}
+
+### 密码过短，返回 400
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+Origin: {{origin}}
+X-App-Request: museum-web
+
+{
+  "username": "another_user",
+  "password": "123"
+}
+
+### 缺少必要请求头，返回 403
+POST {{baseUrl}}/api/auth/register
+Content-Type: application/json
+Origin: {{origin}}
+
+{
+  "username": "another_user",
+  "password": "1234"
+}
