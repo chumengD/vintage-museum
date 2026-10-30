@@ -1,0 +1,36 @@
+@baseUrl = http://127.0.0.1:8080
+@origin = http://127.0.0.1:5173
+
+### 先通过 auth.http 登录，再通过 series.http 创建系列（会设置全局 seriesId）。也可自行设置 seriesId。
+POST {{baseUrl}}/api/series/{{seriesId}}/versions
+Origin: {{origin}}
+X-App-Request: museum-web
+Content-Type: application/json
+
+{
+  "versionNumber": "1.2",
+  "platform": "WINDOWS",
+  "releaseDate": "2001-02-03",
+  "description": "QQ Windows 版的历史界面及功能记录。"
+}
+
+> {%
+    if (response.status === 201) client.global.set("versionId", response.body.version.id);
+%}
+
+### 查看系列下全部版本
+GET {{baseUrl}}/api/series/{{seriesId}}/versions?page=0&size=20
+
+### 按平台筛选
+GET {{baseUrl}}/api/series/{{seriesId}}/versions?platform=WINDOWS
+
+### 查看版本详情，图标沿用所属系列
+GET {{baseUrl}}/api/versions/{{versionId}}
+
+### 同平台同版本号再次创建返回 409；日期未知时可省略
+POST {{baseUrl}}/api/series/{{seriesId}}/versions
+Origin: {{origin}}
+X-App-Request: museum-web
+Content-Type: application/json
+
+{"versionNumber":"1.2","platform":"WINDOWS"}

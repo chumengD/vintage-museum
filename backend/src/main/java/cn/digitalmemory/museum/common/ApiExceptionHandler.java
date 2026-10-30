@@ -29,7 +29,18 @@ public class ApiExceptionHandler {
 
     @ExceptionHandler(HttpMediaTypeNotSupportedException.class)
     void handleUnsupportedType(HttpServletResponse response) throws IOException {
-        errors.write(response, 415, "UNSUPPORTED_MEDIA_TYPE", "请使用 application/json", Map.of());
+        errors.write(response, 415, "UNSUPPORTED_MEDIA_TYPE", "请求 Content-Type 不符合接口约定", Map.of());
+    }
+
+    @ExceptionHandler({org.springframework.web.multipart.support.MissingServletRequestPartException.class,
+            org.springframework.web.method.annotation.MethodArgumentTypeMismatchException.class,
+            org.springframework.web.multipart.MultipartException.class})
+    void handleInvalidMultipart(Exception exception, HttpServletResponse response) throws IOException {
+        if (exception instanceof org.springframework.web.multipart.MaxUploadSizeExceededException) {
+            errors.write(response, 413, "UPLOAD_TOO_LARGE", "上传文件或请求体过大", Map.of());
+        } else {
+            errors.write(response, 400, "VALIDATION_ERROR", "请求参数或 multipart 请求格式不合法", Map.of());
+        }
     }
 
     @ExceptionHandler(Exception.class)

@@ -4,6 +4,7 @@ import java.time.Clock;
 import java.util.List;
 import java.util.Map;
 import cn.digitalmemory.museum.auth.AuthCookies;
+import cn.digitalmemory.museum.auth.BusinessRequestPaths;
 import cn.digitalmemory.museum.auth.AuthRequestProtectionFilter;
 import cn.digitalmemory.museum.auth.IpRateLimiter;
 import cn.digitalmemory.museum.auth.JwtAuthenticationFilter;
@@ -54,15 +55,20 @@ public class SecurityConfig {
         for (var path : List.of("/api/auth/register", "/api/auth/login", "/api/auth/me", "/api/auth/logout")) {
             corsSource.registerCorsConfiguration(path, cors);
         }
+        corsSource.registerCorsConfiguration("/api/series", cors);
+        corsSource.registerCorsConfiguration("/api/series/**", cors);
+        corsSource.registerCorsConfiguration("/api/versions/*", cors);
+        corsSource.registerCorsConfiguration("/api/versions/*/screenshots", cors);
+        corsSource.registerCorsConfiguration("/api/screenshots/*/image", cors);
 
         var publicPosts = List.of("/api/auth/register", "/api/auth/login", "/api/auth/logout");
         RequestMatcher protectedPosts = request -> request.getMethod().equals("POST")
-                && publicPosts.contains(request.getServletPath());
+                && (publicPosts.contains(request.getServletPath()) || BusinessRequestPaths.isCreatePath(request.getServletPath()));
         var registrationLimiter = new IpRateLimiter(properties.requestsPerMinute(), properties.maxTrackedClients(), clock);
         var loginLimiter = new IpRateLimiter(auth.requestsPerMinute(), auth.maxTrackedClients(), clock);
         return http
                 .cors(config -> config.configurationSource(corsSource))
-                // 三个 POST 由前置的 Origin + 自定义头检查防护，其余请求保留默认 CSRF 检查。
+                // 认证及业务创建 POST 由前置 Origin + 自定义头检查防护，其余保留默认 CSRF 检查。
                 .csrf(config -> config.ignoringRequestMatchers(protectedPosts))
                 .addFilterBefore(new AuthRequestProtectionFilter(properties, registrationLimiter, loginLimiter, errors), CorsFilter.class)
                 .addFilterBefore(new JwtAuthenticationFilter(tokens, cookies, users, errors), AnonymousAuthenticationFilter.class)
@@ -75,6 +81,15 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.POST, "/api/auth/register", "/api/auth/login", "/api/auth/logout").permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/api/auth/register", "/api/auth/login", "/api/auth/logout", "/api/auth/me").permitAll()
                         .requestMatchers(HttpMethod.GET, "/api/auth/me").authenticated()
+                        .requestMatchers(HttpMethod.POST, "/api/series").authenticated()
+                        .requestMatchers(HttpMethod.POST, "/api/series/*/versions").authenticated()
+                        .requestMatchers(HttpMethod.POST, "/api/versions/*/screenshots").authenticated()
+                        .requestMatchers(HttpMethod.GET, "/api/versions/*/screenshots", "/api/screenshots/*/image").permitAll()
+                        .requestMatchers(HttpMethod.OPTIONS, "/api/versions/*/screenshots", "/api/screenshots/*/image").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/api/series/*/versions", "/api/versions/*").permitAll()
+                        .requestMatchers(HttpMethod.OPTIONS, "/api/versions/*").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/api/series", "/api/series/*", "/api/series/*/icon").permitAll()
+                        .requestMatchers(HttpMethod.OPTIONS, "/api/series", "/api/series/**").permitAll()
                         .anyRequest().denyAll())
                 .exceptionHandling(config -> config
                         .authenticationEntryPoint((request, response, exception) ->

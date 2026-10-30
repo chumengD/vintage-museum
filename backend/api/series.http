@@ -1,0 +1,50 @@
+@baseUrl = http://127.0.0.1:8080
+@origin = http://127.0.0.1:5173
+
+### 先运行 auth.http 登录。创建无图标系列：201；再次执行同名请求：409。
+POST {{baseUrl}}/api/series
+Origin: {{origin}}
+X-App-Request: museum-web
+Content-Type: multipart/form-data; boundary=museum-boundary
+
+--museum-boundary
+Content-Disposition: form-data; name="metadata"
+Content-Type: application/json
+
+{"name":"QQ","description":"QQ 各平台历史版本及截图","category":"INSTANT_MESSAGING","platforms":["WINDOWS","ANDROID"]}
+--museum-boundary--
+
+> {%
+    if (response.status === 201) client.global.set("seriesId", response.body.series.id);
+%}
+
+### 公开列表
+GET {{baseUrl}}/api/series?page=0&size=20
+
+### 上方创建成功后查询详情
+GET {{baseUrl}}/api/series/{{seriesId}}
+
+### 无图标时 404
+GET {{baseUrl}}/api/series/{{seriesId}}/icon
+
+### 创建带图标的系列：先将本目录 demo-icon.png 替换为自己的 PNG 或 JPEG。
+POST {{baseUrl}}/api/series
+Origin: {{origin}}
+X-App-Request: museum-web
+Content-Type: multipart/form-data; boundary=museum-icon-boundary
+
+--museum-icon-boundary
+Content-Disposition: form-data; name="metadata"
+Content-Type: application/json
+
+{"name":"QQ 图标演示","description":"带小图标的系列","category":"INSTANT_MESSAGING","platforms":["WINDOWS"]}
+--museum-icon-boundary
+Content-Disposition: form-data; name="icon"; filename="demo-icon.png"
+Content-Type: image/png
+
+< ./demo-icon.png
+--museum-icon-boundary--
+
+> {%
+    if (response.status === 201) client.global.set("seriesId", response.body.series.id);
+%}

@@ -28,7 +28,7 @@ public class AuthRequestProtectionFilter extends OncePerRequestFilter {
 
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request) {
-        return !ENDPOINTS.contains(request.getServletPath())
+        return !(ENDPOINTS.contains(request.getServletPath()) || BusinessRequestPaths.isCreatePath(request.getServletPath()))
                 || !(request.getMethod().equals("POST") || request.getMethod().equals("OPTIONS"));
     }
 
@@ -44,7 +44,7 @@ public class AuthRequestProtectionFilter extends OncePerRequestFilter {
             errors.write(response, 403, "REQUEST_FORBIDDEN", "请求来源或必要请求头不合法", Map.of());
             return;
         }
-        if (request.getMethod().equals("POST") && !request.getServletPath().equals("/api/auth/logout")) {
+        if (request.getMethod().equals("POST") && Set.of("/api/auth/register", "/api/auth/login").contains(request.getServletPath())) {
             // 不采信任意客户端可伪造的 X-Forwarded-For。
             boolean login = request.getServletPath().equals("/api/auth/login");
             var decision = (login ? loginLimiter : registrationLimiter).acquire(request.getRemoteAddr());

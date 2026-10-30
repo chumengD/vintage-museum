@@ -3,6 +3,9 @@
 技术栈：Spring Boot 4.1.2、Java 21、Maven、Spring Security、JPA、H2 文件数据库。
 已实现用户表和注册接口，密码使用 Argon2id 保存，数据库由 Flyway 初始化。
 已实现 username + password 登录、JWT Cookie 认证、查询当前用户及退出；email 仅为账号资料，不用于登录。
+已新增软件系列创建、可选小图标上传、公开分页列表及详情查询；接口约定见 [系列接口说明](docs/series-api.md)，IDEA 示例见 `api/series.http`。
+已实现系列下添加版本、按平台分页浏览及版本详情，详见 [版本接口说明](docs/version-api.md) 和 `api/version.http`。
+已实现版本截图单张上传、多张关联、公开分页列表与图片读取，详见 [截图接口说明](docs/screenshot-api.md) 和 `api/screenshot.http`。
 
 ## 在 IntelliJ IDEA 中运行
 
@@ -48,7 +51,7 @@ mvn -Dmaven.repo.local=.maven/repository spring-boot:run
 ```
 
 项目骨架已通过构建、数据库及启动检查，用户已确认能够在 IDEA 启动。
-全部 46 项自动测试通过，覆盖注册、邮箱及数据库升级、登录、JWT 校验、Cookie 退出及基础请求防护，使用隔离数据库。
+全部 64 项自动测试通过，覆盖注册、邮箱及数据库升级、登录、JWT 校验、Cookie 退出、基础请求防护、系列与图标、版本及截图上传、图片限制、失败清理和公开浏览，使用隔离数据库和测试上传目录。
 另已使用打包程序和隔离的开发数据库、密钥验证：注册 201、登录 200、服务重启后原 JWT 查询用户 200、退出 204。测试进程已停止，不影响现有开发账号。
 另已用隔离文件数据库启动两次，验证首次注册返回 201、重启后同名注册返回 409，确认迁移可重复执行且账号持久保存。
 

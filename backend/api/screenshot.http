@@ -1,0 +1,31 @@
+@baseUrl = http://127.0.0.1:8080
+@origin = http://127.0.0.1:5173
+
+### 先登录并通过 version.http 创建版本，设置全局 versionId。
+### 将本目录 demo-screenshot.png 替换为自己的截图文件，再执行上传。
+POST {{baseUrl}}/api/versions/{{versionId}}/screenshots
+Origin: {{origin}}
+X-App-Request: museum-web
+Content-Type: multipart/form-data; boundary=museum-shot
+
+--museum-shot
+Content-Disposition: form-data; name="caption"
+Content-Type: text/plain; charset=UTF-8
+
+登录界面
+--museum-shot
+Content-Disposition: form-data; name="image"; filename="demo-screenshot.png"
+Content-Type: image/png
+
+< ./demo-screenshot.png
+--museum-shot--
+
+> {%
+    if (response.status === 201) client.global.set("screenshotId", response.body.screenshot.id);
+%}
+
+### 列表可匿名访问，多次上传后按时间正序显示
+GET {{baseUrl}}/api/versions/{{versionId}}/screenshots?page=0&size=20
+
+### 查看图片
+GET {{baseUrl}}/api/screenshots/{{screenshotId}}/image

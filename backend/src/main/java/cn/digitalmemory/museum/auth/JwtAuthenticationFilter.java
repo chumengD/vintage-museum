@@ -31,8 +31,10 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request) {
+        // 当前用户查询、系列及版本创建需要认证；公开浏览不受旧 Cookie 影响。
         // 登录、注册忽略旧 Cookie；退出即使凭据失效也允许清理。
-        return !request.getMethod().equals("GET") || !request.getServletPath().equals("/api/auth/me");
+        return !(request.getMethod().equals("GET") && request.getServletPath().equals("/api/auth/me"))
+                && !(request.getMethod().equals("POST") && BusinessRequestPaths.isCreatePath(request.getServletPath()));
     }
 
     @Override
