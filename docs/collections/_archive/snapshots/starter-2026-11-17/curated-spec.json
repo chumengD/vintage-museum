@@ -1,0 +1,51 @@
+{
+  "collectedOn": "2026-11-17",
+  "products": [
+    {"id": "qq", "name": "腾讯 QQ", "category": "instant_messaging", "developer": "腾讯", "officialUrl": "https://im.qq.com/", "summary": "从桌面聊天到跨端沟通的互联网记忆。"},
+    {"id": "wechat", "name": "微信", "category": "instant_messaging", "developer": "腾讯", "officialUrl": "https://weixin.qq.com/", "summary": "以移动通信为起点，逐步扩展连接场景。"},
+    {"id": "windows", "name": "Microsoft Windows", "category": "operating_system", "developer": "Microsoft", "officialUrl": "https://www.microsoft.com/windows", "summary": "以桌面、窗口与开始菜单记录个人电脑界面的演变。"}
+  ],
+  "qq": [
+    {"id": "qq-1999", "version": "OICQ 1999", "timelineYear": 1999, "releasedAt": "1999-02-10", "dateKind": "first_beta", "summary": "OICQ 起点；展示早期在线联系人的沟通方式。"},
+    {"id": "qq-2000", "version": "QQ 2000", "timelineYear": 2000, "releasedAt": null, "summary": "早期年号版，保留了简洁的联系人面板。"},
+    {"id": "qq-2003", "version": "QQ 2003", "timelineYear": 2003, "releasedAt": null, "summary": "以聊天场景、截图等功能丰富沟通体验。"},
+    {"id": "qq-2004", "version": "QQ 2004", "timelineYear": 2004, "releasedAt": null, "summary": "网络硬盘与远程协助扩展桌面沟通用途。"},
+    {"id": "qq-2005", "version": "QQ 2005", "timelineYear": 2005, "releasedAt": null, "summary": "QQ 宠物与空间相关内容成为这一时期的记忆。"},
+    {"id": "qq-2007", "version": "QQ 2007", "timelineYear": 2007, "releasedAt": null, "summary": "窗口抖动与离线文件成为这一时期的沟通记忆。"},
+    {"id": "qq-2008", "version": "QQ 2008", "timelineYear": 2008, "releasedAt": null, "summary": "年号版桌面 QQ，可观察联系人分组与群入口。"},
+    {"id": "qq-2009", "version": "QQ 2009", "timelineYear": 2009, "releasedAt": null, "summary": "通过消息盒子、群友动态等内容组织沟通。"},
+    {"id": "qq-2010", "version": "QQ 2010", "timelineYear": 2010, "releasedAt": null, "summary": "皮肤与视频等体验继续演进的桌面年号版。"},
+    {"id": "qq-2011", "version": "QQ 2011", "timelineYear": 2011, "releasedAt": null, "summary": "以应用盒子、皮肤编辑等入口丰富桌面体验。"},
+    {"id": "qq-2012", "version": "QQ 2012", "timelineYear": 2012, "releasedAt": null, "summary": "可合并、置顶的会话窗口体现聊天界面的变化。"},
+    {"id": "qq-2013", "version": "QQ 2013", "timelineYear": 2013, "releasedAt": null, "summary": "这一时期的资料卡与群视频提供新的展示空间。"}
+  ],
+  "wechatIos": [
+    {"id": "wechat-ios-1-0", "officialVersionLabel": "1.0(测试版)", "summary": "微信最初的 iOS 测试版，保留移动沟通起点。"},
+    {"id": "wechat-ios-2-0", "officialVersionLabel": "2.0", "summary": "语音对讲成为移动聊天的重要方式。"},
+    {"id": "wechat-ios-2-5", "officialVersionLabel": "2.5", "summary": "通过附近的人扩展联系范围。"},
+    {"id": "wechat-ios-3-0", "officialVersionLabel": "3.0", "summary": "摇一摇与漂流瓶扩展社交发现方式。"},
+    {"id": "wechat-ios-4-0", "officialVersionLabel": "4.0", "summary": "朋友圈记录与分享生活。"},
+    {"id": "wechat-ios-4-2", "officialVersionLabel": "4.2", "summary": "视频通话和网页版拓展沟通场景。"},
+    {"id": "wechat-ios-5-0", "officialVersionLabel": "5.0", "summary": "表情、扫一扫与支付等入口扩展产品用途。"},
+    {"id": "wechat-ios-6-0", "officialVersionLabel": "6.0", "summary": "小视频和卡包进入日常交流与使用场景。"},
+    {"id": "wechat-ios-7-0-0", "officialVersionLabel": "7.0.0", "summary": "界面更新，同时推出时刻视频等功能。"},
+    {"id": "wechat-ios-8-0-0", "officialVersionLabel": "8.0.0", "summary": "动态表情与个人状态丰富表达方式。"}
+  ],
+  "windows": [
+    {"id": "windows-1-0", "version": "1.0 系列", "wikiTitle": "Windows 1.0", "releasedAt": "1985-11-20", "summary": "平铺窗口与鼠标操作构成早期 Windows 图形环境。"},
+    {"id": "windows-2-0", "version": "2.0 系列", "wikiTitle": "Windows 2.0", "releasedAt": "1987-12-09", "summary": "重叠窗口使桌面操作方式继续演进。"},
+    {"id": "windows-3-0", "version": "3.0", "wikiTitle": "Windows 3.0", "releasedAt": "1990-05-22", "summary": "程序管理器与图标式操作成为界面记忆。"},
+    {"id": "windows-3-1", "version": "3.1", "wikiTitle": "Windows 3.1", "releasedAt": "1992-04-06", "summary": "TrueType 字体与多媒体能力丰富桌面体验。"},
+    {"id": "windows-95", "version": "95", "wikiTitle": "Windows 95", "releasedAt": "1995-08-24", "summary": "开始菜单与任务栏构成经典桌面布局。"},
+    {"id": "windows-98", "version": "98", "wikiTitle": "Windows 98", "releasedAt": "1998-06-25", "summary": "面向家庭电脑，延续并扩展 Windows 95 的桌面风格。"},
+    {"id": "windows-2000", "version": "2000", "wikiTitle": "Windows 2000", "releasedAt": "2000-02-17", "summary": "NT 系列面向工作环境的一次重要迭代。"},
+    {"id": "windows-me", "version": "Me", "wikiTitle": "Windows Me", "releasedAt": "2000-09-14", "summary": "面向家庭的 Windows 9x 系列末期版本。"},
+    {"id": "windows-xp", "version": "XP", "wikiTitle": "Windows XP", "releasedAt": "2001-10-25", "summary": "Luna 视觉样式与开始菜单构成一代桌面记忆。"},
+    {"id": "windows-vista", "version": "Vista", "wikiTitle": "Windows Vista", "releasedAt": "2007-01-30", "summary": "Aero 视觉风格与用户账户控制进入公众视野。"},
+    {"id": "windows-7", "version": "7", "wikiTitle": "Windows 7", "releasedAt": "2009-10-22", "summary": "改进任务栏与窗口管理，延续 Aero 桌面风格。"},
+    {"id": "windows-8", "version": "8", "wikiTitle": "Windows 8", "releasedAt": "2012-10-26", "summary": "开始屏幕与触控导向界面改变桌面入口。"},
+    {"id": "windows-8-1", "version": "8.1", "wikiTitle": "Windows 8.1", "releasedAt": "2013-10-17", "summary": "在 Windows 8 基础上继续调整开始与桌面体验。"},
+    {"id": "windows-10", "version": "10", "wikiTitle": "Windows 10", "releasedAt": "2015-07-29", "summary": "开始菜单回归，并持续迭代桌面使用体验。"},
+    {"id": "windows-11", "version": "11", "wikiTitle": "Windows 11", "releasedAt": "2021-10-05", "summary": "居中任务栏与新的窗口布局体现新一代桌面设计。"}
+  ]
+}

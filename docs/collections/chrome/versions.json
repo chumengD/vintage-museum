@@ -1,0 +1,38 @@
+[
+  {
+    "id": "chrome-first-beta",
+    "productId": "chrome",
+    "version": "Chrome首次公开测试版",
+    "releasedAt": "2008-09-02",
+    "timelineYear": 2008,
+    "dateKind": "public_beta",
+    "summary": "最早面向Windows发布的公开测试阶段。",
+    "sourceIds": [
+      "official-chrome-beta",
+      "wiki-chrome"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "chrome-1-0",
+    "productId": "chrome",
+    "version": "Chrome 1.0稳定版",
+    "releasedAt": "2008-12-11",
+    "timelineYear": 2008,
+    "dateKind": "stable_release",
+    "summary": "Chrome结束Beta、进入首个稳定版本阶段。",
+    "sourceIds": [
+      "official-chrome-stable",
+      "wiki-chrome"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

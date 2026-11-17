@@ -1,0 +1,58 @@
+[
+  {
+    "id": "wmp-9",
+    "productId": "windows-media-player",
+    "version": "Windows Media Player 9 Series",
+    "releasedAt": "2003-01-07",
+    "timelineYear": 2003,
+    "summary": "面向Windows XP时期的媒体播放和媒体库体验。",
+    "sourceIds": [
+      "official-wmp9",
+      "wiki-windows-media-player"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "wmp-11",
+    "productId": "windows-media-player",
+    "version": "Windows Media Player 11（XP公开版）",
+    "releasedAt": "2006-10-30",
+    "timelineYear": 2006,
+    "dateKind": "public_download_for_windows_xp",
+    "dateNote": "采用微软公布的XP公开下载日；Wiki表格另列2006-10-18，未将两者强行合并。",
+    "summary": "以封面、搜索和媒体库管理为重要视觉入口。",
+    "sourceIds": [
+      "official-wmp11",
+      "wiki-windows-media-player"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "wmp-12",
+    "productId": "windows-media-player",
+    "version": "Windows Media Player 12系列",
+    "releasedAt": null,
+    "timelineYear": 2009,
+    "datePrecision": "year",
+    "recordType": "version_family",
+    "summary": "与Windows 7及后续Windows平台相连的传统播放器。",
+    "sourceIds": [
+      "wiki-windows-media-player"
+    ],
+    "dateKind": "release",
+    "assetIds": [
+      "asset-windows-media-player-83b40a49990d"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

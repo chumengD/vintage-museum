@@ -1,0 +1,97 @@
+{
+  "continue": {
+    "iistart": "2023-11-11T03:14:08Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_7_SP1_screenshot.png",
+        "to": "File:Windows 7 SP1 screenshot.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 25201574,
+        "ns": 6,
+        "title": "File:Windows 7 SP1 screenshot.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2023-11-11T03:25:12Z",
+            "size": 258033,
+            "width": 640,
+            "height": 480,
+            "url": "https://upload.wikimedia.org/wikipedia/en/5/50/Windows_7_SP1_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_7_SP1_screenshot.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/25201574",
+            "sha1": "87d52a7429fbc3b8feb7a1a5b8d62d3eb7623cbc",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-11-11 03:25:12",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows 7 SP1 screenshot",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "All non-free media|Non-free files with no derivative works licenses|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with redirect backlink|Wikipedia non-free files with valid backlink|Screenshots of Windows 7|Non-free images tagged for no reduction",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Screenshot of Windows 7 Ultimate, displaying its Start menu.\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://microsoft.com\">https://microsoft.com</a>\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<p>Microsoft\n</p>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Fair use",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

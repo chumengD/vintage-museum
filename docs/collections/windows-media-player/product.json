@@ -1,0 +1,22 @@
+{
+  "id": "windows-media-player",
+  "name": "Windows Media Player Legacy",
+  "category": "media_player",
+  "developer": "Microsoft",
+  "summary": "Windows桌面里的媒体库、可视化与播放记忆；区别于2022年新版Media Player。",
+  "versionIds": [
+    "wmp-9",
+    "wmp-11",
+    "wmp-12"
+  ],
+  "logoAssetIds": [
+    "asset-windows-media-player-a35d6a5fb474"
+  ],
+  "referenceAssetIds": [],
+  "sourceIds": [
+    "wiki-windows-media-player"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

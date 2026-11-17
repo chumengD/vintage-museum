@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Internet_Explorer_6",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Internet_Explorer_6",
+    "retrievedAt": "2026-11-17T04:19:29.261153+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "548317d6cf6b91d5360cf4c4c1ee112fc797b0f32103af0d49dfb4efb70a4b00",
+    "bytes": 477251,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Internet Explorer 6",
+  "htmlRevisionId": 1386175852,
+  "infoboxText": "Internet Explorer 6 Screenshot of Internet Explorer 6 Developer Microsoft Release August 24, 2001 ; 25 years ago ( 2001-08-24 ) Stable release Service Pack 3 (6.00.2900.5512) [ 1 ] / April 21, 2008 ; 18 years ago ( 2008-04-21 ) Engine MSHTML Operating system Windows NT 4.0 SP6a Windows 98 Windows 2000 Windows ME Included with Windows XP Windows Server 2003 Predecessor Internet Explorer 5 (1999) Successor Internet Explorer 7 (2006) License Proprietary , requires Windows license Website Internet Explorer 6 (archived at Wayback Machine )",
+  "imageCaptions": [
+    "",
+    "Screenshot of Internet Explorer 6"
+  ]
+}

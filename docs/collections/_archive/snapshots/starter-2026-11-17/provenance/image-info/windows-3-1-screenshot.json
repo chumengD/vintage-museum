@@ -1,0 +1,93 @@
+{
+  "continue": {
+    "iistart": "2026-05-03T10:52:59Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_3.11_workspace.png",
+        "to": "File:Windows 3.11 workspace.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 971355,
+        "ns": 6,
+        "title": "File:Windows 3.11 workspace.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-10-16T04:31:59Z",
+            "size": 4004,
+            "width": 640,
+            "height": 480,
+            "url": "https://upload.wikimedia.org/wikipedia/en/7/73/Windows_3.11_workspace.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_3.11_workspace.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/971355",
+            "sha1": "765ef49b382888e18f7c947fd70dcc46e03fec96",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-10-16 04:31:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows 3.11 workspace",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable author|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with redirect backlink|Wikipedia non-free files with valid backlink|Non-free images tagged for no reduction|Screenshots of Windows 3.x",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Screenshot of Windows for Workgroups 3.11.\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Self-taken screenshot.\n</p>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Fair use",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

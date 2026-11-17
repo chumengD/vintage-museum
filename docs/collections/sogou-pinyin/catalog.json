@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "single-product-series",
+  "collectedOn": "2026-11-17",
+  "pathBase": "directory_containing_this_catalog",
+  "products": [
+    {
+      "id": "sogou-pinyin",
+      "name": "搜狗拼音输入法",
+      "category": "input_method",
+      "developer": "搜狗",
+      "summary": "候选词、皮肤和网络词库组成中文输入记忆。",
+      "versionIds": [
+        "sogou-2006-06-05",
+        "sogou-2006-09-05",
+        "sogou-2007-01-29",
+        "sogou-2007-10-18",
+        "sogou-2010-03-25",
+        "sogou-2014-02-13"
+      ],
+      "logoAssetIds": [],
+      "referenceAssetIds": [
+        "asset-sogou-pinyin-711d0371436d"
+      ],
+      "sourceIds": [
+        "wiki-sogou-pinyin"
+      ],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "imageDirectory": "images"
+    }
+  ],
+  "versions": [
+    {
+      "id": "sogou-2006-06-05",
+      "productId": "sogou-pinyin",
+      "version": "搜狗拼音 公测第一版(1.0.1.4)",
+      "releasedAt": "2006-06-05",
+      "timelineYear": 2006,
+      "datePrecision": "day",
+      "dateKind": "public_beta",
+      "recordType": "release",
+      "summary": "官方历史更新页中的公测第一版(1.0.1.4)节点。",
+      "officialIndexId": "sogou-index-20060605",
+      "sourceIds": [
+        "official-sogou-history",
+        "wiki-sogou-pinyin"
+      ],
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "sogou-2006-09-05",
+      "productId": "sogou-pinyin",
+      "version": "搜狗拼音 1.0正式版(1.0.2.2)",
+      "releasedAt": "2006-09-05",
+      "timelineYear": 2006,
+      "datePrecision": "day",
+      "dateKind": "stable_release",
+      "recordType": "release",
+      "summary": "官方历史更新页中的1.0正式版(1.0.2.2)节点。",
+      "officialIndexId": "sogou-index-20060905",
+      "sourceIds": [
+        "official-sogou-history",
+        "wiki-sogou-pinyin"
+      ],
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "sogou-2007-01-29",
+      "productId": "sogou-pinyin",
+      "version": "搜狗拼音 2.0正式版(2.0Final)",
+      "releasedAt": "2007-01-29",
+      "timelineYear": 2007,
+      "datePrecision": "day",
+      "dateKind": "stable_release",
+      "recordType": "release",
+      "summary": "官方历史更新页中的2.0正式版(2.0Final)节点。",
+      "officialIndexId": "sogou-index-20070129",
+      "sourceIds": [
+        "official-sogou-history",
+        "wiki-sogou-pinyin"
+      ],
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "sogou-2007-10-18",
+      "productId": "sogou-pinyin",
+      "version": "搜狗拼音 3.0正式版",
+      "releasedAt": "2007-10-18",
+      "timelineYear": 2007,
+      "datePrecision": "day",
+      "dateKind": "stable_release",
+      "recordType": "release",
+      "summary": "官方历史更新页中的3.0正式版节点。",
+      "officialIndexId": "sogou-index-20071018",
+      "sourceIds": [
+        "official-sogou-history",
+        "wiki-sogou-pinyin"
+      ],
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "sogou-2010-03-25",
+      "productId": "sogou-pinyin",
+      "version": "搜狗拼音 5.0正式版",
+      "releasedAt": "2010-03-25",
+      "timelineYear": 2010,
+      "datePrecision": "day",
+      "dateKind": "stable_release",
+      "recordType": "release",
+      "summary": "官方历史更新页中的5.0正式版节点。",
+      "officialIndexId": "sogou-index-20100325",
+      "sourceIds": [
+        "official-sogou-history",
+        "wiki-sogou-pinyin"
+      ],
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "sogou-2014-02-13",
+      "productId": "sogou-pinyin",
+      "version": "搜狗拼音 7.1正式版",
+      "releasedAt": "2014-02-13",
+      "timelineYear": 2014,
+      "datePrecision": "day",
+      "dateKind": "stable_release",
+      "recordType": "release",
+      "summary": "官方历史更新页中的7.1正式版节点。",
+      "officialIndexId": "sogou-index-20140213",
+      "sourceIds": [
+        "official-sogou-history",
+        "wiki-sogou-pinyin"
+      ],
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-sogou-pinyin-711d0371436d",
+      "productId": "sogou-pinyin",
+      "versionId": null,
+      "role": "product_reference_screenshot",
+      "sourceId": "wiki-sogou-pinyin",
+      "caption": "搜狗拼音屏幕截图",
+      "matchNote": "仅作搜狗输入法产品参考图，来源未确认具体版本，不挂接2006—2014年版本。",
+      "wikiFileTitle": "File:Wiki_ping_in_sougou.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/zh/3/38/Wiki_ping_in_sougou.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://zh.wikipedia.org/wiki/File:Wiki_ping_in_sougou.jpg",
+      "localPath": "images/product-reference.jpg",
+      "mimeType": "image/jpeg",
+      "width": 416,
+      "height": 117,
+      "bytes": 13372,
+      "sha256": "711d0371436dee22ad146c16f2f236267badf28897ff4e0a5cadeb7e864c3619",
+      "sourceFileSha1": "cc57fb44375638a23fdd2d195354734bff203f57",
+      "licenseName": "合理使用",
+      "licenseUrl": "",
+      "creator": "",
+      "credit": "本机电脑",
+      "restrictions": "",
+      "copyrighted": "True",
+      "privacyReviewRequired": true,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/sogou-pinyin-711d0371436d.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-sogou-pinyin",
+      "kind": "wikipedia",
+      "url": "https://zh.wikipedia.org/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95",
+      "title": "搜狗拼音输入法",
+      "language": "zh",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:27.308681+00:00",
+      "htmlSha256": "5cde55b69607df1c2bf08cb97b297a8657cf4b5d2b8ae4961ef1150b3bb0e4ab",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-sogou-pinyin.json",
+      "revisionId": 91322508,
+      "revisionProvenance": "html_RLCONF",
+      "permalink": "https://zh.wikipedia.org/w/index.php?oldid=91322508",
+      "apiRevisionId": 91322508,
+      "apiRevisionTimestamp": "2026-01-30T04:30:43Z",
+      "revisionTimestamp": "2026-01-30T04:30:43Z",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "official-sogou-history",
+      "kind": "official",
+      "url": "https://pinyin.sogou.com/updatelog.php",
+      "title": "搜狗拼音历史更新列表",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:38.083022+00:00",
+      "htmlSha256": "70572f90aceee95b2aca01f3025cb6e19352bdda99d211aaa860017fb04df12e",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-sogou-history.json",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ]
+}

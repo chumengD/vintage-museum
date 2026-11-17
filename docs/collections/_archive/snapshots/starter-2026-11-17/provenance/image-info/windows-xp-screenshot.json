@@ -1,0 +1,98 @@
+{
+  "continue": {
+    "iistart": "2025-09-26T02:26:45Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_XP_Luna.png",
+        "to": "File:Windows XP Luna.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 12234206,
+        "ns": 6,
+        "title": "File:Windows XP Luna.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2025-09-26T02:41:42Z",
+            "size": 252354,
+            "width": 640,
+            "height": 480,
+            "url": "https://upload.wikimedia.org/wikipedia/en/6/64/Windows_XP_Luna.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_XP_Luna.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/12234206",
+            "sha1": "ceb7e9d4182aa25af3884c5037e074e4d45f8381",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-09-26 02:41:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows XP Luna",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Non-free images tagged for no reduction|Screenshots of software on Windows XP",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "Microsoft Corporation",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Taken from a PC running Windows XP.",
+                "source": "commons-desc-page"
+              },
+              "AuthorCount": {
+                "value": 3,
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_XP_visual_styles\" title=\"Windows XP visual styles\">Windows XP visual styles</a>",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

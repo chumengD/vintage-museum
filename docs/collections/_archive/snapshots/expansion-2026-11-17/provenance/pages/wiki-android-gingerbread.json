@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Android_Gingerbread",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Android_Gingerbread",
+    "retrievedAt": "2026-11-17T04:19:29.788336+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "d44974d03bb9dcc987c1cc248c95e3f2e73e31a827c54dcbb43aa6de804194b1",
+    "bytes": 299700,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Android Gingerbread",
+  "htmlRevisionId": 1379692748,
+  "infoboxText": "Android Gingerbread Version of the Android operating system Android 2.3.7 on an Android SDK emulator Developer Google Initial release December 6, 2010 ; 15 years ago ( 2010-12-06 ) [ 1 ] Final release 2.3.7_r1 (GWK74) [ 2 ] / September 21, 2011 ; 15 years ago ( 2011-09-21 ) Kernel type Monolithic ( Linux ) Preceded by Android Froyo (2.2) Succeeded by Android Honeycomb (3.0) (tablets) Android Ice Cream Sandwich (4.0) (smartphones) Official website developer .android .com /about /versions /android-2 .3-highlights Support status Unsupported since November 14, 2016 Google Play Services support dropped since January 2017 [ 3 ] Google Account support dropped on September 27, 2021",
+  "imageCaptions": [
+    "",
+    "Android 2.3.7 on an Android SDK emulator"
+  ]
+}

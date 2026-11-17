@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ios-1-family",
+    "productId": "ios",
+    "version": "iPhone OS 1.x系列",
+    "releasedAt": "2007-06-29",
+    "timelineYear": 2007,
+    "recordType": "version_family",
+    "summary": "首代iPhone系统的拟物图标与触控界面；保留当时的iPhone OS名称。",
+    "sourceIds": [
+      "wiki-ios-1-family"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-ios-74b76e6b30b0"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "ios-3-family",
+    "productId": "ios",
+    "version": "iPhone OS 3.x系列",
+    "releasedAt": "2009-06-17",
+    "timelineYear": 2009,
+    "recordType": "version_family",
+    "summary": "iPhone OS命名阶段后期的移动系统界面。",
+    "sourceIds": [
+      "wiki-ios-3-family"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-ios-53ef25d60a37"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "ios-4-family",
+    "productId": "ios",
+    "version": "iOS 4.x系列",
+    "releasedAt": "2010-06-21",
+    "timelineYear": 2010,
+    "recordType": "version_family",
+    "summary": "iOS名称启用，文件夹等桌面组织方式进入系统。",
+    "sourceIds": [
+      "wiki-ios-4-family"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-ios-35c68508ced5"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "ios-6-family",
+    "productId": "ios",
+    "version": "iOS 6.x系列",
+    "releasedAt": "2012-09-19",
+    "timelineYear": 2012,
+    "recordType": "version_family",
+    "summary": "扁平化转向之前的拟物设计阶段。",
+    "sourceIds": [
+      "wiki-ios-6-family"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-ios-0f7763ada6cd"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "ios-7-family",
+    "productId": "ios",
+    "version": "iOS 7.x系列",
+    "releasedAt": "2013-09-18",
+    "timelineYear": 2013,
+    "recordType": "version_family",
+    "summary": "扁平化图标、控制中心和新的视觉风格。",
+    "sourceIds": [
+      "official-ios7",
+      "wiki-ios-7-family"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-ios-0fa9eb880b12"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "wechat-official-index",
+    "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list",
+    "resolvedUrl": "https://weixin.qq.com/updates",
+    "kind": "official",
+    "title": "微信官网历史版本列表",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "bffbc084f159f1bb978e03e8f98164ee918120d396c20d02e4a774ab5e3b42de",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "wechat-retro-features",
+    "url": "https://developer.cloud.tencent.com/article/1042732",
+    "resolvedUrl": "https://developer.cloud.tencent.com/article/1042732",
+    "kind": "community_reprint",
+    "title": "微信朋友圈四周年回顾",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "25d45c2a88686b245a3c4ca708ccc33d765a373a82a416cc804aa7e16ef2268f",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "wechat-6-review",
+    "url": "https://news.mydrivers.com/1/323/323132.htm",
+    "resolvedUrl": "https://news.mydrivers.com/1/323/323132.htm",
+    "kind": "release_report",
+    "title": "快科技：iOS微信6.0发布",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "e6bef2a4fbcb69acb39722973a66a99291050ab4582044a9a279c7263242da8b",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "wechat-7-review",
+    "url": "https://www.ithome.com/0/401/790.htm",
+    "resolvedUrl": "https://www.ithome.com/0/401/790.htm",
+    "kind": "release_report",
+    "title": "IT之家：iOS微信7.0发布",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "c61bea5ba5ae5422907946d30d4ce1b30b6838004c558c693bc47c9bf16cc671",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "wechat-8-review",
+    "url": "https://www.jiemian.com/article/5580728.html",
+    "resolvedUrl": "https://www.jiemian.com/article/5580728.html",
+    "kind": "release_report",
+    "title": "界面新闻：微信8.0体验",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "4a82d0feaee717b3fa4c19418dbb915b44a9b018bc328ecd42126acdd9526142",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "wechat-early-review",
+    "url": "https://media.people.com.cn/n/2014/0606/c14677-25115651.html",
+    "title": "人民网：微信发展大事记",
+    "kind": "historical_news_review",
+    "collectedOn": "2026-11-17",
+    "verificationMethod": "web_search_excerpt",
+    "note": "本机HTTPS证书校验失败，未关闭TLS验证；用于早期版本功能交叉查证，日期以微信官网为准。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "wechat-wiki",
+    "url": "https://en.wikipedia.org/wiki/WeChat",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/WeChat",
+    "kind": "wiki",
+    "title": "WeChat - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "243d413bff77a5c8ea3526b809215045941e59a873797484c251417b2655ecd0",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  }
+]

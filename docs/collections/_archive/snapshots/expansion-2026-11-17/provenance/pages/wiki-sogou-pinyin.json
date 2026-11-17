@@ -1,0 +1,17 @@
+{
+  "fetch": {
+    "requestedUrl": "https://zh.wikipedia.org/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95",
+    "resolvedUrl": "https://zh.wikipedia.org/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95",
+    "retrievedAt": "2026-11-17T04:19:27.308681+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "5cde55b69607df1c2bf08cb97b297a8657cf4b5d2b8ae4961ef1150b3bb0e4ab",
+    "bytes": 136342,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "搜狗拼音输入法",
+  "htmlRevisionId": 91322508,
+  "infoboxText": "搜狗拼音 搜狗拼音屏幕截图 開發者 搜狗 当前版本 12.2.0（2024年12月23日 ，​22個月前 ​（ 2024-12-23 ） ） 操作系统 Microsoft Windows ， OS X ， Linux (基于 Fcitx 输入法框架)， Android ， iOS , OpenHarmony 语言 中文 类型 输入法 许可协议 专有软件 网站 pinyin .sogou .com",
+  "imageCaptions": [
+    "搜狗拼音屏幕截图"
+  ]
+}

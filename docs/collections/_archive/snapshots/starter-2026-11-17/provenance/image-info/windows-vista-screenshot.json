@@ -1,0 +1,97 @@
+{
+  "continue": {
+    "iistart": "2022-12-21T15:22:18Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_Vista.png",
+        "to": "File:Windows Vista.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 7255363,
+        "ns": 6,
+        "title": "File:Windows Vista.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-11-09T21:57:34Z",
+            "size": 400132,
+            "width": 640,
+            "height": 480,
+            "url": "https://upload.wikimedia.org/wikipedia/en/a/a3/Windows_Vista.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_Vista.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/7255363",
+            "sha1": "be2e752ba4eb6af4b1d62301f81f7fa322bb8f89",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-11-09 21:57:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows Vista",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Screenshots of Windows Vista|All non-free media|Non-free files with no derivative works licenses|Wikipedia non-free files with NFUR stated|Noindexed pages|Non-free files with orphaned versions|Wikipedia non-free files with redirect backlink|Wikipedia non-free files with valid backlink|Non-free images tagged for no reduction",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Screenshot of <a href=\"//en.wikipedia.org/wiki/Windows_Vista\" title=\"Windows Vista\">Windows Vista</a> Ultimate using the <a href=\"//en.wikipedia.org/wiki/Windows_Aero\" title=\"Windows Aero\">Windows Aero</a> theme and visual style.\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Screenshot taken by Wikipedian <a href=\"//en.wikipedia.org/wiki/User:Paowee\" title=\"User:Paowee\">Paowee</a> (<a href=\"//en.wikipedia.org/wiki/User_talk:Paowee\" title=\"User talk:Paowee\">talk</a> <b>·</b> <a href=\"//en.wikipedia.org/wiki/Special:Contributions/Paowee\" title=\"Special:Contributions/Paowee\">contribs</a>).\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<ul><li>For the screenshot: <a href=\"//en.wikipedia.org/wiki/User:Paowee\" title=\"User:Paowee\">Paowee</a> (<a href=\"//en.wikipedia.org/wiki/User_talk:Paowee\" title=\"User talk:Paowee\">talk</a> <b>·</b> <a href=\"//en.wikipedia.org/wiki/Special:Contributions/Paowee\" title=\"Special:Contributions/Paowee\">contribs</a>)</li>\n<li>For Windows itself: <a href=\"//en.wikipedia.org/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a></li></ul>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Fair use",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

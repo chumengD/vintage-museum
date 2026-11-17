@@ -1,0 +1,321 @@
+{
+  "collectedOn": "2026-11-17",
+  "sourceUrl": "https://pinyin.sogou.com/updatelog.php",
+  "releases": [
+    {
+      "id": "sogou-index-20140213",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "7.1正式版",
+      "releasedAt": "2014-02-13",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2014.2.13 7.1正式版发布"
+    },
+    {
+      "id": "sogou-index-20131120",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "6.8正式版",
+      "releasedAt": "2013-11-20",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2013.11.20 6.8正式版发布"
+    },
+    {
+      "id": "sogou-index-20130528",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "6.7正式版",
+      "releasedAt": "2013-05-28",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2013.5.28 6.7正式版发布"
+    },
+    {
+      "id": "sogou-index-20130417",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "6.6正式版",
+      "releasedAt": "2013-04-17",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2013.4.17 6.6正式版发布"
+    },
+    {
+      "id": "sogou-index-20130304",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "2.0智慧版",
+      "releasedAt": "2013-03-04",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2013.3.4 2.0智慧版发布"
+    },
+    {
+      "id": "sogou-index-20121025",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "6.5正式版",
+      "releasedAt": "2012-10-25",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2012.10.25 6.5正式版发布"
+    },
+    {
+      "id": "sogou-index-20120920",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "智慧版",
+      "releasedAt": "2012-09-20",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2012.9.20 智慧版发布"
+    },
+    {
+      "id": "sogou-index-20120427",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "6.2正式版",
+      "releasedAt": "2012-04-27",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2012.4.27 6.2正式版发布"
+    },
+    {
+      "id": "sogou-index-20111209",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "6.1正式版",
+      "releasedAt": "2011-12-09",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2011.12.9 6.1正式版发布"
+    },
+    {
+      "id": "sogou-index-20110614",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "6.0正式版",
+      "releasedAt": "2011-06-14",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2011.6.14 6.0正式版发布"
+    },
+    {
+      "id": "sogou-index-20110124",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "5.2正式版",
+      "releasedAt": "2011-01-24",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2011.1.24 5.2正式版发布"
+    },
+    {
+      "id": "sogou-index-20100920",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "5.1正式版",
+      "releasedAt": "2010-09-20",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2010.9.20 5.1正式版发布"
+    },
+    {
+      "id": "sogou-index-20100325",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "5.0正式版",
+      "releasedAt": "2010-03-25",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2010.3.25 5.0正式版发布"
+    },
+    {
+      "id": "sogou-index-20091202",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "4.3.1正式版",
+      "releasedAt": "2009-12-02",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2009.12.2 4.3.1正式版发布"
+    },
+    {
+      "id": "sogou-index-20091026",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "4.3正式版",
+      "releasedAt": "2009-10-26",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2009.10.26 4.3正式版发布"
+    },
+    {
+      "id": "sogou-index-20090605",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "4.2正式版",
+      "releasedAt": "2009-06-05",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2009.6.5 4.2正式版发布"
+    },
+    {
+      "id": "sogou-index-20090318",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "4.1正式版",
+      "releasedAt": "2009-03-18",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2009.3.18 4.1正式版发布"
+    },
+    {
+      "id": "sogou-index-20081229",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "4.0正式版",
+      "releasedAt": "2008-12-29",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2008.12.29 4.0正式版发布"
+    },
+    {
+      "id": "sogou-index-20080911",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "3.6正式版",
+      "releasedAt": "2008-09-11",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2008.9.11 3.6正式版发布"
+    },
+    {
+      "id": "sogou-index-20080605",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "3.5奥运版",
+      "releasedAt": "2008-06-05",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2008.6.5 3.5奥运版发布"
+    },
+    {
+      "id": "sogou-index-20080505",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "3.3正式版",
+      "releasedAt": "2008-05-05",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2008.5.5 3.3正式版发布"
+    },
+    {
+      "id": "sogou-index-20080204",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "3.2正式版",
+      "releasedAt": "2008-02-04",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2008.2.4 3.2正式版发布"
+    },
+    {
+      "id": "sogou-index-20071228",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "3.1正式版",
+      "releasedAt": "2007-12-28",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2007.12.28 3.1正式版发布"
+    },
+    {
+      "id": "sogou-index-20071018",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "3.0正式版",
+      "releasedAt": "2007-10-18",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2007.10.18  3.0正式版发布"
+    },
+    {
+      "id": "sogou-index-20070702",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "3.0公测第二版(3.0Beta2)",
+      "releasedAt": "2007-07-02",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2007.7.2 3.0公测第二版(3.0Beta2)发布"
+    },
+    {
+      "id": "sogou-index-20070302",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "3.0公测第一版(3.0Beta1)",
+      "releasedAt": "2007-03-02",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2007.3.2 3.0公测第一版(3.0Beta1)发布"
+    },
+    {
+      "id": "sogou-index-20070129",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "2.0正式版(2.0Final)",
+      "releasedAt": "2007-01-29",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2007.1.29 2.0正式版(2.0Final)发布"
+    },
+    {
+      "id": "sogou-index-20070117",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "1.5公测第三版(1.5Beta3)",
+      "releasedAt": "2007-01-17",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2007.1.17 1.5公测第三版(1.5Beta3)发布"
+    },
+    {
+      "id": "sogou-index-20061117",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "1.5公测第二版(1.5Beta2)",
+      "releasedAt": "2006-11-17",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2006.11.17 1.5公测第二版(1.5Beta2)发布"
+    },
+    {
+      "id": "sogou-index-20061011",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "1.5公测第一版(1.5Beta1)",
+      "releasedAt": "2006-10-11",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2006.10.11 1.5公测第一版(1.5Beta1)发布"
+    },
+    {
+      "id": "sogou-index-20060905",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "1.0正式版(1.0.2.2)",
+      "releasedAt": "2006-09-05",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2006.9.5 1.0正式版(1.0.2.2)发布"
+    },
+    {
+      "id": "sogou-index-20060815",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "公测第四版(1.0.2.0)",
+      "releasedAt": "2006-08-15",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2006.8.15 公测第四版(1.0.2.0)发布"
+    },
+    {
+      "id": "sogou-index-20060721",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "公测第三版(1.0.1.7)",
+      "releasedAt": "2006-07-21",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2006.7.21 公测第三版(1.0.1.7)发布"
+    },
+    {
+      "id": "sogou-index-20060621",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "公测第二版(1.0.1.6)",
+      "releasedAt": "2006-06-21",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2006.6.21 公测第二版(1.0.1.6)发布"
+    },
+    {
+      "id": "sogou-index-20060605",
+      "productId": "sogou-pinyin",
+      "platform": "windows",
+      "version": "公测第一版(1.0.1.4)",
+      "releasedAt": "2006-06-05",
+      "sourceId": "official-sogou-history",
+      "sourceHeading": "2006.6.5 公测第一版(1.0.1.4)发布"
+    }
+  ]
+}

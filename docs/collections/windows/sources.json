@@ -1,0 +1,307 @@
+[
+  {
+    "id": "windows-version-list",
+    "url": "https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions",
+    "kind": "wiki",
+    "title": "Wikipedia Windows版本列表",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "1ef0f84a564b3abdacbe349df452ee52d638b9f0ee51aede44a075ff464f8329",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-official-timeline",
+    "url": "https://news.microsoft.com/microsoft-50/",
+    "resolvedUrl": "https://news.microsoft.com/microsoft-50/",
+    "kind": "official",
+    "title": "Microsoft 50周年时间线",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "45f7e1a175a46652e135fbfd397a31e4389a1cc3edcbc27972ddec219c8fea0e",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-1-0-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_1.0",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_1.0",
+    "kind": "wiki",
+    "title": "Windows 1.0 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "ad99a33839669fe1be6f12341ec829705c6c0d54fb7ee9baf74c6e7f5b95d720",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing November 20, 1985 ; 40 years ago ( 1985-11-20 )"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384946566,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384946566",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-2-0-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_2.0",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_2.0",
+    "kind": "wiki",
+    "title": "Windows 2.0 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "3c2e116ee55f578f181316dfcec61dce1b70a01ed4c89baf5b34e33b6322ab47",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing December 9, 1987 ; 38 years ago ( 1987-12-09 )"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1379690339,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1379690339",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-3-0-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_3.0",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_3.0",
+    "kind": "wiki",
+    "title": "Windows 3.0 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "ee4b49e77da59e543e07808b349b1ab4f95545cbb5b74b835a8fac2783d6b94a",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing May 22, 1990 ; 36 years ago ( 1990-05-22 )"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384607427,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384607427",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-3-1-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_3.1",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_3.1",
+    "kind": "wiki",
+    "title": "Windows 3.1 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "04c8e492a3d1b731924db9de90cdc8591a06f6d43a68cc6094d31cd3846d367d",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing April 6, 1992 ; 34 years ago ( 1992-04-06 )"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1385682487,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1385682487",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-95-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_95",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_95",
+    "kind": "wiki",
+    "title": "Windows 95 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "aed4db41dcb911b156b60ed1c270dd580b627c70de9f4c00f3a4328158fa627d",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing July 14, 1995 ; 31 years ago ( 1995-07-14 )",
+      "General availability August 24, 1995 ; 31 years ago ( 1995-08-24 ) [ 1 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384981691,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384981691",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-98-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_98",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_98",
+    "kind": "wiki",
+    "title": "Windows 98 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "eeb54f3129ba167998e1ec41ef64676da4de15fc16a759704497db495eb6dae6",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing May 15, 1998 ; 28 years ago ( 1998-05-15 ) [ 1 ]",
+      "General availability June 25, 1998 ; 28 years ago ( 1998-06-25 )"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384734291,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384734291",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-2000-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_2000",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_2000",
+    "kind": "wiki",
+    "title": "Windows 2000 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "a618ef6b2bbd8ca93077ac697099f3f685a59838f613b084dd22cb65cda4fd13",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing December 15, 1999 ; 26 years ago ( 1999-12-15 ) [ 2 ]",
+      "General availability February 17, 2000 ; 26 years ago ( 2000-02-17 ) [ 3 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384534746,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384534746",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-me-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_Me",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_Me",
+    "kind": "wiki",
+    "title": "Windows Me - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "040cfc36995772289d2decba194b80fa566406e34bacfea5b1270442817d6fac",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing June 19, 2000 ; 26 years ago ( 2000-06-19 )",
+      "General availability September 14, 2000 ; 26 years ago ( 2000-09-14 ) [ 1 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1386050472,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1386050472",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-xp-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_XP",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_XP",
+    "kind": "wiki",
+    "title": "Windows XP - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "a03a439f6bc06dcb31330cdae574a0792c8a45d70d1a045666c00e262dcb7a6d",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing August 24, 2001 ; 25 years ago ( 2001-08-24 ) [ 2 ]",
+      "General availability October 25, 2001 ; 25 years ago ( 2001-10-25 ) [ 2 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1385305241,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1385305241",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-vista-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_Vista",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_Vista",
+    "kind": "wiki",
+    "title": "Windows Vista - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "fd92bf412ef95a197ea360c37a3073510a645d6b8bcb955ce3725875d714c116",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing November 8, 2006 ; 20 years ago ( 2006-11-08 ) [ 2 ]",
+      "General availability January 30, 2007 ; 19 years ago ( 2007-01-30 ) [ 3 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384607530,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384607530",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-7-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_7",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_7",
+    "kind": "wiki",
+    "title": "Windows 7 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "2f14b69dbf44c8d1c6a31e1bb4b54d96d998ed27e23f58f7fc306f4c49056cde",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing July 22, 2009 ; 17 years ago ( 2009-07-22 ) [ 1 ]",
+      "General availability October 22, 2009 ; 17 years ago ( 2009-10-22 ) [ 2 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1386021256,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1386021256",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-8-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_8",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_8",
+    "kind": "wiki",
+    "title": "Windows 8 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "f4cf8b7b7602274ea830d5c838ef6aee833808df9d632f719d239192b8b69c30",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing August 1, 2012 ; 14 years ago ( 2012-08-01 ) [ 2 ]",
+      "General availability October 26, 2012 ; 14 years ago ( 2012-10-26 ) [ 3 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1385949236,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1385949236",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-8-1-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_8.1",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_8.1",
+    "kind": "wiki",
+    "title": "Windows 8.1 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "ede8f02d75702ae923de55b7489120698fa6f0f053e4f5b756669cdc2b39aad1",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing August 27, 2013 ; 13 years ago ( 2013-08-27 ) [ 1 ]",
+      "General availability October 17, 2013 ; 13 years ago ( 2013-10-17 ) [ 2 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384566121,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384566121",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-10-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_10",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_10",
+    "kind": "wiki",
+    "title": "Windows 10 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "7574ad0d86e863c13d117bb8806f01eec555bd312bf5f56abd85711c5b5c4d99",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing July 15, 2015 ; 11 years ago ( 2015-07-15 )",
+      "General availability July 29, 2015 ; 11 years ago ( 2015-07-29 )"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384566088,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384566088",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-11-wiki",
+    "url": "https://en.wikipedia.org/wiki/Windows_11",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_11",
+    "kind": "wiki",
+    "title": "Windows 11 - Wikipedia",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "004a6bc3549cb6ccbde5c8fd0e4e1f00f8123014535cac87f16ce337ae46ad46",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "dateEvidence": [
+      "Released to manufacturing June 24, 2021 ; 5 years ago ( 2021-06-24 )",
+      "General availability October 5, 2021 ; 5 years ago ( 2021-10-05 ) [ 4 ]"
+    ],
+    "dateEvidenceMatchesExpected": true,
+    "revisionId": 1384784915,
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384784915",
+    "sourceSnapshot": "starter-2026-11-17"
+  }
+]

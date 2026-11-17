@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Internet_Explorer_8",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Internet_Explorer_8",
+    "retrievedAt": "2026-11-17T04:19:28.544775+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "00dc76dbd45856d32d86fec7b19de94c1c9d815f15e78b2116480680a28511d4",
+    "bytes": 555755,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Internet Explorer 8",
+  "htmlRevisionId": 1384601696,
+  "infoboxText": "Internet Explorer 8 Screenshot of Internet Explorer 8 Developer Microsoft Release March 19, 2009 ; 17 years ago ( 2009-03-19 ) Stable release Service Pack 1 (8.00.7601.17514)\n   / February 22, 2011 ; 15 years ago ( 2011-02-22 ) Engine MSHTML 4.0 Operating system Windows XP SP2 or later Windows XP x64 Edition SP2 Windows Server 2003 SP2 Windows Vista Windows Server 2008 [ 1 ] Platform cf. § system requirements Included with Windows 7 Windows Server 2008 R2 [ 2 ] Predecessor Internet Explorer 7 (2006) Successor Internet Explorer 9 (2011) Type Web browser Aggregator FTP client License Proprietary , requires Windows license Website Internet Explorer 8 (archived at Wayback Machine )",
+  "imageCaptions": [
+    "",
+    "Screenshot of Internet Explorer 8"
+  ]
+}

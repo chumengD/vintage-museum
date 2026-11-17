@@ -1,0 +1,45 @@
+[
+  {
+    "id": "wiki-windows-media-player",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Windows_Media_Player",
+    "title": "Windows Media Player",
+    "language": "en",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:26.622334+00:00",
+    "htmlSha256": "ad733c5ce00ff2105886f6d5cb48862528ccafe929b48d1307418d3b71446f7e",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-windows-media-player.json",
+    "revisionId": 1384566151,
+    "revisionProvenance": "html_RLCONF",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1384566151",
+    "apiRevisionId": 1384566151,
+    "apiRevisionTimestamp": "2026-11-08T22:10:58Z",
+    "revisionTimestamp": "2026-11-08T22:10:58Z",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "official-wmp9",
+    "kind": "official",
+    "url": "https://news.microsoft.com/source/2003/01/07/microsoft-announces-digital-media-upgrade-for-windows-xp-with-final-release-of-windows-media-player-9-series-and-windows-movie-maker-2/",
+    "title": "微软：Windows Media Player 9 Series正式发布",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:37.128025+00:00",
+    "htmlSha256": "19a94f92606843fe10c222b22cf9c278e10fc416a646900e78fb0f14e39317ee",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-wmp9.json",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "official-wmp11",
+    "kind": "official",
+    "url": "https://news.microsoft.com/source/2006/10/30/microsoft-releases-windows-media-player-11-for-windows-xp/",
+    "title": "微软：面向Windows XP的Windows Media Player 11发布",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:37.630859+00:00",
+    "htmlSha256": "684e3af443e89f31593630662614f45db4bc57ced1e532555bc69d110c51eef2",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-wmp11.json",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

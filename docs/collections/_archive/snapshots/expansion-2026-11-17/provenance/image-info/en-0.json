@@ -1,0 +1,2652 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=File%3AAndroid_2023_3D_logo_and_wordmark.svg%7CFile%3AAndroid_4.0.png%7CFile%3AAndroid_Cupcake_home_screen.jpg%7CFile%3AAndroid_Lollipop_screenshot.png%7CFile%3AAndroid_screenshot.png%7CFile%3AFirefox_logo%2C_2019.svg%7CFile%3AGoogle_Chrome.svg%7CFile%3AGoogle_Chrome_on_Windows_10_screenshot.png%7CFile%3AIOS_4_Homescreen.png%7CFile%3AIOS_6_Home_Screen.png%7CFile%3AIOS_7.1_homescreen.png%7CFile%3AIOS_wordmark_%282017%29.svg%7CFile%3AIPhone_OS_1_SS.png%7CFile%3AIPhone_OS_3_iPhone_3GS.png%7CFile%3AInternet_Explorer_10%2B11_logo.svg%7CFile%3AInternet_Explorer_11_screenshot.png%7CFile%3AInternet_Explorer_4_and_5_logo.svg%7CFile%3AInternet_Explorer_6.png%7CFile%3AInternet_Explorer_7_and_8_logo.svg%7CFile%3AInternet_Explorer_8.png%7CFile%3AMSN_Messenger_1.0.png%7CFile%3AMSN_Messenger_4.6.png%7CFile%3AMSN_Messenger_logo.png%7CFile%3ANexus_5_%28Android_4.4.2%29_Screenshot.jpg%7CFile%3AWinAmp_5.9.2%2C_Windows_10.png%7CFile%3AWinamp2.PNG%7CFile%3AWinamp_media_player_logomark.png%7CFile%3AWindows-Live-Messenger-80-236x300.png%7CFile%3AWindows_Media_Player_12%2C_under_Windows_11.png%7CFile%3AWindows_Media_Player_12_Logo.png%7CFile%3AXunlei_Limited_logo.jpg&prop=imageinfo&iiprop=url%7Csize%7Csha1%7Ctimestamp%7Cextmetadata&format=json&formatversion=2&redirects=1",
+    "resolvedUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=File%3AAndroid_2023_3D_logo_and_wordmark.svg%7CFile%3AAndroid_4.0.png%7CFile%3AAndroid_Cupcake_home_screen.jpg%7CFile%3AAndroid_Lollipop_screenshot.png%7CFile%3AAndroid_screenshot.png%7CFile%3AFirefox_logo%2C_2019.svg%7CFile%3AGoogle_Chrome.svg%7CFile%3AGoogle_Chrome_on_Windows_10_screenshot.png%7CFile%3AIOS_4_Homescreen.png%7CFile%3AIOS_6_Home_Screen.png%7CFile%3AIOS_7.1_homescreen.png%7CFile%3AIOS_wordmark_%282017%29.svg%7CFile%3AIPhone_OS_1_SS.png%7CFile%3AIPhone_OS_3_iPhone_3GS.png%7CFile%3AInternet_Explorer_10%2B11_logo.svg%7CFile%3AInternet_Explorer_11_screenshot.png%7CFile%3AInternet_Explorer_4_and_5_logo.svg%7CFile%3AInternet_Explorer_6.png%7CFile%3AInternet_Explorer_7_and_8_logo.svg%7CFile%3AInternet_Explorer_8.png%7CFile%3AMSN_Messenger_1.0.png%7CFile%3AMSN_Messenger_4.6.png%7CFile%3AMSN_Messenger_logo.png%7CFile%3ANexus_5_%28Android_4.4.2%29_Screenshot.jpg%7CFile%3AWinAmp_5.9.2%2C_Windows_10.png%7CFile%3AWinamp2.PNG%7CFile%3AWinamp_media_player_logomark.png%7CFile%3AWindows-Live-Messenger-80-236x300.png%7CFile%3AWindows_Media_Player_12%2C_under_Windows_11.png%7CFile%3AWindows_Media_Player_12_Logo.png%7CFile%3AXunlei_Limited_logo.jpg&prop=imageinfo&iiprop=url%7Csize%7Csha1%7Ctimestamp%7Cextmetadata&format=json&formatversion=2&redirects=1",
+    "retrievedAt": "2026-11-17T04:23:09.044581+00:00",
+    "contentType": "application/json; charset=utf-8",
+    "sha256": "408a4d3dfbb3209a642e73d715d25ac759e5c083a3847f22d69244af84e3aff5",
+    "bytes": 69129,
+    "httpStatus": 200
+  },
+  "response": {
+    "batchcomplete": true,
+    "query": {
+      "normalized": [
+        {
+          "fromencoded": false,
+          "from": "File:Android_2023_3D_logo_and_wordmark.svg",
+          "to": "File:Android 2023 3D logo and wordmark.svg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Android_4.0.png",
+          "to": "File:Android 4.0.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Android_Cupcake_home_screen.jpg",
+          "to": "File:Android Cupcake home screen.jpg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Android_Lollipop_screenshot.png",
+          "to": "File:Android Lollipop screenshot.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Android_screenshot.png",
+          "to": "File:Android screenshot.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Firefox_logo,_2019.svg",
+          "to": "File:Firefox logo, 2019.svg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Google_Chrome.svg",
+          "to": "File:Google Chrome.svg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Google_Chrome_on_Windows_10_screenshot.png",
+          "to": "File:Google Chrome on Windows 10 screenshot.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:IOS_4_Homescreen.png",
+          "to": "File:IOS 4 Homescreen.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:IOS_6_Home_Screen.png",
+          "to": "File:IOS 6 Home Screen.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:IOS_7.1_homescreen.png",
+          "to": "File:IOS 7.1 homescreen.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:IOS_wordmark_(2017).svg",
+          "to": "File:IOS wordmark (2017).svg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:IPhone_OS_1_SS.png",
+          "to": "File:IPhone OS 1 SS.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:IPhone_OS_3_iPhone_3GS.png",
+          "to": "File:IPhone OS 3 iPhone 3GS.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Internet_Explorer_10+11_logo.svg",
+          "to": "File:Internet Explorer 10+11 logo.svg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Internet_Explorer_11_screenshot.png",
+          "to": "File:Internet Explorer 11 screenshot.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Internet_Explorer_4_and_5_logo.svg",
+          "to": "File:Internet Explorer 4 and 5 logo.svg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Internet_Explorer_6.png",
+          "to": "File:Internet Explorer 6.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Internet_Explorer_7_and_8_logo.svg",
+          "to": "File:Internet Explorer 7 and 8 logo.svg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Internet_Explorer_8.png",
+          "to": "File:Internet Explorer 8.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:MSN_Messenger_1.0.png",
+          "to": "File:MSN Messenger 1.0.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:MSN_Messenger_4.6.png",
+          "to": "File:MSN Messenger 4.6.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:MSN_Messenger_logo.png",
+          "to": "File:MSN Messenger logo.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Nexus_5_(Android_4.4.2)_Screenshot.jpg",
+          "to": "File:Nexus 5 (Android 4.4.2) Screenshot.jpg"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:WinAmp_5.9.2,_Windows_10.png",
+          "to": "File:WinAmp 5.9.2, Windows 10.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Winamp_media_player_logomark.png",
+          "to": "File:Winamp media player logomark.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Windows_Media_Player_12,_under_Windows_11.png",
+          "to": "File:Windows Media Player 12, under Windows 11.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Windows_Media_Player_12_Logo.png",
+          "to": "File:Windows Media Player 12 Logo.png"
+        },
+        {
+          "fromencoded": false,
+          "from": "File:Xunlei_Limited_logo.jpg",
+          "to": "File:Xunlei Limited logo.jpg"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 6,
+          "title": "File:Nexus 5 (Android 4.4.2) Screenshot.jpg",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2014-04-19T21:58:44Z",
+              "size": 86854,
+              "width": 1080,
+              "height": 1920,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Nexus_5_%28Android_4.4.2%29_Screenshot.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nexus_5_(Android_4.4.2)_Screenshot.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/32273914",
+              "sha1": "397f3eeca65bff34e2229aaaaf186f7e450c2c39",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-04-19 21:58:44",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Nexus 5 (Android 4.4.2) Screenshot",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Apache License|Images with inappropriate JPEG compression|With trademark|Free screenshots|Screenshots of Android 4.4",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Screenshot of Android 4.4.2 KitKat running on a <a href=\"https://en.wikipedia.org/wiki/Nexus_5\" class=\"extiw\" title=\"w:Nexus 5\">Nexus 5</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-04-19 17:57:08",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hardcorewhovian&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hardcorewhovian (page does not exist)\">Hardcorewhovian</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Apache License 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Apache License, Version 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://www.apache.org/licenses/LICENSE-2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Internet Explorer 4 and 5 logo.svg",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2013-05-14T14:03:58Z",
+              "size": 2909,
+              "width": 142,
+              "height": 146,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Internet_Explorer_4_and_5_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Internet_Explorer_4_and_5_logo.svg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/25997424",
+              "sha1": "1aa3e13e6a25cf20f6d73f1c987b22991078dba4",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-05-14 14:03:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Internet Explorer 4 and 5 logo",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "With trademark|PD textlogo|SVG text logos|Unknown date|Internet Explorer logos|E in logos|Valid SVG created with Inkscape:Text logos|Blue Microsoft logos|Internet Explorer 5",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "This is a logo for Internet Explorer 4 and for Internet Explorer 5.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "Unknown date",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Transferred form <a href=\"https://en.wikipedia.org/wiki/en:File:Internet_Explorer_5_logo.svg\" class=\"extiw\" title=\"w:en:File:Internet Explorer 5 logo.svg\">English wiki</a>.",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Microsoft",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Internet Explorer 10+11 logo.svg",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2022-12-27T12:19:45Z",
+              "size": 2422,
+              "width": 223,
+              "height": 219,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Internet_Explorer_10%2B11_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Internet_Explorer_10%2B11_logo.svg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/25997921",
+              "sha1": "a6bdeec0e9933991796692f8045eaccd04a942b0",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2022-12-27 12:19:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Internet Explorer 10+11 logo",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "With trademark|PD textlogo|SVG text logos|Internet Explorer logos|E in logos|Valid SVG created with Inkscape:Text logos|Blue Microsoft logos|Internet Explorer 10",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "The <a href=\"https://en.wikipedia.org/wiki/Internet_Explorer_10\" class=\"extiw\" title=\"w:Internet Explorer 10\">Internet Explorer 10</a> logo",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "10 May 2013, 10:50:28",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Extracted from <a href=\"https://en.wikipedia.org/wiki/File:IE10_Wikipedia.png\" class=\"extiw\" title=\"w:File:IE10 Wikipedia.png\">File:IE10 Wikipedia.png</a> (color) and <a href=\"//commons.wikimedia.org/wiki/File:Internet_Explorer_10_icon.svg\" class=\"mw-redirect\" title=\"File:Internet Explorer 10 icon.svg\">File:Internet Explorer 10 icon.svg</a> (shape).",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Microsoft",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:IOS wordmark (2017).svg",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2022-10-29T04:15:57Z",
+              "size": 1443,
+              "width": 118,
+              "height": 58,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/IOS_wordmark_%282017%29.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:IOS_wordmark_(2017).svg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/59644784",
+              "sha1": "b388f18b462fc858db31721681684b1bf7353b62",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2022-10-29 04:15:57",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "IOS wordmark (2017)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "With trademark|PD textlogo|SVG simple text logos|3 letter logos|Valid SVG created with Sketch|IOS wordmarks|SVG black text logos with transparent background|2017 SVG logos",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Wordmark of Apple's iOS operating system.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2017-06-06",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Own work using: <a rel=\"nofollow\" class=\"external free\" href=\"https://www.apple.com\">https://www.apple.com</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<p><b>Original: </b> Apple Inc.\n</p>\n<b>Vectorization: </b> <a href=\"//commons.wikimedia.org/wiki/User:Totie\" class=\"mw-redirect\" title=\"User:Totie\">Totie</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Google Chrome.svg",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2023-10-15T14:21:39Z",
+              "size": 1429,
+              "width": 48,
+              "height": 48,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Google_Chrome_icon_(February_2022).svg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/114993646",
+              "sha1": "100330f83afe9649a4c8d76e3d6bf36a127ba9a5",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-10-15 14:21:39",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Google Chrome icon (February 2022)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "With trademark|PD shape|PD textlogo|SVG text logos|Google Chrome logos|Valid SVG created with Text Editor:Icons|TOO-United States",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Google_Chrome\" class=\"extiw\" title=\"w:Google Chrome\">Google Chrome</a> logo and computer icon, with <a href=\"https://en.wikipedia.org/wiki/Material_Design\" class=\"extiw\" title=\"w:Material Design\">Material Design</a> motif officially used since 29 March 2022.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2022-02-04",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.google.com/chrome/static/images/chrome-logo.svg\">https://www.google.com/chrome/static/images/chrome-logo.svg</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Google",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Firefox logo, 2019.svg",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2025-04-01T13:08:10Z",
+              "size": 10472,
+              "width": 512,
+              "height": 512,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Firefox_logo,_2019.svg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/81490422",
+              "sha1": "41f653895f6666c275a04707e29e734ac2c8a0bb",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-04-01 13:08:10",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Firefox logo, 2019",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Mozilla Firefox logos|Mozilla Public License|With trademark|SVG free software logos|Valid SVG created with Other tools:Text logos|SVG foxes|Mozilla Firefox source files",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Logo\" class=\"extiw\" title=\"en:Logo\">Logo</a> used since <a href=\"https://en.wikipedia.org/wiki/Firefox\" class=\"extiw\" title=\"en:Firefox\">Firefox</a> 70 or later, (October 22, 2019)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2019-06-11",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://phabricator.services.mozilla.com/D41016\">https://phabricator.services.mozilla.com/D41016</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Mozilla Corporation",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://hg.mozilla.org/mozilla-central/file/c75d6a0539eb4b2c7961f0c9782fcb364198c6b2/browser/branding/official/LICENSE\">https://hg.mozilla.org/mozilla-central/file/c75d6a0539eb4b2c7961f0c9782fcb364198c6b2/browser/branding/official/LICENSE</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "MPL 2",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Mozilla Public License Version 2",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://www.mozilla.org/en-US/MPL/2.0/",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Android screenshot.png",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2011-01-10T16:03:25Z",
+              "size": 291624,
+              "width": 480,
+              "height": 800,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Android_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Android_screenshot.png",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/12372134",
+              "sha1": "7d5d74504eb2e948ba8f6ba1d3d08f9fc544af21",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-01-10 16:03:25",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Android screenshot",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GPL|Apache License|With trademark|Free screenshots|Screenshots of Android 2.3",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Screenshot of Android Emulator for SDK (latest version, now v2.3)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "Screenshot: 7 December 2010",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Android SDK",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Android Developers <a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://developer.android.com/index.html\" href=\"https://developer.android.com/index.html\">http://developer.android.com/index.html</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Apache License 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Apache License, Version 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://www.apache.org/licenses/LICENSE-2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Android Lollipop screenshot.png",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2023-09-20T09:34:44Z",
+              "size": 532439,
+              "width": 1080,
+              "height": 1920,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Android_Lollipop_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Android_Lollipop_screenshot.png",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/137853922",
+              "sha1": "1d5c1def5e36f8da9b74a4a4e1f21eba1aff4d5a",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-09-20 09:34:44",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Android Lollipop screenshot",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Apache License|With trademark|Free screenshots|Screenshots of Android 5.1",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Screenshot of Android Lollipop (5.1.1) running  on Google Nexus 5 (AVD Emulator)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-09-20",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Own work using AVD emulator",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Google LLC, The Android Open Source Project",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Apache License 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Apache License, Version 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://www.apache.org/licenses/LICENSE-2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Android Cupcake home screen.jpg",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2017-01-16T07:48:53Z",
+              "size": 46908,
+              "width": 320,
+              "height": 480,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Android_Cupcake_home_screen.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Android_Cupcake_home_screen.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/55057830",
+              "sha1": "8ee6667fec7130f4dec0650313066b643462f8c4",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-01-16 07:48:53",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Android Cupcake home screen",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Apache License|With trademark|Free screenshots|Screenshots of Android 1.5|Frutiger Aero operating system screenshots",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Android Cupcake home screen",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2009-04-27 12:42",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Android Police",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Android Police",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Apache License 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Apache License, Version 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://www.apache.org/licenses/LICENSE-2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Android 4.0.png",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2015-04-10T06:36:38Z",
+              "size": 751129,
+              "width": 720,
+              "height": 1280,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Android_4.0.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Android_4.0.png",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/137803910",
+              "sha1": "88814185ca72541163ae9432bd88b0a70178262b",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-04-10 06:36:38",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Android 4.0",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Galaxy Nexus|With trademark|License review needed|Screenshots of Android 4.0.x",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Android_(operating_system)\" class=\"extiw\" title=\"w:en:Android (operating system)\">Android</a> 4.0 on the <a href=\"https://en.wikipedia.org/wiki/en:Galaxy_Nexus\" class=\"extiw\" title=\"w:en:Galaxy Nexus\">Galaxy Nexus</a>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2011-10",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" data-mw-original-href=\"http://developer.android.com/sdk/android-4.0-highlights.html\" href=\"https://developer.android.com/sdk/android-4.0-highlights.html\">http://developer.android.com/sdk/android-4.0-highlights.html</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "The Android Open Source project",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.5",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.5",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.5",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.5",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ns": 6,
+          "title": "File:Android 2023 3D logo and wordmark.svg",
+          "missing": true,
+          "known": true,
+          "imagerepository": "shared",
+          "imageinfo": [
+            {
+              "timestamp": "2023-09-18T03:31:10Z",
+              "size": 50879,
+              "width": 797,
+              "height": 126,
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Android_2023_3D_logo_and_wordmark.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Android_2023_3D_logo_and_wordmark.svg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/137764496",
+              "sha1": "b98f1c0cd48e203e4e165737dc57c3bd68e2c8cd",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-09-18 03:31:10",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Android 2023 3D logo and wordmark",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "With trademark|Invalid SVG created with Inkscape:Text logos|Vectorizations|Bugdroid (Android mascot)|Android SVG logos",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<bdi lang=\"en\">The logo of <bdi lang=\"\"><a href=\"https://en.wikipedia.org/wiki/en:Android_(operating_system)\" class=\"extiw\" title=\"w:en:Android (operating system)\"><span title=\"operating system created by Google for use on mobile devices\">Android</span></a> – operating system created by Google for use on mobile devices</bdi></bdi><br><small>(as seen on <a rel=\"nofollow\" class=\"external text\" href=\"https://android.com\">official website</a>)</small>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-07-04",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://logos.fandom.com/wiki/File:Android_2023.svg\">Logopedia</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Android_(operating_system)\" class=\"extiw\" title=\"w:en:Android (operating system)\"><span title=\"operating system created by Google for use on mobile devices\">Android</span></a>\n</bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Attribution": {
+                  "value": "Android is a trademark of Google LLC",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "trademarked",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 11958927,
+          "ns": 6,
+          "title": "File:MSN Messenger logo.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2012-02-05T21:21:43Z",
+              "size": 16677,
+              "width": 352,
+              "height": 70,
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/ed/MSN_Messenger_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:MSN_Messenger_logo.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/11958927",
+              "sha1": "a44d4fafa0741df6c6e535d04979f237f04c2ed1",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-02-05 21:21:43",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "MSN Messenger logo",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free logos|Logo images that should be in SVG format|All non-free media|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with redirect backlink|Wikipedia non-free files with valid backlink",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p>Copied from Microsoft web site, and intellectual property owned by Microsoft.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_Live_Messenger\" class=\"mw-redirect\" title=\"Windows Live Messenger\">Windows Live Messenger</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 12987758,
+          "ns": 6,
+          "title": "File:Winamp2.PNG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2025-09-19T02:49:34Z",
+              "size": 34015,
+              "width": 275,
+              "height": 348,
+              "url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Winamp2.PNG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Winamp2.PNG",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/12987758",
+              "sha1": "8022b19284a2c6062cd78d70e2f4f69ed0517f7c",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-09-19 02:49:34",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Winamp2",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Media players|Screenshots of Windows software|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Non-free images tagged for no reduction",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p>Taken from a <a href=\"//en.wikipedia.org/wiki/Windows_10\" title=\"Windows 10\">Windows 10</a> PC with Winamp 2 installed.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Winamp\" title=\"Winamp\">Winamp</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 19075972,
+          "ns": 6,
+          "title": "File:Internet Explorer 8.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2017-01-22T06:24:44Z",
+              "size": 120115,
+              "width": 404,
+              "height": 247,
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/eb/Internet_Explorer_8.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Internet_Explorer_8.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/19075972",
+              "sha1": "17c7da125a855a2fb067e77fe964c894552a0959",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-01-22 06:24:44",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Internet Explorer 8",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable author|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Screenshots of Internet Explorer",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<p>Internet Explorer 8 <a href=\"//en.wikipedia.org/wiki/Software_release_life_cycle#RTM\" title=\"Software release life cycle\">RTM</a>, viewing Wikipedia's main page, running on <a href=\"//en.wikipedia.org/wiki/Windows_7\" title=\"Windows 7\">Windows 7</a>\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Self-created\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 36028515,
+          "ns": 6,
+          "title": "File:Internet Explorer 6.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2015-12-14T06:00:45Z",
+              "size": 109517,
+              "width": 379,
+              "height": 262,
+              "url": "https://upload.wikimedia.org/wikipedia/en/e/e8/Internet_Explorer_6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Internet_Explorer_6.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/36028515",
+              "sha1": "15d84f6d200163b512ca24ff7f75b75fbe2f1b68",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-12-14 06:00:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Internet Explorer 6",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable author|Screenshots of Windows XP|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Screenshots of Internet Explorer",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<p>This is a <a href=\"//en.wikipedia.org/wiki/Screenshot\" title=\"Screenshot\">screenshot</a> of <a href=\"//en.wikipedia.org/wiki/Internet_Explorer\" title=\"Internet Explorer\">Internet Explorer</a> 6.0 running on Windows XP showing <a href=\"//en.wikipedia.org/wiki/Wikipedia\" title=\"Wikipedia\">Wikipedia</a>.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Shot by <a href=\"//en.wikipedia.org/wiki/User:Minghong\" title=\"User:Minghong\">Minghong</a> (<a href=\"//en.wikipedia.org/wiki/User_talk:Minghong\" title=\"User talk:Minghong\">talk</a> <b>·</b> <a href=\"//en.wikipedia.org/wiki/Special:Contributions/Minghong\" title=\"Special:Contributions/Minghong\">contribs</a>)\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 37500638,
+          "ns": 6,
+          "title": "File:IOS 6 Home Screen.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2018-01-10T06:38:59Z",
+              "size": 167563,
+              "width": 237,
+              "height": 420,
+              "url": "https://upload.wikimedia.org/wikipedia/en/7/7d/IOS_6_Home_Screen.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:IOS_6_Home_Screen.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/37500638",
+              "sha1": "4c09863625cef19e32fea39272c2a76fd99ac14c",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-01-10 06:38:59",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "IOS 6 Home Screen",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Files with no machine-readable author|Wikipedia non-free files with NFUR stated|Noindexed pages|Screenshots of iOS software|Wikipedia non-free files with valid backlink",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<p>The iPhone home screen in iOS 6 on an <a href=\"//en.wikipedia.org/wiki/IPhone_5\" title=\"IPhone 5\">iPhone 5</a>.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Self-taken screenshot from an iPhone 5.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 42630865,
+          "ns": 6,
+          "title": "File:IOS 7.1 homescreen.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2017-12-20T23:21:44Z",
+              "size": 169370,
+              "width": 237,
+              "height": 420,
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a4/IOS_7.1_homescreen.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:IOS_7.1_homescreen.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/42630865",
+              "sha1": "ad1dc906ca78679df82cb22239a769aa3cfa0777",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-12-20 23:21:44",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "IOS 7.1 homescreen",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Files with no machine-readable author|Wikipedia non-free files with NFUR stated|Noindexed pages|Screenshots of iOS software|Wikipedia non-free files with valid backlink",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<p>To illustrate the default layout and configuration of the iOS 7 homescreen as released by Apple.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Self-taken screenshot from an iPhone.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 44971457,
+          "ns": 6,
+          "title": "File:IOS 4 Homescreen.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2017-11-17T06:11:22Z",
+              "size": 189925,
+              "width": 258,
+              "height": 387,
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/43/IOS_4_Homescreen.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:IOS_4_Homescreen.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/44971457",
+              "sha1": "3c7aceccad49f1e6aee467863b9db48cd9482a28",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-11-17 06:11:22",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "IOS 4 Homescreen",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Files with no machine-readable author|Wikipedia non-free files with NFUR stated|Noindexed pages|Screenshots of iOS software|Wikipedia non-free files with valid backlink",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<p>To illustrate the default layout and configuration of the iOS 4 home screen as released by Apple.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>www.apple.com\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 50345650,
+          "ns": 6,
+          "title": "File:Internet Explorer 11 screenshot.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2023-05-24T18:40:19Z",
+              "size": 138374,
+              "width": 543,
+              "height": 347,
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/00/Internet_Explorer_11_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Internet_Explorer_11_screenshot.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/50345650",
+              "sha1": "2be5323bdf514534251fe3ab5f18acd3c56a97f1",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-05-24 18:40:19",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Internet Explorer 11 screenshot",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Non-free files with no derivative works licenses|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Screenshots of Internet Explorer|Non-free images tagged for no reduction|Screenshots of Windows 10",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<p>Screenshot of <a href=\"//en.wikipedia.org/wiki/Internet_Explorer_11\" title=\"Internet Explorer 11\">Internet Explorer 11</a> on <a href=\"//en.wikipedia.org/wiki/Windows_10\" title=\"Windows 10\">Windows 10</a>, version 22H2. Used with permission from Microsoft.\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Shot and uploaded by <a href=\"//en.wikipedia.org/w/index.php?title=User:George12345678a&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:George12345678a (page does not exist)\">George12345678a</a> (<a href=\"//en.wikipedia.org/w/index.php?title=User_talk:George12345678a&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User talk:George12345678a (page does not exist)\">talk</a> <b>·</b> <a href=\"//en.wikipedia.org/wiki/Special:Contributions/George12345678a\" title=\"Special:Contributions/George12345678a\">contribs</a>) on 24 May 2023\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<p>Microsoft\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 55828054,
+          "ns": 6,
+          "title": "File:Xunlei Limited logo.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2017-11-18T15:59:25Z",
+              "size": 10553,
+              "width": 284,
+              "height": 128,
+              "url": "https://upload.wikimedia.org/wikipedia/en/2/22/Xunlei_Limited_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Xunlei_Limited_logo.jpg",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/55828054",
+              "sha1": "21644e1a15a93f7126a470e86b038ab53958119c",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-11-18 15:59:25",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Xunlei Limited logo",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Technology company logos|All non-free logos|All non-free media|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Completed non-free use rationale logo transclusions",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"http://xunlei.com/\">http://xunlei.com/</a>\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Xunlei\" title=\"Xunlei\">Xunlei</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 59412481,
+          "ns": 6,
+          "title": "File:Google Chrome on Windows 10 screenshot.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2025-03-29T04:46:14Z",
+              "size": 163576,
+              "width": 640,
+              "height": 480,
+              "url": "https://upload.wikimedia.org/wikipedia/en/5/51/Google_Chrome_on_Windows_10_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Google_Chrome_on_Windows_10_screenshot.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/59412481",
+              "sha1": "2861591fe74893fc2d9d84cf96281d5f370195bb",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-03-29 04:46:14",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Google Chrome on Windows 10 screenshot",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Non-free images tagged for no reduction|Screenshots of web browsers",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "Google LLC",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Screenshot taken from my Windows 11 machine.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Google_Chrome\" title=\"Google Chrome\">Google Chrome</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 59812565,
+          "ns": 6,
+          "title": "File:MSN Messenger 1.0.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2019-01-30T19:33:36Z",
+              "size": 11399,
+              "width": 209,
+              "height": 380,
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/82/MSN_Messenger_1.0.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:MSN_Messenger_1.0.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/59812565",
+              "sha1": "f36b4599ff11d9a2f604332c9c2d05a58f223924",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-01-30 19:33:36",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "MSN Messenger 1.0",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Screenshots of Windows software|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with redirect backlink|Wikipedia non-free files with valid backlink",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://msngined.wordpress.com/msn-messenger-1-0-0889/\">https://msngined.wordpress.com/msn-messenger-1-0-0889/</a>\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_Live_Messenger\" class=\"mw-redirect\" title=\"Windows Live Messenger\">Windows Live Messenger</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 59812576,
+          "ns": 6,
+          "title": "File:MSN Messenger 4.6.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2019-01-30T19:35:19Z",
+              "size": 69926,
+              "width": 209,
+              "height": 380,
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a4/MSN_Messenger_4.6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:MSN_Messenger_4.6.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/59812576",
+              "sha1": "f548250f45541fb416593efa17822dc48f969a63",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-01-30 19:35:19",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "MSN Messenger 4.6",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Screenshots of Windows software|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with redirect backlink|Wikipedia non-free files with valid backlink",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://msngined.wordpress.com/msn-messenger-4-6-0079/\">https://msngined.wordpress.com/msn-messenger-4-6-0079/</a>\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_Live_Messenger\" class=\"mw-redirect\" title=\"Windows Live Messenger\">Windows Live Messenger</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 59812600,
+          "ns": 6,
+          "title": "File:Windows-Live-Messenger-80-236x300.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2019-01-30T19:37:48Z",
+              "size": 65721,
+              "width": 236,
+              "height": 300,
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/9b/Windows-Live-Messenger-80-236x300.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows-Live-Messenger-80-236x300.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/59812600",
+              "sha1": "08490e8f04d4e627f82088ffb57df5dbf5a8c9f5",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-01-30 19:37:48",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Windows-Live-Messenger-80-236x300",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Screenshots of Windows software|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with redirect backlink|Wikipedia non-free files with valid backlink",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://www.trutower.com/2013/01/10/microsoft-windows-live-messenger-retrospective/windows-live-messenger-80/\">https://www.trutower.com/2013/01/10/microsoft-windows-live-messenger-retrospective/windows-live-messenger-80/</a>\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_Live_Messenger\" class=\"mw-redirect\" title=\"Windows Live Messenger\">Windows Live Messenger</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 73641851,
+          "ns": 6,
+          "title": "File:Internet Explorer 7 and 8 logo.svg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2023-04-26T00:05:24Z",
+              "size": 33294,
+              "width": 324,
+              "height": 308,
+              "url": "https://upload.wikimedia.org/wikipedia/en/9/9a/Internet_Explorer_7_and_8_logo.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Internet_Explorer_7_and_8_logo.svg",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/73641851",
+              "sha1": "9f8ed3fa266b1c19d1d0bd33ba644e78eaa1e2b3",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-04-26 00:05:24",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Internet Explorer 7 and 8 logo",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Non-free computer icons|Files with no machine-readable author|Files with no machine-readable description|SVG images of trademarks|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia images in SVG format|Wikipedia non-free files with valid backlink|Computer icons of Microsoft|Completed non-free use rationale logo transclusions",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p>The logo is from the following website: <span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.microsoft.com\">Official website</a></span></span>\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Internet_Explorer_7\" title=\"Internet Explorer 7\">Internet Explorer 7</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 74892086,
+          "ns": 6,
+          "title": "File:Windows Media Player 12 Logo.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2023-09-23T19:05:16Z",
+              "size": 32979,
+              "width": 256,
+              "height": 256,
+              "url": "https://upload.wikimedia.org/wikipedia/en/0/00/Windows_Media_Player_12_Logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_Media_Player_12_Logo.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/74892086",
+              "sha1": "b0bd965bf9dafc426b806e40c8939be452abefef",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-09-23 19:05:16",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Windows Media Player 12 Logo",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Non-free computer icons|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Completed non-free use rationale logo transclusions",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p>The logo is from the following website: <span class=\"official-website\"><span class=\"url\"><a rel=\"nofollow\" class=\"external text\" href=\"https://microsoft.com/\">Official website</a></span></span>\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_Media_Player\" title=\"Windows Media Player\">Windows Media Player</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 79397251,
+          "ns": 6,
+          "title": "File:IPhone OS 3 iPhone 3GS.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2025-03-06T19:16:42Z",
+              "size": 121979,
+              "width": 258,
+              "height": 387,
+              "url": "https://upload.wikimedia.org/wikipedia/en/5/5d/IPhone_OS_3_iPhone_3GS.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:IPhone_OS_3_iPhone_3GS.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/79397251",
+              "sha1": "810db7228f9489eb92d40964f06b78c7891bb56e",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-03-06 19:16:42",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "IPhone OS 3 iPhone 3GS",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Wikipedia non-free files for NFUR review|Screenshots of software|Files with no machine-readable description|Noindexed pages|Screenshots of iOS software",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "Apple",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<b>Original publication</b>: iPhone OS 3<br>\n<p><b>Immediate source:</b> iPhone 3GS\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/IPhone_OS_3\" title=\"IPhone OS 3\">iPhone OS 3</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 79784719,
+          "ns": 6,
+          "title": "File:Windows Media Player 12, under Windows 11.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2025-04-23T06:36:18Z",
+              "size": 260332,
+              "width": 640,
+              "height": 480,
+              "url": "https://upload.wikimedia.org/wikipedia/en/8/85/Windows_Media_Player_12%2C_under_Windows_11.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_Media_Player_12,_under_Windows_11.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/79784719",
+              "sha1": "4b778449f756aaf3d79a6fb2bbb26fd7854f7ec0",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-04-23 06:36:18",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Windows Media Player 12, under Windows 11",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Non-free images tagged for no reduction|Non-free rationale as na|Screenshots of software on Windows 11",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "Microsoft",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://microsoft.com\">https://microsoft.com</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_Media_Player\" title=\"Windows Media Player\">Windows Media Player</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 80922607,
+          "ns": 6,
+          "title": "File:Winamp media player logomark.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2025-08-31T00:06:12Z",
+              "size": 55038,
+              "width": 658,
+              "height": 151,
+              "url": "https://upload.wikimedia.org/wikipedia/en/4/41/Winamp_media_player_logomark.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:Winamp_media_player_logomark.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/80922607",
+              "sha1": "c3d717d10d0d09ee5c4d314e3aa18a343b1a5bd9",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-08-31 00:06:12",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Winamp media player logomark",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free logos|All non-free media|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Completed non-free use rationale logo transclusions",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p>Winamp 5.666 decompiled\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Winamp\" title=\"Winamp\">Winamp</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 81119271,
+          "ns": 6,
+          "title": "File:WinAmp 5.9.2, Windows 10.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2025-09-19T02:02:50Z",
+              "size": 114321,
+              "width": 267,
+              "height": 422,
+              "url": "https://upload.wikimedia.org/wikipedia/en/6/6d/WinAmp_5.9.2%2C_Windows_10.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:WinAmp_5.9.2,_Windows_10.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/81119271",
+              "sha1": "dae0b650ef7a9c88cf574e9d92d4e3fd29b24483",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-09-19 02:02:50",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "WinAmp 5.9.2, Windows 10",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Screenshots of Windows software|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Non-free images tagged for no reduction",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Credit": {
+                  "value": "<p>Taken from a PC with Winamp 5.9.2 running on <a href=\"//en.wikipedia.org/wiki/Windows_10\" title=\"Windows 10\">Windows 10</a>\n</p>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Winamp\" title=\"Winamp\">Winamp</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 83995519,
+          "ns": 6,
+          "title": "File:IPhone OS 1 SS.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "timestamp": "2026-08-17T00:06:58Z",
+              "size": 94744,
+              "width": 258,
+              "height": 387,
+              "url": "https://upload.wikimedia.org/wikipedia/en/a/a0/IPhone_OS_1_SS.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://en.wikipedia.org/wiki/File:IPhone_OS_1_SS.png",
+              "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/83995519",
+              "sha1": "27dee6f5adff89d076c5dacabc7fd90e828be5ce",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-08-17 00:06:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "IPhone OS 1 SS",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "All non-free media|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Screenshots of iOS software|Non-free rationale as na",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "Apple Inc.",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Taken by DylanMcD8 on his original <a href=\"//en.wikipedia.org/wiki/IPhone_2G\" class=\"mw-redirect\" title=\"IPhone 2G\">iPhone</a> - <a rel=\"nofollow\" class=\"external free\" href=\"https://x.com/DylanMcD8/status/2089092065422418397\">https://x.com/DylanMcD8/status/2089092065422418397</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Fair use",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/IPhone_OS_1\" title=\"IPhone OS 1\">iPhone OS 1</a>",
+                  "source": "commons-desc-page"
+                },
+                "NonFree": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

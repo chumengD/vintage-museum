@@ -1,0 +1,15 @@
+{
+  "products": 13,
+  "curatedVersions": 78,
+  "images": 59,
+  "originalImages": 59,
+  "officialIndexes": {
+    "wechat": 504,
+    "sogou-pinyin": 35
+  },
+  "originalSnapshotsPreserved": [
+    "starter-2026-11-17",
+    "expansion-2026-11-17"
+  ],
+  "note": "系列目录是日常入口；原始快照和旧ZIP保存在_archive，保留原路径体系及采集脚本。"
+}

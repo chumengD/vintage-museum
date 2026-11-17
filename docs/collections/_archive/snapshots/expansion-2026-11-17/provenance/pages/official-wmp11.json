@@ -1,0 +1,13 @@
+{
+  "fetch": {
+    "requestedUrl": "https://news.microsoft.com/source/2006/10/30/microsoft-releases-windows-media-player-11-for-windows-xp/",
+    "resolvedUrl": "https://news.microsoft.com/source/2006/10/30/microsoft-releases-windows-media-player-11-for-windows-xp/",
+    "retrievedAt": "2026-11-17T04:19:37.630859+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "684e3af443e89f31593630662614f45db4bc57ced1e532555bc69d110c51eef2",
+    "bytes": 143871,
+    "httpStatus": 200
+  },
+  "documentTitle": "Microsoft Releases Windows Media Player 11 for Windows XP - Source",
+  "dateTokens": []
+}

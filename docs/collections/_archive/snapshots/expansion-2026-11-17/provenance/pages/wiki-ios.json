@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/IOS",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/IOS",
+    "retrievedAt": "2026-11-17T04:19:28.166113+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "b43e07f078e178e0c4dab106e8ea598e51f16f3dd6958f2e24482a55c8bdceb3",
+    "bytes": 1110449,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "iOS",
+  "htmlRevisionId": 1386175971,
+  "infoboxText": "iOS iOS 27 home screen on an iPhone 17 Pro Developer Apple Written in C , C++ , Objective-C , Swift , assembly language OS family Unix-like , based on Darwin ( BSD ), macOS Working state Current Source model Closed , with open-source components Initial release June 29, 2007 ; 19 years ago ( 2007-06-29 ) Latest release 27.2.1 [ 1 ] (November 9, 2026 ; 8 days ago ( 2026-11-09 ) ) [ ± ] Marketing target iPhone iPad (until 13.0 ) iPod Touch (until 16.0 ) Available in 41 languages [ 2 ] List of languages Arabic, Bulgarian, Catalan, Chinese Simplified, Chinese Traditional (Hong Kong), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (United Kingdom), English (United States), Finnish, French (Canada), French (France), German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Slovak, Slovenian (iOS 18), Spanish (Latin America), Spanish (Spain), Swedish, Thai, Turkish, Ukrainian, Vietnamese Update method Over-the-air (since 5.0 ) Wired connection Supported platforms ARM architecture family ARM64 (since 7.0 ) ARM32 (until 11.0 ) Kernel type Hybrid ( XNU ) Default user interface Multi-touch GUI License Proprietary software except for open-source components Official website www .apple .com /ios / Articles in the series iOS version history",
+  "imageCaptions": [
+    "",
+    "iOS 27 home screen on an iPhone 17 Pro"
+  ]
+}

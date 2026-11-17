@@ -1,0 +1,24 @@
+{
+  "id": "internet-explorer",
+  "name": "Internet Explorer",
+  "category": "web_browser",
+  "developer": "Microsoft",
+  "summary": "蓝色e图标与早期网页浏览记忆。",
+  "versionIds": [
+    "ie-6",
+    "ie-8",
+    "ie-11"
+  ],
+  "logoAssetIds": [
+    "asset-internet-explorer-8dca730a6ce6",
+    "asset-internet-explorer-4d517bb8cf2e",
+    "asset-internet-explorer-c88b7d18205f"
+  ],
+  "referenceAssetIds": [],
+  "sourceIds": [
+    "wiki-internet-explorer"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

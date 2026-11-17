@@ -1,0 +1,89 @@
+{
+  "continue": {
+    "iistart": "2016-10-28T11:03:32Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_2.0.png",
+        "to": "File:Windows 2.0.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 18641654,
+        "ns": 6,
+        "title": "File:Windows 2.0.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-05-12T09:21:59Z",
+            "size": 41284,
+            "width": 365,
+            "height": 273,
+            "url": "https://upload.wikimedia.org/wikipedia/en/c/c9/Windows_2.0.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_2.0.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/18641654",
+            "sha1": "581905b75d1f98307cb00b77787c3ac4b86bc112",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-05-12 09:21:59",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows 2.0",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Screenshots of Microsoft Windows|All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable author|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Credit": {
+                "value": "<p>Microsoft.\n</p>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_2.0\" title=\"Windows 2.0\">Windows 2.0</a>",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

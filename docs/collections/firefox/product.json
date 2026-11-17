@@ -1,0 +1,22 @@
+{
+  "id": "firefox",
+  "name": "Mozilla Firefox",
+  "category": "web_browser",
+  "developer": "Mozilla",
+  "summary": "开源浏览器、标签页与扩展文化。",
+  "versionIds": [
+    "firefox-1-0",
+    "firefox-2-0",
+    "firefox-3-0"
+  ],
+  "logoAssetIds": [
+    "asset-firefox-f31b10673f2e"
+  ],
+  "referenceAssetIds": [],
+  "sourceIds": [
+    "wiki-firefox"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

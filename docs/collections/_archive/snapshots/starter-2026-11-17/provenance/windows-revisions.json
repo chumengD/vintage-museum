@@ -1,0 +1,187 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      {
+        "pageid": 33879,
+        "ns": 0,
+        "title": "Windows XP",
+        "revisions": [
+          {
+            "revid": 1385305241,
+            "parentid": 1384607537,
+            "timestamp": "2026-11-12T18:27:11Z"
+          }
+        ]
+      },
+      {
+        "pageid": 33941,
+        "ns": 0,
+        "title": "Windows 2000",
+        "revisions": [
+          {
+            "revid": 1384534746,
+            "parentid": 1383326844,
+            "timestamp": "2026-11-08T19:00:26Z"
+          }
+        ]
+      },
+      {
+        "pageid": 34064,
+        "ns": 0,
+        "title": "Windows 95",
+        "revisions": [
+          {
+            "revid": 1384981691,
+            "parentid": 1384981357,
+            "timestamp": "2026-11-11T05:29:37Z"
+          }
+        ]
+      },
+      {
+        "pageid": 75433,
+        "ns": 0,
+        "title": "Windows 98",
+        "revisions": [
+          {
+            "revid": 1384734291,
+            "parentid": 1383616917,
+            "timestamp": "2026-11-09T21:40:31Z"
+          }
+        ]
+      },
+      {
+        "pageid": 75458,
+        "ns": 0,
+        "title": "Windows Me",
+        "revisions": [
+          {
+            "revid": 1386050472,
+            "parentid": 1386049836,
+            "timestamp": "2026-11-16T16:50:49Z"
+          }
+        ]
+      },
+      {
+        "pageid": 326123,
+        "ns": 0,
+        "title": "Windows 7",
+        "revisions": [
+          {
+            "revid": 1386021256,
+            "parentid": 1384566112,
+            "timestamp": "2026-11-16T12:21:24Z"
+          }
+        ]
+      },
+      {
+        "pageid": 2289648,
+        "ns": 0,
+        "title": "Windows Vista",
+        "revisions": [
+          {
+            "revid": 1384607530,
+            "parentid": 1384376904,
+            "timestamp": "2026-11-09T02:52:05Z"
+          }
+        ]
+      },
+      {
+        "pageid": 21291384,
+        "ns": 0,
+        "title": "Windows 1.0",
+        "revisions": [
+          {
+            "revid": 1384946566,
+            "parentid": 1384946523,
+            "timestamp": "2026-11-10T23:48:50Z"
+          }
+        ]
+      },
+      {
+        "pageid": 21291678,
+        "ns": 0,
+        "title": "Windows 3.1",
+        "revisions": [
+          {
+            "revid": 1385682487,
+            "parentid": 1385682437,
+            "timestamp": "2026-11-14T18:15:23Z"
+          }
+        ]
+      },
+      {
+        "pageid": 21291898,
+        "ns": 0,
+        "title": "Windows 2.0",
+        "revisions": [
+          {
+            "revid": 1379690339,
+            "parentid": 1372871717,
+            "timestamp": "2026-10-11T10:16:56Z"
+          }
+        ]
+      },
+      {
+        "pageid": 21291914,
+        "ns": 0,
+        "title": "Windows 3.0",
+        "revisions": [
+          {
+            "revid": 1384607427,
+            "parentid": 1379690561,
+            "timestamp": "2026-11-09T02:51:23Z"
+          }
+        ]
+      },
+      {
+        "pageid": 24806506,
+        "ns": 0,
+        "title": "Windows 8",
+        "revisions": [
+          {
+            "revid": 1385949236,
+            "parentid": 1384607443,
+            "timestamp": "2026-11-16T02:24:16Z"
+          }
+        ]
+      },
+      {
+        "pageid": 38993942,
+        "ns": 0,
+        "title": "Windows 8.1",
+        "revisions": [
+          {
+            "revid": 1384566121,
+            "parentid": 1383777101,
+            "timestamp": "2026-11-08T22:10:45Z"
+          }
+        ]
+      },
+      {
+        "pageid": 43989914,
+        "ns": 0,
+        "title": "Windows 10",
+        "revisions": [
+          {
+            "revid": 1384566088,
+            "parentid": 1384488571,
+            "timestamp": "2026-11-08T22:10:28Z"
+          }
+        ]
+      },
+      {
+        "pageid": 67953981,
+        "ns": 0,
+        "title": "Windows 11",
+        "revisions": [
+          {
+            "revid": 1384784915,
+            "parentid": 1384783348,
+            "timestamp": "2026-11-10T02:19:33Z"
+          }
+        ]
+      }
+    ]
+  }
+}

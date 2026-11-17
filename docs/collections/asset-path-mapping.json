@@ -1,0 +1,415 @@
+[
+  {
+    "assetId": "qq-brand-logo",
+    "productId": "qq",
+    "sha256": "00289c45ac8db7f4522f78f4ff0c8ae5c580411ae0be149342729edeb89b5ee3",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-brand-logo.svg",
+    "organizedPath": "qq/images/brand-logo.svg"
+  },
+  {
+    "assetId": "qq-oicq-setup-reference",
+    "productId": "qq",
+    "sha256": "968223b0d3d9307611333853b94357266f517fe4c6d24bb2ef76fbddeab71a5f",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-oicq-setup-reference.jpg",
+    "organizedPath": "qq/images/qq-oicq-setup-reference.jpg"
+  },
+  {
+    "assetId": "qq-2004-screenshot",
+    "productId": "qq",
+    "sha256": "f725e32ff256a8631392218f40d6d0b7e6e7f624d51a0f924c99a996219f4f64",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2004-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2004.jpg"
+  },
+  {
+    "assetId": "qq-2007-screenshot",
+    "productId": "qq",
+    "sha256": "fc1113ad290a57f34d5ceabfd2225dadb0378ec2acdd44ce489af555d6b97ec0",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2007-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2007.jpg"
+  },
+  {
+    "assetId": "qq-2010-screenshot",
+    "productId": "qq",
+    "sha256": "b358038e397660b778ee14d890ada83fdb5582b93951b266d9142aa43c71bad6",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2010-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2010.jpg"
+  },
+  {
+    "assetId": "qq-2011-screenshot",
+    "productId": "qq",
+    "sha256": "b43a78df19ebe3f51d4a4664827b085398061c33a785ce8f21cca98cecc9f744",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2011-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2011.jpg"
+  },
+  {
+    "assetId": "qq-2012-screenshot",
+    "productId": "qq",
+    "sha256": "40e30e8017a1a92558ebe9ae892f4c6b56aa22dc29af4f4942e1f5671a4d3271",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2012-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2012.jpg"
+  },
+  {
+    "assetId": "qq-2003-screenshot",
+    "productId": "qq",
+    "sha256": "c0dc4f512f0be959b972a3836ff7d97a87194a9ac908a00dc007a1fc774f70a4",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2003-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2003.jpg"
+  },
+  {
+    "assetId": "qq-2005-screenshot",
+    "productId": "qq",
+    "sha256": "2a0c0e0d940be5048c02a7d92479b72913adb986fefb60ce16ce54331fde9c9c",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2005-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2005.jpg"
+  },
+  {
+    "assetId": "qq-2008-screenshot",
+    "productId": "qq",
+    "sha256": "22c3acdbab25227121f12a1922d5cbfde16025192202d7ce3c46bc24cb593479",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2008-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2008.jpg"
+  },
+  {
+    "assetId": "qq-2009-screenshot",
+    "productId": "qq",
+    "sha256": "fa6e2e678b756dfa87b55862700ee237bda5226bfd535cd933c4aefb931d3fe5",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2009-screenshot.jpg",
+    "organizedPath": "qq/images/qq-2009.jpg"
+  },
+  {
+    "assetId": "qq-2013-period-reference",
+    "productId": "qq",
+    "sha256": "5abce66960de7a4b0e17c4197c34af31ae0340356fe051c6bfdc785b0f9bde90",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/qq-2013-period-reference.jpg",
+    "organizedPath": "qq/images/qq-2013-period-reference.jpg"
+  },
+  {
+    "assetId": "wechat-ios-8-0-screen-1",
+    "productId": "wechat",
+    "sha256": "e88e17e4f80b5caf74a56944d438a62f4deb7365d2427765f0999ebaaa651930",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/wechat-ios-8-0-screen-1.jpg",
+    "organizedPath": "wechat/images/editorial-photo.jpg"
+  },
+  {
+    "assetId": "wechat-ios-8-0-screen-2",
+    "productId": "wechat",
+    "sha256": "6c1d45f34f67eb2e30b4d43fe77a275bfa98e8094ec8d8d290d11149cf80bdc2",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/wechat-ios-8-0-screen-2.jpg",
+    "organizedPath": "wechat/images/wechat-ios-8-0-0.jpg"
+  },
+  {
+    "assetId": "wechat-ios-8-0-screen-3",
+    "productId": "wechat",
+    "sha256": "2fdc43ed8c70419ba19ad6d49100a31cd2a3849c305e7b6bdc7935f436d9bbc8",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/wechat-ios-8-0-screen-3.jpg",
+    "organizedPath": "wechat/images/wechat-ios-8-0-0-2.jpg"
+  },
+  {
+    "assetId": "wechat-brand-logo",
+    "productId": "wechat",
+    "sha256": "631c7624e0d6759fbf41fbce4ac8ac95f5039d705bd27665175362182f83e1a1",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/wechat-brand-logo.png",
+    "organizedPath": "wechat/images/brand-logo.png"
+  },
+  {
+    "assetId": "windows-1-0-screenshot",
+    "productId": "windows",
+    "sha256": "e3882aa406253b8d64173cfb527a5f3bc88b62eef7393aeeb7be8bd3adf57ee8",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-1-0-screenshot.png",
+    "organizedPath": "windows/images/windows-1-0.png"
+  },
+  {
+    "assetId": "windows-2-0-screenshot",
+    "productId": "windows",
+    "sha256": "cb1296e4ef455ea825c0bcbd11845195350a64f91a09e026b6ed5060197fbea2",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-2-0-screenshot.png",
+    "organizedPath": "windows/images/windows-2-0.png"
+  },
+  {
+    "assetId": "windows-3-0-screenshot",
+    "productId": "windows",
+    "sha256": "d2166c9de6f6a2886165b414f164ced52b321e99c9e0becb8929a360da3291a3",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-3-0-screenshot.png",
+    "organizedPath": "windows/images/windows-3-0.png"
+  },
+  {
+    "assetId": "windows-3-1-screenshot",
+    "productId": "windows",
+    "sha256": "e7ccfde53855e21348f02842a81ab57ed89d974e05818d3a3d48d7e1407f0fab",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-3-1-screenshot.png",
+    "organizedPath": "windows/images/windows-3-1.png"
+  },
+  {
+    "assetId": "windows-95-screenshot",
+    "productId": "windows",
+    "sha256": "c15aac1d6b45aae4b58ed4fc4009debeac9cc6bb21a961ac7262c95ef3b67752",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-95-screenshot.png",
+    "organizedPath": "windows/images/windows-95.png"
+  },
+  {
+    "assetId": "windows-98-screenshot",
+    "productId": "windows",
+    "sha256": "c104a49f9edb91e54fd39f7bfd09adb0682aed1df4a6120edcdff279a0077972",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-98-screenshot.png",
+    "organizedPath": "windows/images/windows-98.png"
+  },
+  {
+    "assetId": "windows-2000-screenshot",
+    "productId": "windows",
+    "sha256": "0ef395eba67c68488de6fb6fc9829fbb5371a59bb5dbaadf90a91bcff14f18f0",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-2000-screenshot.png",
+    "organizedPath": "windows/images/windows-2000.png"
+  },
+  {
+    "assetId": "windows-me-screenshot",
+    "productId": "windows",
+    "sha256": "12f2b0b6521e116a0609a4727fc46bbf34d210e1cdcca464b496de22c71a0d26",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-me-screenshot.png",
+    "organizedPath": "windows/images/windows-me.png"
+  },
+  {
+    "assetId": "windows-xp-screenshot",
+    "productId": "windows",
+    "sha256": "55c204cee4bdede24dcae87217c9e2fc3d1e255b55a78b09cbf3eec97944fcc4",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-xp-screenshot.png",
+    "organizedPath": "windows/images/windows-xp.png"
+  },
+  {
+    "assetId": "windows-vista-screenshot",
+    "productId": "windows",
+    "sha256": "554026fab859de11ab2cb6dbd423c57006aa2013cc5f80094bd9e6147d648840",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-vista-screenshot.png",
+    "organizedPath": "windows/images/windows-vista.png"
+  },
+  {
+    "assetId": "windows-7-screenshot",
+    "productId": "windows",
+    "sha256": "da853d3a109290ce9d5c58ce31bf2e2757a77bfe2ea38292294c1084157cd31d",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-7-screenshot.png",
+    "organizedPath": "windows/images/windows-7.png"
+  },
+  {
+    "assetId": "windows-8-screenshot",
+    "productId": "windows",
+    "sha256": "2754a9fd682f5e97d09d7e24bf6191b606c1b1b43777273ca6f7439a6383e19a",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-8-screenshot.png",
+    "organizedPath": "windows/images/windows-8.png"
+  },
+  {
+    "assetId": "windows-8-1-screenshot",
+    "productId": "windows",
+    "sha256": "84d00813b5a66fddff47b9263a0a103530ff66d29bf2d8ad54e9ccf64a67d5c0",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-8-1-screenshot.png",
+    "organizedPath": "windows/images/windows-8-1.png"
+  },
+  {
+    "assetId": "windows-10-screenshot",
+    "productId": "windows",
+    "sha256": "73ede6b1e15ec1fcdcce7e3ee93bd311d01957962e3f1a03d7822ef53ceca6bd",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-10-screenshot.png",
+    "organizedPath": "windows/images/windows-10.png"
+  },
+  {
+    "assetId": "windows-11-screenshot",
+    "productId": "windows",
+    "sha256": "ae023351c8a0c55e037e5af54b226992d7894c53d021544450ea753be348e5c4",
+    "archivedPath": "_archive/snapshots/starter-2026-11-17/assets/reference-only/windows-11-screenshot.png",
+    "organizedPath": "windows/images/windows-11.png"
+  },
+  {
+    "assetId": "asset-msn-10061a17f40c",
+    "productId": "msn",
+    "sha256": "10061a17f40cdf1ea45b3cb40022864a89ebbcb37e103879258a6c23a89caf23",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/msn-10061a17f40c.png",
+    "organizedPath": "msn/images/brand-logo.png"
+  },
+  {
+    "assetId": "asset-msn-4a767f6ade26",
+    "productId": "msn",
+    "sha256": "4a767f6ade265fa81c0e750d545be29df6f59364f91c631ee2ca927d7843405a",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/msn-4a767f6ade26.png",
+    "organizedPath": "msn/images/msn-4-6.png"
+  },
+  {
+    "assetId": "asset-msn-d2acd23f0914",
+    "productId": "msn",
+    "sha256": "d2acd23f09147cc2de47f08c4dc4b7244c27f505681e2431c7c825a0c63e29e4",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/msn-d2acd23f0914.png",
+    "organizedPath": "msn/images/msn-1-0.png"
+  },
+  {
+    "assetId": "asset-msn-b41684361bc1",
+    "productId": "msn",
+    "sha256": "b41684361bc1e662ae6b2c866d320bc0488166edfd227bf524997745deff982a",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/msn-b41684361bc1.png",
+    "organizedPath": "msn/images/msn-wlm-8-0.png"
+  },
+  {
+    "assetId": "asset-internet-explorer-8dca730a6ce6",
+    "productId": "internet-explorer",
+    "sha256": "8dca730a6ce6ab35e43858e666230e2dc7bc9b6b1e470acb63064066a2c6f8f8",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/internet-explorer-8dca730a6ce6.svg",
+    "organizedPath": "internet-explorer/images/brand-logo.svg"
+  },
+  {
+    "assetId": "asset-internet-explorer-4d517bb8cf2e",
+    "productId": "internet-explorer",
+    "sha256": "4d517bb8cf2ea469dbcd5b368863c770a959760b002d5fcfa8003e44c383ca0a",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/internet-explorer-4d517bb8cf2e.svg",
+    "organizedPath": "internet-explorer/images/brand-logo-2.svg"
+  },
+  {
+    "assetId": "asset-internet-explorer-5d54baed987c",
+    "productId": "internet-explorer",
+    "sha256": "5d54baed987cfb5a22aa05ed02b209629cb5e5bccde9eec5962e0d45ddb02b5e",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/internet-explorer-5d54baed987c.png",
+    "organizedPath": "internet-explorer/images/ie-6.png"
+  },
+  {
+    "assetId": "asset-internet-explorer-c88b7d18205f",
+    "productId": "internet-explorer",
+    "sha256": "c88b7d18205f5d04cf349f1224c09733af1408e869a360e59b8618465309eea3",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/internet-explorer-c88b7d18205f.svg",
+    "organizedPath": "internet-explorer/images/brand-logo-3.svg"
+  },
+  {
+    "assetId": "asset-internet-explorer-0387a7d2a176",
+    "productId": "internet-explorer",
+    "sha256": "0387a7d2a1765c2431bc53f0a59e3cc156fd39b240f72b2d7bcfd584a3c0bb73",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/internet-explorer-0387a7d2a176.png",
+    "organizedPath": "internet-explorer/images/ie-8.png"
+  },
+  {
+    "assetId": "asset-internet-explorer-7bef1fac5c79",
+    "productId": "internet-explorer",
+    "sha256": "7bef1fac5c7909f692017f1919b589f0c46f031af2e82ade920fa5e9424f2713",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/internet-explorer-7bef1fac5c79.png",
+    "organizedPath": "internet-explorer/images/ie-11.png"
+  },
+  {
+    "assetId": "asset-firefox-f31b10673f2e",
+    "productId": "firefox",
+    "sha256": "f31b10673f2e62510a18cb79c32555d88aa806ede13b128e3e7e3072bfc05cbc",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/firefox-f31b10673f2e.svg",
+    "organizedPath": "firefox/images/brand-logo.svg"
+  },
+  {
+    "assetId": "asset-chrome-2bb1a2c9b9ae",
+    "productId": "chrome",
+    "sha256": "2bb1a2c9b9ae4d36f62ea53811554636cf3c5b74d9845e1dbacca0ce62dc7880",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/chrome-2bb1a2c9b9ae.svg",
+    "organizedPath": "chrome/images/brand-logo.svg"
+  },
+  {
+    "assetId": "asset-chrome-946bcd27eb27",
+    "productId": "chrome",
+    "sha256": "946bcd27eb27193a3e74f8e6060964f853a647664688e64333c657eb587762bf",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/chrome-946bcd27eb27.png",
+    "organizedPath": "chrome/images/product-reference.png"
+  },
+  {
+    "assetId": "asset-winamp-9cf54c9ca2c6",
+    "productId": "winamp",
+    "sha256": "9cf54c9ca2c6b738f6e6c8198fb7f59f191098d5d15b45a47717e8a431841659",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/winamp-9cf54c9ca2c6.png",
+    "organizedPath": "winamp/images/brand-logo.png"
+  },
+  {
+    "assetId": "asset-winamp-1eaca7975d55",
+    "productId": "winamp",
+    "sha256": "1eaca7975d55c7138c26b7db9e2f452dcfde4a77eb552c08a06bae40a4c371b0",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/winamp-1eaca7975d55.png",
+    "organizedPath": "winamp/images/winamp-5-9-2.png"
+  },
+  {
+    "assetId": "asset-winamp-22f58ced8107",
+    "productId": "winamp",
+    "sha256": "22f58ced81073721ee8ef44ea8e6ace73719c07e039d4e5100873b5cd2ac7e5d",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/winamp-22f58ced8107.png",
+    "organizedPath": "winamp/images/winamp-2-0.png"
+  },
+  {
+    "assetId": "asset-windows-media-player-a35d6a5fb474",
+    "productId": "windows-media-player",
+    "sha256": "a35d6a5fb474df65a48fc744299adbac954f209e0a483c35b899ec219246c290",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/windows-media-player-a35d6a5fb474.png",
+    "organizedPath": "windows-media-player/images/brand-logo.png"
+  },
+  {
+    "assetId": "asset-windows-media-player-83b40a49990d",
+    "productId": "windows-media-player",
+    "sha256": "83b40a49990dcd0c72c3dc9be7e5121fb15c66040104557115a156407e1699ad",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/windows-media-player-83b40a49990d.png",
+    "organizedPath": "windows-media-player/images/wmp-12.png"
+  },
+  {
+    "assetId": "asset-sogou-pinyin-711d0371436d",
+    "productId": "sogou-pinyin",
+    "sha256": "711d0371436dee22ad146c16f2f236267badf28897ff4e0a5cadeb7e864c3619",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/sogou-pinyin-711d0371436d.jpg",
+    "organizedPath": "sogou-pinyin/images/product-reference.jpg"
+  },
+  {
+    "assetId": "asset-thunder-494c7cca3031",
+    "productId": "thunder",
+    "sha256": "494c7cca30314c459dae9664e98f3b4d0527600d23de7a693e819e6fdd25a99c",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/thunder-494c7cca3031.jpg",
+    "organizedPath": "thunder/images/brand-logo.jpg"
+  },
+  {
+    "assetId": "asset-android-ee119cd377a7",
+    "productId": "android",
+    "sha256": "ee119cd377a7d408e7035a9ae67def425213052aa3900745ac7bc17c4e72fc69",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/android-ee119cd377a7.svg",
+    "organizedPath": "android/images/brand-logo.svg"
+  },
+  {
+    "assetId": "asset-android-8afd95a9f425",
+    "productId": "android",
+    "sha256": "8afd95a9f425fe5b708e637711c205ccbff2c57ebb53639d7e70838bbec2a0a8",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/android-8afd95a9f425.png",
+    "organizedPath": "android/images/android-gingerbread.png"
+  },
+  {
+    "assetId": "asset-ios-ef1bd2ba3d1b",
+    "productId": "ios",
+    "sha256": "ef1bd2ba3d1b7bf671cd25dcd833184d2fbdd12c55f2a8b143a4c81f8ec857fb",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/ios-ef1bd2ba3d1b.svg",
+    "organizedPath": "ios/images/brand-logo.svg"
+  },
+  {
+    "assetId": "asset-ios-74b76e6b30b0",
+    "productId": "ios",
+    "sha256": "74b76e6b30b0a856c6ce6528b18ed7799122a26ff97a5a6dff94b65966fc0270",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/ios-74b76e6b30b0.png",
+    "organizedPath": "ios/images/ios-1-family.png"
+  },
+  {
+    "assetId": "asset-ios-53ef25d60a37",
+    "productId": "ios",
+    "sha256": "53ef25d60a3708b64bfd721d310cc47595b55c2e24787a15d39ea28d37b3f3a7",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/ios-53ef25d60a37.png",
+    "organizedPath": "ios/images/ios-3-family.png"
+  },
+  {
+    "assetId": "asset-ios-35c68508ced5",
+    "productId": "ios",
+    "sha256": "35c68508ced5eb677c0bbe326e2d510807de6f3ec62884db9830713a257d4713",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/ios-35c68508ced5.png",
+    "organizedPath": "ios/images/ios-4-family.png"
+  },
+  {
+    "assetId": "asset-ios-0f7763ada6cd",
+    "productId": "ios",
+    "sha256": "0f7763ada6cd210bc854d294f9b98f5c2fe212a40a34044aad35d9529af5c5a0",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/ios-0f7763ada6cd.png",
+    "organizedPath": "ios/images/ios-6-family.png"
+  },
+  {
+    "assetId": "asset-ios-0fa9eb880b12",
+    "productId": "ios",
+    "sha256": "0fa9eb880b12e8c85edd034a07f616701dd331588b3602f498360e6864c36efb",
+    "archivedPath": "_archive/snapshots/expansion-2026-11-17/assets/reference-only/ios-0fa9eb880b12.png",
+    "organizedPath": "ios/images/ios-7-family.png"
+  }
+]

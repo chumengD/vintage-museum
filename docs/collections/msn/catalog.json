@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "single-product-series",
+  "collectedOn": "2026-11-17",
+  "pathBase": "directory_containing_this_catalog",
+  "products": [
+    {
+      "id": "msn",
+      "name": "MSN Messenger / Windows Live Messenger",
+      "category": "instant_messaging",
+      "developer": "Microsoft",
+      "summary": "小绿人、联系人状态与桌面聊天时代。",
+      "versionIds": [
+        "msn-1-0",
+        "msn-4-6",
+        "msn-7-5",
+        "msn-wlm-8-0"
+      ],
+      "logoAssetIds": [
+        "asset-msn-10061a17f40c"
+      ],
+      "referenceAssetIds": [],
+      "sourceIds": [
+        "wiki-msn"
+      ],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "imageDirectory": "images"
+    }
+  ],
+  "versions": [
+    {
+      "id": "msn-1-0",
+      "productId": "msn",
+      "version": "MSN Messenger Service 1.0",
+      "releasedAt": "1999-07-22",
+      "timelineYear": 1999,
+      "dateKind": "public_download",
+      "summary": "以基础文字消息和联系人列表开启MSN聊天时代。",
+      "sourceIds": [
+        "official-msn-first",
+        "wiki-msn"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "assetIds": [
+        "asset-msn-d2acd23f0914"
+      ],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "msn-4-6",
+      "productId": "msn",
+      "version": "MSN Messenger 4.6",
+      "releasedAt": "2001-10-23",
+      "timelineYear": 2001,
+      "summary": "联系人分组和语音等能力发展；不等同于Windows Messenger。",
+      "sourceIds": [
+        "wiki-msn"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "dateKind": "release",
+      "assetIds": [
+        "asset-msn-4a767f6ade26"
+      ],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "msn-7-5",
+      "productId": "msn",
+      "version": "MSN Messenger 7.5",
+      "releasedAt": "2005-08-23",
+      "timelineYear": 2005,
+      "summary": "动态背景与语音片段等桌面交流记忆。",
+      "sourceIds": [
+        "wiki-msn"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "dateKind": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "msn-wlm-8-0",
+      "productId": "msn",
+      "version": "Windows Live Messenger 8.0",
+      "releasedAt": "2006-06-19",
+      "timelineYear": 2006,
+      "summary": "MSN客户端更名后的Windows Live阶段。",
+      "sourceIds": [
+        "wiki-msn"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "dateKind": "release",
+      "assetIds": [
+        "asset-msn-b41684361bc1"
+      ],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-msn-10061a17f40c",
+      "productId": "msn",
+      "versionId": null,
+      "role": "brand_logo",
+      "sourceId": "wiki-msn",
+      "caption": "MSN Messenger logo, 1999–2006",
+      "matchNote": "来源说明标识使用于1999—2006年；仅挂产品，不代表所有MSN/WLM版本。",
+      "wikiFileTitle": "File:MSN_Messenger_logo.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/e/ed/MSN_Messenger_logo.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://en.wikipedia.org/wiki/File:MSN_Messenger_logo.png",
+      "localPath": "images/brand-logo.png",
+      "mimeType": "image/png",
+      "width": 352,
+      "height": 70,
+      "bytes": 16677,
+      "sha256": "10061a17f40cdf1ea45b3cb40022864a89ebbcb37e103879258a6c23a89caf23",
+      "sourceFileSha1": "a44d4fafa0741df6c6e535d04979f237f04c2ed1",
+      "licenseName": "Fair use",
+      "licenseUrl": "",
+      "creator": "",
+      "credit": "Copied from Microsoft web site, and intellectual property owned by Microsoft.",
+      "restrictions": "",
+      "copyrighted": "True",
+      "privacyReviewRequired": false,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/msn-10061a17f40c.png"
+    },
+    {
+      "id": "asset-msn-4a767f6ade26",
+      "productId": "msn",
+      "versionId": "msn-4-6",
+      "role": "version_screenshot",
+      "sourceId": "wiki-msn",
+      "caption": "MSN Messenger 4.6, released in 2001",
+      "matchNote": "词条图注明确为MSN Messenger 4.6。",
+      "wikiFileTitle": "File:MSN_Messenger_4.6.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/a/a4/MSN_Messenger_4.6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://en.wikipedia.org/wiki/File:MSN_Messenger_4.6.png",
+      "localPath": "images/msn-4-6.png",
+      "mimeType": "image/png",
+      "width": 209,
+      "height": 380,
+      "bytes": 69926,
+      "sha256": "4a767f6ade265fa81c0e750d545be29df6f59364f91c631ee2ca927d7843405a",
+      "sourceFileSha1": "f548250f45541fb416593efa17822dc48f969a63",
+      "licenseName": "Fair use",
+      "licenseUrl": "",
+      "creator": "",
+      "credit": "https://msngined.wordpress.com/msn-messenger-4-6-0079/",
+      "restrictions": "",
+      "copyrighted": "True",
+      "privacyReviewRequired": true,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/msn-4a767f6ade26.png"
+    },
+    {
+      "id": "asset-msn-d2acd23f0914",
+      "productId": "msn",
+      "versionId": "msn-1-0",
+      "role": "version_screenshot",
+      "sourceId": "wiki-msn",
+      "caption": "MSN Messenger 1.0",
+      "matchNote": "词条正文图注明确为MSN Messenger 1.0。",
+      "wikiFileTitle": "File:MSN_Messenger_1.0.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/8/82/MSN_Messenger_1.0.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://en.wikipedia.org/wiki/File:MSN_Messenger_1.0.png",
+      "localPath": "images/msn-1-0.png",
+      "mimeType": "image/png",
+      "width": 209,
+      "height": 380,
+      "bytes": 11399,
+      "sha256": "d2acd23f09147cc2de47f08c4dc4b7244c27f505681e2431c7c825a0c63e29e4",
+      "sourceFileSha1": "f36b4599ff11d9a2f604332c9c2d05a58f223924",
+      "licenseName": "Fair use",
+      "licenseUrl": "",
+      "creator": "",
+      "credit": "https://msngined.wordpress.com/msn-messenger-1-0-0889/",
+      "restrictions": "",
+      "copyrighted": "True",
+      "privacyReviewRequired": true,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/msn-d2acd23f0914.png"
+    },
+    {
+      "id": "asset-msn-b41684361bc1",
+      "productId": "msn",
+      "versionId": "msn-wlm-8-0",
+      "role": "version_screenshot",
+      "sourceId": "wiki-msn",
+      "caption": "Windows Live Messenger 8.0",
+      "matchNote": "词条正文图注明确为Windows Live Messenger 8.0。",
+      "wikiFileTitle": "File:Windows-Live-Messenger-80-236x300.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/9/9b/Windows-Live-Messenger-80-236x300.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://en.wikipedia.org/wiki/File:Windows-Live-Messenger-80-236x300.png",
+      "localPath": "images/msn-wlm-8-0.png",
+      "mimeType": "image/png",
+      "width": 236,
+      "height": 300,
+      "bytes": 65721,
+      "sha256": "b41684361bc1e662ae6b2c866d320bc0488166edfd227bf524997745deff982a",
+      "sourceFileSha1": "08490e8f04d4e627f82088ffb57df5dbf5a8c9f5",
+      "licenseName": "Fair use",
+      "licenseUrl": "",
+      "creator": "",
+      "credit": "https://www.trutower.com/2013/01/10/microsoft-windows-live-messenger-retrospective/windows-live-messenger-80/",
+      "restrictions": "",
+      "copyrighted": "True",
+      "privacyReviewRequired": true,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/msn-b41684361bc1.png"
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-msn",
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MSN_Messenger",
+      "title": "MSN Messenger",
+      "language": "en",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:25.423294+00:00",
+      "htmlSha256": "b8096167e3e5dfa77574207e2534ba8aacdc82fda4a86f312c22b0c40cf3e937",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-msn.json",
+      "revisionId": 1386179544,
+      "revisionProvenance": "html_RLCONF",
+      "permalink": "https://en.wikipedia.org/w/index.php?oldid=1386179544",
+      "apiRevisionId": 1386179544,
+      "apiRevisionTimestamp": "2026-11-17T03:41:09Z",
+      "revisionTimestamp": "2026-11-17T03:41:09Z",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "official-msn-first",
+      "kind": "official",
+      "url": "https://news.microsoft.com/source/1999/07/21/microsoft-launches-msn-messenger-service/",
+      "title": "微软：MSN Messenger于1999年7月22日提供下载",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:33.405159+00:00",
+      "htmlSha256": "44bd32250fb82c9428c4b79ee7bb8902a86ec31e614d0e03c44076d1cab1aaeb",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-msn-first.json",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ]
+}

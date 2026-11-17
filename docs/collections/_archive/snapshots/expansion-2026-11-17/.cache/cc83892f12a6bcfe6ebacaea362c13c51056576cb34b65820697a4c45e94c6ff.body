@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser" lang="zh" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>搜狗拼音输入法 - 维基百科，自由的百科全书</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )zhwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"3cefe3a6-8e96-4898-b05e-ff6a24845dd6","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"搜狗拼音输入法","wgTitle":"搜狗拼音输入法","wgCurRevisionId":91322508,"wgRevisionId":91322508,"wgArticleId":509360,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["自2026年11月带有失效链接的条目","Webarchive模板wayback链接","使用过时图像语法的页面","汉语拼音输入法","免费软件","搜狗输入法"],"wgPageViewLanguage":"zh","wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"搜狗拼音输入法","wgRelevantArticleId":509360,"wgTempUserName":null,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgCiteReferencePreviewsActive":true,"wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgPopupsFlags":0,"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"],"editCheckSuggestionsAvailable":false},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgULSContentLanguageSelectorEnabled":true,"wgULSLanguageSelectorV2Enabled":true,"wgWikibaseItemId":"Q7554567","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true,"wgPersonalDashboardMenuVisible":false};
+RLSTATE={"ext.gadget.ilhpp-initial-pagestyles":"ready","ext.gadget.large-font":"ready","ext.gadget.metaBox-pagestyles":"ready","ext.gadget.hideConversionTab":"ready","ext.gadget.hideNewULSVariantsList-pagestyles":"ready","ext.gadget.text-spacing":"ready","ext.gadget.ProtectionIndicator":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","mediawiki.skins.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.readingLists.bookmark.icons":"ready","ext.readingLists.bookmark.styles":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.Difflink","ext.gadget.NavFrame","ext.gadget.ilhpp","ext.gadget.metaBox","ext.gadget.noteTA","ext.gadget.switcher","ext.gadget.warn-archive-today","ext.gadget.edit0","ext.gadget.AdvancedSiteNotices","ext.gadget.VariantAlly","ext.gadget.hideNewULSVariantsList","ext.gadget.pseudonamespace-UI","ext.gadget.scrollUpButton","ext.gadget.unihan-helper","ext.gadget.collapsibleTables","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.readerExperiments/preferredSources","ext.readingLists.bookmark.anonymous"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.readingLists.bookmark.icons%2Cstyles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cjquery.makeCollapsible.styles%7Cmediawiki.skins.legacy%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=ext.gadget.ProtectionIndicator%2ChideConversionTab%2ChideNewULSVariantsList-pagestyles%2Cilhpp-initial-pagestyles%2Clarge-font%2CmetaBox-pagestyles%2Ctext-spacing&amp;only=styles&amp;skin=vector-2022">
+<link rel="stylesheet" href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.48.0-wmf.4">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="搜狗拼音输入法 - 维基百科，自由的百科全书">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//thumb.wikimedia.org">
+<link rel="alternate" type="application/x-wiki" title="编辑本页" href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikipedia (zh)">
+<link rel="EditURI" type="application/rsd+xml" href="//zh.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://zh.wikipedia.org/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh" href="https://zh.wikipedia.org/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh-Hans" href="https://zh.wikipedia.org/zh-hans/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh-Hans-CN" href="https://zh.wikipedia.org/zh-cn/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh-Hans-MY" href="https://zh.wikipedia.org/zh-my/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh-Hans-SG" href="https://zh.wikipedia.org/zh-sg/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh-Hant" href="https://zh.wikipedia.org/zh-hant/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh-Hant-HK" href="https://zh.wikipedia.org/zh-hk/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh-Hant-MO" href="https://zh.wikipedia.org/zh-mo/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="zh-Hant-TW" href="https://zh.wikipedia.org/zh-tw/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="alternate" hreflang="x-default" href="https://zh.wikipedia.org/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia的Atom订阅" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt action-view skin-vector-2022 ns-0 ns-subject mw-editable page-搜狗拼音输入法 rootpage-搜狗拼音输入法 skin--responsive skin-vector skin-vector-search-vue">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">跳转到内容</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="站点">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="主菜单" >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="主菜单"   >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">主菜单</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">主菜单</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin" aria-label="将 主菜单 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin" aria-label="隐藏主菜单">隐藏</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		导航
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页​[z]" accesskey="z"><span>首页</span></a></li><li id="n-indexpage" class="mw-list-item"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li id="n-Featured_content" class="mw-list-item"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="随机载入一个页面​[x]" accesskey="x"><span>随机条目</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li id="n-about" class="mw-list-item"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		贡献
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:%E9%A6%96%E9%A1%B5" title="寻求帮助"><span>帮助</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:%E5%85%A5%E9%97%A8"><span>编辑入门</span></a></li><li id="n-villagepump" class="mw-list-item"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li id="n-IRC" class="mw-list-item"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="列出维基百科中的最近修改​[r]" accesskey="r"><span>最近更改</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="所有特殊页面的列表​[q]" accesskey="q"><span>特殊页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="维基百科" src="/static/images/mobile/copyright/wikipedia-wordmark-zh.svg" style="width: 6.5625em; height: 1.375em;">
+		<img class="mw-logo-tagline" alt="自由的百科全书" src="/static/images/mobile/copyright/wikipedia-tagline-zh.svg" width="103" height="14" style="width: 6.4375em; height: 0.875em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="搜索维基百科​[f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="搜索维基百科" aria-label="搜索维基百科" autocapitalize="none" spellcheck="false" title="搜索维基百科​[f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">搜索</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="个人工具">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="外观">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="更改页面字体大小、宽度和颜色的外观" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="外观"   >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">外观</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikipedia.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span>资助维基百科</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span>创建账号</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="建议你登录，尽管并非必须。​[o]" accesskey="o" class=""><span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out vector-user-links-dropdown--collapsible"  title="更多选项" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="个人工具"   >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">个人工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal"  title="用户菜单" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=zh.wikipedia.org&amp;uselang=zh" data-mw-donate-attempt="top_link" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart cdx-button__icon"></span>
+
+<span>资助维基百科</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="我们推荐您创建账号并登录，但这不是强制性的" class=""><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span>创建账号</span></a>
+</li>
+<li id="pt-login" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="建议你登录，尽管并非必须。​[o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn cdx-button__icon"></span>
+
+<span>登录</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="站点">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" aria-label="目录" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	data-pinned-container-id="vector-toc-pinned-container"
+	data-unpinned-container-id="vector-toc-unpinned-container"
+>
+	<h2 class="vector-pinnable-header-label">目录</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin" aria-label="将 目录 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin" aria-label="隐藏目录">隐藏</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">序言</div>
+			</a>
+		</li>
+		<li id="toc-事件"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#事件">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">1</span>
+				<span>事件</span>
+			</div>
+		</a>
+		
+			<button aria-controls="toc-事件-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon mw-ui-icon-wikimedia-expand"></span>
+				<span>开关事件子章节</span>
+			</button>
+		
+		<ul id="toc-事件-sublist" class="vector-toc-list">
+			<li id="toc-词库事件"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#词库事件">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">1.1</span>
+					<span>词库事件</span>
+				</div>
+			</a>
+			
+			<ul id="toc-词库事件-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-起诉腾讯"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#起诉腾讯">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">1.2</span>
+					<span>起诉腾讯</span>
+				</div>
+			</a>
+			
+			<ul id="toc-起诉腾讯-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-双拼方案"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#双拼方案">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">2</span>
+				<span>双拼方案</span>
+			</div>
+		</a>
+		
+		<ul id="toc-双拼方案-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-评价"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#评价">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">3</span>
+				<span>评价</span>
+			</div>
+		</a>
+		
+		<ul id="toc-评价-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-争议"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#争议">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">4</span>
+				<span>争议</span>
+			</div>
+		</a>
+		
+		<ul id="toc-争议-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-參考資料"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#參考資料">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">5</span>
+				<span>參考資料</span>
+			</div>
+		</a>
+		
+		<ul id="toc-參考資料-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-参閱"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#参閱">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">6</span>
+				<span>参閱</span>
+			</div>
+		</a>
+		
+		<ul id="toc-参閱-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-外部連結"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#外部連結">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">7</span>
+				<span>外部連結</span>
+			</div>
+		</a>
+		
+		<ul id="toc-外部連結-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<nav aria-label="目录" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="目录" >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="开关目录"   >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">开关目录</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span lang="zh" dir="ltr"><span class="mw-page-title-main">搜狗拼音输入法</span></span></h1>
+			
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector"  aria-label="4种语言" aria-description="前往另一种语言写成的文章。4种语言可用"  >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-4" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">4种语言</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Sogou_Pinyin" title="Sogou Pinyin – 英语" lang="en" hreflang="en" data-title="Sogou Pinyin" data-language-autonym="English" data-language-local-name="英语" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/S%C5%8Dug%C7%92u_P%C4%ABny%C4%ABn" title="Sōugǒu Pīnyīn – 世界语" lang="eo" hreflang="eo" data-title="Sōugǒu Pīnyīn" data-language-autonym="Esperanto" data-language-local-name="世界语" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E6%8D%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95" title="捜狗拼音輸入法 – 日语" lang="ja" hreflang="ja" data-title="捜狗拼音輸入法" data-language-autonym="日本語" data-language-local-name="日语" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a href="https://pa.wikipedia.org/wiki/%E0%A8%B8%E0%A9%8B%E0%A8%89%E0%A8%95%E0%A9%8B%E0%A8%89_%E0%A8%AA%E0%A8%BF%E0%A8%A8%E0%A8%87%E0%A8%A8" title="ਸੋਉਕੋਉ ਪਿਨਇਨ – 旁遮普语" lang="pa" hreflang="pa" data-title="ਸੋਉਕੋਉ ਪਿਨਇਨ" data-language-autonym="ਪੰਜਾਬੀ" data-language-local-name="旁遮普语" class="interlanguage-link-target"><span>ਪੰਜਾਬੀ</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7554567#sitelinks-wikipedia" title="编辑跨语言链接" class="wbc-editpage">编辑链接</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="命名空间">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-nstab-main" class="selected mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="浏览条目正文​[c]" accesskey="c" class=""><span>条目</span></a>
+</li>
+<li id="ca-talk" class="mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/Talk:%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" rel="discussion" title="关于此页面的讨论​[t]" accesskey="t" class=""><span>讨论</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown "  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="更改语言变体"    >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">不转换</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-varlang-0" class="selected ca-variants-zh mw-list-item"><a href="/zh/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh" hreflang="zh"><span>不转换</span></a></li><li id="ca-varlang-1" class="ca-variants-zh-Hans mw-list-item"><a href="/zh-hans/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh-Hans" hreflang="zh-Hans"><span>简体</span></a></li><li id="ca-varlang-2" class="ca-variants-zh-Hant mw-list-item"><a href="/zh-hant/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh-Hant" hreflang="zh-Hant"><span>繁體</span></a></li><li id="ca-varlang-3" class="ca-variants-zh-Hans-CN mw-list-item"><a href="/zh-cn/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh-Hans-CN" hreflang="zh-Hans-CN"><span>大陆简体</span></a></li><li id="ca-varlang-4" class="ca-variants-zh-Hant-HK mw-list-item"><a href="/zh-hk/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh-Hant-HK" hreflang="zh-Hant-HK"><span>香港繁體</span></a></li><li id="ca-varlang-5" class="ca-variants-zh-Hant-MO mw-list-item"><a href="/zh-mo/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh-Hant-MO" hreflang="zh-Hant-MO"><span>澳門繁體</span></a></li><li id="ca-varlang-6" class="ca-variants-zh-Hans-MY mw-list-item"><a href="/zh-my/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh-Hans-MY" hreflang="zh-Hans-MY"><span>大马简体</span></a></li><li id="ca-varlang-7" class="ca-variants-zh-Hans-SG mw-list-item"><a href="/zh-sg/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh-Hans-SG" hreflang="zh-Hans-SG"><span>新加坡简体</span></a></li><li id="ca-varlang-8" class="ca-variants-zh-Hant-TW mw-list-item"><a href="/zh-tw/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" lang="zh-Hant-TW" hreflang="zh-Hant-TW"><span>臺灣正體</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="查看">
+			    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view" class="selected mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" class=""><span>阅读</span></a>
+</li>
+<li id="ca-edit" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit" title="编辑该页面​[e]" accesskey="e" class=""><span>编辑</span></a>
+</li>
+<li id="ca-history" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=history" title="本页面的早前版本。​[h]" accesskey="h" class=""><span>查看历史</span></a>
+</li>
+<li id="ca-bookmark" class="mw-list-item vector-menu-item--collapsible"><a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only reading-lists-bookmark" id="" title="将此页面添加到您已保存的项目"><span class="vector-icon mw-ui-icon-bookmarkOutline mw-ui-icon-wikimedia-bookmarkOutline cdx-button__icon"></span>
+
+<span>保存</span>
+</a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</nav>
+
+							<nav class="vector-page-tools-landmark" aria-label="页面工具">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="工具"   >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-verticalEllipsis mw-ui-icon-wikimedia-verticalEllipsis cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">工具</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">工具</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin" aria-label="将 工具 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin" aria-label="隐藏工具">隐藏</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  >
+	<div class="vector-menu-heading">
+		操作
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view-more" class="selected mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/wiki/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" class=""><span class="vector-icon mw-ui-icon-eye mw-ui-icon-wikimedia-eye cdx-button__icon"></span>
+
+<span>阅读</span></a>
+</li>
+<li id="ca-edit-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit" title="编辑该页面​[e]" accesskey="e" class=""><span class="vector-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit cdx-button__icon"></span>
+
+<span>编辑</span></a>
+</li>
+<li id="ca-history-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=history" title="本页面的早前版本。​[h]" accesskey="h" class=""><span class="vector-icon mw-ui-icon-history mw-ui-icon-wikimedia-history cdx-button__icon"></span>
+
+<span>查看历史</span></a>
+</li>
+<li id="ca-bookmark-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="#" class="reading-lists-bookmark" title="将此页面添加到您已保存的项目"><span class="vector-icon mw-ui-icon-bookmarkOutline mw-ui-icon-wikimedia-bookmarkOutline cdx-button__icon"></span>
+
+<span>保存</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		常规
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="列出所有与本页相链的页面​[j]" accesskey="j"><span>链入页面</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" rel="nofollow" title="页面链出所有页面的更改​[k]" accesskey="k"><span>相关更改</span></a></li><li id="t-upload" class="mw-list-item"><a href="//zh.wikipedia.org/wiki/Project:上传" title="上传图像或多媒体文件​[u]" accesskey="u"><span>上传文件</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;oldid=91322508" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;id=91322508&amp;wpFormIdentifier=titleform" title="有关如何引用此页面的信息"><span>引用此页</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2F%25E6%2590%259C%25E7%258B%2597%25E6%258B%25BC%25E9%259F%25B3%25E8%25BE%2593%25E5%2585%25A5%25E6%25B3%2595"><span>获取短链接</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-electronpdfservice-sidebar-portlet-heading" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading"  >
+	<div class="vector-menu-heading">
+		打印/导出
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="electron-print_pdf" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="本页面的可打印版本​[p]" accesskey="p"><span>打印页面</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		在其他项目中
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7554567" title="链接到连接的数据仓库项目​[g]" accesskey="g"><span>维基数据项目</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="页面工具">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="外观">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">外观</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin" aria-label="将 外观 移动至侧边栏">移至侧栏</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin" aria-label="隐藏外观">隐藏</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">维基百科，自由的百科全书</div>
+						<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+						
+					</div>
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="zh" dir="ltr"><style data-mw-deduplicate="TemplateStyles:r95173168">@media(min-width:640px){.mw-parser-output .infobox{margin-left:1em;float:right;clear:right;width:22em}}.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent;color:inherit}.mw-parser-output .infobox-3cols-child{margin:-3px}.mw-parser-output .infobox .navbar{font-size:100%}.mw-parser-output .infobox-hiddenrow,body.skin--responsive.skin--responsive .mw-parser-output .infobox .infobox-hiddenrow{display:none}@media screen{html.skin-theme-clientpref-night .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style],html.skin-theme-clientpref-night .mw-parser-output .infobox td>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}html.skin-theme-clientpref-night .mw-parser-output .infobox td>div.NavHead:not(.notheme)[style]{background:transparent!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .infobox-full-data:not(.notheme)>div:not(.notheme)[style],html.skin-theme-clientpref-os .mw-parser-output .infobox td>div:not(.notheme)[style]{background:#1f1f23!important;color:#f8f9fa}html.skin-theme-clientpref-os .mw-parser-output .infobox td>div.NavHead:not(.notheme)[style]{background:transparent!important}}@media(min-width:640px){body.skin--responsive .mw-parser-output .infobox-table{display:table!important}body.skin--responsive .mw-parser-output .infobox-table>caption{display:table-caption!important}body.skin--responsive .mw-parser-output .infobox-table>tbody{display:table-row-group}body.skin--responsive .mw-parser-output .infobox-table th,body.skin--responsive .mw-parser-output .infobox-table td{padding-left:inherit;padding-right:inherit}}</style><table class="infobox vevent"><caption class="infobox-title summary">搜狗拼音</caption><tbody><tr><td colspan="2" class="infobox-image"><span typeof="mw:File"><a href="/wiki/File:Wiki_ping_in_sougou.jpg" class="mw-file-description"><img src="//thumb.wikimedia.org/wikipedia/zh/thumb/3/38/Wiki_ping_in_sougou.jpg/250px-Wiki_ping_in_sougou.jpg?utm_source=zh.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="250" height="70" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/zh/3/38/Wiki_ping_in_sougou.jpg?utm_source=zh.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x" data-file-width="416" data-file-height="117" /></a></span><div class="infobox-caption">搜狗拼音屏幕截图</div></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;;"><a href="/wiki/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91" title="软件开发">開發者</a></th><td class="infobox-data" style=""><a href="/wiki/%E6%90%9C%E7%8B%97" title="搜狗">搜狗</a></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;;"><a href="/wiki/%E8%BB%9F%E4%BB%B6%E7%89%88%E6%9C%AC%E9%80%B1%E6%9C%9F" title="軟件版本週期">当前版本</a></th><td class="infobox-data" style="">12.2.0（2024年12月23日<span class="noprint">，&#x200b;22個月前</span><span style="display:none">&#x200b;（<span class="bday dtstart published updated">2024-12-23</span>）</span>）</td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;;"><a href="/wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F" title="操作系统">操作系统</a></th><td class="infobox-data" style=""><a href="/wiki/Microsoft_Windows" class="mw-redirect" title="Microsoft Windows">Microsoft Windows</a>，<a href="/wiki/OS_X" class="mw-redirect" title="OS X">OS X</a>，<a href="/wiki/Linux" title="Linux">Linux</a>(基于<a href="/wiki/Fcitx" title="Fcitx">Fcitx</a>输入法框架)，<a href="/wiki/Android" title="Android">Android</a>，<a href="/wiki/IOS" title="IOS">iOS</a>, <a href="/wiki/OpenHarmony" class="mw-redirect" title="OpenHarmony">OpenHarmony</a></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;;">语言</th><td class="infobox-data" style=""><a href="/wiki/%E4%B8%AD%E6%96%87" class="mw-redirect" title="中文">中文</a></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;;">类型</th><td class="infobox-data" style=""><a href="/wiki/%E8%BE%93%E5%85%A5%E6%B3%95" title="输入法">输入法</a></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;;"><a href="/wiki/%E8%BD%AF%E4%BB%B6%E8%AE%B8%E5%8F%AF%E8%AF%81" title="软件许可证">许可协议</a></th><td class="infobox-data" style=""><a href="/wiki/%E4%B8%93%E6%9C%89%E8%BD%AF%E4%BB%B6" title="专有软件">专有软件</a></td></tr><tr><th scope="row" class="infobox-label" style="white-space: nowrap;;">网站</th><td class="infobox-data" style=""><span class="url"><a rel="nofollow" class="external text" href="https://pinyin.sogou.com">pinyin<wbr />.sogou<wbr />.com</a></span></td></tr><tr><td colspan="2" class="infobox-full-data" style=""><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173168" /></td></tr></tbody></table>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173168" /><table class="infobox" style="position:relative;"><caption class="infobox-title">搜狗拼音输入法</caption><tbody><tr><td colspan="2" class="infobox-subheader">中文輸入法</td></tr><tr><td colspan="2" class="infobox-image"><span typeof="mw:File"><a href="/wiki/File:Wiki_ping_in_sougou.jpg" class="mw-file-description"><img src="//thumb.wikimedia.org/wikipedia/zh/thumb/3/38/Wiki_ping_in_sougou.jpg/250px-Wiki_ping_in_sougou.jpg?utm_source=zh.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="250" height="70" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/zh/3/38/Wiki_ping_in_sougou.jpg?utm_source=zh.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled 2x" data-file-width="416" data-file-height="117" /></a></span></td></tr><tr><th scope="row" class="infobox-label" style="white-space:nowrap;;">發明人</th><td class="infobox-data" style="">搜狐公司</td></tr><tr><th scope="row" class="infobox-label" style="white-space:nowrap;;">發明年份</th><td class="infobox-data" style="">2006年6月</td></tr><tr><th scope="row" class="infobox-label" style="white-space:nowrap;;">類別</th><td class="infobox-data" style="">拼音</td></tr></tbody></table>
+<p><b>搜狗拼音输入法</b>是2006年6月由<a href="/wiki/%E6%90%9C%E7%8B%90%E5%85%AC%E5%8F%B8" class="mw-redirect" title="搜狐公司">搜狐公司</a>推出的一款<a href="/wiki/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="汉语拼音输入法">汉语拼音输入法</a>。搜狗输入法从一开始偏向于詞語輸入特性，发展到后来配备云输入功能的以整句输入为优势的输入法，是中国大陆市场主流的<a href="/wiki/%E6%BC%A2%E8%AA%9E%E6%8B%BC%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95" class="mw-redirect" title="漢語拼音輸入法">漢語拼音輸入法</a>。根據極光大數據的《2018年輸入法app行業研究報告》搜狗输入法app的滲透率為69.8%，月活躍用戶人數為4.6億<sup id="cite&#95;ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">&#91;</span>1<span class="cite-bracket">&#93;</span></a></sup>。
+</p>
+<meta property="mw:PageProp/toc" />
+<div class="mw-heading mw-heading2"><h2 id="事件"><span id=".E4.BA.8B.E4.BB.B6"></span>事件</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=1" title="编辑章节：事件"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<div class="mw-heading mw-heading3"><h3 id="词库事件"><span id=".E8.AF.8D.E5.BA.93.E4.BA.8B.E4.BB.B6"></span>词库事件</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=2" title="编辑章节：词库事件"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>2007年4月4日，<a href="/wiki/Google" title="Google">Google</a>公司推出<a href="/wiki/%E8%B0%B7%E6%AD%8C%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="谷歌拼音输入法">谷歌拼音输入法</a>（以下简称“谷歌拼音”），随后就有网友根据使用情况反应：谷歌拼音的词库极其类似搜狗拼音的词库。<sup id="cite&#95;ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">&#91;</span>2<span class="cite-bracket">&#93;</span></a></sup>4月8日，<a href="/wiki/%E6%90%9C%E7%8B%90" title="搜狐">搜狐</a>公司发表公开声明，说他们已从技术层面检测出谷歌拼音的确盗用了搜狗拼音的词库，他们表示强烈不满。当天下午，<a href="/wiki/Google" title="Google">Google</a>出面承认谷歌拼音在实验阶段的确使用了第三方词库。<a href="/wiki/%E6%90%9C%E7%8B%90" title="搜狐">搜狐</a>公司表示，<a href="/wiki/Google" title="Google">Google</a>不仅盗用了词库，还侵犯了其输入法的知识产权，要求<a href="/wiki/Google" title="Google">Google</a>公司停止开发输入法<sup id="cite&#95;ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">&#91;</span>3<span class="cite-bracket">&#93;</span></a></sup>。4月9日，谷歌发布声明道歉，并称8日更新时已升级了词库<sup id="cite&#95;ref-4" class="reference"><a href="#cite_note-4"><span class="cite-bracket">&#91;</span>4<span class="cite-bracket">&#93;</span></a></sup>。
+</p>
+<div class="mw-heading mw-heading3"><h3 id="起诉腾讯"><span id=".E8.B5.B7.E8.AF.89.E8.85.BE.E8.AE.AF"></span>起诉腾讯</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=3" title="编辑章节：起诉腾讯"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>2009年6月23日，搜狗以拼音输入法不正当竞争为由，向北京市第二中级人民法院提起诉讼，状告深圳市腾讯计算机系统有限公司、北京奥蓝德信息科技有限公司，要求赔偿以及道歉，索赔金额高达2051万余元以上。腾讯表示这是搜狗为遏制QQ拼音发展势头，并且暗示这是搜狗的恶意中伤。<sup id="cite&#95;ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">&#91;</span>5<span class="cite-bracket">&#93;</span></a></sup><sup id="cite&#95;ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup><sup id="cite&#95;ref-7" class="reference"><a href="#cite_note-7"><span class="cite-bracket">&#91;</span>7<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>2009年11月13日，腾讯向<a href="/wiki/%E5%8C%97%E4%BA%AC%E5%B8%82%E7%AC%AC%E4%B8%80%E4%B8%AD%E7%BA%A7%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2" title="北京市第一中级人民法院">北京市第一中级人民法院</a>提起诉讼，要求判令搜狗拼音输入法停止虚假宣传行为、停止恶意干扰用户选择QQ拼音输入法等，并向腾讯公司支付2000万元赔偿。<sup id="cite&#95;ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">&#91;</span>8<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>2010年6月21日，北京市第一中级人民法院认定北京搜狗科技发展有限公司、北京搜狗信息服务有限公司的行为构成不正当竞争，判决两被告共同赔偿原告腾讯经济损失20万元及诉讼合理支出4万元。<sup id="cite&#95;ref-9" class="reference"><a href="#cite_note-9"><span class="cite-bracket">&#91;</span>9<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>2010年6月22日，<a href="/wiki/%E5%8C%97%E4%BA%AC%E5%B8%82%E7%AC%AC%E4%BA%8C%E4%B8%AD%E7%BA%A7%E4%BA%BA%E6%B0%91%E6%B3%95%E9%99%A2" title="北京市第二中级人民法院">北京市第二中级人民法院</a>判决腾讯停止“QQ拼音软件输入法”的下载服务，并赔偿搜狗经济损失20万元及诉讼支出3万1千元。<sup id="cite&#95;ref-10" class="reference"><a href="#cite_note-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="双拼方案"><span id=".E5.8F.8C.E6.8B.BC.E6.96.B9.E6.A1.88"></span>双拼方案</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=4" title="编辑章节：双拼方案"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>搜狗拼音输入法支持多种<a href="/wiki/%E5%8F%8C%E6%8B%BC" title="双拼">双拼</a>方案，也包含了一种原创的双拼方案，，名为搜狗拼音双拼方案。其键位图为：<sup id="cite&#95;ref-11" class="reference"><a href="#cite_note-11"><span class="cite-bracket">&#91;</span>11<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<style data-mw-deduplicate="TemplateStyles:r92764529">.mw-parser-output .shuangpin{clear:right}.mw-parser-output .shuangpin>div{position:relative;font-weight:bold}.mw-parser-output .shuangpin>div>div{position:absolute;background-color:#fff;border:1px #ccc solid;border-radius:3px;box-shadow:2px 2px 4px #777;margin:0;width:615px;height:218px}.mw-parser-output .shuangpin>div>div>div:not(:last-child){position:absolute;background-color:#fff;border:1px #ccc solid;border-radius:3px;box-shadow:2px 2px 4px #777;width:50px;height:48px}.mw-parser-output .shuangpin>div>div>div:last-child{position:absolute;font-size:16px;line-height:16px;color:#555;left:470px;top:160px}.mw-parser-output .shuangpin>div>div>div>div:first-child{position:absolute;left:6px;top:4px;font-size:16px;line-height:16px;text-align:left}.mw-parser-output .shuangpin>div>div>div>div:last-child{position:absolute;right:6px;top:4px;font-size:12px;line-height:13px;text-align:right}.mw-parser-output .shuangpin>div>div>div>div:last-child>div:first-child{color:#2c6}.mw-parser-output .shuangpin>div>div>div>div:last-child>div{color:#555}</style><div class="floatright shuangpin"><div style="width:922.5px;height:327px;"><div style="left:153.75px;top:54.5px;transform:scale(1.5,1.5);"><div style="left:30px;top:30px;"><div>Q</div><div><div>q</div><div>iu</div></div></div><div style="left:85px;top:30px;"><div>W</div><div><div>w</div><div>ia</div><div>ua</div></div></div><div style="left:140px;top:30px;"><div>E</div><div><div>　</div><div>e</div></div></div><div style="left:195px;top:30px;"><div>R</div><div><div>r</div><div>er</div><div>uan</div></div></div><div style="left:250px;top:30px;"><div>T</div><div><div>t</div><div>ue</div><div>ve</div></div></div><div style="left:305px;top:30px;"><div>Y</div><div><div>y</div><div>uai</div><div>v</div></div></div><div style="left:360px;top:30px;"><div>U</div><div><div>sh</div><div>u</div></div></div><div style="left:415px;top:30px;"><div>I</div><div><div>ch</div><div>i</div></div></div><div style="left:470px;top:30px;"><div>O</div><div><div>　</div><div>o</div><div>uo</div></div></div><div style="left:525px;top:30px;"><div>P</div><div><div>p</div><div>un</div></div></div><div style="left:40px;top:85px;"><div>A</div><div><div>　</div><div>a</div></div></div><div style="left:95px;top:85px;"><div>S</div><div><div>s</div><div>iong</div><div>ong</div></div></div><div style="left:150px;top:85px;"><div>D</div><div><div>d</div><div>iang</div><div>uang</div></div></div><div style="left:205px;top:85px;"><div>F</div><div><div>f</div><div>en</div></div></div><div style="left:260px;top:85px;"><div>G</div><div><div>g</div><div>eng</div></div></div><div style="left:315px;top:85px;"><div>H</div><div><div>h</div><div>ang</div></div></div><div style="left:370px;top:85px;"><div>J</div><div><div>j</div><div>an</div></div></div><div style="left:425px;top:85px;"><div>K</div><div><div>k</div><div>ao</div></div></div><div style="left:480px;top:85px;"><div>L</div><div><div>l</div><div>ai</div></div></div><div style="left:535px;top:85px;"><div>;</div><div><div>　</div><div>ing</div></div></div><div style="left:68px;top:140px;"><div>Z</div><div><div>z</div><div>ei</div></div></div><div style="left:123px;top:140px;"><div>X</div><div><div>x</div><div>ie</div></div></div><div style="left:178px;top:140px;"><div>C</div><div><div>c</div><div>iao</div></div></div><div style="left:233px;top:140px;"><div>V</div><div><div>zh</div><div>ui</div></div></div><div style="left:288px;top:140px;"><div>B</div><div><div>b</div><div>ou</div></div></div><div style="left:343px;top:140px;"><div>N</div><div><div>n</div><div>in</div></div></div><div style="left:398px;top:140px;"><div>M</div><div><div>m</div><div>ian</div></div></div><div>搜狗拼音雙拼方案</div></div></div></div>
+<div class="mw-heading mw-heading2"><h2 id="评价"><span id=".E8.AF.84.E4.BB.B7"></span>评价</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=5" title="编辑章节：评价"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>搜狗拼音一开始的发展十分迅速，仅仅半年时间就发布了十多个版本。但这个时期的发展多数得益于对<a href="/wiki/%E6%8B%BC%E9%9F%B3%E5%8A%A0%E5%8A%A0%E8%BE%93%E5%85%A5%E6%B3%95" class="mw-redirect" title="拼音加加输入法">拼音加加输入法</a>和<a href="/wiki/%E7%B4%AB%E5%85%89%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" class="mw-redirect" title="紫光拼音输入法">紫光拼音输入法</a>的模仿学习<sup id="cite&#95;ref-12" class="reference"><a href="#cite_note-12"><span class="cite-bracket">&#91;</span>12<span class="cite-bracket">&#93;</span></a></sup><sup class="noprint Inline-Template"><span style="white-space: nowrap;">&#91;<a href="/wiki/Wikipedia:%E5%A4%B1%E6%95%88%E9%93%BE%E6%8E%A5" title="Wikipedia:失效链接"><span title="">失效連結</span></a>&#93;</span></sup>。
+</p>
+<div class="mw-heading mw-heading2"><h2 id="争议"><span id=".E4.BA.89.E8.AE.AE"></span>争议</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=6" title="编辑章节：争议"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>社会对搜狗拼音的评价褒贬不一。含有引诱用户以抢占输入法首位、无法彻底关闭自动升级、弹出弹窗广告、捆绑软件<sup id="cite&#95;ref-13" class="reference"><a href="#cite_note-13"><span class="cite-bracket">&#91;</span>13<span class="cite-bracket">&#93;</span></a></sup>（如：<a href="/wiki/%E6%90%9C%E7%8B%97%E6%B5%8F%E8%A7%88%E5%99%A8" class="mw-redirect" title="搜狗浏览器">搜狗浏览器</a>、<a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%89%8B%E6%9C%BA%E5%8A%A9%E6%89%8B&amp;action=edit&amp;redlink=1" class="new" title="搜狗手机助手（页面不存在）">搜狗手机助手</a>）的行为。
+</p><p>2016年5月，有用户发现搜狗拼音输入法会以明文的方式上传用户输入的内容（无论用户是否加入“用户体验改进计划”）<sup id="cite&#95;ref-14" class="reference"><a href="#cite_note-14"><span class="cite-bracket">&#91;</span>14<span class="cite-bracket">&#93;</span></a></sup>。
+</p><p>2025年9月，<a href="/wiki/%E7%81%AB%E7%BB%92%E5%AE%89%E5%85%A8%E8%BD%AF%E4%BB%B6" title="火绒安全软件">火绒安全</a>团队发布报告指出，搜狗输入法（版本15.7.0.2192）通过其云控模块，在用户不知情的情况下篡改了<a href="/wiki/Microsoft_Edge" title="Microsoft Edge">Microsoft Edge</a>和<a href="/wiki/Google_Chrome" title="Google Chrome">Google Chrome</a>的主页和默认搜索引擎设置。报告称，该模块会先检测用户设备上的杀毒软件，随后通过修改配置文件的方式进行篡改，并将用户的搜索流量重定向至带有推广标识的链接以获取利益。火绒安全产品已可对上述推广模块进行拦截与查杀。此外，火绒安全还披露搜狗输入法存在桌面右下角弹窗广告。初期用户可通过系统通知设置关闭，但搜狗输入法随后会通过修改注册表等方式，使相关关闭按钮变灰或在系统通知设置中隐藏，导致用户无法正常关闭这些弹窗。部分用户反映，即使在搜狗输入法自身设置中关闭“桌面右下角推荐”选项，该选项有时也会消失，进一步阻碍用户管理广告弹窗。<sup id="cite&#95;ref-huorong&#95;15-0" class="reference"><a href="#cite_note-huorong-15"><span class="cite-bracket">&#91;</span>15<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="參考資料"><span id=".E5.8F.83.E8.80.83.E8.B3.87.E6.96.99"></span>參考資料</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=7" title="编辑章节：參考資料"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r95320392">.mw-parser-output .reflist{margin-bottom:0.5em;list-style-type:decimal}@media screen{.mw-parser-output .reflist{font-size:90%}}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist reflist-columns" style="column-count: 2;"><ol class="references">
+<li id="cite&#95;note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r95173179">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#d33)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#d33)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.jiguang.cn/reports/330">2018年输入法app行业研究报告</a>. 极光大数据.  <span class="reference-accessdate"> &#91;<span class="nowrap">2020-07-07</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20201125063710/https://www.jiguang.cn/reports/330">存档</a>于2020-11-25）.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.atitle=2018%E5%B9%B4%E8%BE%93%E5%85%A5%E6%B3%95app%E8%A1%8C%E4%B8%9A%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A&amp;rft.genre=unknown&amp;rft.jtitle=%E6%9E%81%E5%85%89%E5%A4%A7%E6%95%B0%E6%8D%AE&amp;rft&#95;id=https%3A%2F%2Fwww.jiguang.cn%2Freports%2F330&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2007" class="citation web"><a rel="nofollow" class="external text" href="https://www.cnbeta.com/articles/tech/24714.htm">揭破Google输入法词库声明的弥天大谎</a>. cnBeta. 2007-04-09 <span class="reference-accessdate"> &#91;<span class="nowrap">2021-02-18</span>&#93;</span> <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文网页">（中文）</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E6%8F%AD%E7%A0%B4Google%E8%BE%93%E5%85%A5%E6%B3%95%E8%AF%8D%E5%BA%93%E5%A3%B0%E6%98%8E%E7%9A%84%E5%BC%A5%E5%A4%A9%E5%A4%A7%E8%B0%8E&amp;rft.date=2007-04-09&amp;rft.genre=unknown&amp;rft.pub=cnBeta&amp;rft&#95;id=https%3A%2F%2Fwww.cnbeta.com%2Farticles%2Ftech%2F24714.htm&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span><sup class="noprint Inline-Template"><span style="white-space: nowrap;">&#91;<a href="/wiki/Wikipedia:%E5%A4%B1%E6%95%88%E9%93%BE%E6%8E%A5" title="Wikipedia:失效链接"><span title="">失效連結</span></a>&#93;</span></sup></span>
+</li>
+<li id="cite&#95;note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2007" class="citation web"><a rel="nofollow" class="external text" href="https://it.sohu.com/20070408/n249285028.shtml">“搜狗拼音输入法”关于Google盗用词库的声明</a>. 搜狐IT. 2007-04-08 <span class="reference-accessdate"> &#91;<span class="nowrap">2021-02-18</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20201028163716/https://it.sohu.com/20070408/n249285028.shtml">存档</a>于2020-10-28） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E2%80%9C%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95%E2%80%9D%E5%85%B3%E4%BA%8EGoogle%E7%9B%97%E7%94%A8%E8%AF%8D%E5%BA%93%E7%9A%84%E5%A3%B0%E6%98%8E&amp;rft.date=2007-04-08&amp;rft.genre=unknown&amp;rft.pub=%E6%90%9C%E7%8B%90IT&amp;rft&#95;id=https%3A%2F%2Fit.sohu.com%2F20070408%2Fn249285028.shtml&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2007" class="citation web"><a rel="nofollow" class="external text" href="https://china.googleblog.com/2007/04/blog-post_6162.html">谷歌就谷歌输入法对用户及搜狐等各方致歉</a>. Google 黑板报. 2007-04-09 <span class="reference-accessdate"> &#91;<span class="nowrap">2021-02-18</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20201130012655/https://china.googleblog.com/2007/04/blog-post_6162.html">存档</a>于2020-11-30） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（中国大陆）网页">（中文（中国大陆））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.atitle=%E8%B0%B7%E6%AD%8C%E5%B0%B1%E8%B0%B7%E6%AD%8C%E8%BE%93%E5%85%A5%E6%B3%95%E5%AF%B9%E7%94%A8%E6%88%B7%E5%8F%8A%E6%90%9C%E7%8B%90%E7%AD%89%E5%90%84%E6%96%B9%E8%87%B4%E6%AD%89&amp;rft.date=2007-04-09&amp;rft.genre=unknown&amp;rft.jtitle=Google+%E9%BB%91%E6%9D%BF%E6%8A%A5&amp;rft&#95;id=https%3A%2F%2Fchina.googleblog.com%2F2007%2F04%2Fblog-post&#95;6162.html&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2009" class="citation web"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20090711002625/http://media.ifeng.com/pk/now/tengxunpksougou/200907/0701_7176_1229113.shtml">搜狗状告腾讯不正当竞争索赔2051万</a>. 凤凰网. 2009-07-04 <span class="reference-accessdate"> &#91;<span class="nowrap">2009-07-04</span>&#93;</span>. （<a rel="nofollow" class="external text" href="http://media.ifeng.com/pk/now/tengxunpksougou/200907/0701_7176_1229113.shtml">原始内容</a>存档于2009-07-11） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E6%90%9C%E7%8B%97%E7%8A%B6%E5%91%8A%E8%85%BE%E8%AE%AF%E4%B8%8D%E6%AD%A3%E5%BD%93%E7%AB%9E%E4%BA%89%E7%B4%A2%E8%B5%942051%E4%B8%87&amp;rft.date=2009-07-04&amp;rft.genre=unknown&amp;rft.pub=%E5%87%A4%E5%87%B0%E7%BD%91&amp;rft&#95;id=http%3A%2F%2Fmedia.ifeng.com%2Fpk%2Fnow%2Ftengxunpksougou%2F200907%2F0701&#95;7176&#95;1229113.shtml&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF周文林2009" class="citation web">周文林. <a rel="nofollow" class="external text" href="http://it.sohu.com/20090702/n264932732.shtml">新华网：搜索促输入法飞跃 搜狗腾讯竞争激烈</a>. 搜狐. 2009-07-02 <span class="reference-accessdate"> &#91;<span class="nowrap">2009-07-02</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20090705094829/http://it.sohu.com/20090702/n264932732.shtml">存档</a>于2009-07-05） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.au=%E5%91%A8%E6%96%87%E6%9E%97&amp;rft.btitle=%E6%96%B0%E5%8D%8E%E7%BD%91%EF%BC%9A%E6%90%9C%E7%B4%A2%E4%BF%83%E8%BE%93%E5%85%A5%E6%B3%95%E9%A3%9E%E8%B7%83+%E6%90%9C%E7%8B%97%E8%85%BE%E8%AE%AF%E7%AB%9E%E4%BA%89%E6%BF%80%E7%83%88&amp;rft.date=2009-07-02&amp;rft.genre=unknown&amp;rft.pub=%E6%90%9C%E7%8B%90&amp;rft&#95;id=http%3A%2F%2Fit.sohu.com%2F20090702%2Fn264932732.shtml&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2009" class="citation web"><a rel="nofollow" class="external text" href="http://tech.qq.com/a/20090703/000392.htm">腾讯：搜狗起诉是为遏制QQ拼音发展势头</a>. 腾讯. 2009-07-03 <span class="reference-accessdate"> &#91;<span class="nowrap">2009-07-04</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20090709005703/http://tech.qq.com/a/20090703/000392.htm">存档</a>于2009-07-09） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E8%85%BE%E8%AE%AF%EF%BC%9A%E6%90%9C%E7%8B%97%E8%B5%B7%E8%AF%89%E6%98%AF%E4%B8%BA%E9%81%8F%E5%88%B6QQ%E6%8B%BC%E9%9F%B3%E5%8F%91%E5%B1%95%E5%8A%BF%E5%A4%B4&amp;rft.date=2009-07-03&amp;rft.genre=unknown&amp;rft.pub=%E8%85%BE%E8%AE%AF&amp;rft&#95;id=http%3A%2F%2Ftech.qq.com%2Fa%2F20090703%2F000392.htm&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF佚名2010" class="citation web">佚名. <a rel="nofollow" class="external text" href="http://pcedu.pconline.com.cn/softnews/yejie/1006/2151503.html">输入法第一案宣判 搜狗腾讯谁胜谁负?</a>. PConline. 2010-06-22 <span class="reference-accessdate"> &#91;<span class="nowrap">2010-11-23</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20190629183345/https://pcedu.pconline.com.cn/softnews/yejie/1006/2151503.html">存档</a>于2019-06-29） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.au=%E4%BD%9A%E5%90%8D&amp;rft.btitle=%E8%BE%93%E5%85%A5%E6%B3%95%E7%AC%AC%E4%B8%80%E6%A1%88%E5%AE%A3%E5%88%A4+%E6%90%9C%E7%8B%97%E8%85%BE%E8%AE%AF%E8%B0%81%E8%83%9C%E8%B0%81%E8%B4%9F%3F&amp;rft.date=2010-06-22&amp;rft.genre=unknown&amp;rft.pub=PConline&amp;rft&#95;id=http%3A%2F%2Fpcedu.pconline.com.cn%2Fsoftnews%2Fyejie%2F1006%2F2151503.html&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2010" class="citation web"><a rel="nofollow" class="external text" href="http://tech.sina.com.cn/i/2010-06-21/23034332236.shtml">腾讯诉搜狗不正当竞争一审宣判：搜狗被判赔20万</a>. 新浪科技. 2010-06-21 <span class="reference-accessdate"> &#91;<span class="nowrap">2010-11-23</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20201125063746/http://tech.sina.com.cn/i/2010-06-21/23034332236.shtml">存档</a>于2020-11-25） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E8%85%BE%E8%AE%AF%E8%AF%89%E6%90%9C%E7%8B%97%E4%B8%8D%E6%AD%A3%E5%BD%93%E7%AB%9E%E4%BA%89%E4%B8%80%E5%AE%A1%E5%AE%A3%E5%88%A4%EF%BC%9A%E6%90%9C%E7%8B%97%E8%A2%AB%E5%88%A4%E8%B5%9420%E4%B8%87&amp;rft.date=2010-06-21&amp;rft.genre=unknown&amp;rft.pub=%E6%96%B0%E6%B5%AA%E7%A7%91%E6%8A%80&amp;rft&#95;id=http%3A%2F%2Ftech.sina.com.cn%2Fi%2F2010-06-21%2F23034332236.shtml&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2010" class="citation web"><a rel="nofollow" class="external text" href="http://tech.sina.com.cn/i/2010-06-22/11214335893.shtml">搜狗诉腾讯不正当竞争案宣判：腾讯被判赔20万</a>. 新浪科技. 2010-06-22 <span class="reference-accessdate"> &#91;<span class="nowrap">2010-11-23</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20201125063754/http://tech.sina.com.cn/i/2010-06-22/11214335893.shtml">存档</a>于2020-11-25） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E6%90%9C%E7%8B%97%E8%AF%89%E8%85%BE%E8%AE%AF%E4%B8%8D%E6%AD%A3%E5%BD%93%E7%AB%9E%E4%BA%89%E6%A1%88%E5%AE%A3%E5%88%A4%EF%BC%9A%E8%85%BE%E8%AE%AF%E8%A2%AB%E5%88%A4%E8%B5%9420%E4%B8%87&amp;rft.date=2010-06-22&amp;rft.genre=unknown&amp;rft.pub=%E6%96%B0%E6%B5%AA%E7%A7%91%E6%8A%80&amp;rft&#95;id=http%3A%2F%2Ftech.sina.com.cn%2Fi%2F2010-06-22%2F11214335893.shtml&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite class="citation web"><a rel="nofollow" class="external text" href="https://shouji.sogou.com/wap/htmls/shuangpin.html">双拼方案</a>. 搜狗手机输入法.  <span class="reference-accessdate"> &#91;<span class="nowrap">2021-02-18</span>&#93;</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E5%8F%8C%E6%8B%BC%E6%96%B9%E6%A1%88&amp;rft.genre=unknown&amp;rft.pub=%E6%90%9C%E7%8B%97%E6%89%8B%E6%9C%BA%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft&#95;id=https%3A%2F%2Fshouji.sogou.com%2Fwap%2Fhtmls%2Fshuangpin.html&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">详细参考加加论坛 <a rel="nofollow" class="external free" href="http://bbs.jjol.cn">http://bbs.jjol.cn</a> <a href="/wiki/Wayback_Machine" class="mw-redirect" title="Wayback Machine">互联网档案馆</a>的<a rel="nofollow" class="external text" href="https://web.archive.org/web/20051013060943/http://bbs.jjol.cn/">存檔</a>，存档日期2005-10-13.</span>
+</li>
+<li id="cite&#95;note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF赵欢鑫2017" class="citation web">赵欢鑫. <a rel="nofollow" class="external text" href="https://diy.zol.com.cn/670/6702933.html">悬挂在国产软件之上的“达摩克利斯之剑”</a>. 中关村在线. 2017-12-13 <span class="reference-accessdate"> &#91;<span class="nowrap">2021-02-18</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20171224043131/http://diy.zol.com.cn/670/6702933.html">存档</a>于2017-12-24） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.au=%E8%B5%B5%E6%AC%A2%E9%91%AB&amp;rft.btitle=%E6%82%AC%E6%8C%82%E5%9C%A8%E5%9B%BD%E4%BA%A7%E8%BD%AF%E4%BB%B6%E4%B9%8B%E4%B8%8A%E7%9A%84%E2%80%9C%E8%BE%BE%E6%91%A9%E5%85%8B%E5%88%A9%E6%96%AF%E4%B9%8B%E5%89%91%E2%80%9D&amp;rft.date=2017-12-13&amp;rft.genre=unknown&amp;rft.pub=%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF&amp;rft&#95;id=https%3A%2F%2Fdiy.zol.com.cn%2F670%2F6702933.html&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2016" class="citation web"><a rel="nofollow" class="external text" href="http://www.landiannews.com/archives/22118.html">有些事情你记不得了，输入法还帮你记着</a>. 蓝点网. 2016-05-30 <span class="reference-accessdate"> &#91;<span class="nowrap">2016-06-03</span>&#93;</span>. （原始内容<a rel="nofollow" class="external text" href="https://web.archive.org/web/20160624135832/http://www.landiannews.com/archives/22118.html">存档</a>于2016-06-24） <span style="font-family: sans-serif; cursor: default; color:var(--color-subtle, #54595d); font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E6%9C%89%E4%BA%9B%E4%BA%8B%E6%83%85%E4%BD%A0%E8%AE%B0%E4%B8%8D%E5%BE%97%E4%BA%86%EF%BC%8C%E8%BE%93%E5%85%A5%E6%B3%95%E8%BF%98%E5%B8%AE%E4%BD%A0%E8%AE%B0%E7%9D%80&amp;rft.date=2016-05-30&amp;rft.genre=unknown&amp;rft.pub=%E8%93%9D%E7%82%B9%E7%BD%91&amp;rft&#95;id=http%3A%2F%2Fwww.landiannews.com%2Farchives%2F22118.html&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+<li id="cite&#95;note-huorong-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-huorong_15-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173179" /><cite id="CITEREF2025" class="citation web"><a rel="nofollow" class="external text" href="https://www.ithome.com/0/884/426.htm">火绒安全：搜狗输入法云控下发模块，“暗中”篡改浏览器配置</a>. IT之家. 2025-09-20 <span class="reference-accessdate"> &#91;<span class="nowrap">2024-01-01</span>&#93;</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rfr&#95;id=info%3Asid%2Fzh.wikipedia.org%3A%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;rft.btitle=%E7%81%AB%E7%BB%92%E5%AE%89%E5%85%A8%EF%BC%9A%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E4%BA%91%E6%8E%A7%E4%B8%8B%E5%8F%91%E6%A8%A1%E5%9D%97%EF%BC%8C%E2%80%9C%E6%9A%97%E4%B8%AD%E2%80%9D%E7%AF%A1%E6%94%B9%E6%B5%8F%E8%A7%88%E5%99%A8%E9%85%8D%E7%BD%AE&amp;rft.date=2025-09-20&amp;rft.genre=unknown&amp;rft.pub=IT%E4%B9%8B%E5%AE%B6&amp;rft&#95;id=https%3A%2F%2Fwww.ithome.com%2F0%2F884%2F426.htm&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span>
+</li>
+</ol></div>
+<div class="mw-heading mw-heading2"><h2 id="参閱"><span id=".E5.8F.82.E9.96.B1"></span>参閱</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=8" title="编辑章节：参閱"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<ul><li><a href="/wiki/%E6%90%9C%E7%8B%97%E6%89%8B%E6%9C%BA%E8%BE%93%E5%85%A5%E6%B3%95" class="mw-redirect" title="搜狗手机输入法">搜狗手机输入法</a></li>
+<li><a href="/wiki/%E6%90%9C%E7%8B%97%E4%BA%91%E8%BE%93%E5%85%A5%E6%B3%95" title="搜狗云输入法">搜狗云输入法</a></li>
+<li><a href="/wiki/%E6%90%9C%E7%8B%97%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95" title="搜狗五笔输入法">搜狗五笔输入法</a></li>
+<li><a href="/wiki/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E6%B3%A8%E9%9F%B3%E7%89%88" title="搜狗输入法注音版">搜狗輸入法注音版</a></li></ul>
+<div class="mw-heading mw-heading2"><h2 id="外部連結"><span id=".E5.A4.96.E9.83.A8.E9.80.A3.E7.B5.90"></span>外部連結</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;action=edit&amp;section=9" title="编辑章节：外部連結"><span>编辑</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<ul><li><a rel="nofollow" class="external text" href="https://pinyin.sogou.com">官方网站</a> （<a rel="nofollow" class="external text" href="//web.archive.org/web/20210324122926/https://pinyin.sogou.com/">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li></ul>
+<div style="clear: both; height: 1em"></div>
+<div class="navbox-styles"><style data-mw-deduplicate="TemplateStyles:r95173189">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:" :"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist-pipe dd::after,.mw-parser-output .hlist-pipe li::after{content:" | ";font-weight:normal}.mw-parser-output .hlist-hyphen dd::after,.mw-parser-output .hlist-hyphen li::after{content:" - ";font-weight:normal}.mw-parser-output .hlist-comma dd::after,.mw-parser-output .hlist-comma li::after{content:"、";font-weight:normal}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:"（";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:"）";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:"（"counter(listitem)"\a0 "}.mw-parser-output ul.cslist,.mw-parser-output ul.sslist{margin:0;padding:0;display:inline-block;list-style:none}.mw-parser-output .cslist li,.mw-parser-output .sslist li{margin:0;display:inline-block}.mw-parser-output .cslist li::after{content:"，"}.mw-parser-output .sslist li::after{content:"；"}.mw-parser-output .cslist li:last-child::after,.mw-parser-output .sslist li:last-child::after{content:none}</style><style data-mw-deduplicate="TemplateStyles:r95173153">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox-styles+.navbox,.mw-parser-output .navbox+span.mw-empty-elt+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{text-align:center;padding-left:1em;padding-right:1em}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit;position:relative}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em;width:auto;padding-left:0.2em;padding-right:0.2em;position:absolute;left:1em}.mw-parser-output .navbox .mw-collapsible-toggle{margin-left:0.5em;position:absolute;right:1em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}</style></div><div role="navigation" class="navbox" aria-labelledby="搜狐2728" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="collapsible-title navbox-title" colspan="2" style="background: #fdd000"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173189" /><style data-mw-deduplicate="TemplateStyles:r95173156">.mw-parser-output .navbar{display:inline;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:110%;margin:0 8em}.mw-parser-output .navbar-ct-mini{font-size:110%;margin:0 5em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:%E6%90%9C%E7%8B%90" title="Template:搜狐"><abbr title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E6%90%9C%E7%8B%90" title="Template talk:搜狐"><abbr title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a href="/wiki/Special:EditPage/Template:%E6%90%9C%E7%8B%90" title="Special:EditPage/Template:搜狐"><abbr title="编辑该模板">编</abbr></a></li></ul></div><div id="搜狐2728" style="font-size:110%;margin:0 5em"><a href="/wiki/%E6%90%9C%E7%8B%90" title="搜狐">搜狐</a></div></th></tr><tr><th scope="row" class="navbox-group" style="background: #fdd000;width:1%">人物</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%;text-align: left;background-color: #eee;">在职</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%BC%A0%E6%9C%9D%E9%98%B3" title="张朝阳">張朝陽</a></li>
+<li><a href="/w/index.php?title=%E9%A4%98%E6%A5%9A%E5%AA%9B&amp;action=edit&amp;redlink=1" class="new" title="餘楚媛（页面不存在）">餘楚媛</a></li>
+<li><a href="/w/index.php?title=%E9%82%93%E6%99%94_(%E4%BC%81%E4%B8%9A%E5%AE%B6)&amp;action=edit&amp;redlink=1" class="new" title="邓晔 (企业家)（页面不存在）">邓晔</a></li>
+<li><a href="/w/index.php?title=%E5%B4%94%E8%8E%89%E8%8E%89&amp;action=edit&amp;redlink=1" class="new" title="崔莉莉（页面不存在）">崔莉莉</a></li>
+<li><a href="/w/index.php?title=%E5%BC%B5%E9%9B%AA%E6%A2%85&amp;action=edit&amp;redlink=1" class="new" title="張雪梅（页面不存在）">張雪梅</a></li>
+<li><a href="/w/index.php?title=%E6%9B%BE%E6%87%8C&amp;action=edit&amp;redlink=1" class="new" title="曾懌（页面不存在）">曾懌</a></li>
+<li><a href="/w/index.php?title=%E6%B2%88%E5%B7%96%E5%B6%BA&amp;action=edit&amp;redlink=1" class="new" title="沈巖嶺（页面不存在）">沈巖嶺</a></li>
+<li><a href="/w/index.php?title=%E6%A8%8A%E5%8A%9F%E8%87%A3&amp;action=edit&amp;redlink=1" class="new" title="樊功臣（页面不存在）">樊功臣</a></li>
+<li><a href="/w/index.php?title=%E9%99%B3%E6%9C%9D%E8%8F%AF&amp;action=edit&amp;redlink=1" class="new" title="陳朝華（页面不存在）">陳朝華</a></li>
+<li><a href="/w/index.php?title=%E9%A4%98%E6%A5%9A%E5%AA%9B&amp;action=edit&amp;redlink=1" class="new" title="餘楚媛（页面不存在）">餘楚媛</a></li>
+<li><a href="/w/index.php?title=%E9%99%B3%E5%BE%B7%E6%96%87&amp;action=edit&amp;redlink=1" class="new" title="陳德文（页面不存在）">陳德文</a></li>
+<li><a href="/w/index.php?title=%E6%B4%AA%E6%9B%89%E5%81%A5&amp;action=edit&amp;redlink=1" class="new" title="洪曉健（页面不存在）">洪曉健</a></li>
+<li><a href="/w/index.php?title=%E5%91%A8%E6%99%B6&amp;action=edit&amp;redlink=1" class="new" title="周晶（页面不存在）">周晶</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%;text-align: left;background-color: #eee;">离职</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%99%88%E4%B8%80%E8%88%9F" title="陈一舟">陈一舟</a></li>
+<li><a href="/wiki/%E5%8F%A4%E6%B0%B8%E9%8F%98" title="古永鏘">古永锵</a></li>
+<li><a href="/wiki/%E9%BE%9A%E5%AE%87" title="龚宇">龚宇</a></li>
+<li><a href="/wiki/%E8%AE%B8%E6%9C%9D%E5%86%9B" title="许朝军">许朝军</a></li>
+<li><a href="/wiki/%E5%B0%9A%E5%A8%9C" title="尚娜">尚娜</a></li>
+<li><a href="/wiki/%E7%8E%8B%E5%B0%8F%E5%B7%9D" title="王小川">王小川</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="background: #fdd000;width:1%">業務</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">媒體</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%90%9C%E7%8B%90" title="搜狐">搜狐網</a></li>
+<li><a href="/w/index.php?title=%E6%90%9C%E7%8B%90%E6%96%B0%E8%81%9E%E5%AE%A2%E6%88%B6%E7%AB%AF&amp;action=edit&amp;redlink=1" class="new" title="搜狐新聞客戶端（页面不存在）">搜狐新聞客戶端</a></li>
+<li><a href="/w/index.php?title=%E6%89%8B%E6%A9%9F%E6%90%9C%E7%8B%90&amp;action=edit&amp;redlink=1" class="new" title="手機搜狐（页面不存在）">手機搜狐</a></li>
+<li><a href="/w/index.php?title=%E6%90%9C%E7%8B%90%E5%BE%AE%E9%96%80%E6%88%B6&amp;action=edit&amp;redlink=1" class="new" title="搜狐微門戶（页面不存在）">搜狐微門戶</a></li>
+<li><a href="/w/index.php?title=%E6%90%9C%E7%8B%90%E7%84%A6%E9%BB%9E&amp;action=edit&amp;redlink=1" class="new" title="搜狐焦點（页面不存在）">搜狐焦點</a></li>
+<li><a href="/w/index.php?title=%E6%90%9C%E7%8B%90%E6%B1%BD%E8%BB%8A&amp;action=edit&amp;redlink=1" class="new" title="搜狐汽車（页面不存在）">搜狐汽車</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">視頻</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%90%9C%E7%8B%90%E8%A7%86%E9%A2%91" title="搜狐视频">搜狐視頻</a></li>
+<li><a href="/w/index.php?title=%E6%90%9C%E7%8B%90%E8%A6%96%E9%A0%BB%E5%AE%A2%E6%88%B6%E7%AB%AF&amp;action=edit&amp;redlink=1" class="new" title="搜狐視頻客戶端（页面不存在）">搜狐視頻客戶端</a></li>
+<li><a href="/wiki/%E6%90%9C%E7%8B%90" title="搜狐">搜狐娛樂</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">遊戲</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%95%85%E6%B8%B8" title="畅游">暢遊</a></li>
+<li><a href="/wiki/17173" title="17173">17173</a></li>
+<li><a href="/wiki/%E7%AC%AC%E4%B8%83%E5%A4%A7%E9%81%93" title="第七大道">第七大道</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">地圖</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em"><a href="/wiki/%E6%90%9C%E7%8B%97%E5%9C%B0%E5%9C%96" title="搜狗地圖">搜狗地圖</a></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">其他</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/w/index.php?title=ChinaRen&amp;action=edit&amp;redlink=1" class="new" title="ChinaRen（页面不存在）">ChinaRen</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">已出售业务</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%90%9C%E7%8B%97" title="搜狗">搜狗搜索</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173189" /><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173153" /></div><div role="navigation" class="navbox" aria-labelledby="中文输入法4087" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="collapsible-title navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173189" /><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r95173156" /><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:%E6%BC%A2%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95" title="Template:漢語輸入法"><abbr title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/w/index.php?title=Template_talk:%E6%BC%A2%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95&amp;action=edit&amp;redlink=1" class="new" title="Template talk:漢語輸入法（页面不存在）"><abbr title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a href="/wiki/Special:EditPage/Template:%E6%BC%A2%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95" title="Special:EditPage/Template:漢語輸入法"><abbr title="编辑该模板">编</abbr></a></li></ul></div><div id="中文输入法4087" style="font-size:110%;margin:0 5em"><a href="/wiki/%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95" title="中文输入法">中文输入法</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="拼音输入法">拼音</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">概念</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%85%A8%E6%8B%BC" title="全拼">全拼</a></li>
+<li><a href="/wiki/%E5%8F%8C%E6%8B%BC" title="双拼">双拼</a></li>
+<li><a href="/wiki/%E7%AE%80%E6%8B%BC" title="简拼">简拼</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/%E6%B3%A8%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95" title="注音輸入法">注音輸入法</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%BE%AE%E8%BB%9F%E6%96%B0%E6%B3%A8%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95" title="微軟新注音輸入法">微軟</a></li>
+<li><a href="/wiki/%E8%87%AA%E7%84%B6%E8%BC%B8%E5%85%A5%E6%B3%95" title="自然輸入法">自然</a></li>
+<li><a href="/wiki/%E6%96%B0%E9%85%B7%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95" title="新酷音輸入法">新酷音</a></li>
+<li><a href="/wiki/Yahoo!%E5%A5%87%E6%91%A9%E8%BC%B8%E5%85%A5%E6%B3%95" title="Yahoo!奇摩輸入法">Yahoo!奇摩輸入法</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="汉语拼音输入法">拼音输入法</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%BE%AE%E8%BD%AF%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="微软拼音输入法">微軟</a></li>
+<li><a href="/wiki/%E8%B0%B7%E6%AD%8C%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="谷歌拼音输入法">谷歌</a> <small>(Google)</small></li>
+<li><a href="/wiki/%E6%99%BA%E8%83%BDABC%E8%BE%93%E5%85%A5%E6%B3%95" title="智能ABC输入法">智能ABC</a></li>
+<li><a href="/wiki/%E6%8B%BC%E9%9F%B3%E5%8A%A0%E5%8A%A0" title="拼音加加">拼音加加</a></li>
+<li><a href="/wiki/%E5%8D%8E%E5%AE%87%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="华宇拼音输入法">華宇</a></li>
+<li><a href="/wiki/%E5%82%BB%E7%93%9C%E7%A0%81" title="傻瓜码">傻瓜码</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/%E6%B1%89%E8%AF%AD%E6%96%B9%E8%A8%80" title="汉语方言">汉语方言</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%B2%B5%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95" class="mw-redirect" title="粵語輸入法">粵語拼音</a></li>
+<li><a href="/wiki/%E4%B8%AD%E5%9C%8B%E6%BC%A2%E8%AA%9E%E6%96%B9%E8%A8%80%E4%BF%9D%E8%AD%B7#閩都" title="中國漢語方言保護">閩語拼音</a><small>（真鳥囝輸入法）</small></li>
+<li><a href="/wiki/%E9%96%A9%E5%8D%97%E8%AA%9E%E8%BC%B8%E5%85%A5%E6%B3%95" title="閩南語輸入法">閩南語</a></li>
+<li><a href="/wiki/%E5%8D%97%E4%BA%AC%E8%A9%B1#输入法方案" title="南京話">南京話</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/%E5%AD%97%E5%BD%A2%E8%BE%93%E5%85%A5%E6%B3%95" title="字形输入法">字形</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:1%">概念</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%80%89%E9%A0%A1%E7%B3%BB%E7%B5%B1" title="倉頡系統">倉頡系統</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">方案</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%80%89%E9%A0%A1%E8%BC%B8%E5%85%A5%E6%B3%95" title="倉頡輸入法">倉頡</a>
+<ul><li><a href="/wiki/%E7%B0%A1%E6%98%93%E8%BC%B8%E5%85%A5%E6%B3%95" title="簡易輸入法">速成/簡易倉頡</a></li>
+<li><a href="/wiki/%E5%BF%AB%E9%80%9F%E5%80%89%E9%A0%A1%E8%BC%B8%E5%85%A5%E6%B3%95" title="快速倉頡輸入法">快速倉頡</a></li>
+<li><a href="/wiki/%E5%85%A8%E6%96%B9%E4%BD%8D%E5%80%89%E9%A0%A1%E8%BC%B8%E5%85%A5%E6%B3%95" title="全方位倉頡輸入法">全方位倉頡</a></li></ul></li>
+<li><a href="/wiki/%E8%92%BC%E9%A0%A1%E6%AA%A2%E5%AD%97%E6%B3%95" title="蒼頡檢字法">蒼頡</a></li>
+<li><a href="/wiki/%E9%83%91%E7%A0%81" title="郑码">郑码</a></li>
+<li><a href="/wiki/%E8%A1%A8%E5%BD%A2%E7%A0%81" title="表形码">表形码</a></li>
+<li><a href="/wiki/%E4%BA%94%E7%AC%94%E5%AD%97%E5%9E%8B%E8%BE%93%E5%85%A5%E6%B3%95" title="五笔字型输入法">五筆字型</a>
+<ul><li><a href="/wiki/%E6%90%9C%E7%8B%97%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95" title="搜狗五笔输入法">搜狗</a></li>
+<li><a href="/wiki/%E6%9E%81%E5%93%81%E4%BA%94%E7%AC%94" title="极品五笔">極品</a></li>
+<li><a href="/wiki/%E6%9E%81%E7%82%B9%E4%BA%94%E7%AC%94" title="极点五笔">極點</a></li>
+<li><a href="/w/index.php?title=%E6%B5%B7%E5%B3%B0%E4%BA%94%E7%AC%94&amp;action=edit&amp;redlink=1" class="new" title="海峰五笔（页面不存在）">海峰</a></li></ul></li>
+<li><a href="/wiki/%E4%BA%94%E7%AC%94%E7%94%BB%E8%BE%93%E5%85%A5%E6%B3%95" class="mw-redirect" title="五笔画输入法">五筆畫</a></li>
+<li><a href="/wiki/%E5%A4%A7%E6%98%93%E8%BC%B8%E5%85%A5%E6%B3%95" title="大易輸入法">大易</a></li>
+<li><a href="/wiki/%E5%98%B8%E8%9D%A6%E7%B1%B3%E8%BC%B8%E5%85%A5%E6%B3%95" title="嘸蝦米輸入法">嘸蝦米</a></li>
+<li><a href="/wiki/%E8%A1%8C%E5%88%97%E8%BC%B8%E5%85%A5%E6%B3%95" title="行列輸入法">行列</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E7%B7%A8%E8%99%9F%E6%B3%95" title="三角編號法">三角</a></li>
+<li><a href="/wiki/%E5%9B%9B%E8%A7%92%E5%8F%B7%E7%A0%81" title="四角号码">四角</a></li>
+<li><a href="/wiki/%E7%B8%B1%E6%A9%AB%E8%BC%B8%E5%85%A5%E6%B3%95" title="縱橫輸入法">縱橫</a></li>
+<li><a href="/wiki/%E5%A4%AA%E6%9E%81%E7%A0%81" title="太极码">太极码</a></li>
+<li><a href="/wiki/%E4%B9%9D%E6%96%B9%E8%BC%B8%E5%85%A5%E6%B3%95" title="九方輸入法">九方</a></li>
+<li><a href="/wiki/%E5%BF%AB%E7%A2%BC%E8%BC%B8%E5%85%A5%E6%B3%95" title="快碼輸入法">快碼</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">其他檢字法</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%B8%AD%E5%9C%8B%E5%AD%97%E5%BA%8B%E3%A9%AA%E6%B3%95" title="中國字庋㩪法">中國字庋㩪法</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">音形</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><td colspan="2" class="navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BA%8C%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95" title="二笔输入法">二筆</a></li>
+<li><a href="/wiki/%E8%87%AA%E7%84%B6%E7%A0%81" title="自然码">自然码</a></li>
+<li><a href="/wiki/%E7%8E%8B%E6%9E%97%E5%BF%AB%E7%A0%81" title="王林快码">王林快码</a></li>
+<li><a href="/wiki/%E8%AE%A4%E7%9F%A5%E7%A0%81" title="认知码">认知码</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%"><a href="/wiki/%E5%BC%95%E6%93%8E" class="mw-redirect" title="引擎">引擎</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%B8%AD%E5%B7%9E%E9%9F%BB%E8%BC%B8%E5%85%A5%E6%B3%95%E5%BC%95%E6%93%8E" title="中州韻輸入法引擎">中州韻</a></li>
+<li><a href="/wiki/Gboard" title="Gboard">Gboard</a></li>
+<li><a class="mw-selflink selflink">搜狗</a>
+<ul><li><a href="/wiki/%E6%90%9C%E7%8B%97%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95" title="搜狗五笔输入法">五筆</a></li>
+<li><a href="/wiki/%E6%90%9C%E7%8B%97%E4%BA%91%E8%BE%93%E5%85%A5%E6%B3%95" title="搜狗云输入法">雲端</a></li>
+<li><a href="/wiki/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E6%89%8B%E6%9C%BA%E7%89%88" title="搜狗输入法手机版">手機版</a></li></ul></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">其他</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AA%9E%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95" title="語音輸入法">語音輸入法</a></li>
+<li><a href="/wiki/%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95%E5%88%97%E8%A1%A8" title="中文输入法列表">列表</a></li></ul>
+</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.codfw.main‐5757f89b77‐njg2c
+Cached time: 20261116010639
+Cache expiry: 82800
+Cache expiry source: Module:TimeAgo (formatDate)
+Reduced expiry: true
+Complications: [prevent‐selective‐update, show‐toc]
+CPU time usage: 0.382 seconds
+Real time usage: 0.468 seconds
+Preprocessor visited node count: 2090/1000000
+Revision size: 10499/2097152 bytes
+Post‐expand include size: 94391/2097152 bytes
+Template argument size: 2036/2097152 bytes
+Highest expansion depth: 21/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 81490/5000000 bytes
+Lua time usage: 0.211/10.000 seconds
+Lua memory usage: 5182331/52428800 bytes
+Number of Wikibase entities loaded: 1/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  387.122      1 -total
+ 33.62%  130.161      3 Template:Infobox
+ 31.84%  123.244      1 Template:Reflist
+ 29.52%  114.264      1 Template:Infobox_Software
+ 25.70%   99.479     14 Template:Cite_web
+ 22.06%   85.408      3 Template:Navbox
+ 19.64%   76.039      1 Template:搜狐
+  8.15%   31.538      2 Template:Dead_link
+  6.78%   26.239      2 Template:Fix
+  6.25%   24.194      4 Template:Category_handler
+-->
+
+<!-- Render ID fa20fa5a-e159-11f1-80b3-27b577b345f9 -->
+
+<!-- Saved in parser cache with key zhwiki:pcache:509360:|#|:idhash:canonical!zh and timestamp 20261116010639 and revision id 91322508. Rendering was triggered because: page_view
+ -->
+</div><noscript><img src="https://zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=搜狗拼音输入法&amp;oldid=91322508">https://zh.wikipedia.org/w/index.php?title=搜狗拼音输入法&amp;oldid=91322508</a>”</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">分类</a>：<ul><li><a href="/wiki/Category:%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95" title="Category:汉语拼音输入法">汉语拼音输入法</a></li><li><a href="/wiki/Category:%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6" title="Category:免费软件">免费软件</a></li><li><a href="/wiki/Category:%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95" title="Category:搜狗输入法">搜狗输入法</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">隐藏分类：<ul><li><a href="/wiki/Category:%E8%87%AA2026%E5%B9%B411%E6%9C%88%E5%B8%A6%E6%9C%89%E5%A4%B1%E6%95%88%E9%93%BE%E6%8E%A5%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:自2026年11月带有失效链接的条目">自2026年11月带有失效链接的条目</a></li><li><a href="/wiki/Category:Webarchive%E6%A8%A1%E6%9D%BFwayback%E9%93%BE%E6%8E%A5" title="Category:Webarchive模板wayback链接">Webarchive模板wayback链接</a></li><li><a href="/wiki/Category:%E4%BD%BF%E7%94%A8%E8%BF%87%E6%97%B6%E5%9B%BE%E5%83%8F%E8%AF%AD%E6%B3%95%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:使用过时图像语法的页面">使用过时图像语法的页面</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			<footer id="footer" class="mw-footer" >
+				<ul id="footer-info" class="mw-portlet mw-portlet-footer-info">
+	<li id="footer-info-lastmod"> 本页面最后修订于2026年1月30日 (星期五) 04:30。</li>
+	<li id="footer-info-copyright">本站的全部文字在<a href="/wiki/Wikipedia:CC_BY-SA_4.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" title="Wikipedia:CC BY-SA 4.0协议文本">知识共享 署名-相同方式共享 4.0协议</a>之条款下提供，附加条款亦可能应用。（请参阅<a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">使用条款</a>）<br />
+Wikipedia&#174;和维基百科标志是<a rel="nofollow" class="external text" data-mw-original-href="//wikimediafoundation.org" href="https://wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基&#8482;是维基媒体基金会的商标。<br />
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的<a class="external text" data-mw-original-href="//donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility" href="https://donate.wikimedia.org/wiki/Special:MyLanguage/Tax_deductibility">非营利慈善机构</a>。<br /></li>
+</ul>
+
+				<ul id="footer-places" class="mw-portlet mw-portlet-footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">隐私政策</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">法律与安全事项联系方式</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">行为准则</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie声明</a></li>
+	<li id="footer-places-mobileview"><a href="//zh.wikipedia.org/w/index.php?title=%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">移动版视图</a></li>
+</ul>
+
+				<ul id="footer-icons" class="mw-portlet mw-portlet-footer-icons noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+			</footer>
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>搜索</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="搜索维基百科">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">搜索</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<nav aria-label="目录" class="vector-toc-landmark">
+						
+					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
+						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="开关目录"   >
+						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">开关目录</span>
+						</label>
+						<div class="vector-dropdown-content">
+					
+						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
+						</div>
+					
+						</div>
+					</div>
+			</nav>
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true" ><span lang="zh" dir="ltr"><span class="mw-page-title-main">搜狗拼音输入法</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock cdx-button__icon"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language cdx-button__icon"></span>
+
+<span>4种语言</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive cdx-button__icon"></span>
+
+<span>添加话题</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.eqiad.main-74db988f75-jfcp8","wgBackendResponseTime":117,"wgPageParseReport":{"limitreport":{"cputime":"0.382","walltime":"0.468","ppvisitednodes":{"value":2090,"limit":1000000},"revisionsize":{"value":10499,"limit":2097152},"postexpandincludesize":{"value":94391,"limit":2097152},"templateargumentsize":{"value":2036,"limit":2097152},"expansiondepth":{"value":21,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":81490,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%  387.122      1 -total"," 33.62%  130.161      3 Template:Infobox"," 31.84%  123.244      1 Template:Reflist"," 29.52%  114.264      1 Template:Infobox_Software"," 25.70%   99.479     14 Template:Cite_web"," 22.06%   85.408      3 Template:Navbox"," 19.64%   76.039      1 Template:搜狐","  8.15%   31.538      2 Template:Dead_link","  6.78%   26.239      2 Template:Fix","  6.25%   24.194      4 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.211","limit":"10.000"},"limitreport-memusage":{"value":5182331,"limit":52428800}},"cachereport":{"origin":"mw-web.codfw.main-5757f89b77-njg2c","timestamp":"20261116010639","ttl":82800,"transientcontent":true,"expiry-source":"Module:TimeAgo (formatDate)"}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u641c\u72d7\u62fc\u97f3\u8f93\u5165\u6cd5","url":"https:\/\/zh.wikipedia.org\/wiki\/%E6%90%9C%E7%8B%97%E6%8B%BC%E9%9F%B3%E8%BE%93%E5%85%A5%E6%B3%95","sameAs":"http:\/\/www.wikidata.org\/entity\/Q7554567","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q7554567","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u57fa\u91d1\u4f1a","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-03-18T03:17:35Z","dateModified":"2026-01-30T04:30:43Z","headline":"\u4e2d\u6587\u62fc\u97f3\u8f38\u5165\u6cd5\u7de8\u8f2f\u8edf\u4ef6"}</script>
+</body>
+</html>

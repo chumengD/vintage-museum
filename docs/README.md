@@ -15,6 +15,9 @@ npm start
 
 ## 文件组织
 
+- `docs/collections/`：[数字博物馆资料总目录](collections/README.md)，图片与版本资料按产品系列收纳（QQ、微信、Windows、MSN、Android、iOS 等）。
+- `docs/collections/<系列名>/images/`：该系列的全部已采集图片；同级 `README.md` 提供版本与图片对照。
+- `docs/collections/_archive/`：原始采集批次与旧 ZIP 备份，日常查找请使用上面的系列目录。
 - `docs/openapi.yaml`：api文档，日常编辑这个文件。
 - `docs/README.md`：使用说明。
 - `docs/wagger/index.html`：Swagger UI 页面。

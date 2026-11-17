@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/IPhone_OS_1",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/IPhone_OS_1",
+    "retrievedAt": "2026-11-17T04:19:31.841449+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "6b61a194b33e3f9b0a9bf099cc78ab13dddc6f07ad86f879191c320a1cd54897",
+    "bytes": 321455,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "iPhone OS 1",
+  "htmlRevisionId": 1382067938,
+  "infoboxText": "iPhone OS 1 Version of the iOS operating system iPhone OS 1.0 home screen on a first-generation iPhone Developer Apple Working state No longer supported Source model Closed , with open source components Initial release June 29, 2007 ; 19 years ago ( 2007-06-29 ) Latest release 1.1.5 (4B1) / July 15, 2008 ; 18 years ago ( 2008-07-15 ) Update method iTunes Supported platforms iPhone (1st generation) and iPod Touch (1st generation) Kernel type Hybrid ( XNU ) License Proprietary software Succeeded by iPhone OS 2 Official website Apple - iPhone at the Wayback Machine (archived June 7, 2007) Support status Obsolete, unsupported",
+  "imageCaptions": [
+    "",
+    "iPhone OS 1.0 home screen on a first-generation iPhone"
+  ]
+}

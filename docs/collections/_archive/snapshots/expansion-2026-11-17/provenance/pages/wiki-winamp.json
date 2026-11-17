@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Winamp",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Winamp",
+    "retrievedAt": "2026-11-17T04:19:26.452439+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "fa119465797a68c2b5c7303ea4b337b9e71ef1080b424723ce4f4f9c0e8aa3a6",
+    "bytes": 574709,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Winamp",
+  "htmlRevisionId": 1385231578,
+  "infoboxText": "Winamp Logo used in the Winamp player Winamp 5.9.2 running on Windows 10 (Classic skin) Original author Nullsoft Developer Winamp Group Release April 21, 1997 ; 29 years ago ( 1997-04-21 ) Stable release 5.9.2 Build 10042 [ 1 ] (April 26, 2023 ; 3 years ago ( 2023-04-26 ) ) [ ± ] Preview release Preview - Version 1.99.52.24626 (August 3, 2026) Written in C , C++ [ 2 ] [ 3 ] Operating system Windows , Android , MS-DOS (DOSamp), [ 4 ] Mac OS ( MacAmp ), Linux Size 16.3 MB Available in 18 languages List of languages English, Simplified Chinese, Traditional Chinese, Dutch, French, German, Hungarian, Italian, Indonesian, Japanese, Korean, Polish, Brazilian Portuguese, Romanian, Russian, Spanish, Swedish, Turkish Type Media player License Proprietary (1997–present); Winamp Collaborative License 1.0.1, source available (September–October 2024) Website winamp .com /player - Last official update was 2023. getwacup .com - Now community sourced and serviced often.",
+  "imageCaptions": [
+    "Logo used in the Winamp player",
+    "Winamp 5.9.2 running on Windows 10 (Classic skin)"
+  ]
+}

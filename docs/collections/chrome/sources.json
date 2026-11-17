@@ -1,0 +1,45 @@
+[
+  {
+    "id": "wiki-chrome",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Google_Chrome",
+    "title": "Google Chrome",
+    "language": "en",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:26.188464+00:00",
+    "htmlSha256": "a27f1f6bfe7f3e69ea4c6aae53ca5fd29661c87572e13d0658623079f0a874c2",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-chrome.json",
+    "revisionId": 1386174271,
+    "revisionProvenance": "html_RLCONF",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1386174271",
+    "apiRevisionId": 1386174271,
+    "apiRevisionTimestamp": "2026-11-17T02:59:13Z",
+    "revisionTimestamp": "2026-11-17T02:59:13Z",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "official-chrome-beta",
+    "kind": "official",
+    "url": "https://blog.chromium.org/2008/09/",
+    "title": "Chromium Blog 2008年9月记录",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:35.058224+00:00",
+    "htmlSha256": "3252f7019d62e1278f926557909a7f1bf37de3b4074e7f78f890d2439866c962",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-chrome-beta.json",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "official-chrome-stable",
+    "kind": "official",
+    "url": "https://chromereleases.googleblog.com/2008/12/stable-release-google-chrome-is-out-of.html",
+    "title": "Chrome首个稳定版发布",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:36.635278+00:00",
+    "htmlSha256": "ba3ce3883b8911f9a146f0210a8abbe297237bf6a4d57818b063eb090bb008e9",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-chrome-stable.json",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

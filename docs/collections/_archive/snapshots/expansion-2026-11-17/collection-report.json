@@ -1,0 +1,60 @@
+{
+  "collectedOn": "2026-11-17",
+  "productCount": 10,
+  "curatedVersionCount": 41,
+  "officialSogouIndexCount": 35,
+  "assetCount": 28,
+  "sourceCount": 33,
+  "versionScreenshotCount": 15,
+  "versionsWithoutScreenshot": [
+    "msn-7-5",
+    "firefox-1-0",
+    "firefox-2-0",
+    "firefox-3-0",
+    "chrome-first-beta",
+    "chrome-1-0",
+    "winamp-5-family",
+    "wmp-9",
+    "wmp-11",
+    "thunder-5",
+    "thunder-5-9",
+    "thunder-7",
+    "thunder-7-9",
+    "thunder-9",
+    "thunder-x",
+    "android-1-0-sdk",
+    "android-cupcake",
+    "android-ics",
+    "android-kitkat",
+    "android-lollipop",
+    "sogou-2006-06-05",
+    "sogou-2006-09-05",
+    "sogou-2007-01-29",
+    "sogou-2007-10-18",
+    "sogou-2010-03-25",
+    "sogou-2014-02-13"
+  ],
+  "failedSourceCount": 0,
+  "issues": [
+    {
+      "stage": "download_or_validation",
+      "fileTitle": "File:Android_Cupcake_home_screen.jpg",
+      "error": "离线模式下无成功缓存；历史限流原因见provenance/collection-attempts"
+    },
+    {
+      "stage": "download_or_validation",
+      "fileTitle": "File:Android_4.0.png",
+      "error": "离线模式下无成功缓存；历史限流原因见provenance/collection-attempts"
+    },
+    {
+      "stage": "download_or_validation",
+      "fileTitle": "File:Nexus_5_(Android_4.4.2)_Screenshot.jpg",
+      "error": "离线模式下无成功缓存；历史限流原因见provenance/collection-attempts"
+    },
+    {
+      "stage": "download_or_validation",
+      "fileTitle": "File:Android_Lollipop_screenshot.png",
+      "error": "离线模式下无成功缓存；历史限流原因见provenance/collection-attempts"
+    }
+  ]
+}

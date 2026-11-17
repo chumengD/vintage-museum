@@ -1,0 +1,23 @@
+{
+  "id": "msn",
+  "name": "MSN Messenger / Windows Live Messenger",
+  "category": "instant_messaging",
+  "developer": "Microsoft",
+  "summary": "小绿人、联系人状态与桌面聊天时代。",
+  "versionIds": [
+    "msn-1-0",
+    "msn-4-6",
+    "msn-7-5",
+    "msn-wlm-8-0"
+  ],
+  "logoAssetIds": [
+    "asset-msn-10061a17f40c"
+  ],
+  "referenceAssetIds": [],
+  "sourceIds": [
+    "wiki-msn"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

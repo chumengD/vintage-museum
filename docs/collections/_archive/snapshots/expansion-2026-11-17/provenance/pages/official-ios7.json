@@ -1,0 +1,13 @@
+{
+  "fetch": {
+    "requestedUrl": "https://www.apple.com/ma/newsroom/2013/09/10iOS-7-With-Completely-Redesigned-User-Interface-Great-New-Features-Available-September-18/",
+    "resolvedUrl": "https://www.apple.com/ma/newsroom/2013/09/10iOS-7-With-Completely-Redesigned-User-Interface-Great-New-Features-Available-September-18/",
+    "retrievedAt": "2026-11-17T04:19:40.165862+00:00",
+    "contentType": "text/html;charset=utf-8",
+    "sha256": "6ba647bc3eca927cb9a125fa80803e8715d4f861c11f2013a4886dc58b27c8e6",
+    "bytes": 88162,
+    "httpStatus": 200
+  },
+  "documentTitle": "iOS 7 With Completely Redesigned User Interface & Great New Features Available September 18 - Apple (MA)",
+  "dateTokens": []
+}

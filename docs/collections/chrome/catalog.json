@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "single-product-series",
+  "collectedOn": "2026-11-17",
+  "pathBase": "directory_containing_this_catalog",
+  "products": [
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "category": "web_browser",
+      "developer": "Google",
+      "summary": "从2008年公测走向简洁的标签页浏览体验。",
+      "versionIds": [
+        "chrome-first-beta",
+        "chrome-1-0"
+      ],
+      "logoAssetIds": [
+        "asset-chrome-2bb1a2c9b9ae"
+      ],
+      "referenceAssetIds": [
+        "asset-chrome-946bcd27eb27"
+      ],
+      "sourceIds": [
+        "wiki-chrome"
+      ],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "imageDirectory": "images"
+    }
+  ],
+  "versions": [
+    {
+      "id": "chrome-first-beta",
+      "productId": "chrome",
+      "version": "Chrome首次公开测试版",
+      "releasedAt": "2008-09-02",
+      "timelineYear": 2008,
+      "dateKind": "public_beta",
+      "summary": "最早面向Windows发布的公开测试阶段。",
+      "sourceIds": [
+        "official-chrome-beta",
+        "wiki-chrome"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "chrome-1-0",
+      "productId": "chrome",
+      "version": "Chrome 1.0稳定版",
+      "releasedAt": "2008-12-11",
+      "timelineYear": 2008,
+      "dateKind": "stable_release",
+      "summary": "Chrome结束Beta、进入首个稳定版本阶段。",
+      "sourceIds": [
+        "official-chrome-stable",
+        "wiki-chrome"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-chrome-2bb1a2c9b9ae",
+      "productId": "chrome",
+      "versionId": null,
+      "role": "brand_logo",
+      "sourceId": "wiki-chrome",
+      "caption": "Logo used since March 2022",
+      "matchNote": "仅按来源页面记录；产品参考图不代表任何早期发布版本。",
+      "wikiFileTitle": "File:Google_Chrome.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Google_Chrome_icon_(February_2022).svg",
+      "localPath": "images/brand-logo.svg",
+      "mimeType": "image/svg+xml",
+      "width": 48,
+      "height": 48,
+      "bytes": 1429,
+      "sha256": "2bb1a2c9b9ae4d36f62ea53811554636cf3c5b74d9845e1dbacca0ce62dc7880",
+      "sourceFileSha1": "100330f83afe9649a4c8d76e3d6bf36a127ba9a5",
+      "licenseName": "Public domain",
+      "licenseUrl": "",
+      "creator": "Google",
+      "credit": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "restrictions": "trademarked",
+      "copyrighted": "False",
+      "privacyReviewRequired": false,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/chrome-2bb1a2c9b9ae.svg"
+    },
+    {
+      "id": "asset-chrome-946bcd27eb27",
+      "productId": "chrome",
+      "versionId": null,
+      "role": "product_reference_screenshot",
+      "sourceId": "wiki-chrome",
+      "caption": "Screenshot of Google Chrome on Windows 10 , showing the Main Page of the English Wikipedia",
+      "matchNote": "仅作Chrome产品参考图；不是2008年Beta或1.0的界面，禁止绑定这两个版本。",
+      "wikiFileTitle": "File:Google_Chrome_on_Windows_10_screenshot.png",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Google_Chrome_on_Windows_10_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://en.wikipedia.org/wiki/File:Google_Chrome_on_Windows_10_screenshot.png",
+      "localPath": "images/product-reference.png",
+      "mimeType": "image/png",
+      "width": 640,
+      "height": 480,
+      "bytes": 163576,
+      "sha256": "946bcd27eb27193a3e74f8e6060964f853a647664688e64333c657eb587762bf",
+      "sourceFileSha1": "2861591fe74893fc2d9d84cf96281d5f370195bb",
+      "licenseName": "Fair use",
+      "licenseUrl": "",
+      "creator": "Google LLC",
+      "credit": "Screenshot taken from my Windows 11 machine.",
+      "restrictions": "",
+      "copyrighted": "True",
+      "privacyReviewRequired": true,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/chrome-946bcd27eb27.png"
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-chrome",
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Google_Chrome",
+      "title": "Google Chrome",
+      "language": "en",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:26.188464+00:00",
+      "htmlSha256": "a27f1f6bfe7f3e69ea4c6aae53ca5fd29661c87572e13d0658623079f0a874c2",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-chrome.json",
+      "revisionId": 1386174271,
+      "revisionProvenance": "html_RLCONF",
+      "permalink": "https://en.wikipedia.org/w/index.php?oldid=1386174271",
+      "apiRevisionId": 1386174271,
+      "apiRevisionTimestamp": "2026-11-17T02:59:13Z",
+      "revisionTimestamp": "2026-11-17T02:59:13Z",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "official-chrome-beta",
+      "kind": "official",
+      "url": "https://blog.chromium.org/2008/09/",
+      "title": "Chromium Blog 2008年9月记录",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:35.058224+00:00",
+      "htmlSha256": "3252f7019d62e1278f926557909a7f1bf37de3b4074e7f78f890d2439866c962",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-chrome-beta.json",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "official-chrome-stable",
+      "kind": "official",
+      "url": "https://chromereleases.googleblog.com/2008/12/stable-release-google-chrome-is-out-of.html",
+      "title": "Chrome首个稳定版发布",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:36.635278+00:00",
+      "htmlSha256": "ba3ce3883b8911f9a146f0210a8abbe297237bf6a4d57818b063eb090bb008e9",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-chrome-stable.json",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ]
+}

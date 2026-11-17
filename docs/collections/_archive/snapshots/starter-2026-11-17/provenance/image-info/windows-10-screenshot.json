@@ -1,0 +1,93 @@
+{
+  "continue": {
+    "iistart": "2026-10-18T04:01:37Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_10_desktop.png",
+        "to": "File:Windows 10 desktop.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 71854645,
+        "ns": 6,
+        "title": "File:Windows 10 desktop.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-10-20T10:08:50Z",
+            "size": 182194,
+            "width": 724,
+            "height": 407,
+            "url": "https://upload.wikimedia.org/wikipedia/en/8/89/Windows_10_desktop.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_10_desktop.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/71854645",
+            "sha1": "ce1923b7f8475224c7bbe72638fb7e6e9a02a048",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-10-20 10:08:50",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows 10 desktop",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Non-free images tagged for no reduction|Screenshots of software on Windows 10",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "Microsoft Corporation",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.microsoft.com/windows/windows-10\">https://www.microsoft.com/windows/windows-10</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_10\" title=\"Windows 10\">Windows 10</a>",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

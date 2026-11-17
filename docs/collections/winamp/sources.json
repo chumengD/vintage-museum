@@ -1,0 +1,21 @@
+[
+  {
+    "id": "wiki-winamp",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Winamp",
+    "title": "Winamp",
+    "language": "en",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:26.452439+00:00",
+    "htmlSha256": "fa119465797a68c2b5c7303ea4b337b9e71ef1080b424723ce4f4f9c0e8aa3a6",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-winamp.json",
+    "revisionId": 1385231578,
+    "revisionProvenance": "html_RLCONF",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1385231578",
+    "apiRevisionId": 1385231578,
+    "apiRevisionTimestamp": "2026-11-12T12:17:40Z",
+    "revisionTimestamp": "2026-11-12T12:17:40Z",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

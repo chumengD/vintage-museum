@@ -1,0 +1,13 @@
+{
+  "fetch": {
+    "requestedUrl": "https://blog.chromium.org/2008/09/",
+    "resolvedUrl": "https://blog.chromium.org/2008/09/",
+    "retrievedAt": "2026-11-17T04:19:35.058224+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "3252f7019d62e1278f926557909a7f1bf37de3b4074e7f78f890d2439866c962",
+    "bytes": 213784,
+    "httpStatus": 200
+  },
+  "documentTitle": "Chromium Blog: September 2008",
+  "dateTokens": []
+}

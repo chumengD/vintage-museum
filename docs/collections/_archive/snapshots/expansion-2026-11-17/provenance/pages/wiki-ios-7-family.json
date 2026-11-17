@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/IOS_7",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/IOS_7",
+    "retrievedAt": "2026-11-17T04:19:32.465692+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "7d1c3acfb496560a34d5dae3ba81663e7ebf20995c6f563a416b089f22ddb231",
+    "bytes": 515332,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "iOS 7",
+  "htmlRevisionId": 1386016114,
+  "infoboxText": "iOS 7 Version of the iOS operating system iOS 7.1 home screen on an iPhone 5s , showing the redesigned user interface Developer Apple Working state No longer supported Source model Closed , with open source components Initial release September 18, 2013 ; 13 years ago ( 2013-09-18 ) Latest release 7.1.2 (11D257) / June 30, 2014 ; 12 years ago ( 2014-06-30 ) Update method Software Update Package manager App Store Supported platforms iPhone , iPod Touch , iPad Kernel type Hybrid ( XNU ) License Proprietary EULA , except for open-source components Preceded by iOS 6 Succeeded by iOS 8 Official website Apple - iOS 7 at the Wayback Machine (archived September 8, 2014) Tagline The mobile OS from a whole new perspective. Support status Obsolete, unsupported",
+  "imageCaptions": [
+    "",
+    "iOS 7.1 home screen on an iPhone 5s , showing the redesigned user interface"
+  ]
+}

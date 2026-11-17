@@ -1,0 +1,90 @@
+{
+  "continue": {
+    "iistart": "2023-03-23T16:26:50Z",
+    "continue": "||"
+  },
+  "query": {
+    "pages": [
+      {
+        "pageid": 1147485,
+        "ns": 6,
+        "title": "File:WindowsME.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-11-09T21:42:29Z",
+            "size": 26032,
+            "width": 512,
+            "height": 384,
+            "url": "https://upload.wikimedia.org/wikipedia/en/6/69/WindowsME.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:WindowsME.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/1147485",
+            "sha1": "7ba3fc4a54c7204cc58fd0983e0c15b83f72c6f4",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-11-09 21:42:29",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "WindowsME",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "All non-free media|Non-free files with no derivative works licenses|Wikipedia non-free files with NFUR stated|Noindexed pages|Non-free files with orphaned versions|Wikipedia non-free files with redirect backlink|Wikipedia non-free files with valid backlink|Non-free images tagged for no reduction|Screenshots of Windows Me",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Screenshot of the default <a href=\"//en.wikipedia.org/wiki/Windows_Me\" title=\"Windows Me\">Windows Me</a> desktop, showing the <a href=\"//en.wikipedia.org/wiki/Start_menu\" title=\"Start menu\">Start menu</a>\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Screenshot is taken and uploaded by <a href=\"//en.wikipedia.org/wiki/User:Wilsontulus5\" title=\"User:Wilsontulus5\">wilsontulus5</a> (<a href=\"//en.wikipedia.org/wiki/User_talk:Wilsontulus5\" title=\"User talk:Wilsontulus5\">talk</a> <b>·</b> <a href=\"//en.wikipedia.org/wiki/Special:Contributions/wilsontulus5\" title=\"Special:Contributions/wilsontulus5\">contribs</a>) on March 23, 2023 inside a QEMU/KVM virtual machine.\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<p>Microsoft\n</p>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Fair use",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

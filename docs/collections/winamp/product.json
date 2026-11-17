@@ -1,0 +1,22 @@
+{
+  "id": "winamp",
+  "name": "Winamp",
+  "category": "media_player",
+  "developer": "Nullsoft（早期开发者）",
+  "summary": "MP3播放、播放列表、均衡器与个性皮肤。",
+  "versionIds": [
+    "winamp-2-0",
+    "winamp-5-family",
+    "winamp-5-9-2"
+  ],
+  "logoAssetIds": [
+    "asset-winamp-9cf54c9ca2c6"
+  ],
+  "referenceAssetIds": [],
+  "sourceIds": [
+    "wiki-winamp"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

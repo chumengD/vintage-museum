@@ -1,0 +1,462 @@
+[
+  {
+    "productId": "msn",
+    "sourceId": "wiki-msn",
+    "wikiLanguage": "en",
+    "fileTitle": "File:MSN_Messenger_logo.png",
+    "caption": "MSN Messenger logo, 1999–2006",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "msn",
+    "sourceId": "wiki-msn",
+    "wikiLanguage": "en",
+    "fileTitle": "File:MSN_Messenger_4.6.png",
+    "caption": "MSN Messenger 4.6, released in 2001",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "msn",
+    "sourceId": "wiki-msn",
+    "wikiLanguage": "en",
+    "fileTitle": "File:MSN_Messenger_1.0.png",
+    "caption": "MSN Messenger 1.0",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "msn",
+    "sourceId": "wiki-msn",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Windows-Live-Messenger-80-236x300.png",
+    "caption": "Windows Live Messenger 8.0",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "internet-explorer",
+    "sourceId": "wiki-internet-explorer",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Internet_Explorer_10+11_logo.svg",
+    "caption": "Logo used since 2011",
+    "alt": "Small blue \"e\" letter with a blue aureola",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "internet-explorer",
+    "sourceId": "wiki-internet-explorer",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Internet_Explorer_11_screenshot.png",
+    "caption": "Screenshot of Internet Explorer 11 , showing the Main Page of the English Wikipedia",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "firefox",
+    "sourceId": "wiki-firefox",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Firefox_logo,_2019.svg",
+    "caption": "Logo used since October 2019",
+    "alt": "Firefox logo",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "firefox",
+    "sourceId": "wiki-firefox",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Firefox_157.0.1_opening_English_Wikipedia_article_on_openSUSE_Linux_screenshot.webp",
+    "caption": "Firefox 157.0 running on openSUSE",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "chrome",
+    "sourceId": "wiki-chrome",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Google_Chrome.svg",
+    "caption": "Logo used since March 2022",
+    "alt": "The Google Chrome logo, a blue circle surrounded by a thicker band that contains three colored segments. The outer band is red, yellow, and green.",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "chrome",
+    "sourceId": "wiki-chrome",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Google_Chrome_on_Windows_10_screenshot.png",
+    "caption": "Screenshot of Google Chrome on Windows 10 , showing the Main Page of the English Wikipedia",
+    "alt": "This is a screenshot of the Chrome browser. The browser has one tab open. The website opened in the browser is English Wikipedia's main page.",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "winamp",
+    "sourceId": "wiki-winamp",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Winamp_media_player_logomark.png",
+    "caption": "Logo used in the Winamp player",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "winamp",
+    "sourceId": "wiki-winamp",
+    "wikiLanguage": "en",
+    "fileTitle": "File:WinAmp_5.9.2,_Windows_10.png",
+    "caption": "Winamp 5.9.2 running on Windows 10 (Classic skin)",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "winamp",
+    "sourceId": "wiki-winamp",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Winamp2.PNG",
+    "caption": "Winamp 2.0, shown with default Base Skin",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "windows-media-player",
+    "sourceId": "wiki-windows-media-player",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Windows_Media_Player_12_Logo.png",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "windows-media-player",
+    "sourceId": "wiki-windows-media-player",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Windows_Media_Player_12,_under_Windows_11.png",
+    "caption": "Windows Media Player 12 running on Windows 11",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "sogou-pinyin",
+    "sourceId": "wiki-sogou-pinyin",
+    "wikiLanguage": "zh",
+    "fileTitle": "File:Wiki_ping_in_sougou.jpg",
+    "caption": "搜狗拼音屏幕截图",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "thunder",
+    "sourceId": "wiki-thunder",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Xunlei_Limited_logo.jpg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_2023_3D_logo_and_wordmark.svg",
+    "caption": "",
+    "alt": "A flat robot head, a green semicircle with antennas and small holes for eyes",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IOS_wordmark_(2017).svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IOS_27_Homescreen.png",
+    "caption": "iOS 27 home screen on an iPhone 17 Pro",
+    "alt": "",
+    "role": "product_reference_screenshot",
+    "versionId": null
+  },
+  {
+    "productId": "internet-explorer",
+    "sourceId": "wiki-ie-6",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Internet_Explorer_4_and_5_logo.svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "internet-explorer",
+    "sourceId": "wiki-ie-6",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Internet_Explorer_6.png",
+    "caption": "Screenshot of Internet Explorer 6",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "ie-6"
+  },
+  {
+    "productId": "internet-explorer",
+    "sourceId": "wiki-ie-8",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Internet_Explorer_7_and_8_logo.svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "internet-explorer",
+    "sourceId": "wiki-ie-8",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Internet_Explorer_8.png",
+    "caption": "Screenshot of Internet Explorer 8",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "ie-8"
+  },
+  {
+    "productId": "internet-explorer",
+    "sourceId": "wiki-ie-11",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Internet_Explorer_10+11_logo.svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "internet-explorer",
+    "sourceId": "wiki-ie-11",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Internet_Explorer_11_screenshot.png",
+    "caption": "Screenshot of Internet Explorer 11",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "ie-11"
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-cupcake",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_Cupcake_Logo.svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-cupcake",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_Cupcake_home_screen.jpg",
+    "caption": "Android Cupcake home screen",
+    "alt": "The default Android Cupcake home screen",
+    "role": "version_screenshot",
+    "versionId": "android-cupcake"
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-gingerbread",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_Gingerbread_Logo.png",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-gingerbread",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_screenshot.png",
+    "caption": "Android 2.3.7 on an Android SDK emulator",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "android-gingerbread"
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-ics",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android-4.0.png",
+    "caption": "",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "android-ics"
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-ics",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_4.0.png",
+    "caption": "Android 4.0 home screen on a Galaxy Nexus",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "android-ics"
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-kitkat",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_KitKat_logo.svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-kitkat",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Nexus_5_(Android_4.4.2)_Screenshot.jpg",
+    "caption": "Android KitKat running on a Nexus 5",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "android-kitkat"
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-lollipop",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_Lollipop_Logo.svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "android",
+    "sourceId": "wiki-android-lollipop",
+    "wikiLanguage": "en",
+    "fileTitle": "File:Android_Lollipop_screenshot.png",
+    "caption": "Android Lollipop running on a Nexus 5",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "android-lollipop"
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-1-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IPhone_OS_1_Logo_(Accurate).svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-1-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IPhone_OS_1_SS.png",
+    "caption": "iPhone OS 1.0 home screen on a first-generation iPhone",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "ios-1-family"
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-3-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IPhone_OS_3_logo.png",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-3-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IPhone_OS_3_iPhone_3GS.png",
+    "caption": "iPhone OS 3.1 home screen on an iPhone 3GS",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "ios-3-family"
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-4-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IOS_4_Logo.svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-4-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IOS_4_Homescreen.png",
+    "caption": "iOS 4.1 home screen on an iPhone 3GS",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "ios-4-family"
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-6-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IOS_6_logo.png",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-6-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IOS_6_Home_Screen.png",
+    "caption": "iOS 6 home screen on an iPhone 5",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "ios-6-family"
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-7-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IOS_7_number_logo.svg",
+    "caption": "",
+    "alt": "",
+    "role": "brand_logo",
+    "versionId": null
+  },
+  {
+    "productId": "ios",
+    "sourceId": "wiki-ios-7-family",
+    "wikiLanguage": "en",
+    "fileTitle": "File:IOS_7.1_homescreen.png",
+    "caption": "iOS 7.1 home screen on an iPhone 5s , showing the redesigned user interface",
+    "alt": "",
+    "role": "version_screenshot",
+    "versionId": "ios-7-family"
+  }
+]

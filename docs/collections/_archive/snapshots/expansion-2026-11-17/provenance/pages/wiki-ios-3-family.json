@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/IPhone_OS_3",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/IPhone_OS_3",
+    "retrievedAt": "2026-11-17T04:19:31.964718+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "6dc85d55eead7f4e29fec05b0f9cc5768e3438e0abc7ae31977323d064cbc12d",
+    "bytes": 328034,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "iPhone OS 3",
+  "htmlRevisionId": 1382145024,
+  "infoboxText": "iPhone OS 3 Version of the iOS operating system iPhone OS 3.1 home screen on an iPhone 3GS Developer Apple Inc. Working state No longer supported Source model Closed , with open source components Initial release June 17, 2009 ; 17 years ago ( 2009-06-17 ) Latest release 3.2.2 (7B500) / August 11, 2010 ; 16 years ago ( 2010-08-11 ) Update method iTunes through a computer Package manager App Store Supported platforms iPhone , iPod Touch , iPad Kernel type Hybrid ( XNU ) License Proprietary software except for open-source components Preceded by iPhone OS 2 Succeeded by iOS 4 Official website Apple - iPhone - New features in the iPhone 3.0 Software Update at the Wayback Machine (archived August 18, 2009) Support status Obsolete, unsupported [ 1 ]",
+  "imageCaptions": [
+    "",
+    "iPhone OS 3.1 home screen on an iPhone 3GS"
+  ]
+}

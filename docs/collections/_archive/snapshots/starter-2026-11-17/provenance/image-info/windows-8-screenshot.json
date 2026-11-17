@@ -1,0 +1,90 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_8_Desktop.png",
+        "to": "File:Windows 8 Desktop.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 78482438,
+        "ns": 6,
+        "title": "File:Windows 8 Desktop.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2024-11-30T01:20:51Z",
+            "size": 166433,
+            "width": 683,
+            "height": 384,
+            "url": "https://upload.wikimedia.org/wikipedia/en/1/12/Windows_8_Desktop.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_8_Desktop.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/78482438",
+            "sha1": "dd2e83ce3c0fc89076b55ec84f37b75b9acd5c13",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2024-11-30 01:20:51",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows 8 Desktop",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable author|Wikipedia non-free files with NFUR stated|Noindexed pages|Screenshots of Windows 8|Wikipedia non-free files with valid backlink|Non-free images tagged for no reduction",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Screenshot of the Windows 8 desktop, taken from <a href=\"//en.wikipedia.org/wiki/Windows_8\" title=\"Windows 8\">Windows 8</a> (RTM, build 9200, x64) shortly after being installed. Original screen resolution was 1366×768.\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Taken by <a href=\"//en.wikipedia.org/wiki/User:Paowee\" title=\"User:Paowee\">Paowee</a> (<a href=\"//en.wikipedia.org/wiki/User_talk:Paowee\" title=\"User talk:Paowee\">talk</a> <b>·</b> <a href=\"//en.wikipedia.org/wiki/Special:Contributions/Paowee\" title=\"Special:Contributions/Paowee\">contribs</a>)\n</p>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Fair use",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

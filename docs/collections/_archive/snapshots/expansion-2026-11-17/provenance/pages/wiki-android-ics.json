@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Android_Ice_Cream_Sandwich",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Android_Ice_Cream_Sandwich",
+    "retrievedAt": "2026-11-17T04:19:30.319506+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "028173f4b296b65f4360fff545cf27625da1b49b6125aa9b12e0a78ea23522ce",
+    "bytes": 389332,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Android Ice Cream Sandwich",
+  "htmlRevisionId": 1384555705,
+  "infoboxText": "Android Ice Cream Sandwich Version of the Android operating system Android 4.0 home screen on a Galaxy Nexus Developer Google Released to manufacturing October 19, 2011 ; 15 years ago ( 2011-10-19 ) Final release 4.0.4_r2.1 (IMM76L) [ 1 ] / June 6, 2012 ; 14 years ago ( 2012-06-06 ) Kernel type Monolithic ( Linux ) Preceded by Android Gingerbread (2.3) (smartphones) Android Honeycomb (3.0) (tablets) Succeeded by Android Jelly Bean (4.1) Official website developer .android .com /about /versions /android-4 .0-highlights .html Support status Unsupported as of November 4, 2014 Google Play Services support dropped since February 2019 [ 2 ] Google Account support dropped [ when? ]",
+  "imageCaptions": [
+    "",
+    "Android 4.0 home screen on a Galaxy Nexus"
+  ]
+}

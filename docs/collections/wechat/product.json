@@ -1,0 +1,25 @@
+{
+  "id": "wechat",
+  "name": "微信",
+  "category": "instant_messaging",
+  "developer": "腾讯",
+  "officialUrl": "https://weixin.qq.com/",
+  "summary": "以移动通信为起点，逐步扩展连接场景。",
+  "versionIds": [
+    "wechat-ios-1-0",
+    "wechat-ios-2-0",
+    "wechat-ios-2-5",
+    "wechat-ios-3-0",
+    "wechat-ios-4-0",
+    "wechat-ios-4-2",
+    "wechat-ios-5-0",
+    "wechat-ios-6-0",
+    "wechat-ios-7-0-0",
+    "wechat-ios-8-0-0"
+  ],
+  "logoAssetIds": [
+    "wechat-brand-logo"
+  ],
+  "sourceSnapshot": "starter-2026-11-17",
+  "imageDirectory": "images"
+}

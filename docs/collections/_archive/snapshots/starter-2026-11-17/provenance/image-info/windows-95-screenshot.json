@@ -1,0 +1,93 @@
+{
+  "continue": {
+    "iistart": "2026-08-14T04:43:09Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_95_at_first_run.png",
+        "to": "File:Windows 95 at first run.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 42693963,
+        "ns": 6,
+        "title": "File:Windows 95 at first run.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-11-09T21:35:34Z",
+            "size": 67325,
+            "width": 640,
+            "height": 480,
+            "url": "https://upload.wikimedia.org/wikipedia/en/e/eb/Windows_95_at_first_run.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_95_at_first_run.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/42693963",
+            "sha1": "f2c1b7969bfeb537053c7693c274d7bfb4d4b5d8",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-11-09 21:35:34",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows 95 at first run",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable description|Wikipedia non-free files with NFUR stated|Noindexed pages|Non-free files with orphaned versions|Screenshots of Windows 95|Non-free images tagged for no reduction",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "<a href=\"//en.wikipedia.org/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Shot by <a href=\"//en.wikipedia.org/w/index.php?title=User:User:Hohho56oy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:User:Hohho56oy (page does not exist)\">User:Hohho56oy</a> (originally uploaded as <a href=\"//en.wikipedia.org/w/index.php?title=File:Windows_95_at_first_run.jpg&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"File:Windows 95 at first run.jpg (page does not exist)\">File:Windows 95 at first run.jpg</a>)",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "<a href=\"//en.wikipedia.org/wiki/Wikipedia:Non-free_use_rationale_guideline\" title=\"Wikipedia:Non-free use rationale guideline\">Fair use</a> of copyrighted material in the context of <a href=\"//en.wikipedia.org/wiki/Windows_95\" title=\"Windows 95\">Windows 95</a>",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

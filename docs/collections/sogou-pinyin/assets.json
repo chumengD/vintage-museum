@@ -1,0 +1,33 @@
+[
+  {
+    "id": "asset-sogou-pinyin-711d0371436d",
+    "productId": "sogou-pinyin",
+    "versionId": null,
+    "role": "product_reference_screenshot",
+    "sourceId": "wiki-sogou-pinyin",
+    "caption": "搜狗拼音屏幕截图",
+    "matchNote": "仅作搜狗输入法产品参考图，来源未确认具体版本，不挂接2006—2014年版本。",
+    "wikiFileTitle": "File:Wiki_ping_in_sougou.jpg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/zh/3/38/Wiki_ping_in_sougou.jpg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionUrl": "https://zh.wikipedia.org/wiki/File:Wiki_ping_in_sougou.jpg",
+    "localPath": "images/product-reference.jpg",
+    "mimeType": "image/jpeg",
+    "width": 416,
+    "height": 117,
+    "bytes": 13372,
+    "sha256": "711d0371436dee22ad146c16f2f236267badf28897ff4e0a5cadeb7e864c3619",
+    "sourceFileSha1": "cc57fb44375638a23fdd2d195354734bff203f57",
+    "licenseName": "合理使用",
+    "licenseUrl": "",
+    "creator": "",
+    "credit": "本机电脑",
+    "restrictions": "",
+    "copyrighted": "True",
+    "privacyReviewRequired": true,
+    "publicationStatus": "review_required",
+    "safeToAutoPublish": false,
+    "collectedOn": "2026-11-17",
+    "sourceSnapshot": "expansion-2026-11-17",
+    "originalLocalPath": "assets/reference-only/sogou-pinyin-711d0371436d.jpg"
+  }
+]

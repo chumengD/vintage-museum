@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Internet_Explorer_11",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Internet_Explorer_11",
+    "retrievedAt": "2026-11-17T04:19:29.144344+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "a5ab22a33be86a7bc28fb4c72a60d587a97042be6657fcdbb5d51642352e80a4",
+    "bytes": 355461,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Internet Explorer 11",
+  "htmlRevisionId": 1383190462,
+  "infoboxText": "Internet Explorer 11 Screenshot of Internet Explorer 11 Developer Microsoft Release October 17, 2013 ; 13 years ago ( 2013-10-17 ) [ 1 ] Stable release 11.0.1000 (11.0.9600.23450)\n   / October 13, 2026 ; 32 days ago ( 2026-10-13 ) [ 2 ] Engine MSHTML v8.0, Chakra Operating system Windows 7 SP1 Windows Server 2008 R2 SP1 Windows Embedded 8 Standard Windows Server 2012 Platform IA-32 , x64 , and ARM Included with Windows 8.1 Windows RT Windows Server 2012 R2 Windows 10 Windows Server 2016 Windows Server 2019 Windows Server 2022 Predecessor Internet Explorer 10 (2012) Successor Microsoft Edge Legacy (2015) Size 28–53 MB License Proprietary , requires a Windows license [ 3 ] Website Internet Explorer 11 (archived at Wayback Machine )",
+  "imageCaptions": [
+    "",
+    "Screenshot of Internet Explorer 11"
+  ]
+}

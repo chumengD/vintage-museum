@@ -1,0 +1,77 @@
+[
+  {
+    "id": "msn-1-0",
+    "productId": "msn",
+    "version": "MSN Messenger Service 1.0",
+    "releasedAt": "1999-07-22",
+    "timelineYear": 1999,
+    "dateKind": "public_download",
+    "summary": "以基础文字消息和联系人列表开启MSN聊天时代。",
+    "sourceIds": [
+      "official-msn-first",
+      "wiki-msn"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "assetIds": [
+      "asset-msn-d2acd23f0914"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "msn-4-6",
+    "productId": "msn",
+    "version": "MSN Messenger 4.6",
+    "releasedAt": "2001-10-23",
+    "timelineYear": 2001,
+    "summary": "联系人分组和语音等能力发展；不等同于Windows Messenger。",
+    "sourceIds": [
+      "wiki-msn"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-msn-4a767f6ade26"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "msn-7-5",
+    "productId": "msn",
+    "version": "MSN Messenger 7.5",
+    "releasedAt": "2005-08-23",
+    "timelineYear": 2005,
+    "summary": "动态背景与语音片段等桌面交流记忆。",
+    "sourceIds": [
+      "wiki-msn"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "msn-wlm-8-0",
+    "productId": "msn",
+    "version": "Windows Live Messenger 8.0",
+    "releasedAt": "2006-06-19",
+    "timelineYear": 2006,
+    "summary": "MSN客户端更名后的Windows Live阶段。",
+    "sourceIds": [
+      "wiki-msn"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-msn-b41684361bc1"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

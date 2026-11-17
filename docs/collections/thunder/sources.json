@@ -1,0 +1,33 @@
+[
+  {
+    "id": "wiki-thunder",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Xunlei",
+    "title": "Xunlei",
+    "language": "en",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:27.660167+00:00",
+    "htmlSha256": "4659ad43a3485f3ad6769402ca578405bc61328d85e11f0a4d6ad3f4a2bfad4e",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-thunder.json",
+    "revisionId": 1359646221,
+    "revisionProvenance": "html_RLCONF",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1359646221",
+    "apiRevisionId": 1359646221,
+    "apiRevisionTimestamp": "2026-06-16T11:49:13Z",
+    "revisionTimestamp": "2026-06-16T11:49:13Z",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "official-thunder-history",
+    "kind": "official",
+    "url": "https://www.xunlei.com/about/?st=achievement",
+    "title": "迅雷官网发展历程",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:38.403286+00:00",
+    "htmlSha256": "185d94fcc6b4644c0ddea5d9a5cbbc97034a0e194022f52a49df9f08c6fe0aff",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-thunder-history.json",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

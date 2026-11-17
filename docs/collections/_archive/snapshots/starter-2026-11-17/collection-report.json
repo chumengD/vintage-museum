@@ -1,0 +1,94 @@
+{
+  "collectedOn": "2026-11-17",
+  "productCount": 3,
+  "curatedVersionCount": 37,
+  "curatedByProduct": {
+    "qq": 12,
+    "wechat": 10,
+    "windows": 15
+  },
+  "officialWechatIndexCount": 504,
+  "officialWechatPlatforms": {
+    "Android平台": 159,
+    "HarmonyOS平台": 21,
+    "HarmonyOS (电脑）平台": 2,
+    "iOS平台": 159,
+    "Linux平台": 3,
+    "Mac平台": 51,
+    "其他平台": 43,
+    "Windows平台": 66
+  },
+  "assetCount": 31,
+  "assetBytes": 3246204,
+  "imageCoveredVersionCount": 25,
+  "sourceCount": 28,
+  "safeToAutoPublishAssetCount": 0,
+  "warnings": [
+    {
+      "kind": "same_platform_version_multiple_dates",
+      "platform": "windows",
+      "versionLabel": "1.1",
+      "count": 2,
+      "note": "原样保留，不自动合并；可能存在客户端分支或源站编排差异。"
+    },
+    {
+      "kind": "same_platform_version_multiple_dates",
+      "platform": "windows",
+      "versionLabel": "1.2",
+      "count": 2,
+      "note": "原样保留，不自动合并；可能存在客户端分支或源站编排差异。"
+    }
+  ],
+  "failures": [
+    {
+      "stage": "image",
+      "id": "wechat-ios-6-0-screen-1",
+      "url": "https://img1.mydrivers.com/img/20140930/fd05aa4a26db4831b0e798008853a1ef.jpg",
+      "error": "拒绝空白占位图或过小图片：1x1"
+    },
+    {
+      "stage": "image",
+      "id": "wechat-ios-6-0-screen-2",
+      "url": "https://img1.mydrivers.com/img/20140930/d052e5ba22ac43e594a1c65ba35a73e2.jpg",
+      "error": "拒绝空白占位图或过小图片：1x1"
+    },
+    {
+      "stage": "image",
+      "id": "wechat-ios-6-0-screen-3",
+      "url": "https://img1.mydrivers.com/img/20140930/14c05da95d6748ec92cdfa1da11bd2c5.jpg",
+      "error": "拒绝空白占位图或过小图片：1x1"
+    }
+  ],
+  "missingVersionImages": [
+    "qq-1999",
+    "qq-2000",
+    "qq-2013",
+    "wechat-ios-1-0",
+    "wechat-ios-2-0",
+    "wechat-ios-2-5",
+    "wechat-ios-3-0",
+    "wechat-ios-4-0",
+    "wechat-ios-4-2",
+    "wechat-ios-5-0",
+    "wechat-ios-6-0",
+    "wechat-ios-7-0-0"
+  ],
+  "visualReviewApplied": true,
+  "visualReviewRulesFile": "reviewed-image-rules.json",
+  "normalizations": [
+    {
+      "kind": "date_padding",
+      "sourceText": "8.0.36 (2023-4-20)",
+      "normalizedDate": "2023-04-20",
+      "platform": "ios"
+    },
+    {
+      "kind": "corrected_source_image_label",
+      "rulesFile": "reviewed-image-rules.json"
+    },
+    {
+      "kind": "separated_editorial_photo",
+      "assetId": "wechat-ios-8-0-screen-1"
+    }
+  ]
+}

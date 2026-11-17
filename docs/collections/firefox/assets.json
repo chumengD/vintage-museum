@@ -1,0 +1,33 @@
+[
+  {
+    "id": "asset-firefox-f31b10673f2e",
+    "productId": "firefox",
+    "versionId": null,
+    "role": "brand_logo",
+    "sourceId": "wiki-firefox",
+    "caption": "Logo used since October 2019",
+    "matchNote": "仅按来源页面记录；产品参考图不代表任何早期发布版本。",
+    "wikiFileTitle": "File:Firefox_logo,_2019.svg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Firefox_logo,_2019.svg",
+    "localPath": "images/brand-logo.svg",
+    "mimeType": "image/svg+xml",
+    "width": 512,
+    "height": 512,
+    "bytes": 10472,
+    "sha256": "f31b10673f2e62510a18cb79c32555d88aa806ede13b128e3e7e3072bfc05cbc",
+    "sourceFileSha1": "41f653895f6666c275a04707e29e734ac2c8a0bb",
+    "licenseName": "MPL 2",
+    "licenseUrl": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "creator": "Mozilla Corporation",
+    "credit": "https://phabricator.services.mozilla.com/D41016",
+    "restrictions": "trademarked",
+    "copyrighted": "True",
+    "privacyReviewRequired": false,
+    "publicationStatus": "review_required",
+    "safeToAutoPublish": false,
+    "collectedOn": "2026-11-17",
+    "sourceSnapshot": "expansion-2026-11-17",
+    "originalLocalPath": "assets/reference-only/firefox-f31b10673f2e.svg"
+  }
+]

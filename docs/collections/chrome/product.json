@@ -1,0 +1,23 @@
+{
+  "id": "chrome",
+  "name": "Google Chrome",
+  "category": "web_browser",
+  "developer": "Google",
+  "summary": "从2008年公测走向简洁的标签页浏览体验。",
+  "versionIds": [
+    "chrome-first-beta",
+    "chrome-1-0"
+  ],
+  "logoAssetIds": [
+    "asset-chrome-2bb1a2c9b9ae"
+  ],
+  "referenceAssetIds": [
+    "asset-chrome-946bcd27eb27"
+  ],
+  "sourceIds": [
+    "wiki-chrome"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

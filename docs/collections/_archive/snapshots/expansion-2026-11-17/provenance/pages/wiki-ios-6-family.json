@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/IOS_6",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/IOS_6",
+    "retrievedAt": "2026-11-17T04:19:32.583253+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "4ce67d3d40cb57ac0f4dfbed2f361e31893dc256e9dc7129def2a45082bfbe0a",
+    "bytes": 508960,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "iOS 6",
+  "htmlRevisionId": 1384601806,
+  "infoboxText": "iOS 6 Version of the iOS operating system iOS 6 home screen on an iPhone 5 Working state No longer supported Source model Closed , with open source components Initial release September 19, 2012 ; 14 years ago ( 2012-09-19 ) Latest release 6.1.6 (10B500) / February 21, 2014 ; 12 years ago ( 2014-02-21 ) Update method Software Update Package manager App Store Supported platforms iPhone , iPod Touch , iPad Kernel type Hybrid ( XNU ) Default user interface Springboard License Proprietary EULA except for open-source components Preceded by iOS 5 Succeeded by iOS 7 Official website Apple - iOS 6 at the Wayback Machine (archived September 4, 2013) Tagline It takes your iPhone, iPad, and iPod touch in entirely new directions. Support status Obsolete, unsupported",
+  "imageCaptions": [
+    "",
+    "iOS 6 home screen on an iPhone 5"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      {
+        "pageid": 5640786,
+        "ns": 6,
+        "title": "File:Tencent QQ.svg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2017-04-08T02:03:36Z",
+            "size": 4011,
+            "width": 242,
+            "height": 288,
+            "url": "https://upload.wikimedia.org/wikipedia/zh/9/99/Tencent_QQ.svg?utm_source=zh.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://zh.wikipedia.org/wiki/File:Tencent_QQ.svg",
+            "descriptionshorturl": "https://zh.wikipedia.org/wiki/Special:Redirect/page/5640786",
+            "sha1": "b62545d4a1d2eeff6554f55629dd4539f78a4489",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2017-04-08 02:03:36",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Tencent QQ",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "所有非自由媒體|不可索引页面|没有机器可读作者的文件|註冊商標向量圖形|維基百科合理使用標誌|維基百科非自由檔案使用依據待檢查檔案|已完成引用非自由標誌使用依據模板的標誌",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "這是一個標誌，由<a href=\"//zh.wikipedia.org/wiki/%E8%85%BE%E8%AE%AF\" title=\"腾讯\">腾讯</a>持有，用於腾讯QQ。",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "使用《<a rel=\"nofollow\" class=\"external text\" href=\"https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf\">QQ品牌书</a>》PDF的首页转换成SVG",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "合理使用",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "著作权持有者保護材料的<a href=\"//zh.wikipedia.org/wiki/Wikipedia:%E5%90%88%E7%90%86%E4%BD%BF%E7%94%A8%E4%BE%9D%E6%8D%AE%E6%8C%87%E5%BC%95\" class=\"mw-redirect\" title=\"Wikipedia:合理使用依据指引\">合理使用</a>，用於<a href=\"//zh.wikipedia.org/wiki/%E8%85%BE%E8%AE%AFQQ\" title=\"腾讯QQ\">腾讯QQ</a>",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

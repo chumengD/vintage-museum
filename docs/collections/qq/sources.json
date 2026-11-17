@@ -1,0 +1,49 @@
+[
+  {
+    "id": "qq-retro-sina",
+    "url": "https://tech.sina.com.cn/csj/2019-02-11/doc-ihqfskcp4201086.shtml",
+    "resolvedUrl": "https://tech.sina.com.cn/csj/2019-02-11/doc-ihqfskcp4201086.shtml",
+    "kind": "authored_historical_review",
+    "title": "兰军 BLUES：QQ20岁版本回顾（新浪转载）",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "273f6fb8631df85cce5c44f315701a0ecd3fe35962ad77f316ef13eb98491ed0",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "visualAuditNote": "若干图片alt比实际窗口年份晚一年；按画面标题纠正，见reviewed-image-rules.json。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-retro-community",
+    "url": "https://developer.cloud.tencent.com/article/1088789",
+    "resolvedUrl": "https://developer.cloud.tencent.com/article/1088789",
+    "kind": "community_reprint",
+    "title": "腾讯大讲堂社区转载：QQ15周年回顾",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "44bffd7d3dc6178a51ac83a21a772b1bb045f203f89cb7854ae57d58d8d5c9e2",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-first-beta",
+    "url": "https://static.www.tencent.com/uploads/2019/12/18/bc6ee143861486379b1d78bf1393d3bc.pdf",
+    "title": "腾讯时代：OICQ Beta1 诞生时间",
+    "kind": "official_document",
+    "collectedOn": "2026-11-17",
+    "verificationMethod": "web_search_document_excerpt",
+    "evidence": "1999年2月10日晚，OICQ Beta1诞生。",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-wiki",
+    "url": "https://zh.wikipedia.org/wiki/腾讯QQ",
+    "resolvedUrl": "https://zh.wikipedia.org/wiki/%E8%85%BE%E8%AE%AFQQ",
+    "kind": "wiki",
+    "title": "腾讯QQ - 维基百科，自由的百科全书",
+    "collectedOn": "2026-11-17",
+    "httpStatus": 200,
+    "bodySha256": "d86237a443ec0cd645b51d7a5c81f0f7ef7847866f1266400e670d5a6a110361",
+    "note": "source kind 不以网站域名推定；社区转载不是厂商官方发布。",
+    "sourceSnapshot": "starter-2026-11-17"
+  }
+]

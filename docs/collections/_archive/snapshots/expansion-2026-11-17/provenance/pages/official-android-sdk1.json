@@ -1,0 +1,13 @@
+{
+  "fetch": {
+    "requestedUrl": "https://android-developers.googleblog.com/2008/09/announcing-android-10-sdk-release-1.html",
+    "resolvedUrl": "https://android-developers.googleblog.com/2008/09/announcing-android-10-sdk-release-1.html",
+    "retrievedAt": "2026-11-17T04:19:39.212157+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "33b52b69d182324cee39b4e20e233c15280c927148d15da1e1181ea72467ad85",
+    "bytes": 142072,
+    "httpStatus": 200
+  },
+  "documentTitle": "Android Developers Blog: Announcing the Android 1.0 SDK, release 1",
+  "dateTokens": []
+}

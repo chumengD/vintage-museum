@@ -1,0 +1,25 @@
+{
+  "id": "thunder",
+  "name": "迅雷",
+  "category": "download_manager",
+  "developer": "迅雷",
+  "summary": "下载任务、进度条与互联网资源获取方式的演变。",
+  "versionIds": [
+    "thunder-5",
+    "thunder-5-9",
+    "thunder-7",
+    "thunder-7-9",
+    "thunder-9",
+    "thunder-x"
+  ],
+  "logoAssetIds": [
+    "asset-thunder-494c7cca3031"
+  ],
+  "referenceAssetIds": [],
+  "sourceIds": [
+    "wiki-thunder"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

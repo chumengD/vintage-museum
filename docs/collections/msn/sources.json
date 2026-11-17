@@ -1,0 +1,33 @@
+[
+  {
+    "id": "wiki-msn",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/MSN_Messenger",
+    "title": "MSN Messenger",
+    "language": "en",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:25.423294+00:00",
+    "htmlSha256": "b8096167e3e5dfa77574207e2534ba8aacdc82fda4a86f312c22b0c40cf3e937",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-msn.json",
+    "revisionId": 1386179544,
+    "revisionProvenance": "html_RLCONF",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1386179544",
+    "apiRevisionId": 1386179544,
+    "apiRevisionTimestamp": "2026-11-17T03:41:09Z",
+    "revisionTimestamp": "2026-11-17T03:41:09Z",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "official-msn-first",
+    "kind": "official",
+    "url": "https://news.microsoft.com/source/1999/07/21/microsoft-launches-msn-messenger-service/",
+    "title": "微软：MSN Messenger于1999年7月22日提供下载",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:33.405159+00:00",
+    "htmlSha256": "44bd32250fb82c9428c4b79ee7bb8902a86ec31e614d0e03c44076d1cab1aaeb",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-msn-first.json",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

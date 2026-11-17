@@ -1,0 +1,27 @@
+{
+  "id": "qq",
+  "name": "腾讯 QQ",
+  "category": "instant_messaging",
+  "developer": "腾讯",
+  "officialUrl": "https://im.qq.com/",
+  "summary": "从桌面聊天到跨端沟通的互联网记忆。",
+  "versionIds": [
+    "qq-1999",
+    "qq-2000",
+    "qq-2003",
+    "qq-2004",
+    "qq-2005",
+    "qq-2007",
+    "qq-2008",
+    "qq-2009",
+    "qq-2010",
+    "qq-2011",
+    "qq-2012",
+    "qq-2013"
+  ],
+  "logoAssetIds": [
+    "qq-brand-logo"
+  ],
+  "sourceSnapshot": "starter-2026-11-17",
+  "imageDirectory": "images"
+}

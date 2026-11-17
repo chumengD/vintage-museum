@@ -1,0 +1,297 @@
+[
+  {
+    "id": "qq-1999",
+    "productId": "qq",
+    "version": "OICQ 1999",
+    "platform": "Windows",
+    "title": "OICQ 1999",
+    "timelineYear": 1999,
+    "releasedAt": "1999-02-10",
+    "datePrecision": "day",
+    "dateKind": "first_beta",
+    "summary": "OICQ 起点；展示早期在线联系人的沟通方式。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community",
+      "qq-first-beta"
+    ],
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "release_date",
+    "dateNote": "首个公开测试版本日期。",
+    "imageStatus": "missing_version_matched_image",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2000",
+    "productId": "qq",
+    "version": "QQ 2000",
+    "platform": "Windows",
+    "title": "QQ 2000",
+    "timelineYear": 2000,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "早期年号版，保留了简洁的联系人面板。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "missing_version_matched_image",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2003",
+    "productId": "qq",
+    "version": "QQ 2003",
+    "platform": "Windows",
+    "title": "QQ 2003",
+    "timelineYear": 2003,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "以聊天场景、截图等功能丰富沟通体验。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2003-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2004",
+    "productId": "qq",
+    "version": "QQ 2004",
+    "platform": "Windows",
+    "title": "QQ 2004",
+    "timelineYear": 2004,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "网络硬盘与远程协助扩展桌面沟通用途。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2004-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2005",
+    "productId": "qq",
+    "version": "QQ 2005",
+    "platform": "Windows",
+    "title": "QQ 2005",
+    "timelineYear": 2005,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "QQ 宠物与空间相关内容成为这一时期的记忆。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2005-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2007",
+    "productId": "qq",
+    "version": "QQ 2007",
+    "platform": "Windows",
+    "title": "QQ 2007",
+    "timelineYear": 2007,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "窗口抖动与离线文件成为这一时期的沟通记忆。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2007-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2008",
+    "productId": "qq",
+    "version": "QQ 2008",
+    "platform": "Windows",
+    "title": "QQ 2008",
+    "timelineYear": 2008,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "年号版桌面 QQ，可观察联系人分组与群入口。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2008-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2009",
+    "productId": "qq",
+    "version": "QQ 2009",
+    "platform": "Windows",
+    "title": "QQ 2009",
+    "timelineYear": 2009,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "通过消息盒子、群友动态等内容组织沟通。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2009-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2010",
+    "productId": "qq",
+    "version": "QQ 2010",
+    "platform": "Windows",
+    "title": "QQ 2010",
+    "timelineYear": 2010,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "皮肤与视频等体验继续演进的桌面年号版。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2010-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2011",
+    "productId": "qq",
+    "version": "QQ 2011",
+    "platform": "Windows",
+    "title": "QQ 2011",
+    "timelineYear": 2011,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "以应用盒子、皮肤编辑等入口丰富桌面体验。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2011-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2012",
+    "productId": "qq",
+    "version": "QQ 2012",
+    "platform": "Windows",
+    "title": "QQ 2012",
+    "timelineYear": 2012,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "可合并、置顶的会话窗口体现聊天界面的变化。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [
+      "qq-2012-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "qq-2013",
+    "productId": "qq",
+    "version": "QQ 2013",
+    "platform": "Windows",
+    "title": "QQ 2013",
+    "timelineYear": 2013,
+    "releasedAt": null,
+    "datePrecision": "unknown",
+    "dateKind": "unknown",
+    "summary": "这一时期的资料卡与群视频提供新的展示空间。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "qq-retro-sina",
+      "qq-retro-community"
+    ],
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "timelineYearBasis": "version_name_year",
+    "dateNote": "年号来自版本名称；尚未确认首发日期，不是该年1月1日。",
+    "imageStatus": "missing_version_matched_image",
+    "sourceSnapshot": "starter-2026-11-17"
+  }
+]

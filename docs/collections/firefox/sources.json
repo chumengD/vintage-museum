@@ -1,0 +1,33 @@
+[
+  {
+    "id": "wiki-firefox",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Firefox",
+    "title": "Firefox",
+    "language": "en",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:25.912998+00:00",
+    "htmlSha256": "b4662fc7a943ccf398c6e6bc34226d49a3d9442cf2724ff322a205e873858fc2",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-firefox.json",
+    "revisionId": 1386173483,
+    "revisionProvenance": "html_RLCONF",
+    "permalink": "https://en.wikipedia.org/w/index.php?oldid=1386173483",
+    "apiRevisionId": 1386173483,
+    "apiRevisionTimestamp": "2026-11-17T02:52:54Z",
+    "revisionTimestamp": "2026-11-17T02:52:54Z",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "official-firefox-timeline",
+    "kind": "official_wiki",
+    "url": "https://wiki.mozilla.org/Timeline",
+    "title": "Mozilla历史时间线",
+    "collectedOn": "2026-11-17",
+    "retrievalStatus": "ok",
+    "retrievedAt": "2026-11-17T04:19:34.197628+00:00",
+    "htmlSha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-firefox-timeline.json",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

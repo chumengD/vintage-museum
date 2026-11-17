@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Google_Chrome",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Google_Chrome",
+    "retrievedAt": "2026-11-17T04:19:26.188464+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "a27f1f6bfe7f3e69ea4c6aae53ca5fd29661c87572e13d0658623079f0a874c2",
+    "bytes": 1678444,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Google Chrome",
+  "htmlRevisionId": 1386174271,
+  "infoboxText": "Google Chrome Logo used since March 2022 Screenshot of Google Chrome on Windows 10 , showing the Main Page of the English Wikipedia Developer Google Release Windows Beta / September 2, 2008 ; 18 years ago ( 2008-09-02 ) Windows 1.0 / December 11, 2008 ; 17 years ago ( 2008-12-11 ) macOS, Linux Preview / June 4, 2009 ; 17 years ago ( 2009-06-04 ) macOS, Linux Beta / December 8, 2009 ; 16 years ago ( 2009-12-08 ) Multi ­ platform 5.0 / May 25, 2010 ; 16 years ago ( 2010-05-25 ) Stable release(s) [ ± ] Windows, macOS 157.0.8103.79 [ 1 ] / 11 November 2026 ; 6 days ago ( 11 November 2026 ) Linux 157.0.8103.78 [ 2 ] / 11 November 2026 ; 6 days ago ( 11 November 2026 ) Android 157.0.8103.78 [ 3 ] / 11 November 2026 ; 6 days ago ( 11 November 2026 ) iOS, iPadOS 158.0.8127.35 [ 4 ] / 12 November 2026 ; 5 days ago ( 12 November 2026 ) Extended Support Release 156.0.8078.100 [ 5 ] / 11 November 2026 ; 6 days ago ( 11 November 2026 ) Preview release(s) [ ± ] Windows, macOS, Linux 159.0.8154.6 [ 6 ] / 12 November 2026 ; 5 days ago ( 12 November 2026 ) Android 159.0.8154.4 [ 7 ] / 12 November 2026 ; 5 days ago ( 12 November 2026 ) iOS, iPadOS 159.0.8154.5 [ 8 ] / 12 November 2026 ; 5 days ago ( 12 November 2026 ) Written in C , C++ , Rust , Assembly , HTML , Java (Android app only), Swift (iOS/iPadOS/macOS app only), Objective-C (iOS/iPadOS/macOS app only), JavaScript , Python [ 9 ] [ 10 ] [ 11 ] Engines Blink ( WebKit on iOS/iPadOS), V8 JavaScript engine Operating system Android 10 or later [ 12 ] ChromeOS iOS 18 or later [ 13 ] iPadOS 18 or later Linux macOS Ventura or later Windows 10 or later Windows Server 2016 or later Platform IA-32 , x86-64 , ARMv7 , ARMv8-A , ARMv9-A Included with Android 10 or later ChromeOS Predecessor Google Toolbar Available in 47 languages [ 14 ] Type Web browser , mobile browser License Proprietary freeware , based on open-source components [ 15 ] [ note 1 ] Website google .com /chrome Repository github .com /googlechrome",
+  "imageCaptions": [
+    "Logo used since March 2022",
+    "Screenshot of Google Chrome on Windows 10 , showing the Main Page of the English Wikipedia"
+  ]
+}

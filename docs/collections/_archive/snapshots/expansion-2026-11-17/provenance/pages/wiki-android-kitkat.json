@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Android_KitKat",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Android_KitKat",
+    "retrievedAt": "2026-11-17T04:19:30.975438+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "ff09e893cfb4fb21d46f8e954cffa851eb104f11e38791a8c0fdae5e3c427285",
+    "bytes": 382447,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Android KitKat",
+  "htmlRevisionId": 1384555716,
+  "infoboxText": "Android KitKat Version of the Android operating system Android KitKat running on a Nexus 5 Developer Google Released to manufacturing September 3, 2013 ; 13 years ago ( 2013-09-03 ) General availability October 31, 2013 ; 13 years ago ( 2013-10-31 ) (as Android 4.4)\nJune 25, 2014 ; 12 years ago ( 2014-06-25 ) (with Wearable Extensions) Final release 4.4.4_r2.0.1 (KTU84Q) [ 1 ] / July 7, 2014 ; 12 years ago ( 2014-07-07 ) Kernel type Monolithic ( Linux ) Preceded by Android Jelly Bean (4.1 – 4.3) Succeeded by Android Lollipop (5.0 – 5.1) Official website www .android .com /versions /kit-kat-4-4 / Support status Unsupported since October 1, 2017 [ 2 ] Google Play Services support dropped since August 2023 [ 3 ]",
+  "imageCaptions": [
+    "",
+    "Android KitKat running on a Nexus 5"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sogou-pinyin",
+  "name": "搜狗拼音输入法",
+  "category": "input_method",
+  "developer": "搜狗",
+  "summary": "候选词、皮肤和网络词库组成中文输入记忆。",
+  "versionIds": [
+    "sogou-2006-06-05",
+    "sogou-2006-09-05",
+    "sogou-2007-01-29",
+    "sogou-2007-10-18",
+    "sogou-2010-03-25",
+    "sogou-2014-02-13"
+  ],
+  "logoAssetIds": [],
+  "referenceAssetIds": [
+    "asset-sogou-pinyin-711d0371436d"
+  ],
+  "sourceIds": [
+    "wiki-sogou-pinyin"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

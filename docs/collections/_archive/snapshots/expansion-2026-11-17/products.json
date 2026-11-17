@@ -1,0 +1,217 @@
+[
+  {
+    "id": "msn",
+    "name": "MSN Messenger / Windows Live Messenger",
+    "category": "instant_messaging",
+    "developer": "Microsoft",
+    "summary": "小绿人、联系人状态与桌面聊天时代。",
+    "versionIds": [
+      "msn-1-0",
+      "msn-4-6",
+      "msn-7-5",
+      "msn-wlm-8-0"
+    ],
+    "logoAssetIds": [
+      "asset-msn-10061a17f40c"
+    ],
+    "referenceAssetIds": [],
+    "sourceIds": [
+      "wiki-msn"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "internet-explorer",
+    "name": "Internet Explorer",
+    "category": "web_browser",
+    "developer": "Microsoft",
+    "summary": "蓝色e图标与早期网页浏览记忆。",
+    "versionIds": [
+      "ie-6",
+      "ie-8",
+      "ie-11"
+    ],
+    "logoAssetIds": [
+      "asset-internet-explorer-8dca730a6ce6",
+      "asset-internet-explorer-4d517bb8cf2e",
+      "asset-internet-explorer-c88b7d18205f"
+    ],
+    "referenceAssetIds": [],
+    "sourceIds": [
+      "wiki-internet-explorer"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "firefox",
+    "name": "Mozilla Firefox",
+    "category": "web_browser",
+    "developer": "Mozilla",
+    "summary": "开源浏览器、标签页与扩展文化。",
+    "versionIds": [
+      "firefox-1-0",
+      "firefox-2-0",
+      "firefox-3-0"
+    ],
+    "logoAssetIds": [
+      "asset-firefox-f31b10673f2e"
+    ],
+    "referenceAssetIds": [],
+    "sourceIds": [
+      "wiki-firefox"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "chrome",
+    "name": "Google Chrome",
+    "category": "web_browser",
+    "developer": "Google",
+    "summary": "从2008年公测走向简洁的标签页浏览体验。",
+    "versionIds": [
+      "chrome-first-beta",
+      "chrome-1-0"
+    ],
+    "logoAssetIds": [
+      "asset-chrome-2bb1a2c9b9ae"
+    ],
+    "referenceAssetIds": [
+      "asset-chrome-946bcd27eb27"
+    ],
+    "sourceIds": [
+      "wiki-chrome"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "winamp",
+    "name": "Winamp",
+    "category": "media_player",
+    "developer": "Nullsoft（早期开发者）",
+    "summary": "MP3播放、播放列表、均衡器与个性皮肤。",
+    "versionIds": [
+      "winamp-2-0",
+      "winamp-5-family",
+      "winamp-5-9-2"
+    ],
+    "logoAssetIds": [
+      "asset-winamp-9cf54c9ca2c6"
+    ],
+    "referenceAssetIds": [],
+    "sourceIds": [
+      "wiki-winamp"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "windows-media-player",
+    "name": "Windows Media Player Legacy",
+    "category": "media_player",
+    "developer": "Microsoft",
+    "summary": "Windows桌面里的媒体库、可视化与播放记忆；区别于2022年新版Media Player。",
+    "versionIds": [
+      "wmp-9",
+      "wmp-11",
+      "wmp-12"
+    ],
+    "logoAssetIds": [
+      "asset-windows-media-player-a35d6a5fb474"
+    ],
+    "referenceAssetIds": [],
+    "sourceIds": [
+      "wiki-windows-media-player"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "sogou-pinyin",
+    "name": "搜狗拼音输入法",
+    "category": "input_method",
+    "developer": "搜狗",
+    "summary": "候选词、皮肤和网络词库组成中文输入记忆。",
+    "versionIds": [
+      "sogou-2006-06-05",
+      "sogou-2006-09-05",
+      "sogou-2007-01-29",
+      "sogou-2007-10-18",
+      "sogou-2010-03-25",
+      "sogou-2014-02-13"
+    ],
+    "logoAssetIds": [],
+    "referenceAssetIds": [
+      "asset-sogou-pinyin-711d0371436d"
+    ],
+    "sourceIds": [
+      "wiki-sogou-pinyin"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "thunder",
+    "name": "迅雷",
+    "category": "download_manager",
+    "developer": "迅雷",
+    "summary": "下载任务、进度条与互联网资源获取方式的演变。",
+    "versionIds": [
+      "thunder-5",
+      "thunder-5-9",
+      "thunder-7",
+      "thunder-7-9",
+      "thunder-9",
+      "thunder-x"
+    ],
+    "logoAssetIds": [
+      "asset-thunder-494c7cca3031"
+    ],
+    "referenceAssetIds": [],
+    "sourceIds": [
+      "wiki-thunder"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "android",
+    "name": "Android",
+    "category": "mobile_operating_system",
+    "developer": "Google / Open Handset Alliance",
+    "summary": "从早期智能手机到多代移动界面演进。",
+    "versionIds": [
+      "android-1-0-sdk",
+      "android-cupcake",
+      "android-gingerbread",
+      "android-ics",
+      "android-kitkat",
+      "android-lollipop"
+    ],
+    "logoAssetIds": [
+      "asset-android-ee119cd377a7"
+    ],
+    "referenceAssetIds": [],
+    "sourceIds": [
+      "wiki-android"
+    ],
+    "publicationStatus": "draft"
+  },
+  {
+    "id": "ios",
+    "name": "iPhone OS / iOS",
+    "category": "mobile_operating_system",
+    "developer": "Apple",
+    "summary": "从拟物设计到扁平界面的移动系统记忆。",
+    "versionIds": [
+      "ios-1-family",
+      "ios-3-family",
+      "ios-4-family",
+      "ios-6-family",
+      "ios-7-family"
+    ],
+    "logoAssetIds": [
+      "asset-ios-ef1bd2ba3d1b"
+    ],
+    "referenceAssetIds": [],
+    "sourceIds": [
+      "wiki-ios"
+    ],
+    "publicationStatus": "draft"
+  }
+]

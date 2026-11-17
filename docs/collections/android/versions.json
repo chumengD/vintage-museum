@@ -1,0 +1,109 @@
+[
+  {
+    "id": "android-1-0-sdk",
+    "productId": "android",
+    "version": "Android 1.0（SDK节点）",
+    "releasedAt": "2008-09-23",
+    "timelineYear": 2008,
+    "recordType": "platform_milestone",
+    "dateKind": "sdk_release",
+    "dateNote": "这是Android 1.0 SDK发布日，不是首款Android手机的零售上市日。",
+    "summary": "首代Android平台可供开发者使用的重要节点。",
+    "sourceIds": [
+      "official-android-sdk1",
+      "wiki-android"
+    ],
+    "datePrecision": "day",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "android-cupcake",
+    "productId": "android",
+    "version": "Android 1.5 Cupcake",
+    "releasedAt": "2009-04-27",
+    "timelineYear": 2009,
+    "recordType": "version_family",
+    "summary": "早期Android移动界面与甜点命名文化。",
+    "sourceIds": [
+      "wiki-android-cupcake"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "android-gingerbread",
+    "productId": "android",
+    "version": "Android 2.3 Gingerbread",
+    "releasedAt": "2010-12-06",
+    "timelineYear": 2010,
+    "recordType": "version_family",
+    "summary": "深色界面与早期Android手机体验。",
+    "sourceIds": [
+      "wiki-android-gingerbread"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-android-8afd95a9f425"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "android-ics",
+    "productId": "android",
+    "version": "Android 4.0 Ice Cream Sandwich",
+    "releasedAt": "2011-10-18",
+    "timelineYear": 2011,
+    "recordType": "version_family",
+    "summary": "Holo设计阶段的移动系统界面。",
+    "sourceIds": [
+      "wiki-android-ics"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "android-kitkat",
+    "productId": "android",
+    "version": "Android 4.4 KitKat",
+    "releasedAt": "2013-10-31",
+    "timelineYear": 2013,
+    "recordType": "version_family",
+    "summary": "KitKat时期的Android系统界面。",
+    "sourceIds": [
+      "wiki-android-kitkat"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "android-lollipop",
+    "productId": "android",
+    "version": "Android 5.x Lollipop",
+    "releasedAt": "2014-11-12",
+    "timelineYear": 2014,
+    "recordType": "version_family",
+    "dateNote": "采用对应词条的General availability日期；不等于所有设备OTA日期或源码推送日期。",
+    "summary": "Material Design逐步进入移动界面。",
+    "sourceIds": [
+      "wiki-android-lollipop"
+    ],
+    "datePrecision": "day",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

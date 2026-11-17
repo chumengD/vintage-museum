@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "single-product-series",
+  "collectedOn": "2026-11-17",
+  "pathBase": "directory_containing_this_catalog",
+  "products": [
+    {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "category": "web_browser",
+      "developer": "Mozilla",
+      "summary": "开源浏览器、标签页与扩展文化。",
+      "versionIds": [
+        "firefox-1-0",
+        "firefox-2-0",
+        "firefox-3-0"
+      ],
+      "logoAssetIds": [
+        "asset-firefox-f31b10673f2e"
+      ],
+      "referenceAssetIds": [],
+      "sourceIds": [
+        "wiki-firefox"
+      ],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "imageDirectory": "images"
+    }
+  ],
+  "versions": [
+    {
+      "id": "firefox-1-0",
+      "productId": "firefox",
+      "version": "Firefox 1.0",
+      "releasedAt": "2004-11-09",
+      "timelineYear": 2004,
+      "summary": "Firefox品牌下的首个1.0正式版本。",
+      "sourceIds": [
+        "official-firefox-timeline",
+        "wiki-firefox"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "dateKind": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "firefox-2-0",
+      "productId": "firefox",
+      "version": "Firefox 2.0",
+      "releasedAt": "2006-10-24",
+      "timelineYear": 2006,
+      "summary": "标签页与浏览体验持续演进的早期版本。",
+      "sourceIds": [
+        "official-firefox-timeline",
+        "wiki-firefox"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "dateKind": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "firefox-3-0",
+      "productId": "firefox",
+      "version": "Firefox 3.0",
+      "releasedAt": "2008-06-17",
+      "timelineYear": 2008,
+      "summary": "Download Day时期的浏览器版本记忆。",
+      "sourceIds": [
+        "official-firefox-timeline",
+        "wiki-firefox"
+      ],
+      "datePrecision": "day",
+      "recordType": "release",
+      "dateKind": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-firefox-f31b10673f2e",
+      "productId": "firefox",
+      "versionId": null,
+      "role": "brand_logo",
+      "sourceId": "wiki-firefox",
+      "caption": "Logo used since October 2019",
+      "matchNote": "仅按来源页面记录；产品参考图不代表任何早期发布版本。",
+      "wikiFileTitle": "File:Firefox_logo,_2019.svg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Firefox_logo,_2019.svg",
+      "localPath": "images/brand-logo.svg",
+      "mimeType": "image/svg+xml",
+      "width": 512,
+      "height": 512,
+      "bytes": 10472,
+      "sha256": "f31b10673f2e62510a18cb79c32555d88aa806ede13b128e3e7e3072bfc05cbc",
+      "sourceFileSha1": "41f653895f6666c275a04707e29e734ac2c8a0bb",
+      "licenseName": "MPL 2",
+      "licenseUrl": "https://www.mozilla.org/en-US/MPL/2.0/",
+      "creator": "Mozilla Corporation",
+      "credit": "https://phabricator.services.mozilla.com/D41016",
+      "restrictions": "trademarked",
+      "copyrighted": "True",
+      "privacyReviewRequired": false,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/firefox-f31b10673f2e.svg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-firefox",
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Firefox",
+      "title": "Firefox",
+      "language": "en",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:25.912998+00:00",
+      "htmlSha256": "b4662fc7a943ccf398c6e6bc34226d49a3d9442cf2724ff322a205e873858fc2",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-firefox.json",
+      "revisionId": 1386173483,
+      "revisionProvenance": "html_RLCONF",
+      "permalink": "https://en.wikipedia.org/w/index.php?oldid=1386173483",
+      "apiRevisionId": 1386173483,
+      "apiRevisionTimestamp": "2026-11-17T02:52:54Z",
+      "revisionTimestamp": "2026-11-17T02:52:54Z",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "official-firefox-timeline",
+      "kind": "official_wiki",
+      "url": "https://wiki.mozilla.org/Timeline",
+      "title": "Mozilla历史时间线",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:34.197628+00:00",
+      "htmlSha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-firefox-timeline.json",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "winamp-2-0",
+    "productId": "winamp",
+    "version": "Winamp 2.0",
+    "releasedAt": "1998-09-08",
+    "timelineYear": 1998,
+    "summary": "经典播放器、均衡器和播放列表的组合界面。",
+    "sourceIds": [
+      "wiki-winamp"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-winamp-22f58ced8107"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "winamp-5-family",
+    "productId": "winamp",
+    "version": "Winamp 5.x系列",
+    "releasedAt": null,
+    "timelineYear": 2003,
+    "datePrecision": "year",
+    "recordType": "version_family",
+    "summary": "5.x系列起点年份；不能把后续5.9截图当作2003年首发界面。",
+    "sourceIds": [
+      "wiki-winamp"
+    ],
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "winamp-5-9-2",
+    "productId": "winamp",
+    "version": "Winamp 5.9.2",
+    "releasedAt": "2023-04-26",
+    "timelineYear": 2023,
+    "summary": "后续版本仍可保留经典皮肤，展示设计延续。",
+    "sourceIds": [
+      "wiki-winamp"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-winamp-1eaca7975d55"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

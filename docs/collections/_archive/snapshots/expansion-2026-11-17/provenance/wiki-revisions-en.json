@@ -1,0 +1,314 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=MSN+Messenger%7CInternet+Explorer%7CFirefox%7CGoogle+Chrome%7CWinamp%7CWindows+Media+Player%7CXunlei%7CAndroid+%28operating+system%29%7CiOS%7CInternet+Explorer+6%7CInternet+Explorer+8%7CInternet+Explorer+11%7CAndroid+Cupcake%7CAndroid+Gingerbread%7CAndroid+Ice+Cream+Sandwich%7CAndroid+KitKat%7CAndroid+Lollipop%7CiPhone+OS+1%7CiPhone+OS+3%7CiOS+4%7CiOS+6%7CiOS+7&redirects=1&prop=revisions&rvprop=ids%7Ctimestamp&format=json&formatversion=2",
+    "resolvedUrl": "https://en.wikipedia.org/w/api.php?action=query&titles=MSN+Messenger%7CInternet+Explorer%7CFirefox%7CGoogle+Chrome%7CWinamp%7CWindows+Media+Player%7CXunlei%7CAndroid+%28operating+system%29%7CiOS%7CInternet+Explorer+6%7CInternet+Explorer+8%7CInternet+Explorer+11%7CAndroid+Cupcake%7CAndroid+Gingerbread%7CAndroid+Ice+Cream+Sandwich%7CAndroid+KitKat%7CAndroid+Lollipop%7CiPhone+OS+1%7CiPhone+OS+3%7CiOS+4%7CiOS+6%7CiOS+7&redirects=1&prop=revisions&rvprop=ids%7Ctimestamp&format=json&formatversion=2",
+    "retrievedAt": "2026-11-17T04:23:04.007367+00:00",
+    "contentType": "application/json; charset=utf-8",
+    "sha256": "6c407166a085753ea95e480b1834dcf8577b2f9440e53e8e8601551d8a1ca972",
+    "bytes": 3521,
+    "httpStatus": 200
+  },
+  "response": {
+    "batchcomplete": true,
+    "query": {
+      "normalized": [
+        {
+          "fromencoded": false,
+          "from": "iOS",
+          "to": "IOS"
+        },
+        {
+          "fromencoded": false,
+          "from": "iPhone OS 1",
+          "to": "IPhone OS 1"
+        },
+        {
+          "fromencoded": false,
+          "from": "iPhone OS 3",
+          "to": "IPhone OS 3"
+        },
+        {
+          "fromencoded": false,
+          "from": "iOS 4",
+          "to": "IOS 4"
+        },
+        {
+          "fromencoded": false,
+          "from": "iOS 6",
+          "to": "IOS 6"
+        },
+        {
+          "fromencoded": false,
+          "from": "iOS 7",
+          "to": "IOS 7"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 15215,
+          "ns": 0,
+          "title": "Internet Explorer",
+          "revisions": [
+            {
+              "revid": 1386175847,
+              "parentid": 1383607153,
+              "timestamp": "2026-11-17T03:12:51Z"
+            }
+          ]
+        },
+        {
+          "pageid": 43941,
+          "ns": 0,
+          "title": "Windows Media Player",
+          "revisions": [
+            {
+              "revid": 1384566151,
+              "parentid": 1377151191,
+              "timestamp": "2026-11-08T22:10:58Z"
+            }
+          ]
+        },
+        {
+          "pageid": 76264,
+          "ns": 0,
+          "title": "Winamp",
+          "revisions": [
+            {
+              "revid": 1385231578,
+              "parentid": 1384566063,
+              "timestamp": "2026-11-12T12:17:40Z"
+            }
+          ]
+        },
+        {
+          "pageid": 210892,
+          "ns": 0,
+          "title": "Firefox",
+          "revisions": [
+            {
+              "revid": 1386173483,
+              "parentid": 1385886514,
+              "timestamp": "2026-11-17T02:52:54Z"
+            }
+          ]
+        },
+        {
+          "pageid": 1956387,
+          "ns": 0,
+          "title": "Internet Explorer 6",
+          "revisions": [
+            {
+              "revid": 1386175852,
+              "parentid": 1384601685,
+              "timestamp": "2026-11-17T03:12:55Z"
+            }
+          ]
+        },
+        {
+          "pageid": 10481704,
+          "ns": 0,
+          "title": "Xunlei",
+          "revisions": [
+            {
+              "revid": 1359646221,
+              "parentid": 1303783827,
+              "timestamp": "2026-06-16T11:49:13Z"
+            }
+          ]
+        },
+        {
+          "pageid": 11031479,
+          "ns": 0,
+          "title": "Internet Explorer 8",
+          "revisions": [
+            {
+              "revid": 1384601696,
+              "parentid": 1384103581,
+              "timestamp": "2026-11-09T02:14:05Z"
+            }
+          ]
+        },
+        {
+          "pageid": 12610483,
+          "ns": 0,
+          "title": "Android (operating system)",
+          "revisions": [
+            {
+              "revid": 1386168594,
+              "parentid": 1386058185,
+              "timestamp": "2026-11-17T02:10:35Z"
+            }
+          ]
+        },
+        {
+          "pageid": 16161443,
+          "ns": 0,
+          "title": "IOS",
+          "revisions": [
+            {
+              "revid": 1386175971,
+              "parentid": 1385078011,
+              "timestamp": "2026-11-17T03:14:05Z"
+            }
+          ]
+        },
+        {
+          "pageid": 19011063,
+          "ns": 0,
+          "title": "MSN Messenger",
+          "revisions": [
+            {
+              "revid": 1386179544,
+              "parentid": 1384562015,
+              "timestamp": "2026-11-17T03:41:09Z"
+            }
+          ]
+        },
+        {
+          "pageid": 19133401,
+          "ns": 0,
+          "title": "Google Chrome",
+          "revisions": [
+            {
+              "revid": 1386174271,
+              "parentid": 1385548034,
+              "timestamp": "2026-11-17T02:59:13Z"
+            }
+          ]
+        },
+        {
+          "pageid": 27634561,
+          "ns": 0,
+          "title": "IOS 4",
+          "revisions": [
+            {
+              "revid": 1384601788,
+              "parentid": 1384330585,
+              "timestamp": "2026-11-09T02:14:38Z"
+            }
+          ]
+        },
+        {
+          "pageid": 33957332,
+          "ns": 0,
+          "title": "Android Ice Cream Sandwich",
+          "revisions": [
+            {
+              "revid": 1384555705,
+              "parentid": 1384314673,
+              "timestamp": "2026-11-08T21:11:15Z"
+            }
+          ]
+        },
+        {
+          "pageid": 34250611,
+          "ns": 0,
+          "title": "Internet Explorer 11",
+          "revisions": [
+            {
+              "revid": 1383190462,
+              "parentid": 1380094974,
+              "timestamp": "2026-11-01T12:45:20Z"
+            }
+          ]
+        },
+        {
+          "pageid": 36109560,
+          "ns": 0,
+          "title": "IOS 6",
+          "revisions": [
+            {
+              "revid": 1384601806,
+              "parentid": 1379287814,
+              "timestamp": "2026-11-09T02:14:44Z"
+            }
+          ]
+        },
+        {
+          "pageid": 39286116,
+          "ns": 0,
+          "title": "IOS 7",
+          "revisions": [
+            {
+              "revid": 1386016114,
+              "parentid": 1386015752,
+              "timestamp": "2026-11-16T11:37:07Z"
+            }
+          ]
+        },
+        {
+          "pageid": 40439966,
+          "ns": 0,
+          "title": "Android KitKat",
+          "revisions": [
+            {
+              "revid": 1384555716,
+              "parentid": 1382089484,
+              "timestamp": "2026-11-08T21:11:20Z"
+            }
+          ]
+        },
+        {
+          "pageid": 43143801,
+          "ns": 0,
+          "title": "Android Lollipop",
+          "revisions": [
+            {
+              "revid": 1373509070,
+              "parentid": 1371770732,
+              "timestamp": "2026-09-06T10:50:10Z"
+            }
+          ]
+        },
+        {
+          "pageid": 43752171,
+          "ns": 0,
+          "title": "IPhone OS 1",
+          "revisions": [
+            {
+              "revid": 1382067938,
+              "parentid": 1382048997,
+              "timestamp": "2026-10-26T11:19:58Z"
+            }
+          ]
+        },
+        {
+          "pageid": 43752182,
+          "ns": 0,
+          "title": "IPhone OS 3",
+          "revisions": [
+            {
+              "revid": 1382145024,
+              "parentid": 1382144985,
+              "timestamp": "2026-10-26T22:00:06Z"
+            }
+          ]
+        },
+        {
+          "pageid": 45308461,
+          "ns": 0,
+          "title": "Android Gingerbread",
+          "revisions": [
+            {
+              "revid": 1379692748,
+              "parentid": 1374752171,
+              "timestamp": "2026-10-11T10:42:02Z"
+            }
+          ]
+        },
+        {
+          "pageid": 48104317,
+          "ns": 0,
+          "title": "Android Cupcake",
+          "revisions": [
+            {
+              "revid": 1379692559,
+              "parentid": 1352539286,
+              "timestamp": "2026-10-11T10:38:55Z"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

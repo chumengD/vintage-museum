@@ -1,0 +1,110 @@
+[
+  {
+    "id": "thunder-5",
+    "productId": "thunder",
+    "version": "迅雷5",
+    "releasedAt": null,
+    "timelineYear": 2005,
+    "datePrecision": "year",
+    "dateKind": "official_history_year",
+    "summary": "下载任务、分类与进度条组成经典下载工具体验。",
+    "sourceIds": [
+      "official-thunder-history",
+      "wiki-thunder"
+    ],
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "thunder-5-9",
+    "productId": "thunder",
+    "version": "迅雷5.9",
+    "releasedAt": null,
+    "timelineYear": 2009,
+    "datePrecision": "year",
+    "dateKind": "official_history_year",
+    "summary": "官方年表记录的5.x后期节点。",
+    "sourceIds": [
+      "official-thunder-history",
+      "wiki-thunder"
+    ],
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "thunder-7",
+    "productId": "thunder",
+    "version": "迅雷7",
+    "releasedAt": null,
+    "timelineYear": 2010,
+    "datePrecision": "year",
+    "dateKind": "official_history_year",
+    "summary": "下载客户端进入新一代界面阶段。",
+    "sourceIds": [
+      "official-thunder-history",
+      "wiki-thunder"
+    ],
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "thunder-7-9",
+    "productId": "thunder",
+    "version": "迅雷7.9",
+    "releasedAt": null,
+    "timelineYear": 2012,
+    "datePrecision": "year",
+    "dateKind": "official_history_year",
+    "summary": "官方年表记录的7.x迭代节点。",
+    "sourceIds": [
+      "official-thunder-history",
+      "wiki-thunder"
+    ],
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "thunder-9",
+    "productId": "thunder",
+    "version": "迅雷9",
+    "releasedAt": null,
+    "timelineYear": 2016,
+    "datePrecision": "year",
+    "dateKind": "official_history_year",
+    "summary": "官方年表记录的迅雷9发布节点。",
+    "sourceIds": [
+      "official-thunder-history",
+      "wiki-thunder"
+    ],
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "thunder-x",
+    "productId": "thunder",
+    "version": "迅雷X",
+    "releasedAt": null,
+    "timelineYear": 2018,
+    "datePrecision": "year",
+    "dateKind": "official_history_year",
+    "summary": "保留官网的X名称，不擅自转换成具体数字构建号。",
+    "sourceIds": [
+      "official-thunder-history",
+      "wiki-thunder"
+    ],
+    "recordType": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

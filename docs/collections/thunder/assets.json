@@ -1,0 +1,33 @@
+[
+  {
+    "id": "asset-thunder-494c7cca3031",
+    "productId": "thunder",
+    "versionId": null,
+    "role": "brand_logo",
+    "sourceId": "wiki-thunder",
+    "caption": "",
+    "matchNote": "仅按来源页面记录；产品参考图不代表任何早期发布版本。",
+    "wikiFileTitle": "File:Xunlei_Limited_logo.jpg",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Xunlei_Limited_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionUrl": "https://en.wikipedia.org/wiki/File:Xunlei_Limited_logo.jpg",
+    "localPath": "images/brand-logo.jpg",
+    "mimeType": "image/jpeg",
+    "width": 284,
+    "height": 128,
+    "bytes": 10553,
+    "sha256": "494c7cca30314c459dae9664e98f3b4d0527600d23de7a693e819e6fdd25a99c",
+    "sourceFileSha1": "21644e1a15a93f7126a470e86b038ab53958119c",
+    "licenseName": "Fair use",
+    "licenseUrl": "",
+    "creator": "",
+    "credit": "http://xunlei.com/",
+    "restrictions": "",
+    "copyrighted": "True",
+    "privacyReviewRequired": false,
+    "publicationStatus": "review_required",
+    "safeToAutoPublish": false,
+    "collectedOn": "2026-11-17",
+    "sourceSnapshot": "expansion-2026-11-17",
+    "originalLocalPath": "assets/reference-only/thunder-494c7cca3031.jpg"
+  }
+]

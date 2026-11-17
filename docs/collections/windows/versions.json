@@ -1,0 +1,364 @@
+[
+  {
+    "id": "windows-1-0",
+    "productId": "windows",
+    "version": "1.0 系列",
+    "platform": "PC",
+    "title": "Windows 1.0 系列",
+    "timelineYear": 1985,
+    "releasedAt": "1985-11-20",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "平铺窗口与鼠标操作构成早期 Windows 图形环境。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-1-0-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-1-0-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-2-0",
+    "productId": "windows",
+    "version": "2.0 系列",
+    "platform": "PC",
+    "title": "Windows 2.0 系列",
+    "timelineYear": 1987,
+    "releasedAt": "1987-12-09",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "重叠窗口使桌面操作方式继续演进。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-2-0-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-2-0-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-3-0",
+    "productId": "windows",
+    "version": "3.0",
+    "platform": "PC",
+    "title": "Windows 3.0",
+    "timelineYear": 1990,
+    "releasedAt": "1990-05-22",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "程序管理器与图标式操作成为界面记忆。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-3-0-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-3-0-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-3-1",
+    "productId": "windows",
+    "version": "3.1",
+    "platform": "PC",
+    "title": "Windows 3.1",
+    "timelineYear": 1992,
+    "releasedAt": "1992-04-06",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "TrueType 字体与多媒体能力丰富桌面体验。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-3-1-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-3-1-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-95",
+    "productId": "windows",
+    "version": "95",
+    "platform": "PC",
+    "title": "Windows 95",
+    "timelineYear": 1995,
+    "releasedAt": "1995-08-24",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "开始菜单与任务栏构成经典桌面布局。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-95-wiki",
+      "windows-version-list",
+      "windows-official-timeline"
+    ],
+    "assetIds": [
+      "windows-95-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-98",
+    "productId": "windows",
+    "version": "98",
+    "platform": "PC",
+    "title": "Windows 98",
+    "timelineYear": 1998,
+    "releasedAt": "1998-06-25",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "面向家庭电脑，延续并扩展 Windows 95 的桌面风格。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-98-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-98-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-2000",
+    "productId": "windows",
+    "version": "2000",
+    "platform": "PC",
+    "title": "Windows 2000",
+    "timelineYear": 2000,
+    "releasedAt": "2000-02-17",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "NT 系列面向工作环境的一次重要迭代。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-2000-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-2000-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-me",
+    "productId": "windows",
+    "version": "Me",
+    "platform": "PC",
+    "title": "Windows Me",
+    "timelineYear": 2000,
+    "releasedAt": "2000-09-14",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "面向家庭的 Windows 9x 系列末期版本。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-me-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-me-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-xp",
+    "productId": "windows",
+    "version": "XP",
+    "platform": "PC",
+    "title": "Windows XP",
+    "timelineYear": 2001,
+    "releasedAt": "2001-10-25",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "Luna 视觉样式与开始菜单构成一代桌面记忆。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-xp-wiki",
+      "windows-version-list",
+      "windows-official-timeline"
+    ],
+    "assetIds": [
+      "windows-xp-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-vista",
+    "productId": "windows",
+    "version": "Vista",
+    "platform": "PC",
+    "title": "Windows Vista",
+    "timelineYear": 2007,
+    "releasedAt": "2007-01-30",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "Aero 视觉风格与用户账户控制进入公众视野。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-vista-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-vista-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-7",
+    "productId": "windows",
+    "version": "7",
+    "platform": "PC",
+    "title": "Windows 7",
+    "timelineYear": 2009,
+    "releasedAt": "2009-10-22",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "改进任务栏与窗口管理，延续 Aero 桌面风格。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-7-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-7-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-8",
+    "productId": "windows",
+    "version": "8",
+    "platform": "PC",
+    "title": "Windows 8",
+    "timelineYear": 2012,
+    "releasedAt": "2012-10-26",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "开始屏幕与触控导向界面改变桌面入口。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-8-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-8-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-8-1",
+    "productId": "windows",
+    "version": "8.1",
+    "platform": "PC",
+    "title": "Windows 8.1",
+    "timelineYear": 2013,
+    "releasedAt": "2013-10-17",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "在 Windows 8 基础上继续调整开始与桌面体验。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-8-1-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-8-1-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-10",
+    "productId": "windows",
+    "version": "10",
+    "platform": "PC",
+    "title": "Windows 10",
+    "timelineYear": 2015,
+    "releasedAt": "2015-07-29",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "开始菜单回归，并持续迭代桌面使用体验。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-10-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-10-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  },
+  {
+    "id": "windows-11",
+    "productId": "windows",
+    "version": "11",
+    "platform": "PC",
+    "title": "Windows 11",
+    "timelineYear": 2021,
+    "releasedAt": "2021-10-05",
+    "datePrecision": "day",
+    "dateKind": "public_release",
+    "summary": "居中任务栏与新的窗口布局体现新一代桌面设计。",
+    "summaryType": "editorial_paraphrase",
+    "sourceIds": [
+      "windows-11-wiki",
+      "windows-version-list"
+    ],
+    "assetIds": [
+      "windows-11-screenshot"
+    ],
+    "publicationStatus": "draft",
+    "dateNote": "面向公众的发行日期；地区可能存在差异。1.x/2.x为系列节点，截图不保证是首个补丁版。",
+    "imageStatus": "reference_only_pending_rights_review",
+    "sourceSnapshot": "starter-2026-11-17"
+  }
+]

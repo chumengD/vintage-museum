@@ -1,0 +1,60 @@
+[
+  {
+    "id": "ie-6",
+    "productId": "internet-explorer",
+    "version": "Internet Explorer 6",
+    "releasedAt": null,
+    "timelineYear": 2001,
+    "datePrecision": "year",
+    "recordType": "version_family",
+    "dateNote": "日期口径待进一步核实：词条初始发布日期为2001-08-24，部分历史记录将公开下载记作8月27日。本批仅保留2001年，不把两个日期混用。",
+    "summary": "与Windows XP时期紧密相连的浏览器界面。",
+    "sourceIds": [
+      "wiki-ie-6"
+    ],
+    "dateKind": "release",
+    "assetIds": [
+      "asset-internet-explorer-5d54baed987c"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "ie-8",
+    "productId": "internet-explorer",
+    "version": "Internet Explorer 8",
+    "releasedAt": "2009-03-19",
+    "timelineYear": 2009,
+    "summary": "延续标签页浏览，加入加速器等功能入口。",
+    "sourceIds": [
+      "wiki-ie-8"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-internet-explorer-0387a7d2a176"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "ie-11",
+    "productId": "internet-explorer",
+    "version": "Internet Explorer 11",
+    "releasedAt": "2013-10-17",
+    "timelineYear": 2013,
+    "summary": "IE主版本线的最后阶段；截图可能来自后续Windows平台。",
+    "sourceIds": [
+      "wiki-ie-11"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [
+      "asset-internet-explorer-7bef1fac5c79"
+    ],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

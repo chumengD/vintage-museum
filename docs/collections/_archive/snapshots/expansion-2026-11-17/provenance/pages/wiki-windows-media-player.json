@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Windows_Media_Player",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Windows_Media_Player",
+    "retrievedAt": "2026-11-17T04:19:26.622334+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "ad733c5ce00ff2105886f6d5cb48862528ccafe929b48d1307418d3b71446f7e",
+    "bytes": 453735,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Windows Media Player",
+  "htmlRevisionId": 1384566151,
+  "infoboxText": "Windows Media Player Legacy Windows Media Player 12 running on Windows 11 Developer Microsoft Operating system Windows NT 4.0 Mac OS 7 Mac OS X Solaris Included with Windows 3.0 MME and Windows 3.1 Windows 9x Windows 2000 , Windows Me , Windows XP , Windows Vista , Windows 7 , Windows 8 , Windows 8.1 , Windows 10 , Windows 11 [ a ] Windows CE and Windows Mobile Mac OS 8 and 9 Predecessor ActiveMovie Control , CD Player , DVD Player , NetShow Successor Groove Music , Microsoft Movies & TV , Windows Media Player (2022) Type Media player Website support .microsoft .com /en-gb /windows /windows-media-player-d10303a5-896c-2ce2-53d4-5bd5b9fd888b",
+  "imageCaptions": [
+    "",
+    "Windows Media Player 12 running on Windows 11"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ios",
+  "name": "iPhone OS / iOS",
+  "category": "mobile_operating_system",
+  "developer": "Apple",
+  "summary": "从拟物设计到扁平界面的移动系统记忆。",
+  "versionIds": [
+    "ios-1-family",
+    "ios-3-family",
+    "ios-4-family",
+    "ios-6-family",
+    "ios-7-family"
+  ],
+  "logoAssetIds": [
+    "asset-ios-ef1bd2ba3d1b"
+  ],
+  "referenceAssetIds": [],
+  "sourceIds": [
+    "wiki-ios"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

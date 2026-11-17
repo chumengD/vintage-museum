@@ -1,0 +1,25 @@
+{
+  "id": "android",
+  "name": "Android",
+  "category": "mobile_operating_system",
+  "developer": "Google / Open Handset Alliance",
+  "summary": "从早期智能手机到多代移动界面演进。",
+  "versionIds": [
+    "android-1-0-sdk",
+    "android-cupcake",
+    "android-gingerbread",
+    "android-ics",
+    "android-kitkat",
+    "android-lollipop"
+  ],
+  "logoAssetIds": [
+    "asset-android-ee119cd377a7"
+  ],
+  "referenceAssetIds": [],
+  "sourceIds": [
+    "wiki-android"
+  ],
+  "publicationStatus": "draft",
+  "sourceSnapshot": "expansion-2026-11-17",
+  "imageDirectory": "images"
+}

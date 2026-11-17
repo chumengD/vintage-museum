@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Firefox",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Firefox",
+    "retrievedAt": "2026-11-17T04:19:25.912998+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "b4662fc7a943ccf398c6e6bc34226d49a3d9442cf2724ff322a205e873858fc2",
+    "bytes": 1633511,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Firefox",
+  "htmlRevisionId": 1386173483,
+  "infoboxText": "Firefox Logo used since October 2019 Firefox 157.0 running on openSUSE Developers Mozilla Foundation and its contributors Mozilla Corporation Release November 9, 2004 ; 22 years ago ( 2004-11-09 ) Stable release(s) [ ± ] Standard 160.0 [ 1 ] / November 10, 2026 ; 7 days ago ( November 10, 2026 ) ESR 153 153.7.0esr [ 2 ] / November 10, 2026 ; 7 days ago ( November 10, 2026 ) ESR 115 115.45.0esr [ 3 ] / November 10, 2026 ; 7 days ago ( 2026-11-10 ) Preview release(s) [ ± ] Beta and developer 161.0b3 [ 4 ] / November 13, 2026 ; 4 days ago ( November 13, 2026 ) Nightly 162.0a1 [ 5 ] / November 5, 2026 ; 12 days ago ( November 5, 2026 ) Written in C++ , JavaScript , HTML , C , Rust , and others [ 6 ] [ 7 ] Engines Gecko , Quantum , and SpiderMonkey ; WebKit on iOS/iPadOS Operating system Linux macOS Catalina or later Windows 10 or later Windows Server 2016 or later Android Oreo or later [ 8 ] iOS 15 or later iPadOS 15 or later various third-party ports Included with Various Unix-like operating systems Available in 97 languages [ 9 ] Type Web browser License MPL 2.0 [ 10 ] [ 11 ] Website firefox .com Repository github .com /mozilla-firefox /firefox",
+  "imageCaptions": [
+    "Logo used since October 2019",
+    "Firefox 157.0 running on openSUSE"
+  ]
+}

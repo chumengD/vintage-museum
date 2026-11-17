@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "single-product-series",
+  "collectedOn": "2026-11-17",
+  "pathBase": "directory_containing_this_catalog",
+  "products": [
+    {
+      "id": "thunder",
+      "name": "迅雷",
+      "category": "download_manager",
+      "developer": "迅雷",
+      "summary": "下载任务、进度条与互联网资源获取方式的演变。",
+      "versionIds": [
+        "thunder-5",
+        "thunder-5-9",
+        "thunder-7",
+        "thunder-7-9",
+        "thunder-9",
+        "thunder-x"
+      ],
+      "logoAssetIds": [
+        "asset-thunder-494c7cca3031"
+      ],
+      "referenceAssetIds": [],
+      "sourceIds": [
+        "wiki-thunder"
+      ],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "imageDirectory": "images"
+    }
+  ],
+  "versions": [
+    {
+      "id": "thunder-5",
+      "productId": "thunder",
+      "version": "迅雷5",
+      "releasedAt": null,
+      "timelineYear": 2005,
+      "datePrecision": "year",
+      "dateKind": "official_history_year",
+      "summary": "下载任务、分类与进度条组成经典下载工具体验。",
+      "sourceIds": [
+        "official-thunder-history",
+        "wiki-thunder"
+      ],
+      "recordType": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "thunder-5-9",
+      "productId": "thunder",
+      "version": "迅雷5.9",
+      "releasedAt": null,
+      "timelineYear": 2009,
+      "datePrecision": "year",
+      "dateKind": "official_history_year",
+      "summary": "官方年表记录的5.x后期节点。",
+      "sourceIds": [
+        "official-thunder-history",
+        "wiki-thunder"
+      ],
+      "recordType": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "thunder-7",
+      "productId": "thunder",
+      "version": "迅雷7",
+      "releasedAt": null,
+      "timelineYear": 2010,
+      "datePrecision": "year",
+      "dateKind": "official_history_year",
+      "summary": "下载客户端进入新一代界面阶段。",
+      "sourceIds": [
+        "official-thunder-history",
+        "wiki-thunder"
+      ],
+      "recordType": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "thunder-7-9",
+      "productId": "thunder",
+      "version": "迅雷7.9",
+      "releasedAt": null,
+      "timelineYear": 2012,
+      "datePrecision": "year",
+      "dateKind": "official_history_year",
+      "summary": "官方年表记录的7.x迭代节点。",
+      "sourceIds": [
+        "official-thunder-history",
+        "wiki-thunder"
+      ],
+      "recordType": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "thunder-9",
+      "productId": "thunder",
+      "version": "迅雷9",
+      "releasedAt": null,
+      "timelineYear": 2016,
+      "datePrecision": "year",
+      "dateKind": "official_history_year",
+      "summary": "官方年表记录的迅雷9发布节点。",
+      "sourceIds": [
+        "official-thunder-history",
+        "wiki-thunder"
+      ],
+      "recordType": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "thunder-x",
+      "productId": "thunder",
+      "version": "迅雷X",
+      "releasedAt": null,
+      "timelineYear": 2018,
+      "datePrecision": "year",
+      "dateKind": "official_history_year",
+      "summary": "保留官网的X名称，不擅自转换成具体数字构建号。",
+      "sourceIds": [
+        "official-thunder-history",
+        "wiki-thunder"
+      ],
+      "recordType": "release",
+      "assetIds": [],
+      "publicationStatus": "draft",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset-thunder-494c7cca3031",
+      "productId": "thunder",
+      "versionId": null,
+      "role": "brand_logo",
+      "sourceId": "wiki-thunder",
+      "caption": "",
+      "matchNote": "仅按来源页面记录；产品参考图不代表任何早期发布版本。",
+      "wikiFileTitle": "File:Xunlei_Limited_logo.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Xunlei_Limited_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionUrl": "https://en.wikipedia.org/wiki/File:Xunlei_Limited_logo.jpg",
+      "localPath": "images/brand-logo.jpg",
+      "mimeType": "image/jpeg",
+      "width": 284,
+      "height": 128,
+      "bytes": 10553,
+      "sha256": "494c7cca30314c459dae9664e98f3b4d0527600d23de7a693e819e6fdd25a99c",
+      "sourceFileSha1": "21644e1a15a93f7126a470e86b038ab53958119c",
+      "licenseName": "Fair use",
+      "licenseUrl": "",
+      "creator": "",
+      "credit": "http://xunlei.com/",
+      "restrictions": "",
+      "copyrighted": "True",
+      "privacyReviewRequired": false,
+      "publicationStatus": "review_required",
+      "safeToAutoPublish": false,
+      "collectedOn": "2026-11-17",
+      "sourceSnapshot": "expansion-2026-11-17",
+      "originalLocalPath": "assets/reference-only/thunder-494c7cca3031.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki-thunder",
+      "kind": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Xunlei",
+      "title": "Xunlei",
+      "language": "en",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:27.660167+00:00",
+      "htmlSha256": "4659ad43a3485f3ad6769402ca578405bc61328d85e11f0a4d6ad3f4a2bfad4e",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/wiki-thunder.json",
+      "revisionId": 1359646221,
+      "revisionProvenance": "html_RLCONF",
+      "permalink": "https://en.wikipedia.org/w/index.php?oldid=1359646221",
+      "apiRevisionId": 1359646221,
+      "apiRevisionTimestamp": "2026-06-16T11:49:13Z",
+      "revisionTimestamp": "2026-06-16T11:49:13Z",
+      "sourceSnapshot": "expansion-2026-11-17"
+    },
+    {
+      "id": "official-thunder-history",
+      "kind": "official",
+      "url": "https://www.xunlei.com/about/?st=achievement",
+      "title": "迅雷官网发展历程",
+      "collectedOn": "2026-11-17",
+      "retrievalStatus": "ok",
+      "retrievedAt": "2026-11-17T04:19:38.403286+00:00",
+      "htmlSha256": "185d94fcc6b4644c0ddea5d9a5cbbc97034a0e194022f52a49df9f08c6fe0aff",
+      "evidencePath": "../_archive/snapshots/expansion-2026-11-17/provenance/pages/official-thunder-history.json",
+      "sourceSnapshot": "expansion-2026-11-17"
+    }
+  ]
+}

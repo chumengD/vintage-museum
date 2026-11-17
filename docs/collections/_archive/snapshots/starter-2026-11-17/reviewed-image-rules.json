@@ -1,0 +1,17 @@
+{
+  "reviewedOn": "2026-11-17",
+  "note": "人工查看实际下载图片后整理；窗口可见版本优先于来源文章错位的alt。主版本核对不代表补丁、语言或版权完成审核。",
+  "qq": [
+    {"id":"qq-oicq-setup-reference","legacyAssetId":"qq-2000-screenshot","versionId":null,"role":"historical_ui_reference","observedVersion":null,"sourceAlt":"QQ 2000","url":"https://n.sinaimg.cn/tech/crawl/510/w300h210/20190211/XaMG-hswimzx8480966.jpg","caption":"OICQ注册向导参考图，画面未显示年份；不据网页alt断定为QQ 2000。"},
+    {"id":"qq-2004-screenshot","legacyAssetId":"qq-2005-screenshot","versionId":"qq-2004","role":"version_screenshot","observedVersion":"QQ2004","sourceAlt":"QQ 2005","url":"https://n.sinaimg.cn/tech/crawl/56/w500h356/20190211/_sFh-hswimzx8481004.jpg","caption":"QQ 2004联系人与聊天窗口，画面标题可见QQ2004；来源alt误写QQ 2005。"},
+    {"id":"qq-2007-screenshot","legacyAssetId":"qq-2008-screenshot","versionId":"qq-2007","role":"version_screenshot","observedVersion":"QQ2007","sourceAlt":"QQ 2008","url":"https://n.sinaimg.cn/tech/crawl/94/w500h394/20190211/ezmX-hswimzx8481088.jpg","caption":"QQ 2007联系人与聊天窗口，画面标题可见QQ2007；来源alt误写QQ 2008。"},
+    {"id":"qq-2010-screenshot","legacyAssetId":"qq-2011-screenshot","versionId":"qq-2010","role":"version_screenshot","observedVersion":"QQ2010","sourceAlt":"QQ 2011","url":"https://n.sinaimg.cn/tech/crawl/131/w550h381/20190211/hGw--hswimzx8481176.jpg","caption":"QQ 2010参考界面，联系人窗口标题可见QQ2010；来源alt误写QQ 2011。"},
+    {"id":"qq-2011-screenshot","legacyAssetId":"qq-2012-screenshot","versionId":"qq-2011","role":"version_screenshot","observedVersion":"QQ2011","sourceAlt":"QQ 2012","url":"https://n.sinaimg.cn/tech/crawl/140/w480h460/20190211/PU0i-hswimzx8494796.jpg","caption":"QQ 2011联系人与好友动态，画面标题可见QQ2011；来源alt误写QQ 2012。"},
+    {"id":"qq-2012-screenshot","legacyAssetId":"qq-2013-screenshot","versionId":"qq-2012","role":"version_screenshot","observedVersion":"QQ2012","sourceAlt":"QQ 2013","url":"https://n.sinaimg.cn/tech/crawl/747/w249h498/20190211/vEbx-hswimzx8481194.jpg","caption":"QQ 2012联系人面板，画面标题可见QQ2012；来源alt误写QQ 2013。"},
+    {"id":"qq-2003-screenshot","versionId":"qq-2003","role":"version_screenshot","observedVersion":"QQ2003","url":"https://n.sinaimg.cn/tech/crawl/135/w500h435/20190211/YwOy-hswimzx8494746.jpg","caption":"QQ 2003联系人及聊天窗口，画面标题可见QQ2003。"},
+    {"id":"qq-2005-screenshot","versionId":"qq-2005","role":"version_screenshot","observedVersion":"QQ 2005","url":"https://n.sinaimg.cn/tech/crawl/67/w500h367/20190211/fsOe-hswimzx8481038.jpg","caption":"QQ 2005联系人及聊天窗口，画面标题可见QQ 2005。"},
+    {"id":"qq-2008-screenshot","versionId":"qq-2008","role":"version_screenshot","observedVersion":"QQ2008","url":"https://n.sinaimg.cn/tech/crawl/96/w500h396/20190211/QTI2-hswimzx8481116.jpg","caption":"QQ 2008联系人及聊天窗口，画面标题可见QQ2008。"},
+    {"id":"qq-2009-screenshot","versionId":"qq-2009","role":"version_screenshot","observedVersion":"QQ2009","url":"https://n.sinaimg.cn/tech/crawl/100/w500h400/20190211/Wjqf-hswimzx8481147.jpg","caption":"QQ 2009联系人及聊天窗口，画面标题可见QQ2009。"},
+    {"id":"qq-2013-period-reference","versionId":null,"role":"historical_ui_reference","observedVersion":null,"url":"https://n.sinaimg.cn/tech/crawl/116/w526h390/20190211/LUnc-hswimzx8481223.jpg","caption":"QQ历史图集2013段落邻近配图；画面未显示可确认的主版本号，暂不关联具体版本。"}
+  ]
+}

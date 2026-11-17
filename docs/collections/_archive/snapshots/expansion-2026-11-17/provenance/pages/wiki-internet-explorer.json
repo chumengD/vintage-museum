@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Internet_Explorer",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Internet_Explorer",
+    "retrievedAt": "2026-11-17T04:19:25.570432+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "6bfd8afdf9dac02c70cc3d6c0c35a6954bb598857d428f7b31d5e3578338c530",
+    "bytes": 771762,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Internet Explorer",
+  "htmlRevisionId": 1386175847,
+  "infoboxText": "Internet Explorer Logo used since 2011 Screenshot of Internet Explorer 11 , showing the Main Page of the English Wikipedia Other names Microsoft Internet Explorer (versions 1–6) Windows Internet Explorer (versions 7–9) IE Original author Thomas Reardon Developer Microsoft Release August 24, 1995 ; 31 years ago ( 1995-08-24 ) [ 1 ] (included with Plus! for Windows 95) Engines MSHTML (Trident), Chakra Operating system Windows (previously supported: Mac OS X , Solaris , HP-UX ) Platform IA-32 , x86-64 , ARMv7 (previously supported: MIPS , Alpha , PowerPC , 68k , SPARC , PA-RISC , Itanium ) Included with Microsoft Plus! for Windows 95 Windows 95 OSR1 or later Windows NT 4.0 through Windows 10 version 21H2 Windows Phone 7 through Windows Phone 8.1 Mac OS 8.1 through Mac OS X 10.2 Zune HD Xbox 360 Xbox One Successor Microsoft Edge Standards HTML5 , CSS3 , WOFF , SVG , RSS , Atom , JPEG XR Available in 95 languages [ 2 ] Type Web browser Feed reader License Proprietary , requires a Windows license [ 3 ] Website microsoft .com /ie",
+  "imageCaptions": [
+    "Logo used since 2011",
+    "Screenshot of Internet Explorer 11 , showing the Main Page of the English Wikipedia"
+  ]
+}

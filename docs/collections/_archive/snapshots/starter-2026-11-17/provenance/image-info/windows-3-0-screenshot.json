@@ -1,0 +1,93 @@
+{
+  "continue": {
+    "iistart": "2025-07-12T00:07:43Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "File:Windows_3.0_workspace.png",
+        "to": "File:Windows 3.0 workspace.png"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 2611871,
+        "ns": 6,
+        "title": "File:Windows 3.0 workspace.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2026-08-17T07:37:13Z",
+            "size": 8006,
+            "width": 640,
+            "height": 480,
+            "url": "https://upload.wikimedia.org/wikipedia/en/1/15/Windows_3.0_workspace.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://en.wikipedia.org/wiki/File:Windows_3.0_workspace.png",
+            "descriptionshorturl": "https://en.wikipedia.org/wiki/Special:Redirect/page/2611871",
+            "sha1": "da509e757d83daa483ba6573efa6f728bdfdd063",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2026-08-17 07:37:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Windows 3.0 workspace",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "All non-free media|Non-free files with no derivative works licenses|Files with no machine-readable author|Wikipedia non-free files with NFUR stated|Noindexed pages|Wikipedia non-free files with valid backlink|Non-free images tagged for no reduction|Screenshots of Windows 3.x",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "<p>Screenshot of the Windows 3.0 workspace\n</p>",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<p>Remastered (current) screenshot taken by <a href=\"//en.wikipedia.org/wiki/User:LoganDeveloper\" title=\"User:LoganDeveloper\">LoganDeveloper</a> (<a href=\"//en.wikipedia.org/wiki/User_talk:LoganDeveloper\" title=\"User talk:LoganDeveloper\">talk</a> <b>·</b> <a href=\"//en.wikipedia.org/wiki/Special:Contributions/LoganDeveloper\" title=\"Special:Contributions/LoganDeveloper\">contribs</a>), original screenshot is taken and uploaded by <a href=\"//en.wikipedia.org/wiki/User:Tyomitch\" title=\"User:Tyomitch\">Tyomitch</a> (<a href=\"//en.wikipedia.org/wiki/User_talk:Tyomitch\" title=\"User talk:Tyomitch\">talk</a> <b>·</b> <a href=\"//en.wikipedia.org/wiki/Special:Contributions/Tyomitch\" title=\"Special:Contributions/Tyomitch\">contribs</a>)\n</p>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Fair use",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Fair use",
+                "source": "commons-desc-page"
+              },
+              "NonFree": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "firefox-1-0",
+    "productId": "firefox",
+    "version": "Firefox 1.0",
+    "releasedAt": "2004-11-09",
+    "timelineYear": 2004,
+    "summary": "Firefox品牌下的首个1.0正式版本。",
+    "sourceIds": [
+      "official-firefox-timeline",
+      "wiki-firefox"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "firefox-2-0",
+    "productId": "firefox",
+    "version": "Firefox 2.0",
+    "releasedAt": "2006-10-24",
+    "timelineYear": 2006,
+    "summary": "标签页与浏览体验持续演进的早期版本。",
+    "sourceIds": [
+      "official-firefox-timeline",
+      "wiki-firefox"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  },
+  {
+    "id": "firefox-3-0",
+    "productId": "firefox",
+    "version": "Firefox 3.0",
+    "releasedAt": "2008-06-17",
+    "timelineYear": 2008,
+    "summary": "Download Day时期的浏览器版本记忆。",
+    "sourceIds": [
+      "official-firefox-timeline",
+      "wiki-firefox"
+    ],
+    "datePrecision": "day",
+    "recordType": "release",
+    "dateKind": "release",
+    "assetIds": [],
+    "publicationStatus": "draft",
+    "sourceSnapshot": "expansion-2026-11-17"
+  }
+]

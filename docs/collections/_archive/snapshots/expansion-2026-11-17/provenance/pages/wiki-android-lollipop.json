@@ -1,0 +1,18 @@
+{
+  "fetch": {
+    "requestedUrl": "https://en.wikipedia.org/wiki/Android_Lollipop",
+    "resolvedUrl": "https://en.wikipedia.org/wiki/Android_Lollipop",
+    "retrievedAt": "2026-11-17T04:19:31.248008+00:00",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "d5bd71d2e012b6e64f2bb2875ec11bdfa798010b084871a3af474c9226565c05",
+    "bytes": 418290,
+    "httpStatus": 200
+  },
+  "canonicalTitle": "Android Lollipop",
+  "htmlRevisionId": 1373509070,
+  "infoboxText": "Android Lollipop Version of the Android operating system Android Lollipop running on a Nexus 5 Developer Google Released to manufacturing June 25, 2014 ; 12 years ago ( 2014-06-25 ) General availability November 12, 2014 ; 12 years ago ( 2014-11-12 ) [ 1 ] Final release 5.1.1_r38 (LMY49M) [ 2 ] / July 5, 2016 ; 10 years ago ( 2016-07-05 ) [ 3 ] Kernel type Monolithic ( Linux ) Preceded by Android KitKat (4.4) Succeeded by Android Marshmallow (6.x) Official website www .android .com /versions /lollipop-5-0 / Support status Android 5.0: Unsupported as of November 4, 2017 Android 5.1: Unsupported as of March 1, 2018 Google Play Services support dropped since July 2024 [ 4 ]",
+  "imageCaptions": [
+    "",
+    "Android Lollipop running on a Nexus 5"
+  ]
+}

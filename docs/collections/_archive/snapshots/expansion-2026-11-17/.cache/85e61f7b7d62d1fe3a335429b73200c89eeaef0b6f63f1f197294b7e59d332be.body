@@ -1,0 +1,1186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta name="baidu-site-verification" content="oazBFy8AW0" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="description" content="搜狗拼音输入法官网下载，荣获多个国内软件大奖的搜狗拼音输入法是一款打字超准、词库超大、速度飞快、外观漂亮、用了让您爱不释手的输入法，是您装机必备的好选择。享受输入，从搜狗开始！">  
+<title>更新列表 - 搜狗拼音输入法</title>
+<script type="text/javascript" src="/js/js_global_2.js?v=6.1"></script>
+<script language="javascript" src="/js/pb_slide.js"></script>
+<link href="/css/reset.css" type="text/css" rel="stylesheet" />
+<!--<link href="/skins/css/css4catenav.css" type="text/css" rel="stylesheet" />-->
+<link href="http://dl.pinyin.sogou.com/index/2.0/login.css" type="text/css" rel="stylesheet" />
+<style>
+
+body{ background:url(http://dl.pinyin.sogou.com/index/2.0/bg_index0.png) 0 0 repeat-x;text-align: left;}
+#wrapper{ width:1000px; height:1550px; margin:auto;position:relative;}
+#head{ width:1000px; height:103px; margin:auto; }
+
+/*topnav*/
+#header{ width:1000px; height:103px; margin:auto;position:absolute;z-index:20;}
+#logo{ width:215px; height:70px; background:url(http://dl.pinyin.sogou.com/index/2.0/logo.png?1.1) no-repeat;_background:url(http://dl.pinyin.sogou.com/index/2.0/logo_ie6.png) no-repeat; position:absolute;z-index:50;top:46px;_display:inline;}
+#header_shadow { width:1000px; height:6px; background:url(http://dl.pinyin.sogou.com/index/2.0/header_shadow.png) repeat-x scroll 0 -102px transparent; position:absolute;z-index:45;top:103px;_display:inline;}
+#product{ width:1000px;height:28px; float:right;}
+#top{margin-right:10px;height:28px;width:780px;*margin-right:20px;  overflow:hidden;zoom:1; float:right; overflow:hidden;position:relative;}
+.topnav{ height:28px; overflow:hidden;zoom:1; clear:both; float:right; margin-left:65px; overflow:hidden; position:absolute;_display:inline;}
+.topnav ul li { float:left; color:#7a7a7a;font-size:12px;height:16px; margin-top:6px;_display:inline;line-height:16px;background:none !important; }
+.topnav ul li a,.topnav ul li p{ color:#7a7a7a;margin-right:15px;}
+.topnav ul li  .topnav_btn{ width:33px; height:16px; margin-top:2px;background:url(http://dl.pinyin.sogou.com/index/2.0/stretch.png) no-repeat; float:left;  margin-right:0; display:block;_display:inline;}
+.topnav a:hover{color:#ff8049;}
+
+#signup{ height:28px; float:right;_width:100px;min-width:100px;} 
+#signup ul li{ float:left; margin-left:12px; position:relative;margin-top:6px;*margin-top:7px;line-height:16px;height:16px; font-size:12px; color:#7a7a7a;_display:inline;}
+#signup ul li a{color:#7a7a7a;float:left;}
+#signup ul li a:hover{color:#ff8049;}
+#username{ width:170px;height:15px;float:left;display:block;overflow:hidden;text-align: right;white-space:nowrap;}
+
+#nav{ width:695px; height:27px; float:right;margin-top:48px;_display:inline;}
+#nav div {
+    float: left;
+    height: 27px;
+    width: 52px;
+	margin-left:37px;
+	_margin-left:27px;
+}
+#nav div a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#index {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll 0 -27px transparent;
+}
+#skin {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -72px -27px transparent;
+}
+#cell {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -151px -27px transparent;
+}
+#extend {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -228px -27px transparent;
+	width:86px !important;
+}
+#help {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -339px -27px transparent;
+}
+#log {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -417px -27px transparent;
+	width:86px !important;
+
+}
+#bbs {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -528px -27px transparent;
+}
+#usr_center {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -606px -27px transparent;
+	width:86px !important;
+}
+#index_active,#index:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll 0 0 transparent;
+}
+#skin_active,#skin:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -72px 0 transparent;
+}
+#cell_active,#cell:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -151px 0 transparent;
+}
+#extend_active,#extend:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -228px 0 transparent;
+	width:86px !important;
+}
+#help_active,#help:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -339px 0 transparent;
+}
+#log_active,#log:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -417px 0 transparent;
+	width:86px !important;
+}
+#bbs_active,#bbs:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -528px 0 transparent;
+}
+#usr_center_active,#usr_center:hover {
+    background: url("http://dl.pinyin.sogou.com/index/2.0/menu.jpg") repeat scroll -606px 0 transparent;
+	width:86px !important;
+}
+
+</style>
+</head>
+<body>
+<style>
+#indexto12306 {width: 100%;display: block;background: #fd6b2f url(images/index/indexto12306.jpg) no-repeat top center;height: 0px;
+}
+</style>
+<div id="wrapper">
+	<div id="head">
+		<div id="header">
+        		<div id="logo"></div>
+		<!--<div id="header_shadow"></div>-->
+               <div id="product">
+                    <div id="signup">                                                                                                
+                                                                                                     
+  
+                    	<ul>                                                                                          
+                       	<li id="nav_sign"><a href="javascript:jQuery.facybox({ajax:'/login_box2.php'});">登录</a></li>
+                        <li><p>|</p></li>
+                       	<li id="nav_zhuce"><a href="http://pinyin.sogou.com/user/signup.php">注册</a></li>        
+                        </ul>                                                                                          
+                                                                                                           
+   
+        			</div>
+			<div id="top">
+			       <div class="topnav">
+                   			<ul>
+                        	<!--		   <li><a class="topnav_btn" href="javascript:void(0);"></a></li> -->
+<li class="hanzi"><a class="topnav1" href="http://shouji.sogou.com/?r=pinyin"  target="_blank">输入法手机版</a></li>
+                             <li><p>|</p></li>
+<li class="hanzi"><a class="topnav2" href="http://pinyin.sogou.com/mac/?r=pinyin"  target="_blank">输入法Mac版</a></li>
+                                <li><p>|</p></li>
+        <li class="hanzi"><a class="topnav3" href="http://pinyin.sogou.com/linux/?r=pinyin" >输入法Linux版</a></li>
+                                <li><p>|</p></li>
+        <li class="hanzi"><a class="topnav3" href="http://wubi.sogou.com/?r=pinyin" >五笔输入法</a></li>
+                                <li><p>|</p></li>
+        <li class="hanzi"><a class="topnav5" href="http://ie.sogou.com/?f=pinyin" >浏览器</a></li>
+                                <li><p>|</p></li>
+  <li class="hanzi"><a class="topnav6" href="http://zhushou.sogou.com/?f=pinyin" >手机助手</a></li>
+                                 <li><p>|</p></li>
+       <li class="hanzi"><a class="topnav7" href="http://bizhi.sogou.com/?r=pinyin">壁纸</a></li>
+                                 <li><p>|</p></li>
+       <li class="hanzi"><a class="topnav8" href="http://mse.sogou.com/?f=pinyin">手机浏览器</a></li>
+							</ul>
+                   		</div>
+                    </div>
+			  </div>
+              <div id="nav">
+			<div  id="index"><a href="/"></a></div>
+			<div id="skin"><a href="http://pinyin.sogou.com/skins/" onclick="countPv(21)"></a></div>
+			<div id="cell"><a href="http://pinyin.sogou.com/dict/" onclick="countPv(22)"></a></div>
+			<!--<div  id="extend"><a href="http://pinyin.sogou.com/extend.php"></a></div>-->
+			<div  id="help"><a href="http://pinyin.sogou.com/help.php" 	onclick="countPv(23)"></a></div>
+			<div  id="log_active"><a href="http://pinyin.sogou.com/changelog.php" onclick="countPv(24)"></a></div>
+			<div id="bbs"><a href="http://pinyin.sogou.com/bbs/forum.php?gid=3"onclick="countPv(25)"></a></div>
+								<div id="usr_center"><a href="javascript:jQuery.facybox({ajax:'/login_box2.php'});"onclick="countPv(26)"></a></div>
+									              </div>
+        </div>
+	</div>
+<script>
+/*
+function leftmove(){
+	 $(".topnav").animate({                                                                        
+                      marginLeft:20                                                              
+                }, 500);  
+
+}
+function rightmove(){
+	 $(".topnav").animate({                                                                        
+                      marginLeft:238                                                              
+                }, 500);  
+
+}
+*/
+$(document).ready(function(){
+ /*	$(".topnav_btn").click(function(){
+		if( $(".topnav").css('marginLeft')!= "20px"){
+		leftmove();
+		$(".topnav_btn").css("background","url(http://dl.pinyin.sogou.com/index/2.0/less.png) no-repeat");
+		//pb_slide(1);
+		countPv(0);
+       }else{
+	   	rightmove();
+		$(".topnav_btn").css("background","url(http://dl.pinyin.sogou.com/index/2.0/stretch.png) no-repeat");
+	   }
+    });
+	*/
+/*抢票
+	var bro=$.browser;
+	var bro_firefox=bro.mozilla;
+	if(bro_firefox){
+		$("body").animate({backgroundPosition:"0 80px"},600,function(){});
+	}else{
+		$("body").animate({backgroundPositionY:"80px"},600,function(){});
+	}
+
+	$("#indexto12306").animate({"height":"80px"},600,function(){});
+	$("#banner_sides").animate({"top":"183px"},600,function(){});
+*/
+});
+</script><link href="css/home_6.6.css" type="text/css" rel="stylesheet" />
+<style>
+
+body{ background:url(images_new/bg_index_short.png) repeat-x;text-align: left;}
+#main {
+float:right;
+width:752px;
+}
+#sidebar {
+float:left;
+width:210px;
+}
+.selectbtn2, .selectbtn2hover {
+	width: 64px;
+	float: right;
+	margin-top: 2px;
+	display: inline;
+	height: 31px;
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+	padding-top:2px;
+        *padding-top:3px;
+	line-height: 25px;
+	text-indent: 6px;
+	padding-left:0px;
+}
+
+.selectbtn2 {
+	color: #fff;
+	background: url(../images/5.0/selectbtn20519.gif) no-repeat 41px 8px;
+        font-weight:bold;
+}
+.selectbtn2hover {
+	background: url(../images/5.0/selectbtn2hover0519.gif) no-repeat;
+	color: #F16000;font-weight:bold;
+}
+</style>
+     <div class="changebox">
+
+	<h2>2014.2.13 7.1正式版发布</h2>
+    <h3>新增</h3>
+    <ol>
+	<li>默认皮肤改版、自定义状态栏样式优化，界面简明轻快</li>
+	<li>属性设置、设置向导改版，交互更简洁</li>
+	<li>右键菜单、工具箱改版，操作更便捷</li>
+	<li>图片表情改进，多套精美大表情，表达更传神</li>
+	<li>单字固首、组词简拼策略优化</li>
+    </ol>
+    <h3>改进</h3>
+    <ol>
+	<li>解决属性设置打开外观页速度慢的问题</li>
+	<li>解决7.1预览版中安装速度慢、耗资源的问题</li>
+	<li>解决在WinXP下，部分浏览器的微博输入框、QQ空间中打字卡的问题</li>
+	<li>解决Win2000下，浏览器中触发云计算时崩溃的问题</li>
+    </ol>
+	<h2>2013.11.20 6.8正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>万能工具箱——全新功能集合，一应俱全</li>
+	<li>海量富应用——手写截屏翻译，面面俱到</li>
+	<li>桌面小图标——按钮随心摆放，一键触发</li>
+	<li>精准云首选——长句输入更准，一气呵成</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>新增在线翻译、常用诗词等应用</li>
+	<li>表情、符号、酷字等功能以组件形式，自定义添加</li>
+	<li>中英文、简繁体、全双拼等切换功能以挂件形式可悬浮在桌面上</li>
+	<li>新增大五码功能，在台服游戏等进程中上屏再无乱码；智能模糊音策略优化</li>
+	<li>输入法修复器逻辑优化</li>
+	<li>手写组件数字面板新增大写数字</li>
+    </ol>
+	<h2>2013.5.28 6.7正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>输入统计——炫酷统计图表，多晒多惊喜</li>
+	<li>手写改版——强化功能，联想学词全收纳</li>
+	<li>截屏优化——改装出新，标记分享随你意</li>
+	<li>精致注音——固定注音字体，识别更容易</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>气泡风格统一，规范各类提示气泡</li>
+	<li>双拼下新增UV模式入口提示</li>
+    </ol>
+
+	<h2>2013.4.17 6.6正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>换肤也换字——多款酷炫字体，输入更个性；</li>
+	<li>Windows 8支持——全新架构 Win8支持大提升</li>
+	<ul>&nbsp;&nbsp;a)	Win8两界面 互通共享</ul>
+	<ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——两界面一套输入法，共用皮肤、词库等数据</ul>
+	<ul>&nbsp;&nbsp;b)	贴心小图标 打字更放心</ul>
+	<ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——Metro下的状态提示，右键显示更多状态</ul>
+	<ul>&nbsp;&nbsp;c)	手指轻触翻页 选词更容易</ul>
+	<ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——支持触屏操作，轻松选词上屏</ul>
+	<ul>&nbsp;&nbsp;d)	输入集成搜索 边输边搜更快捷</ul>
+	<ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——支持Win8特有的IME集成搜索功能</ul>
+	<ul>&nbsp;&nbsp;e)	Metro风格皮肤 Win8体验更一致</ul>
+	<ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——提供更多Metro风格皮肤</ul>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>Metro(Modern UI)界面支持ctrl+,（或其它）快捷键切出输入法；</li>
+	<li>解决切换焦点后变成英文状态问题；</li>
+	<li>修改中英文标点错乱问题；</li>
+	<li>桌面右下角输入法图标旁边显示中英文状态提示； </li>
+	<li>支持自定义安装路径，可以将输入法安装到非系统盘；</li>
+	<li>Metro(Modern UI)界面支持shift+空格切换全半角，ctrl+.切换中英文标点；</li>
+	<li>Metro(Modern UI)界面下可学词； </li>
+	<li>Metro(Modern UI)界面下隐藏状态栏；</li>
+	<li>Metro(Modern UI)界面下可调出软键盘；</li>
+	<li>Metro(Modern UI)界面下可显示皮肤，并支持拖拽换肤、i换肤；</li>
+	<li>Metro(Modern UI)界面下可显示六选提示、u模式v模式提示等数据；</li>
+	<li>解决在—些Win8应用中打不出汉字问题。</li>
+    </ol>
+
+	<h2>2013.3.4 2.0智慧版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>心有灵犀：根据输入内容，主动提供网络内容和服务，包括影视、音乐、软件下载、网址直达、天气查询、火车票查询等</li>
+	<li>变色龙：在原情景感知的基础上，增加界面提示，并提高输入结果的准确性</li>
+	<li>安装界面全面更新，更加精彩酷炫</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>改进卷轴展开时显示在屏幕下方跳跃的视觉效果</li>
+	<li>妙笔生花支持数据在线更新</li>
+	<li>优化文思泉涌数据</li>
+    </ol>
+    <div><a href="http://pinyin.sogou.com/zhihui/">去智慧版2.0官网了解更多</a></div>
+
+	<h2>2012.10.25 6.5正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>安装卸载——新界面新风格 新感受</li>
+	<li>扩展功能管理器——重装上阵管理扩展更容易</li>
+	<li>长词联想——少打拼音多出字智能又贴心</li>
+	<li>自定义状态栏——DIY按钮 大小随心变</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>系统菜单优化：增加隐藏状态栏选项、新增官方微博入口等</li>
+	<li>I模式换肤优化：取消数字换肤功能</li>
+	<li>词库相关：同步优化、词库加载失败时自动备份等</li>
+	<li>嵌入语言栏状态栏新增弹出按钮</li>
+	<li>英文补全功能优化</li>
+	<li>候选窗口位置固定</li>
+	<li>图片表情资源修改</li>
+	<li>彩虹字效果图修改</li>
+	<li>修复部分软件下按键失效的问题</li>
+	<li>修复皮肤推荐下载失败的问题</li>
+	<li>修复筛选模式下“辛”字旁的问题</li>
+	<li>修复“默认输入法重启后无法使用flash皮肤”的问题</li>
+    </ol>
+
+	<h2>2012.9.20 智慧版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>情景感知：根据当前所处的网页输入环境，智能地调整候选排序；</li>
+	<li>文思泉涌：自动补全常用诗词以及流行恶搞诗词；</li>
+	<li>妙笔生花：在候选框右上角提示可替换当前候选词的美词；</li>
+	<li>搜狗卷轴：按翻页键后显示更多的候选项，并能对候选字进行筛选；</li>
+	<li>拼音纠错：在输错拼音的时候给予纠错并进行提示；</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>放开云计算限制，增加了云结果的展示机会；</li>
+	<li>优化智能长词联想，输入更轻松；</li>
+    </ol>
+    <div><a href="http://pinyin.sogou.com/zhihui1/">去智慧版官网了解更多</a></div>
+
+	<h2>2012.4.27 6.2正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>Windows 8支持——首家全面支持Win8的输入法</li>
+	<li>图片表情——打字出表情，让你的打字更生动</li>
+	<li>彩虹字——缤纷的字体，全新输入体验</li>
+	<li>火星文——好玩的火星文，输入更个性</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>智能纠错改进</li>
+	<li>中英文混输改进</li>
+	<li>U/V模式新增友好提示</li>
+	<li>拆分、筛选模式改进，增加笔画、部首混输筛选</li>
+	<li>U模式上屏生僻字参与学词</li>
+	<li>长句输入学词改进</li>
+	<li>状态栏拖动效果处理改进</li>
+	<li>Flash皮肤支持改进</li>
+	<li>细胞词库更新改进</li>
+	<li>升级下载功能优化</li>
+    </ol>
+
+	<h2>2011.12.9 6.1正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>个性化智能纠错</li>
+	<li>U模式部首拆分输入</li>
+	<li>第三方账号登录输入法</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>人名模式改进</li>
+	<li>系统词库增强</li>
+	<li>卸载流程改进</li>
+	<li>扩展功能管理器改进</li>
+	<li>增加用户词库保护机制</li>
+	<li>输入统计界面改进</li>
+	<li>系统词库支持p2p升级</li>
+    </ol>
+	<h2>2011.6.14 6.0正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>智能纠错</li>
+	<li>支持Flash皮肤</li>
+	<li>实时结果：星座运势、股票行情</li>
+	<li>鼠标手势扩展</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>词库增强</li>
+	<li>支持按城市查询天气</li>
+	<li>i换肤支持鼠标操作</li>
+	<li>6选提示的改进</li>
+	<li>云选项标识的改进</li>
+	<li>优化英文补全选项的显示逻辑</li>
+	<li>皮肤盒子升级</li>
+    </ol>
+
+
+	<h2>2011.1.24 5.2正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>新增节日节气提醒</li>
+	<li>新增天气预报</li>
+	<li>细胞词库参与组词</li>
+	<li>支持Ctrl+字母进行首字母定位修改</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>输入法代码重构，底层优化</li>
+	<li>改进pinyinup更新程序，减少卡机情况</li>
+	<li>通行证改进</li>
+	<li>扩展管理器改进，扩展功能可以自动更新</li>
+	<li>长按退格键有缓冲时间避免删除正文</li>
+	<li>Ctrl+，热键可以在搜狗拼音输入法英文状态时切换到中文状态</li>
+	<li>用户词库减肥，智能清理不常用的词</li>
+	<li>更新了安装包里的自带皮肤：老年版和新春吉祥</li>
+    </ol>
+
+
+	<h2>2010.9.20 5.1正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>小写中英文混输</li>
+	<li>自定义模糊音</li>
+	<li>炫酷i换肤</li>
+	<li>分号工具箱</li>
+	<li>支持大写开头的分段英文补全</li>
+	<li>浏览器搜索栏建议词服务</li>
+	<li>增加扩展 - 皮肤管理器</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>输入法切出速度提速</li>
+	<li>云输入提速以及通讯机制的升级</li>
+	<li>手写扩展加声调</li>
+	<li>Tab键拆字辅助码启用更全面的一批新数据</li>
+	<li>扩展的删词表，可以对英文进行删词</li>
+	<li>后台安装完成自动关闭界面</li>
+	<li>安装皮肤后显示皮肤的版权信息</li>
+    </ol>
+
+	<h2>2010.3.25 5.0正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>云计算：智能获取服务器更准确的计算结果，显示在第二个候选项，<a href="http://pinyin.sogou.com/features/cloud/">了解详情</a></li>
+	<li>手写输入：支持通过鼠标手写输入不会拼音的字<br/>
+	注：手写输入是扩展功能，可以由用户选择是否启用，启用手写输入需要另外下载功能模块</li>
+	<li>智能标点：小数后面的, . /  ^ :五个符号，根据后续输入决定上屏的是中文符号还是英文符号</li>
+	<li>超级简拼：支持把每个字母都看做简拼解析成候选项</li>
+	<li>大写字母与中文混输</li>
+	<li>双字母英文匹配：  支持直接输入hi，ok等双字母英文字单词</li>
+	<li>输入串编辑功能增强：在输入窗口中，按shift+左右方向键（←、→）即选中光标移过的拼音串 </li>
+	<li>i模式换肤：输入字母i，即可按数字键换肤</li>
+	<li>支持动画皮肤，<a href="http://pinyin.sogou.com/skins/cate.php?cate_id=23">立即下载动画皮肤</a></li>
+	<li>在win7和vista下支持aero特效的皮肤</li>
+	<li>拖拽换肤：鼠标点住输入窗口或者状态栏，左右快速拖拽3个来回，即激发本地随机换肤</li>
+	<li>皮肤和细胞词库在线安装：在ie内核浏览器下，支持在官网在线安装皮肤和细胞词库</li>
+	<li>截屏功能<br/>
+	注：截屏功能是扩展功能，可以由用户选择是否启用，启用截屏功能需要另外下载功能模块</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>修复了智能纠错的bug</li>
+        <li>增加了新词更新气泡和皮肤推荐气泡不再提示的选项：</li>
+        <li>智能纠错改进：支持因为误操作多按了一个键的纠错</li>
+        <li>将特殊符号和软键盘入口进行整合</li>
+        <li>支持 分号（；）单引号（’） 作为二三候选键</li>
+        <li>去掉了顿号推字上屏，支持直接输入“m/s”等单位 </li>
+        <li>支持皮肤随字体等比缩放</li>
+        <li>支持小鹤双拼方案</li>
+        <li>允许将逗号设置为功能快捷键</li>
+        <li>V模式引导字符，把“>”还原成“v”</li>
+    </ol>
+
+	<h2>2009.12.2 4.3.1正式版发布</h2>
+    <h3>功能改进</h3>
+    <ol>
+	<li>增加了关闭输入框提示图标选项</li>
+	<li>网址提示的默认快捷键修改为分号</li>
+	<li>设置向导增加了城市词库推荐</li>
+	<li>V模式支持，。-=翻页</li>
+	<li>V模式在输入“/”后不上屏v，只上屏“/”和后面的内容</li>
+    </ol>
+    <h3>bug修复</h3>
+    <ol>
+	<li>修复了智能纠错的bug</li>
+    </ol>
+
+	<h2>2009.10.26 4.3正式版发布</h2>
+    <h3>核心优化</h3>
+    <ol>
+	<li>大幅优化性能，提高了输入法的切出速度和展现速度；</li>
+	<li>优化上下文调频；</li>
+	<li>各高级模式流程优化。</li>
+    </ol>
+    <h3>新功能</h3>
+    <ol>
+	<li>支持中文下输入大写字母+小写字母进入英文补全：En→English</li>
+	<li>支持中文下输入通配符星号*进入英文补全：eng*→English</li>
+	<li>新版设置向导：更清新的界面，更方便的设置；</li>
+	<li>P2P升级：更快更稳定的获得输入法最新版本；</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+	<li>皮肤系列支持手动更新；</li>
+	<li>各高级模式下带悬浮提示、支持自定义快捷键；</li>
+	<li>自定义短语放宽限制：上限32000；</li>
+	<li>更新了默认皮肤；</li>
+	<li>支持搜索引擎自定义；</li>
+	<li>支持改变默认皮肤背景色；</li>
+	<li>v1~v9支持符号输入；</li>
+	<li>用户词库管理：“恢复所有删除词条”改为“恢复删除的系统词”</li>
+	<li>改进模糊音设置选项：恢复原来的双态勾选项；</li>
+	<li>双拼下支持网址提示功能。</li>
+    </ol>
+    <h3>bug修复</h3>
+    <ol>
+	<li>解决QQ聊天窗口遮挡问题；</li>
+	<li>解决一部分兼容性问题；</li>
+	<li>改进了繁体输入下，不能输入自己所选字词的问题。</li>
+    </ol>
+
+	<h2><a href="http://ime.sogou.com/dl/sogou_pinyin_42d.exe" target="_blank" style="color:white;">2009.6.5 4.2正式版发布</a></h2>
+    <h3>新增功能</h3>
+    <ol>
+	<li>快速切出搜狗输入法快捷键：ctrl+“，”，支持自定义；无论您当前的输入法是什么，只要使用切出快捷键，可以直接切换到搜狗；</li>		
+	<li>系统菜单增加皮肤列表上“另存为”，“删除”，“编辑”的功能按钮；不用进入设置属性即可以完成对皮肤各种操作；</li>
+	<li>人性化的候选项编辑功能：输入输入串后，光标回退，即可直接编辑候选；输入如“sogoushurufa”，首选为“搜狗输入法”，按左方向键回退光标至“sogou”与“shurufa”之间，“搜狗”不变，可以直接通过选词编辑“shurufa”匹配的选项；</li>
+	<li>英文输入法：支持嵌入显示模式，可直接按首选补全，并且支持通配符功能，可以用“*”替代遗忘的单词字母，也可以快速输入长词；如想输入“hello”，可直接输入“he*o”得到，此时“*”代表了“ll”，类似“especially ”的长词，只需要输入“es*y”即可快速得到所需候选。</li>		
+	<li>智能模糊音：输入法智能判断您是否可能需要模糊音并会在右上方给出模糊音候选；如：?? 误输【guanglong】，“光荣（rong）”会在输入栏右上方提示；如果您选择了“光荣（rong）”下一次可以直接通过【guanglong】输入“光荣（rong）”</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>优化长句输入效果；“睡觉上网看点闲书” VS “睡觉上网看点娴熟”</li>
+      <li>提高开机后首次切出和输入的性能。改善4.0版本以来存在的性能问题，让输入更加轻松自然。</li>
+      <li>一系列新的输入法界面，包括默认皮肤在内，简洁清爽；</li>
+      <li>增加新词更新的开关，用户可以手动关闭新词更新</li>
+      <li>同步策略优化，避免用户词库丢失。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>繁体词库问题，不再出现“软件→軟體”的情况；</li>
+      <li>一批兼容性包括一批主流游戏的兼容性bug </li>
+    </ol>
+
+    <h2>2009.3.18 4.1正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>支持皮肤系列：由搜狗官方网站为您每天更新高质量的皮肤，同一主题系列，天天新鲜！</li>
+      <li>设置页面增加悬浮提示功能：设置属性内可以使用鼠标悬浮至问号图标上，查看功能介绍； </li>
+      <li>网址邮箱输入防错机制；</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>优化上下文调频功能；</li>
+      <li>U模式下的候选注音增加了声调显示；</li>
+      <li>英文输入法支持包含连字符与下划线的单词的补全；</li>
+      <li>拆分输入支持双拼、模糊音、按空格出字模式；</li>
+      <li>人名模式下支持辅助码筛选；</li>
+      <li>增强了删词功能：删除的词条在任何拼音串下都不会再出现；且在“词库→用户词库管理”内，增加了“恢复删除的系统词”功能；</li>
+      <li>增加固定首位功能的开关：您可以在“设置属性→高级→高级模式”内设置；</li>
+      <li>农历提示：输入“nl”，候选项中会出现当天的农历候选； </li>
+      <li>增加输入法管理器快捷键设置：现在可以手动设置此快捷键了；</li>
+      <li>优化表情&符号输入面板使用体验；</li>
+      <li>升级、同步窗口增加自动关闭功能；</li>
+      <li>提示气泡在全屏程序下不置顶显示；</li>
+      <li>开机后的同步策略再次优化；</li>
+      <li>恢复一批设置选项：动态组词、词语联想、网址提示、上下文调频。</li>
+      <li>增加搜索快捷键，Ctrl+Shift+S，可以迅速的把焦点候选项作为关键字进行搜索。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>支持xp系统的安全模式下的使用；</li>
+      <li> 双拼下shif+u、shift+v支持输入大写U、V；</li>
+      <li> V模式下金额数字，大写数字的“拾”前加“壹”；</li>
+      <li>新词更新气泡在不启用细胞词库自动更新时不再弹出；</li>
+      <li>解决一批兼容性问题。</li>
+    </ol>
+    <h2>2008.12.29 4.0正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>人名智能组词：通过用户输出串按照人名规则进行智能组词，按逗号可进入人名组词模式，提供拼音串上的可能的所有人名候选；</li>
+      <li>搜索功能：搜索按钮以及候选项悬浮菜单上的搜索，让搜索更方便快捷； </li>
+      <li>拆分输入：化繁为简，生僻的汉字可以通过字形的拆分轻易输出；</li>
+      <li>增加皮肤分享功能：可以通过系统菜单下中的分享皮肤入口，得到当前皮肤的下载地址；</li>
+      <li>状态栏嵌入语言栏；</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>增加了鼠标悬浮菜单上添加自定义短语的新入口，方便又快捷；</li>
+      <li>设置页面大改版，并且加入选项搜索；</li>
+      <li>英文输入法增加GRE词汇；</li>
+      <li>增加了状态栏嵌入语言栏的功能；</li>
+      <li>输入统计界面进行了优化，增加动态效果；</li>
+      <li>表情&符号（快捷输入）解决遮挡问题，优化了鼠标悬浮预览，并新添字符画资源，对在候选的出现进行了限制，减少普通输入下的干扰，字符画新添输入栏上的鼠标悬浮预览图；</li>
+      <li>U模式下增加了笔画按键；</li>
+      <li>英文、网址、邮箱补全优化；</li>
+      <li>强化删词功能：支持删除系统词库的功能，并在拼音串悬浮菜单中有恢复入口；</li>
+      <li>V模式：增加对数字分隔符的支持、加入纯中文数字选项、日期中支持星期显示；</li>
+      <li>设置向导增加新功能推荐以及优化排序；</li>
+      <li>开机同步的优化：避免开机同步耗费资源过多的问题，并减少每周自动同步次数</li>
+      <li>英文输入法和空格出字模式增加文字提示；</li>
+      <li>系统菜单皮肤列表新添预览效果，并且新添换肤特效，所有皮肤下增加候选翻页按键；</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>解决了同步词库失败问题；</li>
+      <li>解决了提示应用程序初始化失败的问题；</li>
+      <li>字体渲染效果优化；</li>
+    </ol>
+    <h2>2008.9.11 3.6正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>包括搜狗表情在内的快捷输入，并以丰富的表情和字符画库作支持；</li>
+      <li>升级免重启：无须重启电脑即可用新版输入法覆盖旧版输入法；</li>
+      <li>英文输入法：右键菜单以及快捷键“ctrl+shift+e”均可进入；</li>
+      <li>固定首位功能：候选项上悬浮菜单上的“固定首位”选项可以让此候选固定在首选项；</li>
+      <li>输入法管理器：提供一个输入法管理器，用户可以方便的设定默认输入法，选择常用的输入法和调整输入法的顺序；</li>
+      <li>支持“U_"输入：支持U_开头的输入；</li>
+      <li>上下键实现跨页选择；</li>
+      <li>任务栏托盘:隐藏状态栏时，为了方便操作，会在任务栏托盘提供一个按钮，方便用户配置和切换输入法的功能；</li>
+      <li>双拼下支持UV模式：双拼模式下通过shift+u，shift+v可以分别进入UV模式</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>皮肤编辑器增加输入焦点；</li>
+      <li>自定义短语用户数据与系统数据分离；</li>
+      <li>添加V模式下的百分数候选项 v模式下计算除法时，增加百分数候选项；</li>
+      <li>优化输入速度。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修正了模糊音设置同步问题后恢复默认的bug。</li>
+    </ol>
+    <h2>2008.6.5 3.5奥运版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>英文补全，用户输入英文单词的过程中，输入法会根据用户的输入即时给出可能匹配上的英文单词的提示；</li>
+      <li>网络升级时支持断点续传。</li>
+    </ol>
+    <h3>奥运专属功能（仅在此版本有效）</h3>
+    <ol>
+      <li>奥运专属词库；</li>
+      <li>奥运主题皮肤；</li>
+      <li>奥运快讯（可自由选择是否开启）。</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>在智能帮助中加入所有动画的快速查看链接；</li>
+      <li>优化了皮肤显示和编辑的功能；</li>
+      <li>将智能帮助气泡的显示从手动关闭修改为30秒后自动关闭。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了输入法与某些游戏的兼容性问题。</li>
+    </ol>
+    <h2>2008.5.5 3.3正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>网址提示，如输入“搜狐”，提示网址www.sohu.com；</li>
+      <li>鼠标删词、错词新词提交；</li>
+      <li>个性化设置向导；</li>
+      <li>智能帮助；</li>
+      <li>上下文词频；</li>
+      <li>随机更换官网皮肤（参见输入法右键菜单）；</li>
+      <li>模糊音错音提示。</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>集成皮肤编辑器；</li>
+      <li>优化了按键流程；</li>
+      <li>优化了系统词库、智能组词；</li>
+      <li>更新了错音提示数据库。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了输入法与Adobe cs3 系列软件的兼容性问题，如Dreamweaver、flash；</li>
+      <li>修复某些情况下vista状态栏崩溃的bug；</li>
+      <li>修复了在部分游戏和应用软件中的兼容性问题。</li>
+    </ol>
+    <h2>2008.2.4 3.2正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>支持简拼组词。</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>优化了系统词库、智能组词；</li>
+      <li>更新了错音提示数据库；</li>
+      <li>添加了导出txt文本词库的功能；</li>
+      <li>改进了u模式下以u开头的英文网址输入；</li>
+      <li>输入法与皮肤编辑器全面支持png格式的图片（请到皮肤频道下载新版皮肤编辑器）。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>解决了在某些情况下自动设置为默认输入法的问题；</li>
+      <li>修复了在部分游戏和应用软件中的兼容性问题。</li>
+    </ol>
+    <h2>2007.12.28 3.1正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>网址与邮箱自动补全，快速补全网址与已输入的邮箱(按下Ctrl+Shift+1删除误输的网址)；</li>
+      <li>v模式计算器功能(输入v85+7*31，可以得到85+7*31=302)；</li>
+      <li>错音提示功能(例如输入zhire输入法会给出炽(chì)热)；</li>
+      <li>状态栏缩进语言栏，当隐藏状态栏时，状态栏上的按钮缩进系统语言栏中。</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>更正了繁体词数千条；</li>
+      <li>支持64位操作系统，包括XP、Vista；</li>
+      <li>改进了网络账户登录流程；</li>
+      <li>改进了状态栏右键菜单。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了在部分游戏和应用软件中的兼容性问题。</li>
+    </ol>
+    <h2>2007.10.18  3.0正式版发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>多用户网络账户功能，提供可在线保存配置，在线保存与同步词库的功能。在线保存配置包括自定义短语、双拼方案、皮肤等除了字数统计之外的所有配置；</li>
+      <li>输入法打字入门flash教程，特别为新手制作的动画教程，让您快速上手。</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>系统词库扩充，收录更多词条，词库质量更佳；</li>
+      <li>智能组词核心算法改进，准确率再次提升，输入更加流畅； </li>
+      <li>在系统菜单里增加了卸载、设置、链接等内容。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复Excel下搜索崩溃的bug；</li>
+      <li>修复某些情况下细胞词库合并时丢词的bug；</li>
+      <li>修复了在部分游戏和应用软件中的兼容性问题。</li>
+    </ol>
+    <h2>2007.7.2 3.0公测第二版(3.0Beta2)发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>细胞词库，可自由上传下载、在线升级的细分化词库功能；</li>
+      <li>支持鼠标选词；</li>
+      <li>支持google拼音输入法用户词库格式的导入；</li>
+    </ol>
+    <h3>功能改进</h3>
+    <ol>
+      <li>Unicode版本，支持繁体、英文、日文等非简体中文的Windows系统；</li>
+      <li>输入法词库核心较大改进，输入法反应速度进一步提升；</li>
+      <li>增加了迷你状态栏皮肤；</li>
+      <li>增加了输入窗口上的右键菜单；</li>
+      <li>去掉了默认的搜狗酷字快捷键，防止误点击；</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了Vista下IE7不兼容的问题；
+      <li>修复了Vista下不能升级输入法的bug；
+      <li>修复了Word2003下使用插入特殊符号时崩溃的bug。
+    </ol>
+    <h2>2007.3.2 3.0公测第一版(3.0Beta1)发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>皮肤功能；</li>
+      <li>皮肤编辑器（单独提供）；</li>
+      <li>自定义状态栏（通过皮肤功能实现，即可实现添加繁简、全双按钮）；</li>
+      <li>支持三种主流输入法文本格式的用户词库导入（加加、微软、紫光）；</li>
+      <li>支持字符集选择（大字符集GBK，常用汉字GB2312）；</li>
+      <li>添加默认启动时繁体简体选项；</li>
+      <li>增加了繁简体状态切换快捷键；</li>
+      <li>拆字辅助码（例如输入【账】，可以输入zhang+tab键+bc（贝与长的首字母））。</li>
+    </ol>
+    <h3>功能优化</h3>
+    <ol>
+      <li>自定义短语扩展到了支持每条自定义短语300汉字。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了魔兽世界空格模式下输入窗口显示上次输入内容的bug；</li>
+      <li>修复了魔兽世界V模式下会出现候选项的bug；</li>
+      <li>修复了魔兽世界下有时出现shift粘滞现象的bug；</li>
+      <li>修复了Word 2007有斜表头时输入行标题和列标题时导致崩溃的bug；</li>
+      <li>修复了二三候选功能输出的文字不能被“输入统计”计数的bug；</li>
+      <li>修复了输入法首次安装24小时内词库不更新的bug；</li>
+      <li>修复了部分选项设置“恢复默认设置”错误的bug；</li>
+      <li>修复了自定义标点更改后没有全局生效的bug；</li>
+      <li>修复了安装输入法后手机同步软件ACTIVESYNC无法连接电脑的bug；</li>
+      <li>修复了在Opera中使用V模式显示不正确的bug；</li>
+      <li>修复了设置为默认输入法时江民2007有三项监控无法打开的bug。</li>
+    </ol>
+    <h2>2007.1.29 2.0正式版(2.0Final)发布</h2>
+    <h3>功能优化</h3>
+    <ol>
+      <li>采用了最新的词库，并修正了用户报告的多个错误；</li>
+      <li>再次改进了智能组词算法，组词准确率再次提升。</li>
+    </ol>
+    <h2>2007.1.17 1.5公测第三版(1.5Beta3)发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>支持Windows Vista；</li>
+      <li>智能组词算法二代；</li>
+      <li>v模式中文数字，v模式中文数字是一个功能组合，包括：
+        <ol>
+          <li>a)，中文数字金额大小写：输入【v424.52】，输出【肆佰贰拾肆元伍角贰分】；</li>
+          <li>b)，罗马数字：输入99以内的数字例如【12】，输出【XII】；</li>
+          <li>c)，年份自动转换：输入【v2008.8.8】，输出【2008年8月8日】；</li>
+          <li>d)，年份快捷输入：输入【v2006n12y25r】，输出【2006年12月25日】；</li>
+        </ol>
+      </li>
+      <li>插入当前日期时间；
+        <ol>
+          <li>a)，输入【rq】（日期的首字母），输出系统日期【2006年12月28日】；</li>
+          <li>b)，输入【sj】（时间的首字母），输出系统时间【2006年12月28日19:19:04】；</li>
+          <li>c)，输入【xq】（星期的首字母），输出系统星期【2006年12月28日 星期四】；</li>
+        </ol>
+      </li>
+      <li>0键跳转到单字页；</li>
+      <li>双拼下支持全拼；</li>
+      <li>智能删除误造错词。</li>
+    </ol>
+    <h3>功能优化</h3>
+    <ol>
+      <li>词库大幅扩容（这也使输入法体积增大到7M多）；</li>
+      <li>网址输入规则改进，可以输入带有短线【-】、下划线【_】的邮件和网址了，例如sohu-rd.com；</li>
+      <li>简拼改进（可以输入ayh→奥运会，als→爱丽丝）；</li>
+      <li>自定义短语增加了恢复默认配置，并且添加了多个特殊字符（例如：fk→■、sjx→△等）；</li>
+      <li>长词联想功能改进，增加联想音节数、起始位置、联想个数选项；</li>
+      <li>状态栏增加Capslock英文大写状态。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了多个游戏中不能翻页的bug，例如：魔兽争霸等。</li>
+    </ol>
+    <h2>2006.11.17 1.5公测第二版(1.5Beta2)发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>u模式笔画输入（输入u，然后输入hspnz）；</li>
+      <li>笔画辅助码（即笔画筛选，按下tab键用hspnz进行筛选）；</li>
+      <li>长词联想功能（相当于四键长词）；</li>
+      <li>输入统计，包括打字字数与打字测速；</li>
+      <li>词库增量更新，实现联网定时更新词库。</li>
+    </ol>
+    <h3>功能优化</h3>
+    <ol>
+      <li>词库再次改进，包含了常见的名诗词（例如：离离原上草等），并修复“角色”、“单田芳”等；</li>
+      <li>搜狗酷字快捷模式提供关闭按钮；</li>
+      <li>双拼展开提示提供关闭设置；</li>
+      <li>添加简拼中z、c、s与zh、ch、sh分离的设置；</li>
+      <li>自定义短语支持多行、空格、指定位置排序；</li>
+      <li>自定义标点改进，增加标点名称、单个列表；</li>
+      <li>网址输入模式添加mail、mails、bbs、blog规则。</li>
+    </ol>
+
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了按下Capslock后输入英文时不直接上屏的bug；</li>
+      <li>修复了小键盘上的斜线【/】为顿号【、】的bug；</li>
+      <li>修复了输入【www.】时不直接进入到网址模式的bug；</li>
+      <li>修复了与v键相关的几个bug（shift+v不出V）；</li>
+      <li>修复了网易泡泡、fterm等几个程序下切出输入法后默认不是中文的bug；</li>
+      <li>修复了部分设置更改无效的bug。</li>
+    </ol>
+    <h2>2006.10.11 1.5公测第一版(1.5Beta1)发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>输入窗口字体、大小、颜色等外观自定义；</li>
+      <li>标点符号自定义；</li>
+      <li>自动升级支持代理服务器（使用与IE相同的代理设置）；</li>
+      <li>限制显示非单字候选项的个数； </li>
+      <li>双拼添加了展开拼音的提示；</li>
+      <li>搜狗酷字----紫霞字符字。</li>
+    </ol>
+
+    <h3>功能优化</h3>
+    <ol>
+      <li>迷你状态栏logo换成小logo，同时添加小键盘、菜单图标；</li>
+      <li>采用了最新的词库；</li>
+      <li>改进了词频调整算法(*注意：因为改变了算法，在老版本基础上覆盖安装1.5Beta1时，会使用户词库中的词频清零)；</li>
+      <li>右键菜单改进：添加快速切换菜单，方便改变繁简、全角半角状态；</li>
+      <li>自定义短语功能改进：有重复项时进行排重，有已存在项时给出提示等；</li>
+      <li>应广大用户的强烈要求，默认标点符号中的顿号【、】还原成了反斜线【\】。 </li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了按输入法菜单快捷键（ctrl + shift + m)后再按esc键，m上屏的bug；</li>
+      <li>修复了模糊音中部分简拼失效的bug（例如jld－&gt;加拿大）；</li>
+      <li>修复了部分词频溢出的bug。</li>
+    </ol>
+    <h2>2006.9.5 1.0正式版(1.0.2.2)发布</h2>
+    <h3>功能优化</h3>
+    <ol>
+      <li>优化重排了设置选项卡；</li>
+      <li>改进了导入词条的读音规则；</li>
+      <li>第三次改进了标点符号方案；</li>
+      <li>网址输入模式添加https；</li>
+      <li>自定义短语添加直接编辑功能；</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>改善了IE和Explorer崩溃的问题；</li>
+      <li>修复了跑跑卡丁车中出现待选文字虚假的bug；</li>
+      <li>修复了在Foxmail的html邮件退出时提示内存不可读的bug；</li>
+      <li>修复了退出Firefox浏览器时提示“内存不可读”的bug；</li>
+      <li>修复了在腾讯TT里面使用搜狗输入法TT无提示退出的bug；</li>
+      <li>修复了在Win2000下搜狗输入法输入窗口的分隔符有时显示为宋体的bug；</li>
+      <li>修复了无效按键时有提示音的bug；</li>
+      <li>修复了某些情况下引起记事本崩溃的bug；</li>
+      <li>修复了在Powerpoint和Excel中使用空格转换模式，候选项完全覆盖输入序列时继续输入字母会丢失已选定汉字的bug；</li>
+      <li>修复了在AutoCAD2006中输入空格显示为方框符号的bug，以及快速输入时出现AutoCAD2006自动退出的bug；</li>
+      <li>修复了在没有安装分词功能的Excel中,用到分词功能时退出崩溃的bug；</li>
+      <li>修复了在WinXP下使用Outlook2003收信时使用“Ctrl+空格”造成死锁的bug；</li>
+      <li>修复了在一些Micrsoft软件的帮助文件的输入框中按“Ctrl+空格”导致帮助文件和程序死机的bug；</li>
+      <li>修复了Adobe Photoshop 7.0退出崩溃的bug。</li>
+    </ol>
+    <h2>2006.8.15 公测第四版(1.0.2.0)发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>支持自定义短语。<br />
+        自定义词语同时解决了下面的三个问题：
+        <ol>
+          <li>A. 常用表情符号或特殊符号，即haha→^_^这样的词（默认没有全部开启）；</li>
+          <li>B. 高频字单字母固定，即“d”第一个对应“的”，还可以手动修改；</li>
+          <li>C. 含英文的常用中文词的输入，例如T恤、卡拉OK可以一次输入。</li>
+        </ol>
+      </li>
+      <li>支持按下空格后才出字，支持字母选词；</li>
+      <li>支持拼音框和候选词框分离，支持多种竖排方式；</li>
+      <li>支持搜狗默认风格与智能ABC风格两种输入习惯；</li>
+      <li>网址输入。在不改变中文状态可流畅输入网址URL和前缀不带数字的EMail的功能；</li>
+      <li>显示拼音时添加了分隔符，使输入的拼音序列更易于辨认。</li>
+    </ol>
+    <h3>功能优化</h3>
+    <ol>
+      <li>核心算法改进，速度获得大幅提升（参见速度慢的问题已经完全解决）；</li>
+      <li>词库继续更新；</li>
+      <li>优化了标点符号的默认设置，默认中文半角状态下的标点（@#&amp;*-+）都是英文半角符号；</li>
+      <li>支持使用以词定字功能构造用户词；</li>
+      <li>简拼规则优化，去除音节末尾的简拼；</li>
+      <li>输入法菜单添加官网、帮助链接；</li>
+      <li>V模式、网址输入模式可选。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修复了生成双拼方案时会引起内存泄露的bug；</li>
+      <li>修复了Windows屏幕锁定时输入法菜单中某几项仍能被使用的bug；</li>
+      <li>修复了立即转换模式下“-=”以词定字键无效的bug；</li>
+      <li>修复了全角空格在某些系统下乱码的bug；</li>
+      <li>修复了双拼打不出“；”的bug。</li>
+    </ol>
+    <h2>2006.7.21 公测第三版(1.0.1.7)发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>添加了词库导入功能；</li>
+      <li>添加了拼音纠错功能（在高级设置选项卡中）；</li>
+      <li>添加隐藏状态栏功能；</li>
+      <li>添加鼠标点击翻页功能；</li>
+      <li>手动删除自造词功能（只能删除用户自造的错词）。</li>
+    </ol>
+    <h3>功能优化</h3>
+    <ol>
+      <li>改进了词频调整算法；</li>
+      <li>应用了最新的词库；</li>
+      <li>扩充了大字符集支持，保证输出几乎所有的汉字；</li>
+      <li>解决了在屏幕右边输入时输入框闪烁的问题；</li>
+      <li>优化了中文半角、英文半角、中文全角、英文全角状态下的标点符号方案（例如在中文状态下可以输出“英文邮件符号@”）；</li>
+      <li>改进了词库操作的流程和安装卸载流程；</li>
+      <li>添加了自然码的双拼方案；修改了双拼方案中的微软方案，音节ve默认设为v键（原来是t键）；</li>
+      <li>改进了双拼处理机制，是支持拼音加加和自然码的双拼零声母规则；双拼支持分隔符；改进了双拼方案的原始设定格式；</li>
+      <li>因部分用户强烈反对，暂时去掉了“haha -&gt; ^_^”这样的特殊符号；</li>
+      <li>改进了“中英文切换”、“删词”等选项的界面，添加了不使用快捷键的选项 。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>修正了导致Emeditor崩溃的bug；</li>
+      <li>修正了v模式下中英文切换依然停留在v模式中的bug；</li>
+      <li>修正了安装到不同路径时，词库无法导出的bug ；</li>
+      <li>修正了启动多个升级程序updater.exe的bug；</li>
+      <li>修正了用户词导出时，“文件无法打开”提示信息不正确的bug；</li>
+      <li>调整了部分按键处理流程，当选词、删词与符号终结冲突时，优先进行选词、删词操作。</li>
+    </ol>
+    <h2>2006.6.21 公测第二版(1.0.1.6)发布</h2>
+    <h3>新增功能</h3>
+    <ol>
+      <li>以标点符号结束输入的功能（如果要以逗号句号结束，需关闭逗号句号的翻页功能）；</li>
+      <li>提供迷你状态窗口，提供候选窗口的字体大小调整；</li>
+      <li>提供 v 键模式，方便输入英文和网址等；</li>
+      <li>支持 Tab 键翻页（需在选项中设置）；</li>
+      <li>支持繁体输入，在菜单中切换到繁体模式；</li>
+      <li>支持hehe、haha、cheng等拼音下的特殊符号功能；</li>
+      <li>候选字计算只针对光标前面的拼音进行。</li>
+    </ol>
+    <h3>功能优化</h3>
+
+    <ol>
+      <li>调整用户自造词学习策略，自造词支持简拼；</li>
+      <li>改进模糊音功能，模糊音支持双向匹配；</li>
+      <li>改进双拼功能, 添加智能ABC双拼方案；</li>
+      <li>优化了退格键Backspace的Undo功能（即后退时的删字符策略）；</li>
+      <li>按下CapsLock键后，直接输出大写英文；</li>
+      <li>更新了词库。</li>
+    </ol>
+    <h3>Bug修复</h3>
+    <ol>
+      <li>解决与部分应用程序的兼容性问题，如 Emeditor、某些版本的 Microsoft Office；</li>
+      <li>解决了部分应用程序中光标跟随失效的问题，如 Firefox；</li>
+      <li>解决双显示器情况下候选窗口位置不对的问题；</li>
+      <li>解决在 IE 等浏览器中 Ctrl+F 查找窗口出现在后台的问题；</li>
+      <li>解决了候选窗口随快速输入可能出现闪烁的问题；</li>
+      <li>解决了自动升级的一个导致升级失败的潜在问题。</li>
+    </ol>
+    <h2>2006.6.5 公测第一版(1.0.1.4)发布</h2>
+    <h3>搜狗拼音输入法第一个版本</h3>
+  </div>
+  <div id="footer">
+<div class="ftbox"><a href="http://pinyin.sogou.com/sitemap.xml">网站地图<a/> - <a href="http://www.sogou.com/fuwu" rel="external nofollow">企业推广</a> - <a href="http://pinyin.sogou.com/">拼音输入法</a> - 
+<a href="http://ie.sogou.com/?f=pinyingw">搜狗浏览器</a> - 
+<a href="http://hr.sogou.com/" rel="external nofollow">诚聘英才</a><br>
+&copy; 2026 SOGOU.COM <a href="http://www.miibeian.gov.cn/" rel="external nofollow" target="_blank">京ICP证050897号</a> <a href="http://www.sogou.com/docs/terms.htm">免责声明</a>
+<script type="text/javascript">
+//normal pingback
+//function m_s(){c=escape((new Date().getTime())*1000+Math.round(Math.random()*1000));with(document){r=(typeof(encodeURI)=='function')?encodeURI(referrer):referrer;if(cookie.indexOf("SUV=")<0){cookie="SUV="+c+";path=/;expires=Tue, 19-Jan-2038 00:00:00 GMT;domain=sogou.com"}if(top.location==self.location){write("<scr"+"ipt src='http://pv.sogou.com/pv.gif"+"?t?="+c+"?r?="+r+"'></scr"+"ipt>")}}}var spv;if(!spv)m_s();spv=1;
+function m_s(){c=escape((new Date().getTime())*1000+Math.round(Math.random()*1000));with(document){r=(typeof(encodeURI)=='function')?encodeURI(referrer):referrer;if(cookie.indexOf("SUV=")<0){cookie="SUV="+c+";path=/;expires=Tue, 19-Jan-2038 00:00:00 GMT;domain=sogou.com"}if(top.location==self.location){}}}var spv;if(!spv)m_s();spv=1;var m_ws03img=document.createElement('img');
+
+function m_ws01(offset) { var endstr = document.cookie.indexOf (";", offset); if (endstr == -1) endstr = document.cookie.length; return unescape(document.cookie.substring(offset, endstr)); }
+function m_ws02(name) { var arg = name + "="; var alen = arg.length; var clen = document.cookie.length; var i = 0; while (i < clen) { var j = i + alen; if (document.cookie.substring(i, j) == arg) return m_ws01(j); i = document.cookie.indexOf(" ", i) + 1; if (i == 0) break; } return ""; }
+function m_ws() {var n=new Date().getTime();var c=escape(n*1000+Math.round(Math.random()*1000));var u="";
+	with(document){if(cookie.indexOf("SMYUV=")<0)
+		{cookie="SMYUV="+c+";path=/;expires=Sun, 29 July 2046 00:00:00 UTC;domain=sogou.com";u=c;}
+		else u=m_ws02("SMYUV");
+		if(domain.indexOf("sogou.com")>=0){
+			var ref = referrer==""?m_ws02("redref"):referrer;
+			cookie="redref="+ref+";path=/;domain=.sogou.com";
+			write("<img src='http://220.181.69.113/pv.gif?t="+c+"&u="+u+"&r="+ref+"' height=1 width=1>"); }}}
+
+			//			try{
+			//				var smypv; if (!smypv) m_ws(); smypv=1;
+			//			}catch(e){}
+
+function mouseCoords(ev)
+{
+	return {
+x:ev.clientX + document.body.scrollLeft - document.body.clientLeft,
+	  y:ev.clientY + document.body.scrollTop  - document.body.clientTop
+	};
+}
+
+//获取元素的纵坐标
+function getTop(e){
+	var offset=e.offsetTop;
+	if(e.offsetParent!=null) offset+=getTop(e.offsetParent);
+	return offset;
+}
+//获取元素的横坐标
+function getLeft(e){
+	var offset=e.offsetLeft;
+	if(e.offsetParent!=null) offset+=getLeft(e.offsetParent);
+	return offset;
+}
+
+function m_ws03(evt) {
+	evt=evt?evt:window.event;
+	var srcElem=(evt.target)?evt.target:evt.srcElement;
+	var aimElem= srcElem;
+	try{
+		var is_link = false;
+		var linkname = "";
+		var address = "";
+		var valid = false;
+		while(srcElem.tagName.toUpperCase()=="A" || srcElem.tagName.toUpperCase()=="INPUT" || srcElem.tagName.toUpperCase()=="IMG") {
+			valid = true;
+			if(srcElem.tagName.toUpperCase()=="A" || srcElem.tagName.toUpperCase()=="INPUT") {
+				is_link = true;
+				linkname=srcElem.innerHTML?srcElem.innerHTML:srcElem.value;
+				address=srcElem.href?srcElem.href:srcElem.value;
+				address = escape(address);
+				aimElem = srcElem;
+				break;
+			}
+			srcElem = srcElem.parentNode;
+		}
+
+		if (valid) {
+			var mousePos = mouseCoords(evt);
+			var pos = mousePos.x + "," + mousePos.y;
+			var n=new Date().getTime();
+			var c=escape(n*1000+Math.round(Math.random()*1000));
+			var u="";var il="";var ho=0;var go="";
+			var parent = aimElem.parentNode;
+			//统计模块点击量
+			while(!parent.id){
+				parent = parent.parentNode;
+			}
+			mod = parent.id;
+			//统计元素坐标
+			epos = getLeft(aimElem) + "," + getTop(aimElem);	
+			with(document) {
+				if(cookie.indexOf("SMYUV=")<0) {
+					cookie="SMYUV="+c+";path=/;expires=Sun, 29 July 2046 00:00:00 UTC;domain=sogou.com";u=c;
+				} else {
+					u = m_ws02("SMYUV");
+				}
+				if(domain.indexOf("sogou.com")>=0)
+					m_ws03img.src="http://220.181.69.113/ct.gif?t="+c+"&u="+u+"&type="+aimElem.tagName.toUpperCase()+"&ol="+address+"&mod="+mod+"&epos="+epos+"&pos="+pos+"&lc="+escape(location.href);
+			}
+		}
+	}
+	catch(e){}
+	return true;
+}
+
+	try{
+		if (document.attachEvent)
+			document.attachEvent("onclick", m_ws03);
+		else
+			document.addEventListener("click", m_ws03, false);
+	}catch(e){}//loadtime pingback
+var lt_img=document.createElement('img');
+var url = location.href;
+var type = "index";
+if(url.indexOf("help") != -1 || url.indexOf("privacy") != -1)
+type = "help";
+else if(url.indexOf("changelog") != -1)
+type = "changelog";
+else if(url.indexOf("3years") != -1)
+type = "3years";
+var h = url.indexOf("?") == -1?url.length:url.indexOf("?");
+url = url.substring(0,h);
+var c=escape(n*1000+Math.round(Math.random()*1000));
+var m=new Date().getTime();var c=escape(m*1000+Math.round(Math.random()*1000));var u="";
+with(document){
+	var ref = referrer==""?m_ws02("redref"):referrer;
+	if(cookie.indexOf("SMYUV=")<0)
+	{cookie="SMYUV="+c+";path=/;expires=Sun, 29 July 2046 00:00:00 UTC;domain=sogou.com";u=c;}
+	else u=m_ws02("SMYUV");}
+	window.onload = function() {
+		var l = new Date().getTime();
+		// lt_img.src = "http://pinyin.sogou.com/loadtime.gif?u="+u+"&t="+(s-n) + "&t2=" + (l-n)+"&url=" + url + "&type=" + type;
+		lt_img.src = "http://pinyin.sogou.com/pv.gif?t="+c+"&u="+u+"&r="+ref+"&t="+(s-n) + "&t2=" + (l-n)+"&url=" + url + "&type=" + type;
+	}
+var s = new Date().getTime();
+</script>
+<script type="text/javascript" src="/skins/js/cnzz_sogoupyping.js?v=1.0.0"></script>  </div>
+</div>
+<script language="javascript" src="js/pv_cl.js"></script>
+<script type="text/javascript">
+var load_et = new Date().getTime();
+</script>
+</body>
+</html>
