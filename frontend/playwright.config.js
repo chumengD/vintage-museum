@@ -1,4 +1,5 @@
 import { defineConfig, devices } from "@playwright/test";
+import { env } from "node:process";
 export default defineConfig({
   testDir: "./e2e",
   fullyParallel: true,
@@ -7,6 +8,7 @@ export default defineConfig({
     baseURL: "http://127.0.0.1:4173",
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
+    channel: env.PLAYWRIGHT_CHANNEL || undefined,
   },
   projects: [
     {
@@ -22,7 +24,7 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "npm run dev -- --host 127.0.0.1 --port 4173 --strictPort",
+    command: "npm run dev:demo -- --host 127.0.0.1 --port 4173 --strictPort",
     url: "http://127.0.0.1:4173",
     reuseExistingServer: true,
   },

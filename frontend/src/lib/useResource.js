@@ -7,9 +7,11 @@ export function useResource(path) {
   useEffect(() => {
     const controller = new AbortController();
     api(path, { signal: controller.signal })
-      .then((data) => setState({ path, data, loading: false, error: "" }))
+      .then((data) => {
+        if (!controller.signal.aborted) setState({ path, data, loading: false, error: "" });
+      })
       .catch((error) => {
-        if (error.name !== "AbortError")
+        if (!controller.signal.aborted && error.name !== "AbortError")
           setState({ path, data: null, loading: false, error: error.message });
       });
     return () => controller.abort();

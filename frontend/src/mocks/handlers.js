@@ -56,7 +56,7 @@ export const authHandlers = [
 ];
 export const contentHandlers = [
   http.get("/api/contributors/:id", ({ params }) => {
-    if (params.id !== db.profile.id) return fail("未找到这份贡献者档案。", 404);
+    if (params.id !== db.profile.id) return fail("未找到该用户主页。", 404);
     const { id, displayName, handle, bio, location, website, joinedAt } = db.profile;
     return HttpResponse.json({
       id,
@@ -302,16 +302,3 @@ export const contentHandlers = [
     return HttpResponse.json(item, { status: 201 });
   }),
 ];
-
-if (
-  typeof window !== "undefined" &&
-  import.meta.env.VITE_MOCK_AUTH !== "true" &&
-  import.meta.env.MODE !== "test"
-) {
-  window.addEventListener("museum:session", (event) => {
-    if (event.detail) {
-      db.profile = { ...db.profile, ...event.detail.user };
-      db.session = { expiresAt: Date.now() + (event.detail.expiresIn || 7200) * 1000 };
-    } else db.session = null;
-  });
-}

@@ -10,7 +10,7 @@ export default function ContributorPage() {
       <ResourceState resource={resource}>
         {p && (
           <>
-            <p className="eyebrow">CONTRIBUTOR FILE / 贡献者公开档案</p>
+            <p className="eyebrow">USER PROFILE / 用户主页</p>
             <div className="my-8 flex flex-wrap items-center gap-7">
               <span className="flex h-28 w-28 items-center justify-center border border-ink bg-wash font-serif text-5xl">
                 {p.displayName.slice(0, 1)}

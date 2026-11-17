@@ -1,7 +1,7 @@
 import { Dialog } from "radix-ui";
 import { X } from "lucide-react";
 import { useRef } from "react";
-export default function Modal({ open, onOpenChange, title, description, children, wide = false }) {
+export default function Modal({ open, onOpenChange, title, description, children, wide = false, className = "", widthClassName }) {
   const returnFocus = useRef(null);
   return (
     <Dialog.Root open={open} onOpenChange={onOpenChange}>
@@ -15,9 +15,9 @@ export default function Modal({ open, onOpenChange, title, description, children
             event.preventDefault();
             if (returnFocus.current?.isConnected) returnFocus.current.focus();
           }}
-          className={`fixed left-1/2 top-1/2 z-50 max-h-[90dvh] w-[calc(100%-32px)] -translate-x-1/2 -translate-y-1/2 overflow-y-auto border border-ink bg-card shadow-[8px_8px_0_#1e1d1825] ${wide ? "max-w-5xl" : "max-w-xl"}`}
+          className={`fixed left-1/2 top-1/2 z-50 max-h-[90dvh] w-[calc(100%-32px)] -translate-x-1/2 -translate-y-1/2 overflow-y-auto border border-ink bg-card shadow-[8px_8px_0_#1e1d1825] ${widthClassName || (wide ? "max-w-5xl" : "max-w-xl")} ${className}`}
         >
-          <header className="flex items-center justify-between gap-4 border-b border-ink px-6 py-5 md:px-8">
+          <header className="flex shrink-0 items-center justify-between gap-4 border-b border-ink px-6 py-5 md:px-8">
             <Dialog.Title className="font-serif text-2xl md:text-3xl">{title}</Dialog.Title>
             <Dialog.Close className="p-2 hover:bg-wash" aria-label="关闭弹窗">
               <X size={20} />

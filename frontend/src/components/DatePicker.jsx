@@ -7,13 +7,13 @@ const format = (date) =>
   date
     ? `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`
     : "";
-export default function DatePicker({ value, onChange }) {
+export default function DatePicker({ value, onChange, required = true }) {
   const [open, setOpen] = useState(false);
   const selected = value ? new Date(`${value}T12:00:00`) : undefined;
   return (
     <div>
       <label htmlFor="release-date" className="mb-2 block">
-        发布日期 *
+        {required ? "发布日期 *" : "发布日期（未知可留空）"}
       </label>
       <Popover.Root open={open} onOpenChange={setOpen}>
         <Popover.Anchor asChild>
@@ -25,7 +25,7 @@ export default function DatePicker({ value, onChange }) {
               placeholder="YYYY-MM-DD"
               value={value}
               onChange={(e) => onChange(e.target.value)}
-              required
+              required={required}
               pattern="\d{4}-\d{2}-\d{2}"
             />
             <Popover.Trigger

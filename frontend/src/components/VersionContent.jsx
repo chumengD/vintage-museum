@@ -7,10 +7,14 @@ import FavoriteButton from "./FavoriteButton";
 import Modal from "./Modal";
 import BrowserExhibit from "./BrowserExhibit";
 import Comments from "./Comments";
+import { demoMode } from "../lib/features";
+import ScreenshotUploader from "./ScreenshotUploader";
 export default function VersionContent({ version: v }) {
   const [panel, setPanel] = useState(null);
   const [content, setContent] = useState(null);
   const [error, setError] = useState("");
+  const [uploaded, setUploaded] = useState([]);
+  const screenshots = [...(v.screenshots || []), ...uploaded];
   const s = v.series;
   const siblings = [...v.siblings].sort((a, b) => a.date.localeCompare(b.date));
   const position = siblings.findIndex((s) => s.id === v.id);
@@ -38,13 +42,15 @@ export default function VersionContent({ version: v }) {
             {s.name === "Mozilla Firefox" ? "Firefox" : s.name} {v.number}
           </h1>
           <p className="muted">
-            {v.date} 发布　 /　 {v.platform}
+            {v.date ? `${v.date} 发布` : "发布日期待考证"}　 /　 {v.platform}
           </p>
         </div>
         <FavoriteButton itemKey={`version:${v.id}`} label="条目" />
-        <Link className="button button-dark" to={`/versions/${v.id}/edit`}>
-          编辑版本资料
-        </Link>
+        {demoMode && (
+          <Link className="button button-dark" to={`/versions/${v.id}/edit`}>
+            编辑版本资料
+          </Link>
+        )}
       </div>
       <div className="my-6 flex flex-wrap gap-3">
         <Link className="button" to={`/series/${s.id}`}>
@@ -60,8 +66,8 @@ export default function VersionContent({ version: v }) {
             <span className="eyebrow">01</span>留存的界面
           </h2>
           <div className="my-8">
-            {v.screenshots?.length ? (
-              v.screenshots.map((img, i) => (
+            {screenshots.length ? (
+              screenshots.map((img, i) => (
                 <figure key={i} className="mb-6">
                   <button
                     className="block w-full"
@@ -77,6 +83,7 @@ export default function VersionContent({ version: v }) {
                       alt={img.name || v.caption}
                     />
                   </button>
+                  {img.caption && <figcaption className="muted mt-2">{img.caption}</figcaption>}
                 </figure>
               ))
             ) : s.id === "firefox" ? (
@@ -89,9 +96,17 @@ export default function VersionContent({ version: v }) {
             )}
             <p className="mt-4 text-xs">图 01 · {v.caption || "版本界面资料"}</p>
             <p className="mt-4 text-xs text-muted">
-              时间范围：{v.date} · {v.screenshots?.length ? "用户上传资料" : "原始截图待补充。"}
+              时间范围：{v.date || "待考证"} ·{" "}
+              {screenshots.length ? "用户上传资料" : "原始截图待补充。"}
             </p>
           </div>
+          {!demoMode && (
+            <ScreenshotUploader
+              key={v.id}
+              versionId={v.id}
+              onUploaded={(image) => setUploaded((items) => [...items, image])}
+            />
+          )}
           <div className="prose border-t border-ink">
             <Markdown>{v.body}</Markdown>
           </div>
@@ -108,36 +123,44 @@ export default function VersionContent({ version: v }) {
               </a>
             </p>
           )}
-          <Link to={`/versions/${v.id}/edit`} className="button mt-4">
-            ＋ 补充或纠正资料
-          </Link>
-          <p className="muted mt-4">每一次修改均保留历史版本与贡献署名，资料可追溯。</p>
+          {demoMode && (
+            <Link to={`/versions/${v.id}/edit`} className="button mt-4">
+              ＋ 补充或纠正资料
+            </Link>
+          )}
+          {demoMode && (
+            <p className="muted mt-4">每一次修改均保留历史版本与贡献署名，资料可追溯。</p>
+          )}
         </article>
         <aside>
           <h2 className="section-title">
-            <span className="eyebrow">档</span>编目记录
+            <span className="eyebrow">档</span>版本信息
           </h2>
           <div className="border-b border-line py-5">
             <p className="text-xs">最近更新</p>
             <p>{v.updatedAt}</p>
           </div>
-          <div className="border-b border-line py-5">
-            <h3 className="mb-4 text-lg">共同贡献者</h3>
-            <p className="muted mb-5">
-              林间　陈默　旧电脑收藏家
-              <br />
-              补充截图、校对时间与发布资料
-            </p>
-            <button className="button" onClick={() => show("contributors")}>
-              查看全部贡献者 →
-            </button>
-          </div>
-          <div className="border-b border-line py-5">
-            <p className="muted mb-4">每次修订均留存历史记录</p>
-            <button className="button" onClick={() => show("revisions")}>
-              查看修改历史 ↗
-            </button>
-          </div>
+          {demoMode && (
+            <>
+              <div className="border-b border-line py-5">
+                <h3 className="mb-4 text-lg">共同贡献者</h3>
+                <p className="muted mb-5">
+                  林间　陈默　旧电脑收藏家
+                  <br />
+                  补充截图、校对时间与发布资料
+                </p>
+                <button className="button" onClick={() => show("contributors")}>
+                  查看全部贡献者 →
+                </button>
+              </div>
+              <div className="border-b border-line py-5">
+                <p className="muted mb-4">每次修订均留存历史记录</p>
+                <button className="button" onClick={() => show("revisions")}>
+                  查看修改历史 ↗
+                </button>
+              </div>
+            </>
+          )}
           <div className="py-5">
             <p className="eyebrow mb-4">相邻版本 / {v.platform.toUpperCase()}</p>
             {position > 0 && (
@@ -159,7 +182,7 @@ export default function VersionContent({ version: v }) {
           </div>
         </aside>
       </div>
-      <Comments versionId={v.id} />
+      {demoMode && <Comments versionId={v.id} />}
       <Modal
         open={!!panel}
         onOpenChange={(open) => {

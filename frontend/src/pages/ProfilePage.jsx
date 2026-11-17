@@ -13,7 +13,7 @@ export default function ProfilePage() {
     const url = `${window.location.origin}/contributors/${p.id}`;
     try {
       await navigator.clipboard.writeText(url);
-      setShare("档案链接已复制。");
+      setShare("主页链接已复制。");
     } catch {
       setShare(`请复制地址：${url}`);
     }
@@ -29,7 +29,7 @@ export default function ProfilePage() {
               </div>
               <div className="flex-1">
                 <p className="eyebrow text-muted">
-                  贡献者档案 / CONTRIBUTOR FILE　
+                  用户主页 / USER PROFILE　
                   <span className="text-vermilion">NO. 0412</span>
                 </p>
                 <div className="my-4 flex flex-wrap items-end gap-5">
@@ -55,7 +55,7 @@ export default function ProfilePage() {
                     编辑资料 ✎
                   </button>
                   <button className="text-link" onClick={copy}>
-                    分享档案 ↗
+                    分享主页 ↗
                   </button>
                 </div>
                 {share && (
@@ -169,7 +169,7 @@ export default function ProfilePage() {
                 )}
               </aside>
             </div>
-            <Modal open={editing} onOpenChange={setEditing} title="编辑贡献者档案">
+            <Modal open={editing} onOpenChange={setEditing} title="编辑个人资料">
               <ProfileEditor
                 profile={p}
                 onSaved={() => {

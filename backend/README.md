@@ -1,6 +1,6 @@
 # 中国互联网数字记忆博物馆后端
 
-技术栈：Spring Boot 4.1.2、Java 21、Maven、Spring Security、JPA、H2 文件数据库。
+技术栈：Spring Boot 4.1.2、Java 21、Maven、Spring Security、JPA、H2 2.5.252 文件数据库。
 已实现用户表和注册接口，密码使用 Argon2id 保存，数据库由 Flyway 初始化。
 已实现 username + password 登录、JWT Cookie 认证、查询当前用户及退出；email 仅为账号资料，不用于登录。
 已新增软件系列创建、可选小图标上传、公开分页列表及详情查询；接口约定见 [系列接口说明](docs/series-api.md)，IDEA 示例见 `api/series.http`。
@@ -40,7 +40,9 @@ mvn spring-boot:run
 java -jar target/museum-backend-0.0.1-SNAPSHOT.jar
 ```
 
-自动化测试使用独立的内存数据库，不读取或修改开发数据库。
+命令行运行时用 `Ctrl+C` 正常停止服务，等待连接池和 H2 关闭完成后再重启。
+
+自动化测试使用独立的内存数据库和临时文件数据库，不读取或修改开发数据库。
 
 本次建立项目时，为避免修改全局 Maven 缓存，依赖下载到项目的 `.maven/repository/`。
 如需复用这份缓存，可执行：
@@ -51,9 +53,21 @@ mvn -Dmaven.repo.local=.maven/repository spring-boot:run
 ```
 
 项目骨架已通过构建、数据库及启动检查，用户已确认能够在 IDEA 启动。
-全部 64 项自动测试通过，覆盖注册、邮箱及数据库升级、登录、JWT 校验、Cookie 退出、基础请求防护、系列与图标、版本及截图上传、图片限制、失败清理和公开浏览，使用隔离数据库和测试上传目录。
+全部 66 项自动测试通过，覆盖注册、邮箱及数据库升级、登录、JWT 校验、Cookie 退出、基础请求防护、系列与图标、版本及截图上传、图片限制、失败清理和公开浏览，使用隔离数据库和测试上传目录。
 另已使用打包程序和隔离的开发数据库、密钥验证：注册 201、登录 200、服务重启后原 JWT 查询用户 200、退出 204。测试进程已停止，不影响现有开发账号。
 另已用隔离文件数据库启动两次，验证首次注册返回 201、重启后同名注册返回 409，确认迁移可重复执行且账号持久保存。
+
+## 注册接口报 500 的数据库版本问题
+
+H2 2.4.240 存在 `CHECK (... IN ...)` 跨连接缺陷：建表连接被连接池回收后，约束仍可能引用已关闭的连接，注册写入合法的 `ACTIVE` 状态也会报 `CK_APP_USERS_STATUS` / `23514-240`。这会表现为服务启动正常、列表可访问，但注册返回“服务暂时不可用”。短时间内运行的注册测试可能无法触发连接回收。
+
+项目在 `pom.xml` 中固定 H2 2.5.252，包含[上游修复 #4311](https://github.com/h2database/h2database/pull/4311)。修改依赖后需要重新打包并重启服务。升级前停止服务并备份 `data/`，保留现有数据库和 JWT 密钥。
+
+`UserStatusConstraintTests` 在内存和文件数据库中加载真实迁移，关闭迁移连接后从另一连接写入用户，验证有效状态可写入、非法状态仍被拒绝，以及文件数据库重开后数据仍在。可单独运行：
+
+```text
+mvn -Dmaven.repo.local=.maven/repository -Dtest=UserStatusConstraintTests test
+```
 
 ## 账号规则
 

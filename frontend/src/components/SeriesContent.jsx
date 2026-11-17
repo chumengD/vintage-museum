@@ -4,6 +4,8 @@ import { Empty } from "./Feedback";
 import SeriesIcon from "./SeriesIcon";
 import FavoriteButton from "./FavoriteButton";
 import SelectField from "./SelectField";
+import Markdown from "react-markdown";
+import { demoMode } from "../lib/features";
 export default function SeriesContent({ series: s }) {
   const [platform, setPlatform] = useState(s.platforms[0] || "Windows");
   const [q, setQ] = useState("");
@@ -37,12 +39,16 @@ export default function SeriesContent({ series: s }) {
           <h2 className="mb-3 text-2xl">
             {s.id === "firefox" ? "一只火狐，与开放的网络。" : "一个软件，一段共同的记忆。"}
           </h2>
-          <p className="leading-7">{s.description}</p>
+          <div className="prose">
+            <Markdown>{s.description}</Markdown>
+          </div>
         </div>
         <aside>
           <p className="mb-2 text-vermilion">共同维护 · 不止一份个人记录</p>
           <p className="muted">
-            任何人都可以补充或纠正资料；每一次修改都会保留贡献者署名与可追溯的历史。
+            {demoMode
+              ? "任何人都可以补充或纠正资料；每一次修改都会保留贡献者署名与可追溯的历史。"
+              : "登录后可以添加版本和补充截图，共同记录软件的历史。"}
           </p>
         </aside>
       </div>
@@ -96,7 +102,9 @@ export default function SeriesContent({ series: s }) {
                   <h3 className="my-2 text-3xl">
                     {v.number} <span className="ml-3 text-xl">↗</span>
                   </h3>
-                  <p className="muted">发布时间：{v.date.replaceAll("-", ".")}</p>
+                  <p className="muted">
+                    发布时间：{v.date ? v.date.replaceAll("-", ".") : "待考证"}
+                  </p>
                 </Link>
                 {i < arr.length - 1 && <p className="py-3 text-center text-2xl text-muted">↓</p>}
               </div>

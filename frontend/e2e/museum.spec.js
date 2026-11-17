@@ -2,11 +2,11 @@ import { Buffer } from "node:buffer";
 import { test, expect } from "@playwright/test";
 async function login(page) {
   await page.getByRole("button", { name: "登录 / 注册" }).first().click();
-  const dialog = page.getByRole("dialog", { name: "馆藏通行证" });
+  const dialog = page.getByRole("dialog", { name: "账号" });
   await dialog.getByRole("textbox", { name: /邮箱地址/ }).fill("museum@example.com");
   await dialog.getByLabel(/登录密码/).fill("museum-passphrase-2026");
-  await dialog.getByRole("button", { name: /登录，进入博物馆/ }).click();
-  await expect(page.getByRole("button", { name: "账户菜单" })).toBeVisible();
+  await dialog.getByRole("button", { name: /登录账号/ }).click();
+  await expect(page.getByRole("button", { name: "账号菜单" })).toBeVisible();
 }
 test("browse, search, version chain, details and mobile layout", async ({ page }, info) => {
   const errors = [];
@@ -37,11 +37,11 @@ test("login dialog escape restores focus and account menu supports keyboard", as
   await expect(page.getByRole("dialog")).toHaveCount(0);
   await expect(trigger).toBeFocused();
   await login(page);
-  await page.getByRole("button", { name: "账户菜单" }).focus();
+  await page.getByRole("button", { name: "账号菜单" }).focus();
   await page.keyboard.press("Enter");
   await expect(page.getByRole("menuitem", { name: "我的主页" })).toBeFocused();
   await page.keyboard.press("Escape");
-  await expect(page.getByRole("button", { name: "账户菜单" })).toBeFocused();
+  await expect(page.getByRole("button", { name: "账号菜单" })).toBeFocused();
 });
 test("favorite, comment, reply, edit and history survive navigation", async ({ page }) => {
   await page.goto("/versions/firefox-3.6");

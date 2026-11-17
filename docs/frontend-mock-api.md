@@ -18,7 +18,7 @@
 | GET | `/favorites` | 当前用户的系列／版本收藏数组 |
 | POST | `/favorites` | `{ "key": "series:firefox" }` 切换收藏，返回 `{ "saved": true }` |
 | GET / PATCH | `/profile` | 当前用户档案／修改姓名、简介、地区、网站 |
-| GET | `/contributors/:id` | 公开档案，不含邮箱、草稿或收藏列表 |
+| GET | `/contributors/:id` | 用户主页，不含邮箱、草稿或收藏列表 |
 | GET / POST | `/drafts` | 读取／保存草稿；POST 携带 id 时更新 |
 | GET / DELETE | `/drafts/:id` | 恢复／删除草稿 |
 | POST | `/auth/password-reset` | 找回密码演示；不发送真实邮件 |
