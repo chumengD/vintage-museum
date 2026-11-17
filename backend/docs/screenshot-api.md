@@ -10,6 +10,8 @@
 
 - image：必填文件，仅真实 PNG/JPEG，非空，原文件不超过 5 MiB。
 - caption：可选普通文本，去首尾空白，最多 500 个 UTF-16 字符；空白按 null 保存。
+- sourceText：可选，最多 200 个字符，截图来源说明，如「由贡献者提供」（设计文档，尚未实现）。
+- timeText：可选，最多 100 个字符，截图时间范围，如「约 2001 年」（设计文档，尚未实现）。
 
 宽高均不超过 8192 像素，总像素不超过 2000 万；后端读取真实尺寸后再解码。图片重新编码为 PNG，不缩放，随机文件名，不沿用上传文件名；重新编码后的文件可能大于原始文件。
 
@@ -22,6 +24,8 @@
     "versionId": "所属版本 UUID",
     "imageUrl": "/api/screenshots/截图UUID/image",
     "caption": "登录界面",
+    "sourceText": "由贡献者提供",
+    "timeText": "约 2001 年",
     "width": 1024,
     "height": 768,
     "createdBy": "上传者 UUID",
@@ -49,7 +53,9 @@ const response = await fetch(`/api/versions/${versionId}/screenshots`, {
 - `GET /api/versions/{versionId}/screenshots?page=0&size=20`：公开分页列表，按上传时间正序、UUID 次级正序。page 从 0 开始，size 为 1～100，响应 `{items: [截图对象], page, size, totalElements, totalPages}`。已有版本无截图时返回空列表。
 - `GET /api/screenshots/{screenshotId}/image`：公开图片，返回 image/png，不暴露磁盘路径。
 
-版本详情接口保持现有结构，前端再调用截图列表接口展示图片与说明。失效 Cookie 不影响公开浏览。没有删除、说明修改、手动排序或缩略图接口。
+版本详情接口保持现有结构，前端再调用截图列表接口展示图片与说明。失效 Cookie 不影响公开浏览。没有删除、手动排序或缩略图接口。
+
+设计文档新增（尚未实现）：`PATCH /api/screenshots/{id}` 可修改 `caption`、`sourceText`、`timeText`，任意登录用户可改，写入版本修订记录，详见 [标签与来源接口](tags-source-icon-api.md)。
 
 ## 错误
 

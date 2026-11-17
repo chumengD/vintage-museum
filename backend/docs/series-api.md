@@ -1,6 +1,6 @@
 # 软件系列接口（最小 Demo）
 
-系列下添加版本，截图归属于版本。本文介绍系列资料及小图标；版本创建与查询见 [版本接口说明](version-api.md)，截图上传见 [截图接口说明](screenshot-api.md)。尚未实现独立内容发布、编辑、收藏或草稿。
+系列下添加版本，截图归属于版本。本文介绍系列资料及小图标；版本创建与查询见 [版本接口说明](version-api.md)，截图上传见 [截图接口说明](screenshot-api.md)。系列编辑、删除与修改历史见 [编辑接口](editing-api.md)，草稿与发布见 [草稿接口](drafts-api.md)，收藏见 [收藏接口](favorites-api.md)，标签与来源链接见 [标签与来源接口](tags-source-icon-api.md)。
 
 ## 创建系列
 
@@ -23,6 +23,12 @@ metadata 示例：
 ```
 
 名称去首尾空白后 1～100 个 UTF-16 字符，简介同样处理且为 1～1000 个字符。名称按 Locale.ROOT 转小写后唯一，QQ 与 qq 冲突；不合并中间空白。JSON 拒绝未知字段及错误类型。
+
+设计文档新增的可选字段（尚未实现）：
+
+- `status`：`DRAFT` 或 `PUBLISHED`，省略为 `PUBLISHED`。草稿仅创建者可见，发布前允许字段不完整，详见 [草稿接口](drafts-api.md)。
+- `tags`：字符串数组，最多 10 个，单个 1～20 字符；整体替换语义，详见 [标签与来源接口](tags-source-icon-api.md)。
+- `sourceUrl`：软件官网或资料来源链接，`http://`/`https://` 开头，≤500 字符。
 
 分类代码：INSTANT_MESSAGING（即时通讯）、BROWSER（浏览器）、MEDIA（影音娱乐）、OTHER（其他）。
 
@@ -73,7 +79,14 @@ const response = await fetch('/api/series', {
 - `GET /api/series/{id}`：公开详情，响应 `{series: {...}}`。
 - `GET /api/series/{id}/icon`：公开图标，返回 image/png；系列不存在或未设置图标返回 404。
 
-响应暂不提供版本数量。updatedAt 初始为系列创建时间，成功添加版本时更新；版本列表通过专用接口查询。
+响应暂不提供版本数量。updatedAt 初始为系列创建时间，成功添加版本或修改资料时更新；版本列表通过专用接口查询。
+
+设计文档新增（尚未实现）：
+
+- 列表筛选：`q`（名称/简介子串，≤100 字符）、`category`、`platform`、`tag`，排序 `sort=UPDATED|CREATED|NAME|VERSION_COUNT`，详见 [搜索与统计接口](search-stats-api.md)。
+- 响应追加 `status`、`tags`、`sourceUrl`、`versionCount`（只统计已发布版本）、`favoriteCount`、`favoritedByMe`（匿名恒为 `false`）。
+- 草稿系列对非创建者返回 404 `SERIES_NOT_FOUND`，不出现在列表、搜索与统计中。
+
 
 ## 错误
 
@@ -84,8 +97,11 @@ const response = await fetch('/api/series', {
 | 400 | VALIDATION_ERROR | 无效字段、JSON、图片、分页参数或 UUID |
 | 401 | AUTH_REQUIRED / TOKEN_INVALID / TOKEN_EXPIRED / AUTH_INVALID | 创建时凭据缺失或失效 |
 | 403 | REQUEST_FORBIDDEN | 来源或自定义头不符合约定 |
+| 403 | NOT_RESOURCE_OWNER | 删除或发布非本人创建/拥有的系列（设计文档） |
 | 404 | SERIES_NOT_FOUND / ICON_NOT_FOUND | 系列或图标不存在 |
 | 409 | SERIES_ALREADY_EXISTS | 同名系列已存在 |
+| 409 | SERIES_NOT_EMPTY | 系列下仍有版本时删除（设计文档） |
+| 409 | CONCURRENT_MODIFICATION | 编辑时 expectedUpdatedAt 不匹配（设计文档） |
 | 413 | UPLOAD_TOO_LARGE | 超过上传大小限制 |
 | 415 | UNSUPPORTED_MEDIA_TYPE | 整体或 metadata part 的类型不符合约定 |
 

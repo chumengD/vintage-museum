@@ -1,6 +1,8 @@
 # 系列下的软件版本（最小 Demo）
 
-版本必须属于一个已有系列；本文记录版本资料，截图上传见 [截图接口说明](screenshot-api.md)。尚不提供编辑或删除。不包含资料来源、不确定时间文本或状态字段。
+版本必须属于一个已有系列；本文记录版本资料，截图上传见 [截图接口说明](screenshot-api.md)。编辑、删除、修改历史与贡献者见 [编辑接口](editing-api.md)，草稿与发布见 [草稿接口](drafts-api.md)，评论见 [评论接口](comments-api.md)，收藏见 [收藏接口](favorites-api.md)，标签、来源与版本图标见 [标签与来源接口](tags-source-icon-api.md)。
+
+当前实现不包含资料来源、不确定时间文本或状态字段；完整字段设计见下节与上述文档。
 
 ## 添加版本
 
@@ -21,6 +23,21 @@
 - description：可选纯文本，去首尾空白，最多 5000 个 UTF-16 字符，空白按 null 保存。前端按普通文本显示。
 - 不接收额外字段及错误类型；createdBy 自动取自认证用户。
 - 同一系列、同一平台下，版本号去首尾空白并按 Locale.ROOT 转小写后唯一；并发重复创建也只有一个成功。不同平台或不同系列可使用相同版本号。
+
+### 设计文档新增字段（尚未实现）
+
+| 字段 | 说明 |
+| --- | --- |
+| `numberStatus` | `EXACT`/`RANGE`/`UNKNOWN`，配合 `versionNumber` 或 `numberText` |
+| `dateStatus` | `EXACT`/`RANGE`/`UNKNOWN`，配合 `releaseDate` 或 `releaseDateText` |
+| `platformText` | 平台补充说明，如「Windows，具体版本暂缺」；`platform` 仍必填 |
+| `body` | 正文 Markdown，≤20000 字符，服务端不渲染 |
+| `sourceUrl` / `sourceNote` | 资料来源链接（≤500）与来源说明（≤200） |
+| `tags` | ≤10 个标签，整体替换 |
+| `iconChoice` | `INHERIT`/`UPLOAD`/`NONE`，响应中体现为 `iconUrl` + `iconSource` |
+| `status` / `publishedAt` | `DRAFT`/`PUBLISHED`；草稿仅创建者可见 |
+| `commentCount` / `favoriteCount` / `contributorCount` | 详情响应追加的只读计数 |
+
 
 成功返回 201，Location 为 `/api/versions/{id}`，响应：
 
@@ -51,6 +68,8 @@
 `GET /api/versions/{versionId}`
 
 公开详情，响应 `{version: 版本对象, series: {id, name, iconUrl}}`。iconUrl 沿用所属系列图标，未设置时为 null，前端显示默认占位图。浏览不会因为失效 Cookie 被阻止。
+
+设计文档新增（尚未实现）：详情响应追加 `iconUrl`/`iconSource`（`VERSION`→`SERIES`→`NONE` 回退）、`commentCount`、`favoriteCount`、`contributorCount`、`tags`、`sourceUrl`、`sourceNote`；列表增加 `q` 与 `status` 之外的筛选按需扩展。草稿版本对非创建者返回 404 `VERSION_NOT_FOUND`，不进入列表、搜索与统计。
 
 ## 错误与运行
 
