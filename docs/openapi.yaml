@@ -1,100 +1,2539 @@
 openapi: 3.1.1
 info:
-  title: 数字博物馆注册登录
-  version: 0.1.0
+  title: 数字记忆博物馆 API
+  version: 1.0.0
   description: |
-    邮箱和密码注册登录；JWT单Token通过HttpOnly Cookie保存，有效期暂定2小时，无刷新Token，过期后重新登录。目前仅为接口设计。
-    浏览器自动携带Cookie，前端无需读取Token或设置Authorization请求头。前端与API同源，正式环境使用HTTPS。
-    所有POST请求校验Origin，来源缺失、为null或不匹配服务端配置的可信来源时返回403，防止跨站请求伪造。
+    软件历史博物馆（数字记忆博物馆）后端 HTTP 接口。覆盖已实现能力与待实现能力：
+    已实现——注册、登录、会话、退出，系列创建/图标/列表/详情，版本创建/版本链/详情，截图上传与读取；
+    设计待实现——收藏、评论与回复、编辑/删除/修改历史/贡献者、草稿与发布、个人资料与公开档案、
+    标签与来源与版本图标、修改与找回密码、服务端搜索与统计（标记 `x-implementation-status: design`）。
+
+    ## 通用约定
+    - 基地址：开发环境 `http://127.0.0.1:8080`，所有路径以 `/api` 开头，JSON 为 UTF-8。
+    - 认证：登录成功写入 HttpOnly Cookie `museum_access_token`（JWT，HS256，30 分钟，`Path=/api`，`SameSite=Lax`）。
+      浏览器统一携带 `credentials: 'include'`；接口不返回 Token，也不使用 `Authorization` 头。
+    - 写请求（POST/PUT/PATCH/DELETE）同时要求白名单 `Origin` 与 `X-App-Request: museum-web`，
+      缺任一项返回 403 `REQUEST_FORBIDDEN`。GET 请求不要求上述头。
+    - 所有 ID 为 UUID 字符串；时间为 ISO-8601 UTC，例如 `2026-10-30T08:00:00Z`；日期为 `YYYY-MM-DD`。
+    - 分页响应统一 `{items, page, size, totalElements, totalPages}`，`page` 从 0 开始，`size` 取值 1～100（省略为 20）。
+    - 错误响应统一 `{code, message, requestId, fieldErrors}`，响应头含 `X-Request-Id` 与 `Cache-Control: no-store`。
+    - 未知 JSON 字段、类型错误、UUID 格式错误一律 400，不静默忽略（`fail-on-unknown-properties`）。
+    - 上传：multipart 单文件上限 5 MiB、整请求 6 MiB；图标/头像业务上限 2 MiB。
+
+    ## 实现状态
+    每个操作带 `x-implementation-status`：`implemented` 与当前后端一致；`design` 来自 `backend/docs/` 的设计文档，
+    实施时还需同步 `SecurityConfig`（CORS 增加 PUT/PATCH/DELETE、逐条放行新路径）、`BusinessRequestPaths` 与上传目录。
+  contact:
+    name: 数字记忆博物馆
+servers:
+  - url: http://127.0.0.1:8080
+    description: 本地开发
+tags:
+  - name: 认证
+    description: 注册、登录、会话、退出、邮箱验证与找回密码
+  - name: 个人资料
+    description: 本人资料、头像、公开档案与贡献记录
+  - name: 系列
+    description: 软件系列（含图标、草稿、发布、收藏、统计）
+  - name: 版本
+    description: 系列下的版本（原型中的「内容」），含三态字段、版本图标、讨论与收藏
+  - name: 截图
+    description: 版本截图的上传、读取与说明修改
+  - name: 评论
+    description: 版本讨论的顶层评论与回复
+  - name: 修订
+    description: 修改历史与贡献者
+  - name: 草稿
+    description: 我的草稿箱与素材
+  - name: 标签
+    description: 全局标签池与自动补全
+  - name: 搜索与统计
+    description: 服务端搜索、站点/平台/时间线/系列统计
+
 paths:
   /api/auth/register:
     post:
-      summary: 邮箱注册
+      tags: [认证]
+      operationId: registerUser
+      summary: 注册
+      description: |
+        用户名 + 密码注册，邮箱可选（当前不做邮箱验证）。用户名去首尾空白后必须匹配 `[A-Za-z0-9_]{2,32}`，
+        统一转小写保存；密码按 Unicode 码点计 4～64。同一 IP 每分钟最多 10 次。
+      x-implementation-status: implemented
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
       requestBody:
         required: true
         content:
           application/json:
-            schema:
-              type: object
-              required: [email, password]
-              properties:
-                email: {type: string, format: email, description: 邮箱}
-                password: {type: string, format: password, description: 密码}
-                emailcode: {type: integer, description: 邮箱验证码（选填，可暂不实现）}
-            example: {email: museum@example.com, password: museum-passphrase-2026, emailcode: 114514}
+            schema: {$ref: '#/components/schemas/RegisterRequest'}
+            example:
+              username: museum_fan
+              password: museum-passphrase-2026
+              email: museum@example.com
       responses:
         '201':
-          description: 注册成功，返回用户信息，前往登录
+          description: 注册成功，返回新建用户（不含令牌，需另行登录）
+          headers:
+            Cache-Control: {schema: {type: string}, example: 'no-store'}
           content:
             application/json:
-              example: {id: usr_123, email: museum@example.com}
-        '400': {description: 参数不正确或邮箱格式错误}
-        '401': {description: 验证码错误(可选)}
-        '403': {description: 请求来源无效}
-        '409': {description: 邮箱已注册}
+              schema: {$ref: '#/components/schemas/AuthUserResponse'}
+              example:
+                user: {id: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11, username: museum_fan, email: museum@example.com}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '409':
+          description: 用户名已存在（`USERNAME_ALREADY_EXISTS`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+              example: {code: USERNAME_ALREADY_EXISTS, message: 用户名已被占用, requestId: '3f2c9b1e', fieldErrors: {}}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+        '429': {$ref: '#/components/responses/TooManyRequests'}
+
   /api/auth/login:
     post:
-      summary: 邮箱登录
+      tags: [认证]
+      operationId: loginUser
+      summary: 登录
+      description: |
+        校验用户名与密码，成功写入 `museum_access_token`（HttpOnly、Secure、SameSite=Lax、Path=/api、Max-Age=1800），
+        正文只返回用户与过期时间。密码错误、账号不存在、账号停用统一返回 401 `INVALID_CREDENTIALS`。
+      x-implementation-status: implemented
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/LoginRequest'}
+            example: {username: museum_fan, password: museum-passphrase-2026}
+      responses:
+        '200':
+          description: 登录成功
+          headers:
+            Set-Cookie:
+              description: JWT Cookie，HttpOnly，前端不可读取
+              schema: {type: string}
+              example: 'museum_access_token=<JWT>; Path=/api; Max-Age=1800; HttpOnly; Secure; SameSite=Lax'
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/LoginResponse'}
+              example:
+                user: {id: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11, username: museum_fan, email: museum@example.com}
+                expiresAt: '2026-10-30T08:30:00Z'
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401':
+          description: 用户名或密码错误（`INVALID_CREDENTIALS`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+              example: {code: INVALID_CREDENTIALS, message: 用户名或密码错误, requestId: '3f2c9b1e', fieldErrors: {}}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '429': {$ref: '#/components/responses/TooManyRequests'}
+
+  /api/auth/me:
+    get:
+      tags: [认证]
+      operationId: getCurrentUser
+      summary: 当前登录用户
+      description: 校验 Cookie 中 JWT 的签名、iss/aud/typ、有效期与用户状态；设计文档另加 `token_version` 比对（改密后旧令牌返回 401 `TOKEN_REVOKED`）。
+      x-implementation-status: implemented
+      security: [{cookieAuth: []}]
+      responses:
+        '200':
+          description: 当前用户；设计文档要求追加 displayName、bio、emailVerified、avatarUrl
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/AuthUserResponse'}
+              example:
+                user:
+                  id: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11
+                  username: museum_fan
+                  email: museum@example.com
+                  displayName: 老周
+                  bio: 记录和分享软件资料。
+                  emailVerified: false
+                  avatarUrl: null
+        '401': {$ref: '#/components/responses/Unauthorized'}
+
+  /api/auth/logout:
+    post:
+      tags: [认证]
+      operationId: logoutUser
+      summary: 退出登录
+      description: 无请求体；服务端把 JWT 的 jti 记入失效列表并清除 Cookie。未登录或令牌失效时同样清除 Cookie 并返回 401。
+      x-implementation-status: implemented
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204':
+          description: 已退出并清除 Cookie
+          headers:
+            Set-Cookie:
+              schema: {type: string}
+              example: 'museum_access_token=; Path=/api; Max-Age=0; HttpOnly; Secure; SameSite=Lax'
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+
+  /api/auth/email-verification/request:
+    post:
+      tags: [认证]
+      operationId: requestEmailVerification
+      summary: 请求邮箱验证
+      description: 设计。向账号当前邮箱发送验证链接（24 小时有效）；同一账号 10 分钟内重复申请返回 429。邮件发送失败也不回显原因，仍返回 202。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '202': {description: 已受理（无论是否真正发送）}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '429': {$ref: '#/components/responses/TooManyRequests'}
+
+  /api/auth/email-verification/confirm:
+    post:
+      tags: [认证]
+      operationId: confirmEmailVerification
+      summary: 确认邮箱验证
+      description: 设计。邮件链接指向前端页面，由前端把 token 提交到本接口；令牌一次有效，成功写入 `email_verified_at`。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/TokenRequest'}
+            example: {token: 6d1c0f7a9b2e4d8c5a3f1e0b7c9d2a4f}
+      responses:
+        '200':
+          description: 验证成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {emailVerified: {type: boolean, const: true}}
+              example: {emailVerified: true}
+        '400':
+          description: 令牌无效、过期或已使用（`RESET_TOKEN_INVALID`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+              example: {code: RESET_TOKEN_INVALID, message: 令牌无效或已失效, requestId: '3f2c9b1e', fieldErrors: {}}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+
+  /api/auth/password-reset/request:
+    post:
+      tags: [认证]
+      operationId: requestPasswordReset
+      summary: 申请找回密码
+      description: |
+        设计。`account` 可为用户名或注册邮箱。**无论账号是否存在、是否验证邮箱，一律返回 202**；
+        仅当账号存在且邮箱已验证时才真正发送邮件（30 分钟有效令牌）。限速：同一 IP 10 分钟 3 次、同一账号 10 分钟 1 次。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
       requestBody:
         required: true
         content:
           application/json:
             schema:
               type: object
-              required: [email, password]
+              required: [account]
               properties:
-                email: {type: string, format: email, description: 注册时的邮箱}
-                password: {type: string, format: password, description: 密码}
-            example: {email: museum@example.com, password: museum-passphrase-2026}
+                account: {type: string, minLength: 1, maxLength: 254, description: 用户名或邮箱}
+            example: {account: museum_fan}
       responses:
-        '200':
-          description: 登录成功，通过Set-Cookie保存JWT；正文不返回Token，expiresIn单位为秒
-          headers:
-            Set-Cookie:
-              schema: {type: string}
-              example: 'access_token=<JWT>; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=7200'
-          content:
-            application/json:
-              example:
-                expiresIn: 7200
-                user: {id: usr_123, email: museum@example.com, displayName: 藏品爱好者}
-        '400': {description: 参数不正确}
-        '401': {description: 邮箱或密码错误}
-        '403': {description: 请求来源无效}
-  /api/auth/me:
-    get:
-      summary: 获取当前用户
-      security: [{CookieAuth: []}]
-      responses:
-        '200':
-          description: 校验Cookie中的JWT签名、有效期和失效列表，返回当前登录用户
-          content:
-            application/json:
-              example:
-                user: {id: usr_123, email: museum@example.com, displayName: 藏品爱好者}
-        '401': {description: Token缺失、无效、已过期或已注销}
-  /api/auth/logout:
+        '202': {description: 已受理（不泄露账号是否存在）}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+        '429': {$ref: '#/components/responses/TooManyRequests'}
+
+  /api/auth/password-reset/confirm:
     post:
-      summary: 退出登录
-      description: 无需请求体；服务端将Cookie中JWT的jti加入失效列表，保留至Token过期，并通过Set-Cookie清除Cookie。前端仅清除用户信息。
-      security: [{CookieAuth: []}]
+      tags: [认证]
+      operationId: confirmPasswordReset
+      summary: 确认重置密码
+      description: 设计。令牌一次有效；成功后更新密码哈希、递增 `token_version`（所有旧 JWT 立即失效）、消费令牌并作废同用户其他重置令牌。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/ResetPasswordRequest'}
+            example: {token: 6d1c0f7a9b2e4d8c5a3f1e0b7c9d2a4f, newPassword: brand-new-passphrase}
+      responses:
+        '200':
+          description: 重置成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {reset: {type: boolean, const: true}}
+              example: {reset: true}
+        '400':
+          description: 令牌无效/过期/已用（`RESET_TOKEN_INVALID`）或新密码不合法（`VALIDATION_ERROR`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+              example: {code: RESET_TOKEN_INVALID, message: 令牌无效或已失效, requestId: '3f2c9b1e', fieldErrors: {}}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+
+  /api/me/profile:
+    patch:
+      tags: [个人资料]
+      operationId: updateMyProfile
+      summary: 修改本人资料
+      description: 设计。只改传入字段；`displayName` 空串/null 表示清除并回退 `username`，`bio` 最多 200 字符。用户名、邮箱、密码不在此接口修改。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/UpdateProfileRequest'}
+            example: {displayName: 老周, bio: 记录和分享软件资料。}
+      responses:
+        '200':
+          description: 更新后的本人资料
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ProfileUserResponse'}
+              example:
+                user:
+                  id: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11
+                  username: museum_fan
+                  displayName: 老周
+                  bio: 记录和分享软件资料。
+                  avatarUrl: /api/users/0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11/avatar
+                  createdAt: '2026-09-01T08:00:00Z'
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+
+  /api/me/avatar:
+    post:
+      tags: [个人资料]
+      operationId: uploadMyAvatar
+      summary: 上传头像
+      description: 设计。multipart 字段名 `image`；真实 PNG/JPEG，原文件 ≤2 MiB，宽高 ≤2048、总像素 ≤400 万，服务端重编码为 PNG，随机文件名，替换时删除旧文件。返回 200 而非 201。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [image]
+              properties:
+                image: {type: string, format: binary, description: PNG 或 JPEG，≤2 MiB}
+      responses:
+        '200':
+          description: 头像已替换
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ProfileUserResponse'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '413': {$ref: '#/components/responses/UploadTooLarge'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+    delete:
+      tags: [个人资料]
+      operationId: deleteMyAvatar
+      summary: 删除头像
+      description: 设计。幂等：本来没有头像也返回 204。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已删除}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+
+  /api/me/password:
+    put:
+      tags: [个人资料]
+      operationId: changeMyPassword
+      summary: 修改密码
+      description: |
+        设计。`currentPassword` 错误返回 400（不是 401，避免前端误判掉登录）；`newPassword` 4～64 码点且不得与旧密码相同。
+        成功后递增 `token_version`（其它设备的 JWT 立即失效）、作废未使用的重置令牌，并清除本响应 Cookie。
+        同一用户 10 分钟内失败 5 次后返回 429。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/ChangePasswordRequest'}
+            example: {currentPassword: old-passphrase-2026, newPassword: new-passphrase-2026}
       responses:
         '204':
-          description: 当前Token已注销并清除Cookie，不返回内容
+          description: 密码已修改，Cookie 已清除
           headers:
             Set-Cookie:
               schema: {type: string}
-              example: 'access_token=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0'
-        '401':
-          description: Token缺失、无效、已过期或已注销，同时清除Cookie
+              example: 'museum_access_token=; Path=/api; Max-Age=0; HttpOnly; Secure; SameSite=Lax'
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '429': {$ref: '#/components/responses/TooManyRequests'}
+
+  /api/me/favorites:
+    get:
+      tags: [个人资料]
+      operationId: listMyFavorites
+      summary: 我的收藏
+      description: 设计。按收藏时间倒序；只能看自己的收藏。对象已删除时跳过，不返回空洞项。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - name: target
+          in: query
+          required: true
+          description: 收藏对象类型
+          schema: {type: string, enum: [SERIES, VERSION]}
+        - name: q
+          in: query
+          description: 按名称子串过滤，1～100 字符
+          schema: {type: string, maxLength: 100}
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 收藏列表
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/FavoriteList'}
+              example:
+                items:
+                  - targetType: SERIES
+                    favoritedAt: '2026-10-30T08:00:00Z'
+                    series:
+                      id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e
+                      name: QQ 软件系列
+                      description: 一款国民级聊天软件
+                      category: INSTANT_MESSAGING
+                      platforms: [WINDOWS, ANDROID]
+                      iconUrl: /api/series/7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e/icon
+                      tags: [聊天, 社交]
+                      versionCount: 24
+                      favoriteCount: 8
+                      status: PUBLISHED
+                      updatedAt: '2026-10-27T08:00:00Z'
+                page: 0
+                size: 20
+                totalElements: 1
+                totalPages: 1
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+
+  /api/me/drafts:
+    get:
+      tags: [草稿]
+      operationId: listMyDrafts
+      summary: 草稿箱
+      description: 设计。只返回本人草稿，按 `updatedAt` 倒序；`missingFields` 由服务端计算发布还缺哪些项。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - name: target
+          in: query
+          description: 草稿类型
+          schema: {type: string, enum: [ALL, SERIES, VERSION], default: ALL}
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 草稿列表
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/DraftList'}
+              example:
+                items:
+                  - targetType: VERSION
+                    id: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f
+                    title: 未完成的资料整理
+                    series: {id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e, name: QQ}
+                    category: INSTANT_MESSAGING
+                    updatedAt: '2026-10-27T08:00:00Z'
+                    missingFields: [versionNumber, screenshots]
+                page: 0
+                size: 20
+                totalElements: 1
+                totalPages: 1
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+
+  /api/me/contributions:
+    get:
+      tags: [个人资料]
+      operationId: listMyContributions
+      summary: 我的发布与创建的系列
+      description: 设计。本人视角，包含自己的草稿（草稿项带 draft 标记）；结构与公开贡献列表一致。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - name: type
+          in: query
+          description: 贡献对象类型
+          schema: {type: string, enum: [VERSION, SERIES], default: VERSION}
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 贡献列表
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ContributionList'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+
+  /api/users/{userId}:
+    get:
+      tags: [个人资料]
+      operationId: getPublicProfile
+      summary: 公开档案
+      description: 设计。公开显示名、简介、头像与统计；绝不返回邮箱。`displayName` 为空时回退 `username`。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/UserIdPath'
+      responses:
+        '200':
+          description: 公开档案与统计
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/PublicProfile'}
+              example:
+                user:
+                  id: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11
+                  username: museum_fan
+                  displayName: 老周
+                  bio: 记录和分享软件资料。
+                  avatarUrl: /api/users/0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11/avatar
+                  createdAt: '2026-09-01T08:00:00Z'
+                stats:
+                  publishedVersions: 12
+                  createdSeries: 3
+                  favoriteSeries: 8
+                  favoriteVersions: 2
+                  comments: 5
+                  edits: 21
+        '404':
+          description: 用户不存在或已禁用（`USER_NOT_FOUND`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+
+  /api/users/{userId}/avatar:
+    get:
+      tags: [个人资料]
+      operationId: getUserAvatar
+      summary: 用户头像
+      description: 设计。公开；未设置头像或用户不存在返回 404 `AVATAR_NOT_FOUND`，前端显示占位图。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/UserIdPath'
+      responses:
+        '200':
+          description: PNG 头像
           headers:
-            Set-Cookie:
-              schema: {type: string}
-              example: 'access_token=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0'
-        '403': {description: 请求来源无效，不注销Token或清除Cookie}
+            Cache-Control: {schema: {type: string}, example: 'no-store'}
+          content:
+            image/png:
+              schema: {type: string, format: binary}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/users/{userId}/contributions:
+    get:
+      tags: [个人资料]
+      operationId: listUserContributions
+      summary: 公开贡献列表
+      description: 设计。按该用户最近一次动作时间倒序；草稿贡献不出现；`role` 为 `CREATOR` 或 `EDITOR`。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/UserIdPath'
+        - name: type
+          in: query
+          description: 贡献对象类型
+          schema: {type: string, enum: [VERSION, SERIES, COMMENT], default: VERSION}
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 贡献列表
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ContributionList'}
+              example:
+                items:
+                  - type: VERSION
+                    version: {id: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f, versionNumber: 9.9, platform: WINDOWS, status: PUBLISHED, updatedAt: '2026-10-27T08:00:00Z'}
+                    series: {id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e, name: QQ}
+                    role: CREATOR
+                    lastActionAt: '2026-10-27T08:00:00Z'
+                page: 0
+                size: 20
+                totalElements: 1
+                totalPages: 1
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/series:
+    post:
+      tags: [系列]
+      operationId: createSeries
+      summary: 创建系列
+      description: |
+        multipart：`metadata` 为 JSON part（必填），`icon` 为可选图片 part。名称小写后唯一；`platforms` 至少一项、最多 6 项且不重复。
+        设计文档新增 `status`（`DRAFT` 可创建草稿）、`tags`、`sourceUrl`。图标真实 PNG/JPEG ≤2 MiB、≤2048px，重编码为 PNG 随机命名。
+      x-implementation-status: implemented
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [metadata]
+              properties:
+                metadata:
+                  type: string
+                  description: |
+                    JSON 文本，Content-Type 为 application/json，按 SeriesMetadata 解析。
+                    示例：{"name":"QQ","description":"收集 QQ 各平台的历史版本及截图。","category":"INSTANT_MESSAGING","platforms":["WINDOWS","ANDROID"]}
+                icon: {type: string, format: binary, description: 可选图标，PNG/JPEG ≤2 MiB}
+      responses:
+        '201':
+          description: 已创建
+          headers:
+            Location: {schema: {type: string}, example: /api/series/7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e}
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/SeriesResponse'}
+              example:
+                series:
+                  id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e
+                  name: QQ
+                  description: 收集 QQ 各平台的历史版本及截图。
+                  category: INSTANT_MESSAGING
+                  platforms: [ANDROID, WINDOWS]
+                  iconUrl: /api/series/7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e/icon
+                  status: PUBLISHED
+                  createdBy: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11
+                  createdAt: '2026-10-29T08:00:00Z'
+                  updatedAt: '2026-10-29T08:00:00Z'
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '409':
+          description: 同名系列已存在（`SERIES_ALREADY_EXISTS`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+        '413': {$ref: '#/components/responses/UploadTooLarge'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+    get:
+      tags: [系列]
+      operationId: listSeries
+      summary: 系列列表
+      description: |
+        公开分页，按创建时间倒序。设计文档追加筛选 `q`、`category`、`platform`、`tag` 与排序 `sort`，
+        以及每项的 `versionCount`、`favoriteCount`、`favoritedByMe`、`tags`、`sourceUrl`、`status`（只返回已发布）。
+      x-implementation-status: implemented
+      security: [{}, {cookieAuth: []}]
+      parameters:
+        - name: q
+          in: query
+          description: 名称/简介子串（设计）
+          schema: {type: string, maxLength: 100}
+        - name: category
+          in: query
+          description: 分类代码（设计）
+          schema: {type: string, enum: [INSTANT_MESSAGING, BROWSER, MEDIA, OTHER]}
+        - name: platform
+          in: query
+          description: 平台代码（设计）
+          schema: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+        - name: tag
+          in: query
+          description: 标签名（设计）
+          schema: {type: string, maxLength: 20}
+        - name: sort
+          in: query
+          description: 排序（设计；缺省为创建时间倒序）
+          schema: {type: string, enum: [UPDATED, CREATED, NAME, VERSION_COUNT]}
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 系列分页
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/SeriesList'}
+              example:
+                items:
+                  - id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e
+                    name: QQ
+                    description: 一款国民级聊天软件
+                    category: INSTANT_MESSAGING
+                    platforms: [WINDOWS, ANDROID]
+                    iconUrl: /api/series/7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e/icon
+                    tags: [聊天, 社交]
+                    versionCount: 24
+                    favoriteCount: 8
+                    favoritedByMe: false
+                    status: PUBLISHED
+                    sourceUrl: https://im.qq.com/
+                    createdAt: '2026-10-01T08:00:00Z'
+                    updatedAt: '2026-10-27T08:00:00Z'
+                page: 0
+                size: 20
+                totalElements: 1
+                totalPages: 1
+        '400': {$ref: '#/components/responses/ValidationError'}
+
+  /api/series/{seriesId}:
+    get:
+      tags: [系列]
+      operationId: getSeries
+      summary: 系列详情
+      description: 公开；设计文档追加 tags、sourceUrl、status、versionCount、favoriteCount、favoritedByMe。他人草稿返回 404。
+      x-implementation-status: implemented
+      security: [{}, {cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+      responses:
+        '200':
+          description: 系列
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/SeriesResponse'}
+        '404':
+          description: 系列不存在、已删除或为他人草稿（`SERIES_NOT_FOUND`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+    patch:
+      tags: [系列]
+      operationId: updateSeries
+      summary: 编辑系列
+      description: |
+        设计。维基式协作：任何登录用户可编辑已发布系列，草稿仅属主。部分更新，只传需改字段，写入一条修订记录。
+        传 `expectedUpdatedAt` 且与当前不一致时返回 409 `CONCURRENT_MODIFICATION`，不写入。删去已被版本使用的平台返回 400。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/UpdateSeriesRequest'}
+            example:
+              description: 收集 QQ 各平台的历史版本、截图与界面变化。
+              tags: [聊天, 社交, 腾讯]
+              sourceUrl: https://im.qq.com/
+              note: 补充官网链接
+              expectedUpdatedAt: '2026-10-27T08:00:00Z'
+      responses:
+        '200':
+          description: 已保存，返回对象与本次修订
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/SeriesWithRevision'}
+              example:
+                series:
+                  id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e
+                  name: QQ 软件系列
+                  description: 收集 QQ 各平台的历史版本、截图与界面变化。
+                  category: INSTANT_MESSAGING
+                  platforms: [ANDROID, WINDOWS]
+                  iconUrl: /api/series/7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e/icon
+                  sourceUrl: https://im.qq.com/
+                  tags: [聊天, 社交, 腾讯]
+                  status: PUBLISHED
+                  createdBy: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11
+                  createdAt: '2026-10-29T08:00:00Z'
+                  updatedAt: '2026-10-30T08:00:00Z'
+                revision: {id: 9e8d7c6b-5a4f-4e3d-8c2b-1a0f9e8d7c6b, revisionNo: 2, createdAt: '2026-10-30T08:00:00Z'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '409': {$ref: '#/components/responses/Conflict'}
+    delete:
+      tags: [系列]
+      operationId: deleteSeries
+      summary: 删除系列
+      description: 设计。仅创建者可删（他人 403 `NOT_RESOURCE_OWNER`）；系列下仍有版本（含草稿）返回 409 `SERIES_NOT_EMPTY`。级联删除图标文件、收藏、标签关联、修订记录。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已删除}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403':
+          description: 缺少防护头（`REQUEST_FORBIDDEN`）或非创建者（`NOT_RESOURCE_OWNER`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '409':
+          description: 系列下仍有版本（`SERIES_NOT_EMPTY`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+
+  /api/series/{seriesId}/publish:
+    post:
+      tags: [草稿]
+      operationId: publishSeries
+      summary: 发布系列草稿
+      description: 设计。仅草稿属主可发布；五项必填（名称、简介、分类、平台、名称不冲突）不满足返回 400 `DRAFT_INCOMPLETE` 并逐项列出；已发布再调用返回 409 `ALREADY_PUBLISHED`。发布不可逆。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '200':
+          description: 已发布
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/SeriesResponse'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '409': {$ref: '#/components/responses/Conflict'}
+
+  /api/series/{seriesId}/icon:
+    get:
+      tags: [系列]
+      operationId: getSeriesIcon
+      summary: 系列图标
+      description: 公开；返回重编码后的 PNG，`X-Content-Type-Options` 为 nosniff。系列不存在或未设置图标返回 404 `ICON_NOT_FOUND`。
+      x-implementation-status: implemented
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+      responses:
+        '200':
+          description: PNG 图标
+          headers:
+            Cache-Control: {schema: {type: string}, example: 'no-store'}
+            X-Content-Type-Options: {schema: {type: string}, example: nosniff}
+          content:
+            image/png:
+              schema: {type: string, format: binary}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/series/{seriesId}/versions:
+    get:
+      tags: [版本]
+      operationId: listSeriesVersions
+      summary: 系列下的版本列表
+      description: 公开分页，按创建时间倒序；`platform` 可选过滤。只返回已发布版本，草稿仅属主可见（用详情接口）。
+      x-implementation-status: implemented
+      security: [{}, {cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+        - name: platform
+          in: query
+          description: 平台代码
+          schema: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 版本分页
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/VersionList'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '404': {$ref: '#/components/responses/NotFound'}
+    post:
+      tags: [版本]
+      operationId: createVersion
+      summary: 创建版本
+      description: |
+        JSON。`platform` 必须属于父系列平台；`releaseDate` 严格 `YYYY-MM-DD` 且为真实日期，省略表示未知。
+        同一系列同平台同版本号（小写）唯一。设计文档追加：`status`（DRAFT 草稿）、三态字段（numberStatus/dateStatus 为
+        EXACT/RANGE/UNKNOWN 及对应文本）、`body`、`sourceUrl`、`sourceNote`、`tags`、`iconChoice`、`screenshotsOmitted`。
+      x-implementation-status: implemented
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/CreateVersionRequest'}
+            example:
+              versionNumber: '9.9'
+              platform: WINDOWS
+              releaseDate: '2026-10-27'
+              description: 更换全新界面，支持多端同步。
+              status: PUBLISHED
+      responses:
+        '201':
+          description: 已创建
+          headers:
+            Location: {schema: {type: string}, example: /api/versions/5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f}
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/VersionResponse'}
+              example:
+                version:
+                  id: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f
+                  seriesId: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e
+                  versionNumber: '9.9'
+                  numberStatus: EXACT
+                  releaseDate: '2026-10-27'
+                  dateStatus: EXACT
+                  platform: WINDOWS
+                  status: PUBLISHED
+                  publishedAt: '2026-10-27T08:00:00Z'
+                  createdBy: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11
+                  createdAt: '2026-10-27T08:00:00Z'
+                  updatedAt: '2026-10-27T08:00:00Z'
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '409':
+          description: 版本号在该系列与平台下已存在（`VERSION_ALREADY_EXISTS`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+
+  /api/series/{seriesId}/revisions:
+    get:
+      tags: [修订]
+      operationId: listSeriesRevisions
+      summary: 系列修改历史
+      description: 设计。公开；按 `revision_no` 倒序。草稿的修订仅属主可见。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 修订分页
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/RevisionList'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/series/{seriesId}/contributors:
+    get:
+      tags: [修订]
+      operationId: listSeriesContributors
+      summary: 系列贡献者
+      description: 设计。公开；按编辑次数倒序、最近编辑时间倒序；创建者始终出现；默认最多 50 条，不支持分页。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+      responses:
+        '200':
+          description: 贡献者列表
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ContributorList'}
+              example:
+                items:
+                  - user: {id: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11, displayName: 用户 A, avatarUrl: /api/users/0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11/avatar}
+                    editCount: 5
+                    lastEditedAt: '2026-10-30T08:00:00Z'
+                totalContributors: 3
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/series/{seriesId}/stats:
+    get:
+      tags: [搜索与统计]
+      operationId: getSeriesStats
+      summary: 系列统计
+      description: 设计。公开；只统计该系列下已发布版本；`contributorCount` 为系列与版本修订中的去重编辑者数；`firstReleaseYear` 取最早 EXACT 年份，没有则为 null。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+      responses:
+        '200':
+          description: 系列统计
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/SeriesStats'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/series/{seriesId}/favorite:
+    put:
+      tags: [系列]
+      operationId: favoriteSeries
+      summary: 收藏系列
+      description: 设计。幂等：已收藏仍返回 204，不刷新收藏时间；只能收藏已发布系列，草稿/不存在返回 404。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已收藏}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+    delete:
+      tags: [系列]
+      operationId: unfavoriteSeries
+      summary: 取消收藏系列
+      description: 设计。幂等：本来没收藏也返回 204。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/SeriesIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已取消收藏}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/versions/{versionId}:
+    get:
+      tags: [版本]
+      operationId: getVersion
+      summary: 版本详情
+      description: 公开；返回版本与所属系列摘要（`{version, series:{id,name,iconUrl}}`）。他人草稿返回 404。设计文档追加 tags、来源、iconUrl/iconSource、commentCount、favoriteCount、favoritedByMe。
+      x-implementation-status: implemented
+      security: [{}, {cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+      responses:
+        '200':
+          description: 版本详情
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/VersionDetail'}
+              example:
+                version:
+                  id: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f
+                  seriesId: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e
+                  versionNumber: '1.2'
+                  numberStatus: EXACT
+                  releaseDate: null
+                  dateStatus: RANGE
+                  releaseDateText: 约 2001—2002 年
+                  platform: WINDOWS
+                  platformText: Windows，具体版本暂缺
+                  body: '# 1.2\n\n主界面截图与说明。'
+                  sourceUrl: https://example.com/qq-1.2
+                  sourceNote: 由贡献者提供
+                  iconUrl: /api/versions/5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f/icon
+                  iconSource: VERSION
+                  status: PUBLISHED
+                  commentCount: 2
+                  favoriteCount: 3
+                  favoritedByMe: false
+                  tags: [界面, 经典版]
+                  createdBy: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11
+                  createdAt: '2026-10-27T08:00:00Z'
+                  updatedAt: '2026-10-30T08:00:00Z'
+                series: {id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e, name: QQ, iconUrl: /api/series/7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e/icon}
+        '404':
+          description: 版本不存在、已删除或为他人草稿（`VERSION_NOT_FOUND`）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+    patch:
+      tags: [版本]
+      operationId: updateVersion
+      summary: 编辑版本
+      description: |
+        设计。部分更新，写入修订。三态字段必须自洽：EXACT 需值且文本为空；RANGE 需文本且值为空；UNKNOWN 两者皆空。
+        `body` ≤20000 字符（Markdown 源文本，服务端不渲染）；`sourceUrl` ≤500；`sourceNote` ≤200。切换状态须满足目标状态全部要求，否则 400 并在 fieldErrors 指明。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/UpdateVersionRequest'}
+            example:
+              numberStatus: RANGE
+              numberText: 1.2—1.4
+              dateStatus: RANGE
+              releaseDateText: 2001—2002 年
+              platformText: Windows，具体版本暂缺
+              body: '# 1.2\n\n主界面、聊天窗口与设置页的截图与说明。'
+              sourceUrl: https://example.com/qq-1.2
+              sourceNote: 由贡献者提供
+              tags: [界面, 经典版]
+              note: 补充版本范围
+      responses:
+        '200':
+          description: 已保存，返回版本与本次修订
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/VersionWithRevision'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '409': {$ref: '#/components/responses/Conflict'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+    delete:
+      tags: [版本]
+      operationId: deleteVersion
+      summary: 删除版本
+      description: 设计。仅创建者可删（他人 403 `NOT_RESOURCE_OWNER`）。级联删除截图与文件、评论与回复、收藏、标签关联、修订、版本图标；删除后更新系列 `updatedAt`。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已删除}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/versions/{versionId}/publish:
+    post:
+      tags: [草稿]
+      operationId: publishVersion
+      summary: 发布版本草稿
+      description: |
+        设计。五项必须显式设置：版本号（EXACT 有值 / RANGE 有文本 / UNKNOWN）、版本时间（同三态）、平台（属于系列）、
+        图标（INHERIT / NONE / UPLOAD 且已上传）、截图（至少一张或 `screenshotsOmitted=true`）。缺项返回 400 `DRAFT_INCOMPLETE`；
+        重名 409 `VERSION_ALREADY_EXISTS`；已发布 409 `ALREADY_PUBLISHED`。发布写入 `published_at` 与一条 note=发布 的修订。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '200':
+          description: 已发布
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/VersionResponse'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '409': {$ref: '#/components/responses/Conflict'}
+
+  /api/versions/{versionId}/comments:
+    get:
+      tags: [评论]
+      operationId: listVersionComments
+      summary: 顶层评论列表
+      description: 公开；分页针对顶层评论，每条内联最多 20 条回复（正序），`totalComments` 为含回复的总数（页面标题「用户讨论 (N)」）。版本为草稿或不存在返回 404。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - name: sort
+          in: query
+          description: 顶层评论排序
+          schema: {type: string, enum: [OLDEST, NEWEST], default: OLDEST}
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 评论分页
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/CommentList'}
+              example:
+                items:
+                  - id: 1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d
+                    versionId: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f
+                    parentId: null
+                    content: 这张截图的时间是否能进一步确认？
+                    author: {id: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11, displayName: 用户 A, avatarUrl: null}
+                    createdAt: '2026-10-27T08:00:00Z'
+                    replyCount: 1
+                    replies:
+                      - id: 2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e
+                        versionId: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f
+                        parentId: 1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d
+                        content: 目前只能确认大概范围，可以继续补充来源。
+                        author: {id: 3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f, displayName: 用户 B, avatarUrl: null}
+                        createdAt: '2026-10-27T09:00:00Z'
+                        replyCount: 0
+                        replies: []
+                page: 0
+                size: 20
+                totalElements: 1
+                totalPages: 1
+                totalComments: 2
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '404': {$ref: '#/components/responses/NotFound'}
+    post:
+      tags: [评论]
+      operationId: createComment
+      summary: 发表评论或回复
+      description: |
+        设计。`content` 去空白后 1～1000 字符，纯文本；`parentId` 省略/null 为顶层评论，填写时必须是同一版本的顶层评论，
+        否则 400 `COMMENT_PARENT_INVALID`。成功更新版本 `updatedAt`，不改 `published_at`。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/CreateCommentRequest'}
+            example: {content: 我印象里这个界面在 2002 年也出现过。, parentId: null}
+      responses:
+        '201':
+          description: 已发表
+          headers:
+            Location: {schema: {type: string}, example: /api/comments/1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d}
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [comment]
+                properties:
+                  comment: {$ref: '#/components/schemas/Comment'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+
+  /api/versions/{versionId}/screenshots:
+    get:
+      tags: [截图]
+      operationId: listVersionScreenshots
+      summary: 版本截图列表
+      description: 公开分页，按创建时间正序。
+      x-implementation-status: implemented
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 截图分页
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ScreenshotList'}
+        '404': {$ref: '#/components/responses/NotFound'}
+    post:
+      tags: [截图]
+      operationId: uploadScreenshot
+      summary: 上传截图
+      description: |
+        multipart 字段 `image`，说明放在 query `caption`（≤500）。真实 PNG/JPEG，≤5 MiB，宽高 ≤8192、总像素 ≤2000 万，
+        重编码为 PNG 存 `data/uploads/version-screenshots/`。成功更新版本与系列 `updatedAt`。
+      x-implementation-status: implemented
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - name: caption
+          in: query
+          description: 截图说明，≤500 字符
+          schema: {type: string, maxLength: 500}
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [image]
+              properties:
+                image: {type: string, format: binary, description: PNG 或 JPEG，≤5 MiB}
+      responses:
+        '201':
+          description: 已上传
+          headers:
+            Location: {schema: {type: string}, example: /api/screenshots/4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f7a/image}
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ScreenshotResponse'}
+              example:
+                screenshot:
+                  id: 4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f7a
+                  versionId: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f
+                  imageUrl: /api/screenshots/4d5e6f7a-8b9c-4d0e-9f1a-2b3c4d5e6f7a/image
+                  caption: 主界面截图
+                  sourceText: 由贡献者提供
+                  timeText: 约 2001 年
+                  width: 1024
+                  height: 768
+                  createdBy: 0b6f3c1e-8f0a-4f5d-9c3a-2a1f6f0d7c11
+                  createdAt: '2026-10-30T08:00:00Z'
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '413': {$ref: '#/components/responses/UploadTooLarge'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+
+  /api/versions/{versionId}/revisions:
+    get:
+      tags: [修订]
+      operationId: listVersionRevisions
+      summary: 版本修改历史
+      description: 设计。公开；按 `revision_no` 倒序；创建对象时写 `revisionNo=1`、`note=创建`。草稿修订仅属主可见。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 修订分页
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/RevisionList'}
+              example:
+                items:
+                  - id: 9e8d7c6b-5a4f-4e3d-8c2b-1a0f9e8d7c6b
+                    revisionNo: 3
+                    editor: {id: 3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f, displayName: 用户 B, avatarUrl: null}
+                    changes:
+                      - {field: releaseDateText, oldValue: null, newValue: 2001—2002 年}
+                      - {field: body, oldValue: null, newValue: '# 1.2 ...'}
+                    note: 补充版本范围
+                    createdAt: '2026-10-30T08:00:00Z'
+                page: 0
+                size: 20
+                totalElements: 3
+                totalPages: 1
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/versions/{versionId}/contributors:
+    get:
+      tags: [修订]
+      operationId: listVersionContributors
+      summary: 版本贡献者
+      description: 设计。公开；按编辑次数倒序，最多 50 条；创建者始终包含（editCount=1）。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+      responses:
+        '200':
+          description: 贡献者列表
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ContributorList'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/versions/{versionId}/icon:
+    get:
+      tags: [版本]
+      operationId: getVersionIcon
+      summary: 版本自定义图标
+      description: 设计。公开；仅返回版本自定义图标，未设置返回 404 `ICON_NOT_FOUND`。回退展示应以详情的 `iconSource`/`iconUrl` 为准。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+      responses:
+        '200':
+          description: PNG 图标
+          headers:
+            Cache-Control: {schema: {type: string}, example: 'no-store'}
+          content:
+            image/png:
+              schema: {type: string, format: binary}
+        '404': {$ref: '#/components/responses/NotFound'}
+    post:
+      tags: [版本]
+      operationId: uploadVersionIcon
+      summary: 上传版本图标
+      description: 设计。multipart 字段 `image`，PNG/JPEG ≤2 MiB、≤2048px，重编码 PNG 存 `data/uploads/version-icons/`，同时把 `iconChoice` 置为 `UPLOAD` 并写一条修订。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [image]
+              properties:
+                image: {type: string, format: binary}
+      responses:
+        '200':
+          description: 图标已更新
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/VersionResponse'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '413': {$ref: '#/components/responses/UploadTooLarge'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+    delete:
+      tags: [版本]
+      operationId: deleteVersionIcon
+      summary: 删除版本图标
+      description: 设计。恢复为沿用系列图标（`INHERIT`），删除物理文件；幂等返回 204。要显式「暂缺」请 PATCH 版本 `iconChoice` 为 NONE。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已删除}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/versions/{versionId}/favorite:
+    put:
+      tags: [版本]
+      operationId: favoriteVersion
+      summary: 收藏版本
+      description: 设计。幂等 204；只能收藏已发布版本。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已收藏}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+    delete:
+      tags: [版本]
+      operationId: unfavoriteVersion
+      summary: 取消收藏版本
+      description: 设计。幂等 204。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/VersionIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已取消收藏}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/screenshots/{screenshotId}/image:
+    get:
+      tags: [截图]
+      operationId: getScreenshotImage
+      summary: 读取截图
+      description: 公开；返回 PNG 图片。不存在返回 404 `SCREENSHOT_NOT_FOUND`。
+      x-implementation-status: implemented
+      parameters:
+        - $ref: '#/components/parameters/ScreenshotIdPath'
+      responses:
+        '200':
+          description: PNG 图片
+          headers:
+            Cache-Control: {schema: {type: string}, example: 'no-store'}
+            X-Content-Type-Options: {schema: {type: string}, example: nosniff}
+          content:
+            image/png:
+              schema: {type: string, format: binary}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/screenshots/{screenshotId}:
+    patch:
+      tags: [截图]
+      operationId: updateScreenshot
+      summary: 修改截图说明与来源
+      description: 设计。只改传入字段，`{}` 合法；`caption` ≤500、`sourceText` ≤200、`timeText` ≤100，空串/null 清除。写一条版本修订。草稿版本截图仅属主可改。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/ScreenshotIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: {$ref: '#/components/schemas/UpdateScreenshotRequest'}
+            example: {caption: 主界面截图, sourceText: 由贡献者提供, timeText: 约 2001 年}
+      responses:
+        '200':
+          description: 已保存
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/ScreenshotResponse'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        '415': {$ref: '#/components/responses/UnsupportedMediaType'}
+
+  /api/comments/{commentId}/replies:
+    get:
+      tags: [评论]
+      operationId: listCommentReplies
+      summary: 回复列表
+      description: 设计。公开；`commentId` 必须是顶层评论，否则 404 `COMMENT_NOT_FOUND`；按创建时间正序，可分页。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/CommentIdPath'
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 回复分页（`replies` 恒为空数组）
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/CommentList'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/comments/{commentId}:
+    delete:
+      tags: [评论]
+      operationId: deleteComment
+      summary: 删除评论
+      description: 设计。仅作者可删（他人 403 `NOT_RESOURCE_OWNER`）；删顶层评论连带删除全部回复；物理删除，不留占位。
+      x-implementation-status: design
+      security: [{cookieAuth: []}]
+      parameters:
+        - $ref: '#/components/parameters/CommentIdPath'
+        - $ref: '#/components/parameters/OriginHeader'
+        - $ref: '#/components/parameters/AppRequestHeader'
+      responses:
+        '204': {description: 已删除}
+        '401': {$ref: '#/components/responses/Unauthorized'}
+        '403': {$ref: '#/components/responses/RequestForbidden'}
+        '404': {$ref: '#/components/responses/NotFound'}
+
+  /api/revisions/{revisionId}:
+    get:
+      tags: [修订]
+      operationId: getRevision
+      summary: 修订详情
+      description: 设计。公开（对象为草稿时仅属主）；返回单条修订、目标类型/ID 与对象名称。
+      x-implementation-status: design
+      parameters:
+        - $ref: '#/components/parameters/RevisionIdPath'
+      responses:
+        '200':
+          description: 修订详情
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/RevisionDetailResponse'}
+              example:
+                revision:
+                  id: 9e8d7c6b-5a4f-4e3d-8c2b-1a0f9e8d7c6b
+                  targetType: VERSION
+                  targetId: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f
+                  targetLabel: QQ 9.9 版本记录
+                  revisionNo: 3
+                  editor: {id: 3c4d5e6f-7a8b-4c9d-0e1f-2a3b4c5d6e7f, displayName: 用户 B, avatarUrl: null}
+                  changes:
+                    - {field: releaseDateText, oldValue: null, newValue: 2001—2002 年}
+                  note: 补充版本范围
+                  createdAt: '2026-10-30T08:00:00Z'
+        '404':
+          description: 修订不存在（`REVISION_NOT_FOUND`）或对象为他人草稿
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Error'}
+
+  /api/tags:
+    get:
+      tags: [标签]
+      operationId: listTags
+      summary: 标签列表与自动补全
+      description: 设计。公开；按使用次数倒序（同次数按名称正序）；`usageCount` 只统计已发布系列与版本。
+      x-implementation-status: design
+      parameters:
+        - name: q
+          in: query
+          description: 名称子串（大小写不敏感），1～20 字符
+          schema: {type: string, minLength: 1, maxLength: 20}
+        - name: limit
+          in: query
+          description: 返回数量
+          schema: {type: integer, minimum: 1, maximum: 50, default: 20}
+      responses:
+        '200':
+          description: 标签列表
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/TagList'}
+              example:
+                items:
+                  - {id: 8f7e6d5c-4b3a-4f2e-9d1c-0b9a8f7e6d5c, name: 聊天, usageCount: 12}
+                  - {id: 9a8b7c6d-5e4f-4a3b-8c2d-1e0f9a8b7c6d, name: 社交, usageCount: 8}
+        '400': {$ref: '#/components/responses/ValidationError'}
+
+  /api/search:
+    get:
+      tags: [搜索与统计]
+      operationId: search
+      summary: 全局搜索
+      description: |
+        设计。公开；数据库 `LIKE` 子串匹配（`%`、`_` 按字面转义），只搜已发布对象。
+        `q` 与任一筛选至少给一个，否则 400 `SEARCH_CRITERIA_REQUIRED`。`counts` 为命中的系列/版本总数（不受分页影响）。
+      x-implementation-status: design
+      parameters:
+        - name: q
+          in: query
+          description: 关键词，1～100 字符
+          schema: {type: string, maxLength: 100}
+        - name: type
+          in: query
+          description: 结果类型
+          schema: {type: string, enum: [ALL, SERIES, VERSION], default: ALL}
+        - name: category
+          in: query
+          description: 系列分类（只影响系列结果与版本所属系列）
+          schema: {type: string, enum: [INSTANT_MESSAGING, BROWSER, MEDIA, OTHER]}
+        - name: platform
+          in: query
+          description: 平台代码
+          schema: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+        - name: tag
+          in: query
+          description: 标签名（大小写不敏感）
+          schema: {type: string, maxLength: 20}
+        - name: sort
+          in: query
+          description: 排序
+          schema: {type: string, enum: [UPDATED, CREATED, NAME, RELEVANCE], default: UPDATED}
+        - $ref: '#/components/parameters/PageParam'
+        - $ref: '#/components/parameters/SizeParam'
+      responses:
+        '200':
+          description: 搜索结果
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/SearchResponse'}
+              example:
+                query: QQ
+                items:
+                  - type: SERIES
+                    series:
+                      id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e
+                      name: QQ
+                      description: 一款国民级聊天软件
+                      category: INSTANT_MESSAGING
+                      platforms: [WINDOWS, ANDROID]
+                      iconUrl: /api/series/7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e/icon
+                      tags: [聊天, 社交]
+                      versionCount: 24
+                      favoriteCount: 8
+                      updatedAt: '2026-10-27T08:00:00Z'
+                  - type: VERSION
+                    version: {id: 5c1d7e9a-3f2b-4a6c-9d8e-1b0a2c3d4e5f, versionNumber: '9.9', platform: WINDOWS, updatedAt: '2026-10-27T08:00:00Z'}
+                    series: {id: 7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e, name: QQ, iconUrl: /api/series/7d2f9a4c-1b3e-4c5a-8d6f-0e9b2a1c3d4e/icon}
+                counts: {series: 1, versions: 1}
+                page: 0
+                size: 20
+                totalElements: 2
+                totalPages: 1
+        '400': {$ref: '#/components/responses/ValidationError'}
+
+  /api/stats/overview:
+    get:
+      tags: [搜索与统计]
+      operationId: getStatsOverview
+      summary: 站点统计
+      description: 设计。公开；全部排除草稿；`contributorCount` 为修订记录中去重的编辑者数；`lastUpdatedAt` 取全站最大 `updatedAt`。
+      x-implementation-status: design
+      responses:
+        '200':
+          description: 站点统计
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/StatsOverview'}
+              example:
+                seriesCount: 36
+                versionCount: 412
+                screenshotCount: 1873
+                contributorCount: 58
+                commentCount: 240
+                favoriteCount: 129
+                tagCount: 74
+                lastUpdatedAt: '2026-10-30T08:00:00Z'
+
+  /api/stats/platforms:
+    get:
+      tags: [搜索与统计]
+      operationId: getPlatformStats
+      summary: 平台分布
+      description: 设计。公开；按 `versionCount` 倒序，只含已发布数据；没有数据的平台不出现。
+      x-implementation-status: design
+      responses:
+        '200':
+          description: 平台分布
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/PlatformStats'}
+              example:
+                items:
+                  - {platform: WINDOWS, seriesCount: 30, versionCount: 240}
+                  - {platform: ANDROID, seriesCount: 12, versionCount: 96}
+
+  /api/stats/timeline:
+    get:
+      tags: [搜索与统计]
+      operationId: getTimeline
+      summary: 版本时间线
+      description: 设计。公开；只统计 `dateStatus=EXACT` 且 `releaseDate` 非空的版本；`RANGE`/`UNKNOWN` 计入 `unknownCount`；年份跨度上限 100 年。
+      x-implementation-status: design
+      parameters:
+        - name: from
+          in: query
+          description: 起始年份
+          schema: {type: integer, minimum: 1, maximum: 9999}
+        - name: to
+          in: query
+          description: 结束年份
+          schema: {type: integer, minimum: 1, maximum: 9999}
+      responses:
+        '200':
+          description: 时间线
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/Timeline'}
+        '400': {$ref: '#/components/responses/ValidationError'}
+
 components:
   securitySchemes:
-    CookieAuth:
+    cookieAuth:
       type: apiKey
       in: cookie
-      name: access_token
+      name: museum_access_token
+      description: 登录成功后由服务端写入的 HttpOnly JWT Cookie（30 分钟），前端不可读取。
+
+  parameters:
+    OriginHeader:
+      name: Origin
+      in: header
+      required: true
+      description: 写请求必需，须属于服务端白名单（默认 localhost/127.0.0.1 的 5173、3000、8080 端口），否则 403。
+      schema: {type: string, format: uri}
+    AppRequestHeader:
+      name: X-App-Request
+      in: header
+      required: true
+      description: 写请求必需的防跨站标记，固定值 museum-web。
+      schema: {type: string, enum: [museum-web]}
+    PageParam:
+      name: page
+      in: query
+      description: 页码，从 0 开始
+      schema: {type: integer, minimum: 0, default: 0}
+    SizeParam:
+      name: size
+      in: query
+      description: 每页条数
+      schema: {type: integer, minimum: 1, maximum: 100, default: 20}
+    SeriesIdPath:
+      name: seriesId
+      in: path
+      required: true
+      schema: {type: string, format: uuid}
+    VersionIdPath:
+      name: versionId
+      in: path
+      required: true
+      schema: {type: string, format: uuid}
+    ScreenshotIdPath:
+      name: screenshotId
+      in: path
+      required: true
+      schema: {type: string, format: uuid}
+    CommentIdPath:
+      name: commentId
+      in: path
+      required: true
+      schema: {type: string, format: uuid}
+    RevisionIdPath:
+      name: revisionId
+      in: path
+      required: true
+      schema: {type: string, format: uuid}
+    UserIdPath:
+      name: userId
+      in: path
+      required: true
+      schema: {type: string, format: uuid}
+
+  responses:
+    ValidationError:
+      description: 参数、请求体、分页或 UUID 不合法（`VALIDATION_ERROR`，`fieldErrors` 指出字段）
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Error'}
+          example:
+            code: VALIDATION_ERROR
+            message: 请求参数不合法
+            requestId: '3f2c9b1e'
+            fieldErrors: {name: 名称长度须为 1～100 个字符}
+    Unauthorized:
+      description: 未登录或凭据失效（`AUTH_REQUIRED` / `AUTH_INVALID` / `TOKEN_INVALID` / `TOKEN_EXPIRED` / `TOKEN_REVOKED`）
+      headers:
+        Set-Cookie:
+          description: 令牌失效时可能被清除
+          schema: {type: string}
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Error'}
+          example: {code: AUTH_REQUIRED, message: 请先登录, requestId: '3f2c9b1e', fieldErrors: {}}
+    RequestForbidden:
+      description: 写请求缺少白名单 Origin 或 X-App-Request（`REQUEST_FORBIDDEN`）
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Error'}
+          example: {code: REQUEST_FORBIDDEN, message: 请求来源或必要请求头不合法, requestId: '3f2c9b1e', fieldErrors: {}}
+    NotFound:
+      description: 对象不存在、已删除或不可见（具体 code 见各接口说明）
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Error'}
+          example: {code: SERIES_NOT_FOUND, message: 系列不存在, requestId: '3f2c9b1e', fieldErrors: {}}
+    Conflict:
+      description: 唯一性、状态或并发冲突（`SERIES_ALREADY_EXISTS` / `VERSION_ALREADY_EXISTS` / `SERIES_NOT_EMPTY` / `ALREADY_PUBLISHED` / `CONCURRENT_MODIFICATION`）
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Error'}
+          example: {code: CONCURRENT_MODIFICATION, message: 对象已被他人修改，请刷新后重试, requestId: '3f2c9b1e', fieldErrors: {}}
+    UploadTooLarge:
+      description: 上传超过限制（`UPLOAD_TOO_LARGE`）
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Error'}
+    UnsupportedMediaType:
+      description: 请求体类型不符合约定（`UNSUPPORTED_MEDIA_TYPE`）
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Error'}
+    TooManyRequests:
+      description: 触发限速（`LOGIN_RATE_LIMITED` / `REGISTER_RATE_LIMITED` / `RESET_RATE_LIMITED` / `PASSWORD_CHANGE_RATE_LIMITED`）
+      headers:
+        Retry-After:
+          description: 建议重试等待秒数
+          schema: {type: integer}
+      content:
+        application/json:
+          schema: {$ref: '#/components/schemas/Error'}
+          example: {code: LOGIN_RATE_LIMITED, message: 请求过于频繁，请稍后再试, requestId: '3f2c9b1e', fieldErrors: {}}
+
+  schemas:
+    Error:
+      type: object
+      required: [code, message, requestId, fieldErrors]
+      properties:
+        code: {type: string, description: 稳定错误码，前端据此分支}
+        message: {type: string, description: 面向用户的说明}
+        requestId: {type: string, description: 与服务端日志关联的请求 ID}
+        fieldErrors:
+          type: object
+          additionalProperties: {type: string}
+          description: 字段名到错误说明；无字段错误时为 {}
+
+    RegisterRequest:
+      type: object
+      additionalProperties: false
+      required: [username, password]
+      properties:
+        username: {type: string, pattern: '^[A-Za-z0-9_]{2,32}$', description: 2～32 位字母、数字、下划线，统一转小写}
+        password: {type: string, minLength: 4, maxLength: 64, format: password, description: 按 Unicode 码点计 4～64}
+        email: {type: string, format: email, maxLength: 254, description: 可选}
+
+    LoginRequest:
+      type: object
+      additionalProperties: false
+      required: [username, password]
+      properties:
+        username: {type: string, description: 注册时的用户名，大小写不敏感}
+        password: {type: string, format: password}
+
+    TokenRequest:
+      type: object
+      additionalProperties: false
+      required: [token]
+      properties:
+        token: {type: string, description: 邮件中的一次性令牌}
+
+    ResetPasswordRequest:
+      type: object
+      additionalProperties: false
+      required: [token, newPassword]
+      properties:
+        token: {type: string}
+        newPassword: {type: string, minLength: 4, maxLength: 64, format: password}
+
+    ChangePasswordRequest:
+      type: object
+      additionalProperties: false
+      required: [currentPassword, newPassword]
+      properties:
+        currentPassword: {type: string, format: password}
+        newPassword: {type: string, minLength: 4, maxLength: 64, format: password}
+
+    UpdateProfileRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        displayName: {type: [string, 'null'], maxLength: 40, description: 空/null 清除并回退 username}
+        bio: {type: [string, 'null'], maxLength: 200}
+
+    UserBrief:
+      type: object
+      required: [id]
+      properties:
+        id: {type: string, format: uuid}
+        username: {type: string}
+        displayName: {type: [string, 'null'], description: 为空时前端回退 username}
+        avatarUrl: {type: [string, 'null']}
+
+    PublicUser:
+      type: object
+      required: [id, username]
+      properties:
+        id: {type: string, format: uuid}
+        username: {type: string}
+        displayName: {type: [string, 'null']}
+        bio: {type: [string, 'null']}
+        avatarUrl: {type: [string, 'null']}
+        createdAt: {type: string, format: date-time}
+
+    AuthUser:
+      type: object
+      required: [id, username]
+      properties:
+        id: {type: string, format: uuid}
+        username: {type: string}
+        email: {type: [string, 'null'], format: email, description: 仅本人接口返回}
+        displayName: {type: [string, 'null']}
+        bio: {type: [string, 'null']}
+        emailVerified: {type: boolean, description: 设计文档新增}
+        avatarUrl: {type: [string, 'null']}
+        createdAt: {type: string, format: date-time}
+
+    AuthUserResponse:
+      type: object
+      required: [user]
+      properties:
+        user: {$ref: '#/components/schemas/AuthUser'}
+
+    LoginResponse:
+      type: object
+      required: [user, expiresAt]
+      properties:
+        user: {$ref: '#/components/schemas/AuthUser'}
+        expiresAt: {type: string, format: date-time, description: JWT 过期时间}
+
+    ProfileUserResponse:
+      type: object
+      required: [user]
+      properties:
+        user: {$ref: '#/components/schemas/PublicUser'}
+
+    Pagination:
+      type: object
+      required: [page, size, totalElements, totalPages]
+      properties:
+        page: {type: integer, minimum: 0}
+        size: {type: integer, minimum: 1, maximum: 100}
+        totalElements: {type: integer, minimum: 0}
+        totalPages: {type: integer, minimum: 0}
+
+    SeriesMetadata:
+      type: object
+      additionalProperties: false
+      required: [name]
+      properties:
+        name: {type: string, minLength: 1, maxLength: 100}
+        description: {type: string, minLength: 1, maxLength: 1000, description: 草稿可缺省}
+        category: {type: string, enum: [INSTANT_MESSAGING, BROWSER, MEDIA, OTHER], description: 草稿可缺省}
+        platforms:
+          type: array
+          items: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+          maxItems: 6
+          description: 发布时非空且不重复；草稿可为空数组
+        status: {type: string, enum: [DRAFT, PUBLISHED], default: PUBLISHED, description: 设计文档新增}
+        tags:
+          type: array
+          items: {type: string, minLength: 1, maxLength: 20}
+          maxItems: 10
+          description: 设计文档新增，整体替换
+        sourceUrl: {type: [string, 'null'], maxLength: 500, description: 设计文档新增，http/https}
+
+    Series:
+      type: object
+      required: [id, name, description, category, platforms, createdBy, createdAt, updatedAt]
+      properties:
+        id: {type: string, format: uuid}
+        name: {type: string, maxLength: 100}
+        description: {type: string, maxLength: 1000}
+        category: {type: string, enum: [INSTANT_MESSAGING, BROWSER, MEDIA, OTHER]}
+        platforms:
+          type: array
+          maxItems: 6
+          items: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+        iconUrl: {type: [string, 'null'], description: 无图标为 null}
+        sourceUrl: {type: [string, 'null'], description: 设计文档新增}
+        tags:
+          type: array
+          items: {type: string}
+          description: 设计文档新增
+        status: {type: string, enum: [DRAFT, PUBLISHED], description: 设计文档新增}
+        publishedAt: {type: [string, 'null'], format: date-time, description: 设计文档新增}
+        versionCount: {type: integer, description: 设计文档新增，只统计已发布版本}
+        favoriteCount: {type: integer, description: 设计文档新增}
+        favoritedByMe: {type: boolean, description: 设计文档新增，匿名恒为 false}
+        createdBy: {type: string, format: uuid}
+        createdAt: {type: string, format: date-time}
+        updatedAt: {type: string, format: date-time}
+
+    SeriesResponse:
+      type: object
+      required: [series]
+      properties:
+        series: {$ref: '#/components/schemas/Series'}
+
+    SeriesList:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/Series'}
+
+    SeriesWithRevision:
+      type: object
+      required: [series, revision]
+      properties:
+        series: {$ref: '#/components/schemas/Series'}
+        revision: {$ref: '#/components/schemas/RevisionRef'}
+
+    Version:
+      type: object
+      required: [id, seriesId, platform, createdBy, createdAt, updatedAt]
+      properties:
+        id: {type: string, format: uuid}
+        seriesId: {type: string, format: uuid}
+        versionNumber: {type: [string, 'null'], maxLength: 100, description: numberStatus=EXACT 时使用}
+        numberStatus: {type: string, enum: [EXACT, RANGE, UNKNOWN], description: 设计文档新增}
+        numberText: {type: [string, 'null'], maxLength: 100, description: numberStatus=RANGE 时的范围文本}
+        releaseDate: {type: [string, 'null'], format: date, description: dateStatus=EXACT 时使用}
+        dateStatus: {type: string, enum: [EXACT, RANGE, UNKNOWN], description: 设计文档新增}
+        releaseDateText: {type: [string, 'null'], maxLength: 100, description: dateStatus=RANGE 时的文本}
+        platform: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+        platformText: {type: [string, 'null'], maxLength: 100, description: 平台补充说明}
+        description: {type: [string, 'null'], maxLength: 5000}
+        body: {type: [string, 'null'], maxLength: 20000, description: 正文 Markdown 源文本}
+        sourceUrl: {type: [string, 'null'], maxLength: 500}
+        sourceNote: {type: [string, 'null'], maxLength: 200}
+        iconUrl: {type: [string, 'null']}
+        iconSource: {type: string, enum: [VERSION, SERIES, NONE], description: 版本图标回退来源}
+        status: {type: string, enum: [DRAFT, PUBLISHED]}
+        publishedAt: {type: [string, 'null'], format: date-time}
+        commentCount: {type: integer, description: 含回复}
+        favoriteCount: {type: integer}
+        favoritedByMe: {type: boolean}
+        tags:
+          type: array
+          items: {type: string}
+        createdBy: {type: string, format: uuid}
+        createdAt: {type: string, format: date-time}
+        updatedAt: {type: string, format: date-time}
+
+    VersionResponse:
+      type: object
+      required: [version]
+      properties:
+        version: {$ref: '#/components/schemas/Version'}
+
+    VersionDetail:
+      type: object
+      required: [version, series]
+      properties:
+        version: {$ref: '#/components/schemas/Version'}
+        series: {$ref: '#/components/schemas/SeriesBrief'}
+
+    VersionList:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/Version'}
+
+    VersionWithRevision:
+      type: object
+      required: [version, revision]
+      properties:
+        version: {$ref: '#/components/schemas/Version'}
+        revision: {$ref: '#/components/schemas/RevisionRef'}
+
+    SeriesBrief:
+      type: object
+      required: [id, name]
+      properties:
+        id: {type: string, format: uuid}
+        name: {type: string}
+        iconUrl: {type: [string, 'null']}
+
+    CreateVersionRequest:
+      type: object
+      additionalProperties: false
+      required: [platform]
+      properties:
+        versionNumber: {type: [string, 'null'], maxLength: 100}
+        platform: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+        releaseDate: {type: [string, 'null'], format: date, description: 严格 YYYY-MM-DD 的真实日期}
+        description: {type: [string, 'null'], maxLength: 5000}
+        numberStatus: {type: string, enum: [EXACT, RANGE, UNKNOWN], default: EXACT, description: 设计文档新增}
+        numberText: {type: [string, 'null'], maxLength: 100}
+        dateStatus: {type: string, enum: [EXACT, RANGE, UNKNOWN], default: EXACT, description: 设计文档新增}
+        releaseDateText: {type: [string, 'null'], maxLength: 100}
+        platformText: {type: [string, 'null'], maxLength: 100}
+        body: {type: [string, 'null'], maxLength: 20000}
+        sourceUrl: {type: [string, 'null'], maxLength: 500}
+        sourceNote: {type: [string, 'null'], maxLength: 200}
+        tags:
+          type: array
+          items: {type: string, minLength: 1, maxLength: 20}
+          maxItems: 10
+        iconChoice: {type: string, enum: [INHERIT, UPLOAD, NONE], default: INHERIT}
+        screenshotsOmitted: {type: boolean, default: false, description: 明确选择「截图暂缺」}
+        status: {type: string, enum: [DRAFT, PUBLISHED], default: PUBLISHED}
+
+    UpdateSeriesRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        name: {type: string, minLength: 1, maxLength: 100}
+        description: {type: string, minLength: 1, maxLength: 1000}
+        category: {type: string, enum: [INSTANT_MESSAGING, BROWSER, MEDIA, OTHER]}
+        platforms:
+          type: array
+          maxItems: 6
+          items: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+        sourceUrl: {type: [string, 'null'], maxLength: 500}
+        tags:
+          type: array
+          items: {type: string, minLength: 1, maxLength: 20}
+          maxItems: 10
+        note: {type: [string, 'null'], maxLength: 200, description: 修订说明}
+        expectedUpdatedAt: {type: string, format: date-time, description: 并发控制，不匹配返回 409}
+
+    UpdateVersionRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        versionNumber: {type: [string, 'null'], maxLength: 100}
+        numberStatus: {type: string, enum: [EXACT, RANGE, UNKNOWN]}
+        numberText: {type: [string, 'null'], maxLength: 100}
+        releaseDate: {type: [string, 'null'], format: date}
+        dateStatus: {type: string, enum: [EXACT, RANGE, UNKNOWN]}
+        releaseDateText: {type: [string, 'null'], maxLength: 100}
+        platform: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+        platformText: {type: [string, 'null'], maxLength: 100}
+        description: {type: [string, 'null'], maxLength: 5000}
+        body: {type: [string, 'null'], maxLength: 20000}
+        sourceUrl: {type: [string, 'null'], maxLength: 500}
+        sourceNote: {type: [string, 'null'], maxLength: 200}
+        iconChoice: {type: string, enum: [INHERIT, UPLOAD, NONE]}
+        screenshotsOmitted: {type: boolean}
+        tags:
+          type: array
+          items: {type: string, minLength: 1, maxLength: 20}
+          maxItems: 10
+        note: {type: [string, 'null'], maxLength: 200}
+        expectedUpdatedAt: {type: string, format: date-time}
+
+    UpdateScreenshotRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        caption: {type: [string, 'null'], maxLength: 500}
+        sourceText: {type: [string, 'null'], maxLength: 200}
+        timeText: {type: [string, 'null'], maxLength: 100}
+
+    Screenshot:
+      type: object
+      required: [id, versionId, imageUrl, width, height, createdBy, createdAt]
+      properties:
+        id: {type: string, format: uuid}
+        versionId: {type: string, format: uuid}
+        imageUrl: {type: string, description: '/api/screenshots/{id}/image'}
+        caption: {type: [string, 'null'], maxLength: 500}
+        sourceText: {type: [string, 'null'], maxLength: 200, description: 设计文档新增}
+        timeText: {type: [string, 'null'], maxLength: 100, description: 设计文档新增}
+        width: {type: integer}
+        height: {type: integer}
+        createdBy: {type: string, format: uuid}
+        createdAt: {type: string, format: date-time}
+
+    ScreenshotResponse:
+      type: object
+      required: [screenshot]
+      properties:
+        screenshot: {$ref: '#/components/schemas/Screenshot'}
+
+    ScreenshotList:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/Screenshot'}
+
+    Comment:
+      type: object
+      required: [id, versionId, content, author, createdAt, replyCount, replies]
+      properties:
+        id: {type: string, format: uuid}
+        versionId: {type: string, format: uuid}
+        parentId: {type: [string, 'null'], format: uuid, description: null 表示顶层评论}
+        content: {type: string, maxLength: 1000}
+        author: {$ref: '#/components/schemas/UserBrief'}
+        createdAt: {type: string, format: date-time}
+        replyCount: {type: integer, minimum: 0}
+        replies:
+          type: array
+          maxItems: 20
+          items: {$ref: '#/components/schemas/Comment'}
+
+    CommentList:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/Comment'}
+            totalComments: {type: integer, description: 含回复的讨论总数}
+
+    CreateCommentRequest:
+      type: object
+      additionalProperties: false
+      required: [content]
+      properties:
+        content: {type: string, minLength: 1, maxLength: 1000}
+        parentId: {type: [string, 'null'], format: uuid, description: 必须为同一版本的顶层评论}
+
+    RevisionRef:
+      type: object
+      required: [id, revisionNo, createdAt]
+      properties:
+        id: {type: string, format: uuid}
+        revisionNo: {type: integer, minimum: 1}
+        createdAt: {type: string, format: date-time}
+
+    RevisionChange:
+      type: object
+      required: [field, oldValue, newValue]
+      properties:
+        field: {type: string, description: 驼峰字段名}
+        oldValue: {type: [string, 'null']}
+        newValue: {type: [string, 'null']}
+
+    Revision:
+      type: object
+      required: [id, revisionNo, editor, changes, createdAt]
+      properties:
+        id: {type: string, format: uuid}
+        revisionNo: {type: integer, minimum: 1}
+        editor: {$ref: '#/components/schemas/UserBrief'}
+        changes:
+          type: array
+          items: {$ref: '#/components/schemas/RevisionChange'}
+        note: {type: [string, 'null'], maxLength: 200}
+        createdAt: {type: string, format: date-time}
+
+    RevisionList:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/Revision'}
+
+    RevisionDetail:
+      allOf:
+        - $ref: '#/components/schemas/Revision'
+        - type: object
+          required: [targetType, targetId, targetLabel]
+          properties:
+            targetType: {type: string, enum: [SERIES, VERSION]}
+            targetId: {type: string, format: uuid}
+            targetLabel: {type: string}
+
+    RevisionDetailResponse:
+      type: object
+      required: [revision]
+      properties:
+        revision: {$ref: '#/components/schemas/RevisionDetail'}
+
+    Contributor:
+      type: object
+      required: [user, editCount, lastEditedAt]
+      properties:
+        user: {$ref: '#/components/schemas/UserBrief'}
+        editCount: {type: integer, minimum: 1}
+        lastEditedAt: {type: string, format: date-time}
+
+    ContributorList:
+      type: object
+      required: [items, totalContributors]
+      properties:
+        items:
+          type: array
+          items: {$ref: '#/components/schemas/Contributor'}
+        totalContributors: {type: integer, minimum: 0}
+
+    FavoriteItem:
+      type: object
+      required: [targetType, favoritedAt]
+      properties:
+        targetType: {type: string, enum: [SERIES, VERSION]}
+        favoritedAt: {type: string, format: date-time}
+        series: {$ref: '#/components/schemas/Series'}
+        version: {$ref: '#/components/schemas/Version'}
+
+    FavoriteList:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/FavoriteItem'}
+
+    DraftItem:
+      type: object
+      required: [targetType, id, title, updatedAt, missingFields]
+      properties:
+        targetType: {type: string, enum: [SERIES, VERSION]}
+        id: {type: string, format: uuid}
+        title: {type: string}
+        series: {allOf: [{$ref: '#/components/schemas/SeriesBrief'}], description: 系列草稿为 null}
+        category: {type: [string, 'null'], enum: [INSTANT_MESSAGING, BROWSER, MEDIA, OTHER, null]}
+        updatedAt: {type: string, format: date-time}
+        missingFields:
+          type: array
+          items: {type: string, enum: [versionNumber, releaseDate, platform, icon, screenshots, description, category, platforms]}
+
+    DraftList:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/DraftItem'}
+
+    UserStats:
+      type: object
+      required: [publishedVersions, createdSeries, favoriteSeries, favoriteVersions, comments, edits]
+      properties:
+        publishedVersions: {type: integer, minimum: 0}
+        createdSeries: {type: integer, minimum: 0}
+        favoriteSeries: {type: integer, minimum: 0}
+        favoriteVersions: {type: integer, minimum: 0}
+        comments: {type: integer, minimum: 0}
+        edits: {type: integer, minimum: 0}
+
+    PublicProfile:
+      type: object
+      required: [user, stats]
+      properties:
+        user: {$ref: '#/components/schemas/PublicUser'}
+        stats: {$ref: '#/components/schemas/UserStats'}
+
+    ContributionItem:
+      type: object
+      required: [type, role, lastActionAt]
+      properties:
+        type: {type: string, enum: [VERSION, SERIES, COMMENT]}
+        version: {$ref: '#/components/schemas/Version'}
+        series: {$ref: '#/components/schemas/SeriesBrief'}
+        comment: {$ref: '#/components/schemas/Comment'}
+        role: {type: string, enum: [CREATOR, EDITOR]}
+        draft: {type: boolean, description: 仅「我的贡献」返回}
+        lastActionAt: {type: string, format: date-time}
+
+    ContributionList:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items]
+          properties:
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/ContributionItem'}
+
+    Tag:
+      type: object
+      required: [id, name, usageCount]
+      properties:
+        id: {type: string, format: uuid}
+        name: {type: string, maxLength: 20}
+        usageCount: {type: integer, minimum: 0}
+
+    TagList:
+      type: object
+      required: [items]
+      properties:
+        items:
+          type: array
+          items: {$ref: '#/components/schemas/Tag'}
+
+    SearchItem:
+      type: object
+      required: [type]
+      properties:
+        type: {type: string, enum: [SERIES, VERSION]}
+        series: {$ref: '#/components/schemas/Series'}
+        version: {$ref: '#/components/schemas/Version'}
+
+    SearchResponse:
+      allOf:
+        - $ref: '#/components/schemas/Pagination'
+        - type: object
+          required: [items, counts]
+          properties:
+            query: {type: [string, 'null']}
+            items:
+              type: array
+              items: {$ref: '#/components/schemas/SearchItem'}
+            counts:
+              type: object
+              required: [series, versions]
+              properties:
+                series: {type: integer, minimum: 0}
+                versions: {type: integer, minimum: 0}
+
+    StatsOverview:
+      type: object
+      required: [seriesCount, versionCount, screenshotCount, contributorCount, commentCount, favoriteCount, tagCount]
+      properties:
+        seriesCount: {type: integer, minimum: 0}
+        versionCount: {type: integer, minimum: 0}
+        screenshotCount: {type: integer, minimum: 0}
+        contributorCount: {type: integer, minimum: 0}
+        commentCount: {type: integer, minimum: 0}
+        favoriteCount: {type: integer, minimum: 0}
+        tagCount: {type: integer, minimum: 0}
+        lastUpdatedAt: {type: [string, 'null'], format: date-time}
+
+    PlatformStats:
+      type: object
+      required: [items]
+      properties:
+        items:
+          type: array
+          items:
+            type: object
+            required: [platform, seriesCount, versionCount]
+            properties:
+              platform: {type: string, enum: [WINDOWS, ANDROID, IOS, MACOS, LINUX, OTHER]}
+              seriesCount: {type: integer, minimum: 0}
+              versionCount: {type: integer, minimum: 0}
+
+    Timeline:
+      type: object
+      required: [items, unknownCount]
+      properties:
+        items:
+          type: array
+          items:
+            type: object
+            required: [year, versionCount]
+            properties:
+              year: {type: integer, minimum: 1, maximum: 9999}
+              versionCount: {type: integer, minimum: 0}
+        unknownCount: {type: integer, minimum: 0}
+
+    SeriesStats:
+      type: object
+      required: [versionCount, platformCount, screenshotCount, contributorCount, commentCount, favoriteCount]
+      properties:
+        versionCount: {type: integer, minimum: 0}
+        platformCount: {type: integer, minimum: 0}
+        screenshotCount: {type: integer, minimum: 0}
+        contributorCount: {type: integer, minimum: 0}
+        commentCount: {type: integer, minimum: 0}
+        favoriteCount: {type: integer, minimum: 0}
+        firstReleaseYear: {type: [integer, 'null'], minimum: 1, maximum: 9999}
+        lastUpdatedAt: {type: [string, 'null'], format: date-time}
