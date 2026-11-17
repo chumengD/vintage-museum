@@ -63,7 +63,7 @@ export default function FavoritesPage() {
       >
         <input
           aria-label="搜索收藏"
-          className="input"
+          className="input focus-visible:outline-none"
           placeholder="⌕ 搜索收藏的软件名称、内容标题或关键词"
           value={q}
           onChange={(e) => setQ(e.target.value)}

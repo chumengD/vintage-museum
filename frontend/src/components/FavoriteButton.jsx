@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "./AuthContext";
 import { api } from "../lib/api";
+import { demoMode } from "../lib/features";
 export default function FavoriteButton({ itemKey, label = "系列", initialSaved, onChange }) {
   const { user, requireAuth } = useAuth();
   const [saved, setSaved] = useState(initialSaved || false);
@@ -8,7 +9,7 @@ export default function FavoriteButton({ itemKey, label = "系列", initialSaved
   const [error, setError] = useState("");
   useEffect(() => {
     let active = true;
-    if (user && initialSaved === undefined)
+    if (demoMode && user && initialSaved === undefined)
       api("/favorites")
         .then((items) => {
           if (active) setSaved(items.some((i) => i.key === itemKey));
@@ -35,6 +36,7 @@ export default function FavoriteButton({ itemKey, label = "系列", initialSaved
       setBusy(false);
     }
   }
+  if (!demoMode) return null;
   return (
     <div>
       <button

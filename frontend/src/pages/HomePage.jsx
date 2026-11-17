@@ -1,12 +1,13 @@
 import { Link, useNavigate } from "react-router-dom";
 import SearchBar from "../components/SearchBar";
 import { useResource } from "../lib/useResource";
-import { ResourceState } from "../components/Feedback";
+import { ResourceState, Empty } from "../components/Feedback";
 export default function HomePage() {
   const navigate = useNavigate();
   const resource = useResource("/series");
-  const order = ["qq", "msn", "ie", "winamp", "firefox", "ttplayer"];
-  const cards = order.map((id) => resource.data?.find((s) => s.id === id)).filter(Boolean);
+  const cards = [...(resource.data || [])]
+    .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
+    .slice(0, 6);
   return (
     <div className="page pt-4 md:pt-5">
       <section className="mb-14 grid gap-8 lg:grid-cols-[1fr_320px] lg:gap-16">
@@ -30,13 +31,9 @@ export default function HomePage() {
           </div>
         </div>
         <aside className="self-start border-l border-line pl-6 lg:mt-5">
-          <p className="eyebrow mb-4">发 刊 词</p>
           <p className="font-serif text-base leading-8 text-[#615e54]">
             这里收藏的不是软件本身，而是它们曾经被打开的样子：安装界面、默认壁纸、更新日志，以及围绕它们的争论。
           </p>
-          <Link className="mt-3 inline-block text-xs hover:text-vermilion" to="/about">
-            阅读本馆说明 →
-          </Link>
         </aside>
       </section>
       <SearchBar
@@ -57,6 +54,7 @@ export default function HomePage() {
           <p className="text-xs text-muted">{cards.length} 份剪报 · 按最近更新排序</p>
         </div>
         <ResourceState resource={resource}>
+          {!cards.length && <Empty>还没有收录系列。登录后可创建第一份馆藏。</Empty>}
           <div className="grid gap-7 md:grid-cols-3">
             {[0, 1, 2].map((col) => (
               <div key={col} className={`space-y-7 ${col === 1 ? "md:pt-6" : ""}`}>

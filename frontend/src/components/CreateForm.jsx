@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Markdown from "react-markdown";
 import { categories, platforms } from "../lib/catalog";
 import { api } from "../lib/api";
+import { demoMode } from "../lib/features";
 import { useDraft } from "../lib/useDraft";
 import MarkdownEditor from "./MarkdownEditor";
 import SelectField from "./SelectField";
@@ -32,6 +33,10 @@ export default function CreateForm({ initial = {}, draftId }) {
     setError("");
     if (!form.name.trim() || !form.category || !form.platforms.length) {
       setError("请填写系列名称、软件分类，并选择至少一个适用平台。");
+      return;
+    }
+    if (!demoMode && (!form.description.trim() || form.description.trim().length > 1000)) {
+      setError("请填写系列介绍，长度为 1–1000 字。");
       return;
     }
     setBusy(true);
@@ -90,15 +95,17 @@ export default function CreateForm({ initial = {}, draftId }) {
               />
             </label>
             <p className="muted mb-5">使用软件的正式名称，不包含版本号。</p>
-            <label className="block">
-              标签
-              <input
-                className="input mt-2"
-                placeholder="＋ 添加标签，例如：开源，网页浏览，互联网记忆"
-                value={form.tags}
-                onChange={(e) => field("tags", e.target.value)}
-              />
-            </label>
+            {demoMode && (
+              <label className="block">
+                标签
+                <input
+                  className="input mt-2"
+                  placeholder="＋ 添加标签，例如：开源，网页浏览，互联网记忆"
+                  value={form.tags}
+                  onChange={(e) => field("tags", e.target.value)}
+                />
+              </label>
+            )}
           </div>
         </div>
         <div className="grid gap-8 md:grid-cols-[1.4fr_1fr]">
@@ -107,7 +114,7 @@ export default function CreateForm({ initial = {}, draftId }) {
               <span className="eyebrow">01</span>写下它的故事
             </h2>
             <MarkdownEditor
-              label="系列介绍"
+              label={demoMode ? "系列介绍" : "系列介绍（必填，最多 1000 字）"}
               value={form.description}
               onChange={(v) => field("description", v)}
             />
@@ -134,31 +141,35 @@ export default function CreateForm({ initial = {}, draftId }) {
               onChange={(value) => field("platforms", value)}
               options={platforms}
             />
-            {form.sources.map((source, i) => (
-              <label key={i} className="block">
-                {i ? `资料来源 ${i + 1}` : "官网或资料来源"}
-                <input
-                  className="input mt-2"
-                  type="url"
-                  placeholder="https://"
-                  value={source}
-                  onChange={(e) =>
-                    field(
-                      "sources",
-                      form.sources.map((v, n) => (n === i ? e.target.value : v)),
-                    )
-                  }
-                />
-              </label>
-            ))}
-            <p className="muted">提供官网、历史存档或其他可核实的资料链接。</p>
-            <button
-              type="button"
-              className="text-link"
-              onClick={() => field("sources", [...form.sources, ""])}
-            >
-              ＋ 添加另一条链接
-            </button>
+            {demoMode && (
+              <>
+                {form.sources.map((source, i) => (
+                  <label key={i} className="block">
+                    {i ? `资料来源 ${i + 1}` : "官网或资料来源"}
+                    <input
+                      className="input mt-2"
+                      type="url"
+                      placeholder="https://"
+                      value={source}
+                      onChange={(e) =>
+                        field(
+                          "sources",
+                          form.sources.map((v, n) => (n === i ? e.target.value : v)),
+                        )
+                      }
+                    />
+                  </label>
+                ))}
+                <p className="muted">提供官网、历史存档或其他可核实的资料链接。</p>
+                <button
+                  type="button"
+                  className="text-link"
+                  onClick={() => field("sources", [...form.sources, ""])}
+                >
+                  ＋ 添加另一条链接
+                </button>
+              </>
+            )}
           </section>
         </div>
         <ErrorMessage>{error || draft.error}</ErrorMessage>
@@ -170,14 +181,16 @@ export default function CreateForm({ initial = {}, draftId }) {
         <div className="mt-8 flex flex-wrap items-center justify-between gap-5 border-t border-ink pt-6">
           <p className="muted">先保存一个名字，再慢慢找回它的故事。</p>
           <div className="flex flex-wrap gap-3">
-            <button
-              className="button"
-              type="button"
-              disabled={busy || draft.busy}
-              onClick={() => draft.save(form)}
-            >
-              保存草稿
-            </button>
+            {demoMode && (
+              <button
+                className="button"
+                type="button"
+                disabled={busy || draft.busy}
+                onClick={() => draft.save(form)}
+              >
+                保存草稿
+              </button>
+            )}
             <button className="button" type="button" onClick={() => setPreview(true)}>
               预览
             </button>

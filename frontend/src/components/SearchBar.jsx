@@ -18,7 +18,7 @@ export default function SearchBar({
       <span className="eyebrow hidden sm:block">检 索</span>
       <input
         aria-label="检索馆藏"
-        className="min-w-0 flex-1 bg-transparent py-3 font-serif text-lg outline-offset-0 placeholder:text-muted md:text-2xl"
+        className="min-w-0 flex-1 bg-transparent py-3 font-serif text-lg focus-visible:outline-none placeholder:text-muted md:text-2xl"
         value={value}
         onChange={(e) => setValue(e.target.value)}
         placeholder={placeholder}

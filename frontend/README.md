@@ -1,59 +1,56 @@
 # 旧时博物馆前端
 
-按 `../docs/设计稿/` 实现。React + Vite + Tailwind CSS 4；弹窗、菜单、选择框、复选框和提示确认使用 Radix UI；日历使用 React DayPicker，正文使用 react-markdown。
+React + Vite + Tailwind CSS 4；Radix UI 交互组件，React DayPicker 日历，react-markdown 正文。
 
-## 启动
+## 启动真实前后端
+
+1. 按 `../backend/README.md` 在 IDEA 或 Maven 中启动后端，默认地址 `http://127.0.0.1:8080`。
+2. 在本目录执行：
 
 ```powershell
-cd D:\repos\vintage-museum\frontend
 npm install
 npm run dev
 ```
 
-打开终端显示的本地地址。开发模式默认使用 MSW 演示 API，演示账户为：
+打开 `http://127.0.0.1:5173`。开发模式默认使用真实后端，没有默认账户，请先注册。使用 **用户名和密码** 登录，邮箱为可选资料。用户名为 2–32 位字母、数字或下划线；密码为 4–64 个 Unicode 字符。注册成功后手动登录，Cookie 有效期 30 分钟。
 
-- 邮箱：`museum@example.com`
-- 密码：`museum-passphrase-2026`
+`/api` 通过 Vite 代理转发。所有写入请求发送后端要求的 `X-App-Request: museum-web`；不读取或保存 JWT。端口被占用时直接报错，避免自动切换后不符合后端 Origin 白名单。
 
-可以注册其他演示账户。开发模式的登录状态只是模拟数据，不产生真实 JWT 或邮件。用户的模拟编辑、收藏、草稿、评论和上传图片保存在当前站点 IndexedDB，刷新后保留。清除浏览器该站点的数据可恢复种子数据。
-
-## 页面及结构
-
-每个页面独立放在 `src/pages/`，组件位于 `src/components/`。`src/lib/` 包含请求客户端、数据 hook 和分类常量，`src/mocks/` 包含 MSW 与演示存储。
-
-| 路由                 | 页面                                              |
-| -------------------- | ------------------------------------------------- |
-| `/`                  | 首页、馆藏剪报与检索                              |
-| `/series`            | 全部系列、分类／首字母筛选、搜索、排序、分页      |
-| `/series/:id`        | 系列详情、按平台独立的版本链                      |
-| `/versions/:id`      | 版本详情、收藏、讨论回复、贡献者与修改历史        |
-| `/publish`           | 发布版本；支持 `?series=firefox`、`?draft=草稿ID` |
-| `/versions/:id/edit` | 编辑版本并留存修改前正文                          |
-| `/series/new`        | 创建系列、图标、多选平台、Markdown、草稿          |
-| `/favorites`         | 系列／内容收藏、搜索与排序                        |
-| `/profile`           | 我的主页、编辑资料、发布与草稿索引                |
-| `/contributors/:id`  | 可分享的公开档案                                  |
-| `/drafts`            | 恢复和删除草稿                                    |
-| `/about`             | 本馆说明                                          |
-
-全局提供设计稿中的登录／注册弹窗和头像下拉菜单。移动端使用单列重排；Radix 保留 Escape、焦点约束、返回焦点和键盘导航。日历支持键盘选择，也可直接输入日期。
-
-## 对接真实后端
-
-已约定的登录接口遵循 `../docs/openapi.yaml`：`register`、`login`、`me`、`logout`。请求携带 Cookie，不读取或存储真实 JWT。注册成功返回登录；退出成功清除前端用户态。
-
-创建 `.env.development.local`：
+自定义后端地址可创建 `.env.development.local`：
 
 ```dotenv
-VITE_MOCK_AUTH=false
-API_TARGET=http://localhost:8080
+API_TARGET=http://127.0.0.1:8080
+VITE_ENABLE_MOCKS=false
 ```
 
-重启开发服务器。登录请求将经 Vite `/api` 代理转发；后端需要允许当前浏览器 Origin，并正确设置 Cookie。缺失的业务接口仍由 MSW 模拟。实际后端地址可修改 `API_TARGET`。
+更换前端端口/域名时，同步设置后端 `MUSEUM_ALLOWED_ORIGINS`。旧的 `VITE_MOCK_AUTH` 不再用于真实/模拟混合接入；模式由 `VITE_ENABLE_MOCKS` 统一控制。
 
-`记住登录状态`遵循当前接口的固定 2 小时有效期，不会擅自延长 Cookie。找回密码没有正式接口，仅模拟提交，不发真实邮件。
+## 已接入与未开放功能
 
-临时业务接口字段见 `../docs/frontend-mock-api.md`。
+已接入注册、登录、会话恢复、退出、系列列表/详情/创建/图标、版本列表/详情/创建、截图上传/读取。支持详情补图，部分上传失败可重试剩余图片。
+
+收藏、评论、草稿、个人主页/编辑资料、用户主页、版本编辑/修改历史、找回密码尚无后端接口，真实模式隐藏相关入口，不在页面标注开发状态。系列标签/来源和独立版本图标也尚无保存字段；资料链接可写入版本正文。
+
+完整接口映射、限制及缺项见 [后端接入记录](../docs/backend-integration.md)。认证约定见 [OpenAPI](../docs/openapi.yaml)，业务接口见 `../backend/docs/`。
+
+## 页面与结构
+
+`src/pages/` 放页面，`src/components/` 放组件。`src/lib/request.js` 处理 HTTP、Cookie、multipart、错误和登录失效；`src/lib/backend-api.js` 转换真实后端字段、枚举和分页；`src/mocks/` 仅用于演示。
+
+- `/`、`/series`：首页与目录，支持本地搜索、分类、首字母、排序和分页。
+- `/series/:id`、`/versions/:id`：系列版本链、版本详情与截图。
+- `/series/new`、`/publish?series=系列ID`：创建系列、发布版本。
+- `/favorites`、`/profile`、`/contributors/:id`、`/drafts`、`/versions/:id/edit`：当前只在演示模式提供完整交互。
+
+现阶段目录查询会读取后端全部分页以及系列版本，服务端搜索与版本统计尚待补齐，详见接入记录。
+
+## 独立演示
+
+```powershell
+npm run dev:demo
+```
+
+演示账户：`museum@example.com` / `museum-passphrase-2026`，使用邮箱登录。MSW 数据保存在当前站点 IndexedDB，刷新后保留；清除站点数据可恢复种子数据。演示编辑、收藏、草稿、评论不写入真实后端。演示模式不产生真实 JWT 或邮件。
 
 ## 构建
 
@@ -61,16 +58,14 @@ API_TARGET=http://localhost:8080
 npm run build
 ```
 
-普通生产构建不会启动 MSW；部署时需实现业务 API，将 `/api` 路由到后端，并将页面路由回退到 `index.html`。
+正常构建默认使用真实接口。部署时将 `/api` 反向代理到后端，将页面路由回退到 `index.html`，并配置后端允许的 Origin 和 HTTPS Cookie。
 
-如需独立可演示的静态构建：
+独立演示构建：
 
 ```powershell
 npm run build:demo
 npm run preview
 ```
-
-演示构建显式包含模拟接口，不适合作为真实账户系统。
 
 ## 验证
 
@@ -81,8 +76,27 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-Vitest + Testing Library 覆盖 API 错误／权限／注册／历史保留、登录错误与键盘菜单、筛选空状态、Markdown 安全渲染、图片大小限制及日期选择框。
+单元测试覆盖真实接口契约及演示交互；默认 E2E 使用显式演示模式，覆盖桌面和手机尺寸。失败时在 `test-results/` 保存截图和 trace。
 
-Playwright 在桌面 Chromium 和手机尺寸 Chromium 下验证完整浏览、登录焦点、收藏、评论回复、编辑留存、创建系列、草稿恢复、图片上传、发布和刷新持久化；逐页检查横向溢出，覆盖公开档案、编辑资料及草稿删除确认。截图保存在 `test-results/`，失败时另有 trace。
+真实后端联调使用 `npm run test:e2e:backend`。先构建后端，再在独立临时目录启动隔离实例（PowerShell，另一个终端）：
 
-设计稿中的 Firefox 浏览器界面以 HTML 重建为示意图，并明确标注非原始截图；其余软件在没有上传资料时显示待补充状态。没有将整张设计稿当成页面背景使用。
+```powershell
+$integrationDir = Join-Path $env:TEMP ('museum-integration-' + [guid]::NewGuid().ToString('N'))
+New-Item -ItemType Directory -Path $integrationDir | Out-Null
+Set-Location -LiteralPath $integrationDir
+java -jar D:/repos/vintage-museum/backend/target/museum-backend-0.0.1-SNAPSHOT.jar --server.port=18080 '--spring.datasource.url=jdbc:h2:mem:frontend-integration;DB_CLOSE_DELAY=-1' '--museum.registration.allowed-origins=http://127.0.0.1:5191'
+```
+
+在前端目录执行：
+
+```powershell
+npm run test:e2e:backend
+```
+
+此测试会写入测试账户、系列、版本与截图，因此只应指向隔离实例。测试配置自动启动 5191 上的真实模式前端并代理到 18080，不占用开发页面的 5173 端口。可通过 `PLAYWRIGHT_PORT` 覆盖测试前端端口，同时须调整后端允许的 Origin。完成后停止临时后端，内存数据库随进程退出而释放。
+
+`e2e-backend/collections.spec.js` 读取 `docs/collections/catalog.json`，通过页面提交全部系列、精选版本和精确关联的 PNG/JPG 截图，核对 201 响应、字段回读、图片尺寸和刷新展示；另验证 SVG 图标被表单和接口拒绝。历史参考图不挂到版本；非精确到日的日期保持为空，并把年份和来源写入正文。测试中的分类与平台映射及实际结果见 [资料库联调记录](../docs/collection-api-test.md)。
+
+运行后可用 `npx playwright show-report playwright-report/backend` 查看报告；JSON 结果位于 `test-results/backend-results.json`。
+
+如使用本机 Edge，可跳过浏览器下载，在执行测试前设置 `$env:PLAYWRIGHT_CHANNEL = 'msedge'`。

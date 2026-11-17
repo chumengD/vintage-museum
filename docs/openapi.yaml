@@ -1,100 +1,135 @@
 openapi: 3.1.1
 info:
   title: 数字博物馆注册登录
-  version: 0.1.0
+  version: 0.2.0
   description: |
-    邮箱和密码注册登录；JWT单Token通过HttpOnly Cookie保存，有效期暂定2小时，无刷新Token，过期后重新登录。目前仅为接口设计。
-    浏览器自动携带Cookie，前端无需读取Token或设置Authorization请求头。前端与API同源，正式环境使用HTTPS。
-    所有POST请求校验Origin，来源缺失、为null或不匹配服务端配置的可信来源时返回403，防止跨站请求伪造。
+    与当前 Spring Boot 实现同步：用户名和密码注册/登录，email 为可选资料且不用于登录。
+    JWT 通过 HttpOnly Cookie 保存，有效期 30 分钟，无 refresh token，过期后重新登录。
+    浏览器自动携带 Cookie，前端无需读取 Token 或设置 Authorization。所有 POST 校验 Origin 和 X-App-Request: museum-web。
+    Origin 必须属于 MUSEUM_ALLOWED_ORIGINS。dev 环境不设置 Secure，正式部署需 HTTPS。
+    本文覆盖认证；系列、版本、截图接口详见 backend/docs，接入状态见 docs/backend-integration.md。
 paths:
   /api/auth/register:
     post:
-      summary: 邮箱注册
+      summary: 用户名注册
+      parameters:
+        - $ref: '#/components/parameters/AppRequest'
       requestBody:
         required: true
         content:
           application/json:
             schema:
               type: object
-              required: [email, password]
+              additionalProperties: false
+              required: [username, password]
               properties:
-                email: {type: string, format: email, description: 邮箱}
-                password: {type: string, format: password, description: 密码}
-                emailcode: {type: integer, description: 邮箱验证码（选填，可暂不实现）}
-            example: {email: museum@example.com, password: museum-passphrase-2026, emailcode: 114514}
+                username: {$ref: '#/components/schemas/Username'}
+                password: {$ref: '#/components/schemas/Password'}
+                email: {type: [string, 'null'], format: email, maxLength: 254, description: 可选资料，不验证归属、不要求唯一}
+            example: {username: museum_reader, password: museum-passphrase-2026, email: museum@example.com}
       responses:
         '201':
-          description: 注册成功，返回用户信息，前往登录
+          description: 注册成功，不自动登录
           content:
             application/json:
-              example: {id: usr_123, email: museum@example.com}
-        '400': {description: 参数不正确或邮箱格式错误}
-        '401': {description: 验证码错误(可选)}
-        '403': {description: 请求来源无效}
-        '409': {description: 邮箱已注册}
+              schema: {$ref: '#/components/schemas/UserResponse'}
+        '400': {description: 输入字段不合法，fieldErrors 返回具体字段错误}
+        '403': {description: Origin 或 X-App-Request 不合法}
+        '409': {description: 用户名已存在}
+        '429': {description: 请求过于频繁，Retry-After 指示等待秒数}
   /api/auth/login:
     post:
-      summary: 邮箱登录
+      summary: 用户名登录
+      parameters:
+        - $ref: '#/components/parameters/AppRequest'
       requestBody:
         required: true
         content:
           application/json:
             schema:
               type: object
-              required: [email, password]
+              additionalProperties: false
+              required: [username, password]
               properties:
-                email: {type: string, format: email, description: 注册时的邮箱}
-                password: {type: string, format: password, description: 密码}
-            example: {email: museum@example.com, password: museum-passphrase-2026}
+                username: {$ref: '#/components/schemas/Username'}
+                password: {$ref: '#/components/schemas/Password'}
+            example: {username: museum_reader, password: museum-passphrase-2026}
       responses:
         '200':
-          description: 登录成功，通过Set-Cookie保存JWT；正文不返回Token，expiresIn单位为秒
+          description: 登录成功，正文不返回 Token；expiresAt 为 UTC 到期时间
           headers:
             Set-Cookie:
               schema: {type: string}
-              example: 'access_token=<JWT>; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=7200'
+              example: 'museum_access_token=<JWT>; Path=/api; HttpOnly; Secure; SameSite=Lax; Max-Age=1800'
           content:
             application/json:
-              example:
-                expiresIn: 7200
-                user: {id: usr_123, email: museum@example.com, displayName: 藏品爱好者}
-        '400': {description: 参数不正确}
-        '401': {description: 邮箱或密码错误}
-        '403': {description: 请求来源无效}
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/UserResponse'
+                  - type: object
+                    required: [expiresAt]
+                    properties:
+                      expiresAt: {type: string, format: date-time}
+        '400': {description: 输入字段不合法}
+        '401': {description: 用户名或密码错误}
+        '403': {description: Origin 或 X-App-Request 不合法}
+        '429': {description: 请求过于频繁}
   /api/auth/me:
     get:
       summary: 获取当前用户
       security: [{CookieAuth: []}]
       responses:
         '200':
-          description: 校验Cookie中的JWT签名、有效期和失效列表，返回当前登录用户
+          description: 校验 JWT 和账号状态，返回当前用户
           content:
             application/json:
-              example:
-                user: {id: usr_123, email: museum@example.com, displayName: 藏品爱好者}
-        '401': {description: Token缺失、无效、已过期或已注销}
+              schema: {$ref: '#/components/schemas/UserResponse'}
+        '401': {description: Cookie 缺失、JWT 无效/过期或账号失效}
   /api/auth/logout:
     post:
       summary: 退出登录
-      description: 无需请求体；服务端将Cookie中JWT的jti加入失效列表，保留至Token过期，并通过Set-Cookie清除Cookie。前端仅清除用户信息。
-      security: [{CookieAuth: []}]
+      description: 无需请求体，允许无效或缺失 Cookie。仅清除浏览器 Cookie；没有服务端撤销列表，已复制的 JWT 在到期前仍可能有效。
+      parameters:
+        - $ref: '#/components/parameters/AppRequest'
       responses:
         '204':
-          description: 当前Token已注销并清除Cookie，不返回内容
+          description: 已清除 Cookie，不返回内容
           headers:
             Set-Cookie:
               schema: {type: string}
-              example: 'access_token=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0'
-        '401':
-          description: Token缺失、无效、已过期或已注销，同时清除Cookie
-          headers:
-            Set-Cookie:
-              schema: {type: string}
-              example: 'access_token=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0'
-        '403': {description: 请求来源无效，不注销Token或清除Cookie}
+              example: 'museum_access_token=; Path=/api; HttpOnly; Secure; SameSite=Lax; Max-Age=0'
+        '403': {description: Origin 或 X-App-Request 不合法}
 components:
+  parameters:
+    AppRequest:
+      name: X-App-Request
+      in: header
+      required: true
+      schema: {type: string, const: museum-web}
+  schemas:
+    Username:
+      type: string
+      description: 去除首尾空格并转小写后，为 2–32 位英文字母、数字或下划线，唯一
+      example: museum_reader
+    Password:
+      type: string
+      format: password
+      minLength: 4
+      maxLength: 64
+      description: 4–64 个 Unicode 码点，不去空格、不改大小写
+    UserResponse:
+      type: object
+      required: [user]
+      properties:
+        user:
+          type: object
+          required: [id, username, email]
+          properties:
+            id: {type: string, format: uuid}
+            username: {type: string}
+            email: {type: [string, 'null']}
   securitySchemes:
     CookieAuth:
       type: apiKey
       in: cookie
-      name: access_token
+      name: museum_access_token

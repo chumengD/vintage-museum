@@ -16,6 +16,8 @@
     <description>中国互联网数字记忆博物馆后端</description>
     <properties>
         <java.version>21</java.version>
+        <!-- H2 2.4.240 retains a closed session in CHECK (... IN ...) constraints (#4302). -->
+        <h2.version>2.5.252</h2.version>
         <bouncycastle.version>1.86</bouncycastle.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

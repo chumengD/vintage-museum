@@ -8,8 +8,8 @@ test("all designed pages fit the viewport and account workflows are usable", asy
   const dialog = page.getByRole("dialog");
   await dialog.getByRole("textbox", { name: /邮箱地址/ }).fill("museum@example.com");
   await dialog.getByLabel(/登录密码/).fill("museum-passphrase-2026");
-  await dialog.getByRole("button", { name: /登录，进入博物馆/ }).click();
-  await expect(page.getByRole("button", { name: "账户菜单" })).toBeVisible();
+  await dialog.getByRole("button", { name: /登录账号/ }).click();
+  await expect(page.getByRole("button", { name: "账号菜单" })).toBeVisible();
   for (const [route, name, title] of [
     ["/series", "series", "浏览全部系列"],
     ["/series/firefox", "chain", "Mozilla Firefox"],

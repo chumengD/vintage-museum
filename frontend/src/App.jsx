@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AuthProvider from "./components/AuthProvider";
 import Layout from "./components/Layout";
 import RequireAuth from "./components/RequireAuth";
+import { demoMode } from "./lib/features";
 const HomePage = lazy(() => import("./pages/HomePage"));
 const SeriesListPage = lazy(() => import("./pages/SeriesListPage"));
 const SeriesDetailPage = lazy(() => import("./pages/SeriesDetailPage"));
@@ -12,7 +13,6 @@ const CreateSeriesPage = lazy(() => import("./pages/CreateSeriesPage"));
 const FavoritesPage = lazy(() => import("./pages/FavoritesPage"));
 const ProfilePage = lazy(() => import("./pages/ProfilePage"));
 const DraftsPage = lazy(() => import("./pages/DraftsPage"));
-const AboutPage = lazy(() => import("./pages/AboutPage"));
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage"));
 const ContributorPage = lazy(() => import("./pages/ContributorPage"));
 const protectedPage = (page) => <RequireAuth>{page}</RequireAuth>;
@@ -34,13 +34,18 @@ export default function App() {
               <Route path="series/new" element={protectedPage(<CreateSeriesPage />)} />
               <Route path="series/:id" element={<SeriesDetailPage />} />
               <Route path="versions/:id" element={<VersionDetailPage />} />
-              <Route path="versions/:id/edit" element={protectedPage(<PublishVersionPage />)} />
+              {demoMode && (
+                <Route path="versions/:id/edit" element={protectedPage(<PublishVersionPage />)} />
+              )}
               <Route path="publish" element={protectedPage(<PublishVersionPage />)} />
-              <Route path="favorites" element={protectedPage(<FavoritesPage />)} />
-              <Route path="profile" element={protectedPage(<ProfilePage />)} />
-              <Route path="drafts" element={protectedPage(<DraftsPage />)} />
-              <Route path="contributors/:id" element={<ContributorPage />} />
-              <Route path="about" element={<AboutPage />} />
+              {demoMode && (
+                <>
+                  <Route path="favorites" element={protectedPage(<FavoritesPage />)} />
+                  <Route path="profile" element={protectedPage(<ProfilePage />)} />
+                  <Route path="drafts" element={protectedPage(<DraftsPage />)} />
+                  <Route path="contributors/:id" element={<ContributorPage />} />
+                </>
+              )}
               <Route path="*" element={<NotFoundPage />} />
             </Route>
           </Routes>
